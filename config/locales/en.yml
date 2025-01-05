@@ -30,8 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  wedding_name: "Jack & Jill's Wedding"
-  wedding_couple_names: 'Jack & Jill'
-  wedding_date: 'Saturday, 1 January 2000'
-  wedding_location: 'South Pole'
+  wedding_name: "Jess & Sebi's Wedding"
+  wedding_couple_names: 'Jess & Sebi'
+  wedding_date: 'Saturday, 7 February 2026'
+  wedding_location: 'Ecuador'
   photo_credits: 'Photo Credits: Pexels'

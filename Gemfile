@@ -8,7 +8,7 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4.3'
+gem 'rails', '~> 6.0.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -28,10 +28,13 @@ gem 'devise'
 
 gem 'auto_strip_attributes'
 gem 'bootstrap'
+gem 'dartsass-sprockets'
 gem 'jquery-rails'
 gem 'rack-canonical-host'
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'scenic'
+
+gem 'dotenv'
 
 group :development, :test do
   gem 'rubocop'
