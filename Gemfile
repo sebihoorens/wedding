@@ -15,8 +15,8 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+# Use terser as compressor for JavaScript assets
+gem 'terser'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -34,7 +34,11 @@ gem 'rack-canonical-host'
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'scenic'
 
+# .env file
 gem 'dotenv'
+# fly.io
+gem 'sass-embedded', '~> 1.66.1'
+gem 'ffi', '~> 1.17.1'
 
 group :development, :test do
   gem 'rubocop'
@@ -53,3 +57,5 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+gem "dockerfile-rails", ">= 1.6", :group => :development
