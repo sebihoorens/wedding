@@ -7,6 +7,9 @@ app = 'jess-sebi'
 primary_region = 'ams'
 console_command = '/rails/bin/rails console'
 
+[env]
+  CANONICAL_HOST = 'jess-sebi.fly.dev'
+
 [build]
 
 [http_service]

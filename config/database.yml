@@ -88,6 +88,6 @@ production:
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: wedding_production
+  database: jess_sebi
   username: wedding
   password: <%= ENV['WEDDING_DATABASE_PASSWORD'] %>
