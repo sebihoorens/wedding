@@ -18,14 +18,14 @@
         <p><%= link_to 'Add to Calendar', 'wedding.ics' %></p>
       </div>
       <div class="col-md-6 text-center">
-        <h2><%= link_to @google_maps_url do -%>
+        <h2><%= link_to @google_maps_url, target: :_blank do -%>
           <%= render partial: 'map_marker_svg' %>
         <%- end %></h2>
         <p>
           <%= render partial: 'wedding_address' %>
         </p>
         <p>
-          <%= link_to 'Google Maps', @google_maps_url %>
+          <%= link_to 'Google Maps', @google_maps_url, target: :_blank %>
         </p>
       </div>
     </div>
