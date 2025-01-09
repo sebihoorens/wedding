@@ -12,7 +12,7 @@
  *
  */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400|Goudy+Bookletter+1911');
 
 $font-family-sans-serif: Montserrat, Helvetica, Arial, sans-serif;
 $font-family-serif: Arvo, Georgia, "Times New Roman", Times, serif;
@@ -34,10 +34,11 @@ $enable-rounded: false;
 @import "welcome";
 
 h1 {
+  font-family: "Goudy Bookletter 1911", serif;
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.0833333em;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 h2 {
