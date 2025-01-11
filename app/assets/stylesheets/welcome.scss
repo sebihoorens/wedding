@@ -2,6 +2,47 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// body {
+//   display: unset;
+//   overflow: clip;
+// }
+
+#welcome-navbar {
+  div {
+    width: 100%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+}
+
 #welcome-index-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
     image-url("jumbo_js.jpeg") center center no-repeat;
@@ -24,9 +65,10 @@
     margin-top: 75px;
   }
 
-  .leader-date {
+  .top-text {
     font-size: 17px;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
+    // letter-spacing: 4px;
     padding: 12pt;
     // text-transform: uppercase;
   }
