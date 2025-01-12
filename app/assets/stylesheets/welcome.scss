@@ -2,18 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-// body {
-//   display: unset;
-//   overflow: clip;
-// }
-
 #welcome-navbar {
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #2e0310;
+    // opacity: 0.8;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -32,11 +28,11 @@
   }
 
   li a:hover {
-    background-color: #111;
+    background-color: #0e0d20;
   }
 
   .active {
-    background-color: #4CAF50; // TODO: Use primary?
+    background-color: #58091d; // TODO: Use primary?
   }
 }
 
@@ -132,7 +128,7 @@
 }
 
 #welcome-index-footer {
-  background-color: #faebe3;
+  background-color: #0e0d20;
   margin-top: 5 * $spacer;
 
   #welcome-index-footer-cta {

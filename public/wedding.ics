@@ -2,30 +2,30 @@ BEGIN:VCALENDAR
 VERSION:2.0
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-SUMMARY:Church/Iglesia/Kerk/Eglise Jess & Sebi
-DTSTART;TZID=America/Guayaquil:20260207T103400
-DTEND;TZID=America/Guayaquil:20260207T110400
-LOCATION:1000 Broadway Ave.\, Brooklyn
-DESCRIPTION: Access-A-Ride trip to 900 Jay St.\, Brooklyn
+SUMMARY:Iglesia (Kerk) Jess & Sebi
+DTSTART;TZID=America/Guayaquil:20260207T153000
+DTEND;TZID=America/Guayaquil:20260207T163000
+LOCATION:1000 9V4M+C3G, Peñaherreara &, Av. Víctor Manuel Peñaherrera & Rafael Troya, Ibarra, Ecuador
+DESCRIPTION: Marriage for the church
 STATUS:CONFIRMED
 SEQUENCE:3
 BEGIN:VALARM
 TRIGGER:-PT10M
-DESCRIPTION:Pickup Reminder
+DESCRIPTION:Reminder
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Wedding/Boda/Trouw/Mariage Jess & Sebi
-DTSTART;TZID=America/Guayaquil:20260207T200000
-DTEND;TZID=America/Guayaquil:20260207T203000
-LOCATION:900 Jay St.\, Brooklyn
-DESCRIPTION: Access-A-Ride trip to 1000 Broadway Ave.\, Brooklyn
+SUMMARY:Boda (Trouwfeest) Jess & Sebi
+DTSTART;TZID=America/Guayaquil:20260207T170000
+DTEND;TZID=America/Guayaquil:20260208T010000
+LOCATION:Vía Chorlaví, Ibarra 100109, Ecuador
+DESCRIPTION: Weeding ceremony
 STATUS:CONFIRMED
 SEQUENCE:3
 BEGIN:VALARM
 TRIGGER:-PT10M
-DESCRIPTION:Pickup Reminder
+DESCRIPTION:Reminder
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
