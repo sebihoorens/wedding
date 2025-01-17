@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  jumbo_getting_married: "We're getting married!"
   wedding_name: "Jess & Sebi's Wedding"
   wedding_couple_names: 'Jess & Sebi'
   wedding_date: 'Saturday, 7 February 2026'
