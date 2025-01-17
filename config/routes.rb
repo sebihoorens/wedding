@@ -15,6 +15,8 @@ Rails.application.routes.draw do
       end
     end
 
-    root 'welcome#index'
+    root 'welcome#index', as: :welcome_root
   end
+
+  root to: redirect('/en')
 end

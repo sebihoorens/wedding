@@ -28,9 +28,14 @@
         English
         </a>
         <ul class="dropdown-menu dropdown-menu-end">
-          <li><a class="dropdown-item" href="#">English</a></li>
-          <li><a class="dropdown-item" href="#">Español</a></li>
-          <li><a class="dropdown-item" href="#">Nederlands</a></li>
+          <li>
+            <%= link_to 'English', '/en', class: 'dropdown-item' %>
+          </li>
+          <li>
+            <%= link_to 'Español', '/es', class: 'dropdown-item' %>
+          <li>
+            <%= link_to 'Nederlands', '/nl', class: 'dropdown-item' %>
+          </li>
           <li><a class="dropdown-item" href="#">Français</a></li>
         </ul>
       </li>
