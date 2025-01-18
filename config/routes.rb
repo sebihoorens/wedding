@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
     get 'welcome/index'
 
+    get 'travel', to: 'travel#index'
+
     resources :guests do
       resources :plus_ones
       member do
