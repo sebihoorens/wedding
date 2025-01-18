@@ -28,4 +28,19 @@ module ApplicationHelper
   def navbar_active(controller_name)
     params[:controller] == controller_name ? 'active' : nil
   end
+
+  def current_language
+    case I18n.locale
+    when :en
+      'English'
+    when :es
+      'Español'
+    when :nl
+      'Nederlands'
+    when :fr
+      'Français'
+    else
+      I18n.locale.to_s
+    end
+  end
 end

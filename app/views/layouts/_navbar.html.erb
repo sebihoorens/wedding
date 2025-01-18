@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <%= link_to 'Home', welcome_root_path, class: "nav-link #{navbar_active('welcome')}" %>
+          <%= link_to t(:navbar_home), welcome_root_path, class: "nav-link #{navbar_active('welcome')}" %>
         </li>
         <li class="nav-item">
-          <%= link_to 'Travel & Stay', travel_and_stay_path, class: "nav-link #{navbar_active('travel')}" %>
+          <%= link_to t(:navbar_travel), travel_and_stay_path, class: "nav-link #{navbar_active('travel')}" %>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Registry</a>
@@ -25,7 +25,7 @@
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item dropdown">
         <a class="nav-link btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        English
+          <%= current_language %>
         </a>
         <ul class="dropdown-menu dropdown-menu-end">
           <li>
@@ -33,10 +33,13 @@
           </li>
           <li>
             <%= link_to 'Español', '/es', class: 'dropdown-item' %>
+          </li>
           <li>
             <%= link_to 'Nederlands', '/nl', class: 'dropdown-item' %>
           </li>
-          <li><a class="dropdown-item" href="#">Français</a></li>
+          <li>
+            <%= link_to 'Français', '/fr', class: 'dropdown-item' %>
+          </li>
         </ul>
       </li>
     </ul>
