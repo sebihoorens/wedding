@@ -1,0 +1,13 @@
+#travel-index-venue-leader {
+  background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
+    image-url("venue_js.jpg") center center no-repeat;
+  background-size: cover;
+
+  * {
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  h1 {
+    padding: 3 * $spacer 0;
+  }
+}
