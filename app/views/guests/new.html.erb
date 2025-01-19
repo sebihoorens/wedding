@@ -2,7 +2,8 @@
   <div class="row">
     <div class="offset-lg-2 col-lg-8">
       <%= render partial: 'leader' %>
-      <p>Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd.</p>
+      <%# <p>Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd.</p> # Disabled emails %>
+      <p>Please enter your email address to begin. We might send you some updates to this address.</p>
       <%= form_with scope: :guest, url: guests_path, local: true do |form| %>
       <div class="row">
         <div class="col-md-12">

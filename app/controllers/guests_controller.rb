@@ -22,8 +22,10 @@ class GuestsController < ApplicationController
       existing_guest = Guest.find_by(email: guest_params[:email])
       if existing_guest
         @guest = existing_guest
-        # GuestMailer.welcome_back_email(@guest).deliver_now
-        render :new_exists
+        # TODO: Redirect to guest_url(@guest) (or is it guest_path(@guest))?
+        # GuestMailer.welcome_back_email(@guest).deliver_now # Disabled emails
+        # render :new_exists
+        redirect_to guest_path(@guest)
       else
         render :new
       end
@@ -64,7 +66,7 @@ class GuestsController < ApplicationController
       @guest.update!(guest_params)
       @guest.touch :confirmed_at
     end
-    # GuestMailer.confirmation_email(@guest).deliver_now
+    # GuestMailer.confirmation_email(@guest).deliver_now # Disabled emails
   end
 
   private
