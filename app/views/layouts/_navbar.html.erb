@@ -29,16 +29,16 @@
         </a>
         <ul class="dropdown-menu dropdown-menu-end">
           <li>
-            <%= link_to 'English', '/en', class: 'dropdown-item' %>
+            <%= link_to 'English', url_for(locale: 'en'), class: "dropdown-item #{language_dropdown_active(:en)}" %>
           </li>
           <li>
-            <%= link_to 'Español', '/es', class: 'dropdown-item' %>
+            <%= link_to 'Español', url_for(locale: 'es'), class: "dropdown-item #{language_dropdown_active(:es)}" %>
           </li>
           <li>
-            <%= link_to 'Nederlands', '/nl', class: 'dropdown-item' %>
+            <%= link_to 'Nederlands', url_for(locale: 'nl'), class: "dropdown-item #{language_dropdown_active(:nl)}" %>
           </li>
           <li>
-            <%= link_to 'Français', '/fr', class: 'dropdown-item' %>
+            <%= link_to 'Français', url_for(locale: 'fr'), class: "dropdown-item #{language_dropdown_active(:fr)}" %>
           </li>
         </ul>
       </li>

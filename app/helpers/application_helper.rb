@@ -26,7 +26,11 @@ module ApplicationHelper
   end
 
   def navbar_active(controller_name)
-    params[:controller] == controller_name ? 'active' : nil
+    controller_name == params[:controller] ? 'active' : nil
+  end
+
+  def language_dropdown_active(locale)
+    locale == I18n.locale ? 'active' : nil
   end
 
   def current_language
