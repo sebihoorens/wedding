@@ -88,18 +88,6 @@
   }
 }
 
-#welcome-index-venue {
-  h2 {
-    padding-top: 3 * $spacer;
-    padding-bottom: $spacer;
-    text-align: center;
-  }
-
-  p {
-    text-align: justify;
-  }
-}
-
 #welcome-index-wedding-plan-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
     image-url("plan_js.jpg") center center no-repeat;
@@ -112,18 +100,6 @@
 
   h1 {
     padding: 3 * $spacer 0;
-  }
-}
-
-#welcome-index-wedding-plan {
-  h2 {
-    padding-top: 3 * $spacer;
-    padding-bottom: $spacer;
-    text-align: center;
-  }
-
-  p {
-    text-align: justify;
   }
 }
 
