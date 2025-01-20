@@ -66,3 +66,15 @@ h2 {
 .wedding-required {
   color: theme-color("primary");
 }
+
+.default-content {
+  h2 {
+    padding-top: 3 * $spacer;
+    padding-bottom: $spacer;
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
