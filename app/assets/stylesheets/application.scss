@@ -22,10 +22,12 @@ $headings-font-family: $font-family-serif; // $font-family-sans-serif;
 
 $body-color: rgba(28, 13, 10, 0.7);
 $headings-color: rgba(28, 13, 10, 0.7);
+$primary-color: #4c091a;
+$secondary-color: #0e0d20;
 
 $theme-colors: (
-  "primary": #4c091a,
-  "secondary": #0e0d20
+  "primary": $primary-color,
+  "secondary": $secondary-color
 );
 
 $enable-rounded: false;
@@ -65,6 +67,10 @@ h2 {
 
 .wedding-required {
   color: theme-color("primary");
+}
+
+a {
+  color: $secondary-color;
 }
 
 .default-content {

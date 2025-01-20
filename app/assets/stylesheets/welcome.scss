@@ -2,40 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-// .welcome-navbar {
-  // ul {
-  //   list-style-type: none;
-  //   margin: 0;
-  //   padding: 0;
-  //   overflow: hidden;
-  //   background-color: #2e0310;
-  //   // opacity: 0.8;
-  //   position: -webkit-sticky; /* Safari */
-  //   position: sticky;
-  //   top: 0;
-  // }
-
-  // li {
-  //   float: left;
-  // }
-
-  // li a {
-  //   display: block;
-  //   color: white;
-  //   text-align: center;
-  //   padding: 14px 16px;
-  //   text-decoration: none;
-  // }
-
-  // li a:hover {
-  //   background-color: #0e0d20;
-  // }
-
-  // .active {
-  //   background-color: #58091d; // TODO: Use primary?
-  // }
-// }
-
 #welcome-index-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
     image-url("jumbo_js.jpeg") center center no-repeat;
@@ -104,7 +70,7 @@
 }
 
 #welcome-index-footer {
-  background-color: #0e0d20;
+  background-color: $secondary-color;
   margin-top: 5 * $spacer;
 
   #welcome-index-footer-cta {
