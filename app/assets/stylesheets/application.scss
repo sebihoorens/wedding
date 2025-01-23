@@ -24,6 +24,7 @@ $body-color: rgba(28, 13, 10, 0.7);
 $headings-color: rgba(28, 13, 10, 0.7);
 $primary-color: #4c091a;
 $secondary-color: #0e0d20;
+$tertiary-color: #343173;
 
 $theme-colors: (
   "primary": $primary-color,
@@ -36,6 +37,26 @@ $enable-rounded: false;
 @import "guests";
 @import "welcome";
 @import "travel";
+
+// Use tertiary color in bootstrap components
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: $tertiary-color;
+}
+.nav-pills .nav-link {
+  color: $tertiary-color;
+}
+.form-check-input:checked {
+  background-color: $tertiary-color;
+  border-color: $tertiary-color;
+}
+.dropdown-item.active, .dropdown-item:active {
+  // color: var(--bs-dropdown-link-active-color);
+  background-color: $tertiary-color;
+}
+// .dropdown-menu {
+//   --bs-dropdown-bg: $secondary-color;
+//   // --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
+// }
 
 h1 {
   font-family: "Emilys Candy", serif;
@@ -70,7 +91,7 @@ h2 {
 }
 
 a {
-  color: $secondary-color;
+  color: $tertiary-color;
 }
 
 .default-content {
