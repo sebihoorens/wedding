@@ -35,9 +35,17 @@ en:
   wedding_date: 'Saturday, 7 February 2026'
   wedding_reception_time: '12:30pm – late'
   wedding_country: 'Ecuador'
+  wedding_add_to_calendar: 'Add to calendar'
   confirm_your_presence: 'Confirm your presence'
   navbar_home: Home
   navbar_travel: 'Travel & Stay'
   welcome_getting_married: "We're getting married!"
   welcome_save_the_date: 'Save The Date'
-  wedding_add_to_calendar: 'Add to calendar'
+  welcome_our_story: 'Our Story'
+  welcome_story_intro: "This is the story of two people who were born and raised in different parts of the world but somehow found each other."
+  welcome_story_jess: "Jess arrived in Belgium in 2020 to pursue a master's degree in physiotherapy. After a few weeks of online French classes (thanks to COVID) and limited interaction outside of conversations with her family in Spanish, she realized she needed a way to practice her new language skills. So, she joined an app to make new friends."
+  welcome_story_sebi: "And this is Sebi, who was looking for someone to accompany him on his walks all around Belgium."
+  welcome_story_click: "After talking daily, meeting regularly, and really \"clicking\", the initial idea of practicing French and Spanish took a back seat. Instead, we spent our time exploring new places, meeting each other's family and friends, and making memories together"
+  welcome_story_move_in: "Time flew by, and after a year of dating, we decided to move in together. Jess's master's program was starting, and we knew it would be harder to find time to see each other as often as we had before."
+  welcome_story_proposed: "After three years together, we were more than sure that we wanted to spend the rest of our lives together and build a family. In the summer of 2024, when both of our families met for the first time, Sebi proposed."
+  welcome_story_next_chapter: "Now, we are thrilled to invite you to join us for another chapter in our lives. We would love to have you there with us!"

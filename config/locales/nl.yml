@@ -4,9 +4,10 @@ nl:
   wedding_date: 'Zaterdag, 7 februari 2026'
   wedding_reception_time: '12u30 – laat'
   wedding_country: 'Ecuador'
+  wedding_add_to_calendar: 'Aan kalender toevoegen'
   confirm_your_presence: 'Bevestig uw aanwezigheid'
   navbar_home: Home
   navbar_travel: 'Reis & Verblijf'
   welcome_getting_married: "We gaan trouwen!"
   welcome_save_the_date: 'Save The Date'
-  wedding_add_to_calendar: 'Aan kalender toevoegen'
+  welcome_our_story: 'Ons Verhaal'
