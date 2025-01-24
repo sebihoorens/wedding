@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h1>Save The Date</h1>
+        <h1><%= t :welcome_save_the_date %></h1>
       </div>
     </div>
     <div class="row">
@@ -11,11 +11,11 @@
           <%= render partial: 'calendar_svg' %>
         <%- end %></h2>
         <p>
-          <strong>12:30pm &ndash; late</strong><br>
+          <strong><%= t :wedding_reception_time %></strong><br>
           <%= t :wedding_date %><br>
           &nbsp;<br>
         </p>
-        <p><%= link_to 'Add to Calendar', 'wedding.ics' %></p>
+        <p><%= link_to t(:wedding_add_to_calendar), 'wedding.ics' %></p>
       </div>
       <div class="col-md-6 text-center">
         <h2><%= link_to @google_maps_url, target: :_blank do -%>

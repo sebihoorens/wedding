@@ -33,7 +33,11 @@ en:
   wedding_name: "Jess & Sebi's Wedding"
   wedding_couple_names: 'Jess & Sebi'
   wedding_date: 'Saturday, 7 February 2026'
-  wedding_location: 'Ecuador'
+  wedding_reception_time: '12:30pm – late'
+  wedding_country: 'Ecuador'
+  confirm_your_presence: 'Confirm your presence'
   navbar_home: Home
   navbar_travel: 'Travel & Stay'
   welcome_getting_married: "We're getting married!"
+  welcome_save_the_date: 'Save The Date'
+  wedding_add_to_calendar: 'Add to calendar'

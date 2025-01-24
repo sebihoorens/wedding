@@ -6,10 +6,10 @@
       </p>
       <h1 class="jumbotron-heading"><%= t :wedding_couple_names %></h1>
       <p class="top-text">
-        <%= t :wedding_date %>, <%= t :wedding_location %>
+        <%= t :wedding_date %>, <%= t :wedding_country %>
       </p>
       <p>
-        <%= link_to 'RSVP TODAY!', new_guest_path, class: 'btn btn-primary wedding-cta-btn' %>
+        <%= link_to t(:confirm_your_presence), new_guest_path, class: 'btn btn-primary wedding-cta-btn' %>
       </p>
     </div>
   </div>

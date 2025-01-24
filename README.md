@@ -125,7 +125,7 @@ You can of course customize everything by changing the code, but here are some u
   wedding_name: "Jack & Jill's Wedding"
   wedding_couple_names: 'Jack & Jill'
   wedding_date: 'Saturday, 1 January 2000'
-  wedding_location: 'South Pole'
+  wedding_country: 'South Pole'
   photo_credits: 'Photo Credits: Pexels'
   ```
 
