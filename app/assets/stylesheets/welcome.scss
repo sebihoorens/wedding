@@ -39,7 +39,7 @@
   }
 }
 
-#welcome-index-venue-leader {
+#welcome-index-story-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
     url("https://res.cloudinary.com/dvvdwl8at/image/upload/v1737754790/jumbo_js_4_ptzhs4.jpg") center center no-repeat;
   background-size: cover;
@@ -51,6 +51,25 @@
 
   h1 {
     padding: 3 * $spacer 0;
+  }
+}
+
+.story-flex-container {
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.story-flex-container > div {
+  max-width: 50%;
+  flex: 1 1 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .story-flex-container {
+    flex-direction: column;
   }
 }
 
