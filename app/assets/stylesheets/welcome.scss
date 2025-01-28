@@ -60,6 +60,7 @@
   // flex-wrap: wrap;
   justify-content: space-between;
   gap: 28px;
+  align-items: center;
 }
 
 .story-flex-container > div {
@@ -70,6 +71,11 @@
 @media only screen and (max-width: 600px) {
   .story-flex-container {
     flex-direction: column;
+  }
+
+  .story-flex-container > div {
+    max-width: 100%;
+    flex: 1 1 100%;
   }
 }
 
