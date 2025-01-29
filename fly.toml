@@ -8,7 +8,7 @@ primary_region = 'ams'
 console_command = '/rails/bin/rails console'
 
 [env]
-  CANONICAL_HOST = 'jess-sebi.fly.dev'
+  CANONICAL_HOST = 'jessandsebi.com'
 
 [build]
 
