@@ -12,9 +12,6 @@
           <%= link_to t(:navbar_travel), travel_and_stay_path, class: "nav-link #{navbar_active('travel')}" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Confirmation</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">Registry</a>
         </li>
         <li class="nav-item">
@@ -22,6 +19,7 @@
         </li>
       </ul>
     </div>
+    <%= link_to t(:confirm_your_presence), new_guest_path, class: 'btn nav-confirm-btn me-1' %>
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item dropdown">
         <a class="nav-link btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

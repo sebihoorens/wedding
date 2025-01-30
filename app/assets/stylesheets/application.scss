@@ -58,6 +58,12 @@ $enable-rounded: false;
 //   // --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
 // }
 
+.nav-confirm-btn {
+  --bs-btn-border-color: #FFFFFF;
+  --bs-btn-hover-color: #FFFFFF;
+  border-radius: 10px;
+}
+
 h1 {
   font-family: "Emilys Candy", serif;
   font-size: 60px;
@@ -86,8 +92,9 @@ p {
 }
 
 .wedding-cta-btn {
-  letter-spacing: 2px;
-  padding: 0.75rem 1.5rem;
+  letter-spacing: 1px;
+  padding: 0.7rem 1.3rem;
+  border-radius: 10px;
 }
 
 .wedding-required {
