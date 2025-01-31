@@ -7,9 +7,9 @@
     </div>
     <div class="row">
       <div class="col-md-6 text-center">
-        <h2><%= link_to 'wedding.ics' do -%>
+        <%= link_to 'wedding.ics' do -%>
           <%= render partial: 'calendar_svg' %>
-        <%- end %></h2>
+        <%- end %>
         <p>
           <strong><%= t :wedding_reception_time %></strong><br>
           <%= t :wedding_date %><br>
@@ -18,9 +18,9 @@
         <p><%= link_to t(:wedding_add_to_calendar), 'wedding.ics' %></p>
       </div>
       <div class="col-md-6 text-center">
-        <h2><%= link_to @google_maps_url, target: :_blank do -%>
+        <%= link_to @google_maps_url, target: :_blank do -%>
           <%= render partial: 'map_marker_svg' %>
-        <%- end %></h2>
+        <%- end %>
         <p>
           <%= render partial: 'wedding_address' %>
         </p>
