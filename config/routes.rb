@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     get 'welcome/index'
 
     get 'travel-and-stay', to: 'travel#index'
+    get 'faq', to: 'faq#index'
 
     resources :guests do
       resources :plus_ones
