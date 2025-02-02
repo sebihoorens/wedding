@@ -5,8 +5,8 @@ BEGIN:VEVENT
 SUMMARY:Iglesia (Kerk) Jess & Sebi
 DTSTART;TZID=America/Guayaquil:20260207T153000
 DTEND;TZID=America/Guayaquil:20260207T163000
-LOCATION:1000 9V4M+C3G, Peñaherreara &, Av. Víctor Manuel Peñaherrera & Rafael Troya, Ibarra, Ecuador
-DESCRIPTION: Marriage for the church
+LOCATION:Santuario Católico Nuestra Señora de Guápulo, Quito, Ecuador
+DESCRIPTION: Wedding ceremony
 STATUS:CONFIRMED
 SEQUENCE:3
 BEGIN:VALARM
@@ -19,8 +19,8 @@ BEGIN:VEVENT
 SUMMARY:Boda (Trouwfeest) Jess & Sebi
 DTSTART;TZID=America/Guayaquil:20260207T170000
 DTEND;TZID=America/Guayaquil:20260208T010000
-LOCATION:Vía Chorlaví, Ibarra 100109, Ecuador
-DESCRIPTION: Weeding ceremony
+LOCATION:Calle Santa Rosa, Puembo, Ecuador
+DESCRIPTION: Wedding reception
 STATUS:CONFIRMED
 SEQUENCE:3
 BEGIN:VALARM
