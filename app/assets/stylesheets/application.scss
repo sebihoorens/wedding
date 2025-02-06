@@ -12,10 +12,10 @@
  *
  */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400|Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600|Emilys+Candy');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400|Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600|Emilys+Candy'); // |Bacasime+Antique|Cormorant+Upright:wght@300;400;500;600;700
 
 $font-family-sans-serif: Montserrat, Helvetica, Arial, sans-serif;
-$font-family-serif: "Cormorant Infant", Arvo, Georgia, "Times New Roman", Times, serif;
+$font-family-serif: "Cormorant Infant", Arvo, Georgia, "Times New Roman", Times, serif; // "Cormorant Upright", "Bacasime Antique"
 
 $font-family-base: $font-family-serif;
 $headings-font-family: $font-family-serif; // $font-family-sans-serif;

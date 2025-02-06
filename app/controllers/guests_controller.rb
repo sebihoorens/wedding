@@ -67,6 +67,7 @@ class GuestsController < ApplicationController
       @guest.touch :confirmed_at
     end
     # GuestMailer.confirmation_email(@guest).deliver_now # Disabled emails
+    GuestMailer.confirmation_email(@guest).deliver_later
   end
 
   private

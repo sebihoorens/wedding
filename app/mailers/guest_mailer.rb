@@ -6,7 +6,7 @@ class GuestMailer < ApplicationMailer
   def confirmation_email(guest)
     @guest = guest
     mail(
-      to: guest.name_with_email,
+      to: 'sebihoorens@gmail.com', # to: guest.name_with_email,
       subject: "#{I18n.t(:wedding_name)}: RSVP Confirmation"
     )
   end
@@ -14,7 +14,7 @@ class GuestMailer < ApplicationMailer
   def welcome_back_email(guest)
     @guest = guest
     mail(
-      to: guest.name_with_email,
+      to: 'sebihoorens@gmail.com', # to: guest.name_with_email,
       subject: "#{I18n.t(:wedding_name)}: Your RSVP"
     )
   end
