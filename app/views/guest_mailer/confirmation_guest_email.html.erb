@@ -6,16 +6,12 @@
 <address><%= render partial: 'application/wedding_address' %></address>
 
 <h3>Your RSVP</h3>
-<p>If you would like to view or update your RSVP, you can use the following link to get back to it:</p>
-
-<h3>Sending a Card?</h3>
-<p>If you need it, our mailing address is:</p>
-<address><%= render partial: 'application/mailing_address' %></address>
+<p>You can always go back to the website and edit your RSVP.</p>
 
 <h3>Questions and answers</h3>
 <p>Please check <%= link_to 'our wedding website', root_url %> for more information, or you can reply to this email.</p>
 <% else %>
-<p>We're sorry to hear you can't make it. If you change your mind, you can update your RSVP with the link below:</p>
+<p>We're sorry to hear you can't make it. If you change your mind, you can go back to the website update your RSVP.</p>
 <p>We hope to see you another time!</p>
 <% end %>
 

@@ -1,0 +1,10 @@
+<p>Hello,</p>
+
+<% if @guest.attending %>
+<p><%= @guest.first_name %> <%= @guest.last_name %> confirmed their attendance. </p>
+<% else %>
+<p><%= @guest.first_name %> <%= @guest.last_name %> can't make it.</p>
+<% end %>
+
+<p>&nbsp;</p>
+<p><%= t :wedding_couple_names %></p>
