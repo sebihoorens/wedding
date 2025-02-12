@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
     get 'travel-and-stay', to: 'travel#index'
     get 'faq', to: 'faq#index'
+    get 'exploring-ecuador', to: 'exploring#index'
 
     resources :guests do
       resources :plus_ones
