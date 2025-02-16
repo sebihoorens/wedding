@@ -119,12 +119,14 @@ img.story-flex-image {
   }
 }
 
+// After https://www.w3schools.com/howto/howto_css_flip_card.asp.
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .fun-facts-flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
+  // border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -150,17 +152,26 @@ img.story-flex-image {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  display: grid;
+  align-items: center;
+  padding: 12px;
 }
 
 /* Style the front side (fallback if image is missing) */
 .fun-facts-flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: $primary-color;
+  color: white;
+  
+  font-weight: 500;
+
+  p {
+    font-size: 21px;
+  }
 }
 
 /* Style the back side */
 .fun-facts-flip-card-back {
-  background-color: dodgerblue;
+  background-color: $tertiary-color;
   color: white;
   transform: rotateY(180deg);
 }
