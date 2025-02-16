@@ -7,7 +7,7 @@ class GuestMailer < ApplicationMailer
     @guest = guest
     mail(
       to: 'sebihoorens@gmail.com',
-      cc: ['jessi-leon@hotmail.com'],
+      cc: ['jessi-leon@hotmail.com'], # TODO: Add wedding planner
       subject: "#{I18n.t(:wedding_name)}: RSVP Confirmation"
     )
   end
