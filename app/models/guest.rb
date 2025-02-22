@@ -6,7 +6,9 @@
 class Guest < ApplicationRecord
   include FindableWithToken
 
-  auto_strip_attributes :email, :first_name, :last_name, :diet, :songs, :notes
+  auto_strip_attributes :email, :first_name, :last_name, :address_street, :address_number,
+                        :address_city, :address_zip, :address_province, :address_country,
+                        :diet, :songs, :notes
 
   validates :email, presence: true, uniqueness: true
   validates :email, format: Devise.email_regexp, allow_blank: true
@@ -32,6 +34,8 @@ class Guest < ApplicationRecord
     "Dear #{first_name},"
   end
 
+  validates :address_street, :address_number, :address_city, :address_zip,
+            :address_province, :address_country, length: { maximum: 8192 }
   validates :diet, length: { maximum: 8192 }
   validates :songs, length: { maximum: 8192 }
   validates :notes, length: { maximum: 8192 }

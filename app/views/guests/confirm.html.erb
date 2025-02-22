@@ -28,6 +28,20 @@
           </div>
           <div class="row">
             <div class="col-md-4">
+              Address
+            </div>
+            <div class="col-md-8">
+              <% if @guest.address_street.present? && @guest.address_number.present? && @guest.address_city.present? %>
+                <pre><%= @guest.address_street %> <%= @guest.address_number %></pre>
+                <pre><%= @guest.address_city %> <%= @guest.address_zip %></pre>
+                <pre><%= @guest.address_province %> <%= @guest.address_country %></pre>
+              <% else %>
+                <p>(None)</p>
+              <% end %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
               Dietary Preferences
             </div>
             <div class="col-md-8">
