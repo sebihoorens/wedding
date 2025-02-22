@@ -5,6 +5,23 @@ ActiveAdmin.register Guest do
                 :address_city, :address_zip, :address_province, :address_country,
                 :attending, :diet, :songs, :notes
 
+  index do
+    selectable_column
+    id_column
+    column :email
+    column :name
+    column :address
+    column :attending
+    column :diet
+    column :songs
+    column :notes
+    column :created_at
+    column :updated_at
+    column :token
+    column :confirmed_at
+    actions
+  end
+
   scope :confirmed
   scope :attending
   scope :not_attending
@@ -19,7 +36,7 @@ ActiveAdmin.register Guest do
       input :address_city
       input :address_zip
       input :address_province
-      input :address_country, as: :string
+      input :address_country
       input :attending
       input :diet, as: :text
       input :songs, as: :text

@@ -26,6 +26,10 @@ class Guest < ApplicationRecord
     "#{name} <#{email}>"
   end
 
+  def address
+    "#{address_street} #{address_number} #{address_zip} #{address_city} #{address_province} #{address_country}"
+  end
+
   # Don't allow long or odd names in emails; may be spam.
   def email_safe_salutation
     return 'Hello,' if

@@ -30,7 +30,7 @@
       </div>
       <div class="form-group col-md-6">
         <%= form.label :address_country, 'Country', class: 'col-form-label' %>
-        <%= form.text_field :address_country, id: "#{id_stem}_address_country", class: 'form-control', autofocus: true, required: false %>
+        <%= form.country_select :address_country, %w[Belgium Ecuador] %>
       </div>
     </div>
     <small class="form-text text-muted">We'll send the formal invitation to this address.</small>
