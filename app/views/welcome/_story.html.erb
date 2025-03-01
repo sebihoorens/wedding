@@ -3,63 +3,95 @@
     <h1><%= t :welcome_our_story %></h1>
   </div>
 </section>
-<section class="default-content">
-  <div class="container">
-    <div class="story-flex-container">
-      <div>
-        <p><%= t :welcome_story_intro %></p>
+
+<% if browser.mobile? %>
+  <section class="default-content">
+    <div class="container">
+      <div class="story-flex-container">
+        <div>
+          <p><%= t :welcome_story_intro %></p>
+        </div>
+        <div>
+          <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1737920704/WhatsApp_Image_2025-01-26_at_18.31.53_dqvp1u.jpg', class: 'story-flex-image') %>
+        </div>
       </div>
+      <div class="story-flex-container">
+        <div>
+          <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738074794/IMG_20211031_140356091_akqesa.jpg', class: 'story-flex-image') %>
+        </div>
+        <div>
+          <p><%= t :welcome_story_jess %></p>
+        </div>
+      </div>
+      <div class="story-flex-container">
+        <div>
+          <p><%= t :welcome_story_sebi %></p>
+        </div>
+        <div>
+          <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738091073/1093_voeqrr.jpg', class: 'story-flex-image') %>
+        </div>
+      </div>
+      <div class="story-flex-container">
+        <div>
+          <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738091218/IMG_20210116_182352_szntfh.jpg', class: 'story-flex-image') %>
+        </div>
+        <div>
+          <p><%= t :welcome_story_click %></p>
+        </div>
+      </div>
+      <div class="story-flex-container">
+        <div>
+          <p><%= t :welcome_story_move_in %></p>
+        </div>
+        <div>
+          <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738516810/IMG20230803143024-EDIT_sqaste.jpg', class: 'story-flex-image') %>
+        </div>
+      </div>
+      <div class="story-flex-container">
+        <div>
+          <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738091163/vlcsnap-2024-10-01-18h41m58s174_jcdhez.png', class: 'story-flex-image') %>
+        </div>
+        <div>
+          <p><%= t :welcome_story_proposed %></p>
+        </div>
+      </div>
+      <div class="story-flex-container">
+        <div>
+          <p><%= t :welcome_story_next_chapter %></p>
+        </div>
+        <div>
+          <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738091358/1000011830_ycknnr.jpg', class: 'story-flex-image') %>
+        </div>
+      </div>
+    </div>
+  </section>
+<% else %>
+  <div class="timeline">
+    <div class="timeline__component">
       <div>
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1737920704/WhatsApp_Image_2025-01-26_at_18.31.53_dqvp1u.jpg', class: 'story-flex-image') %>
       </div>
     </div>
-    <div class="story-flex-container">
-      <div>
-        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738074794/IMG_20211031_140356091_akqesa.jpg', class: 'story-flex-image') %>
-      </div>
-      <div>
-        <p><%= t :welcome_story_jess %></p>
-      </div>
+    <div class="timeline__middle">
+      <div class="timeline__point"></div>
     </div>
-    <div class="story-flex-container">
-      <div>
-        <p><%= t :welcome_story_sebi %></p>
-      </div>
-      <div>
-        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738091073/1093_voeqrr.jpg', class: 'story-flex-image') %>
-      </div>
+    <div class="timeline__component timeline__component--bg">
+      <p>
+        <%= t :welcome_story_intro %>
+      </p>
     </div>
-    <div class="story-flex-container">
-      <div>
-        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738091218/IMG_20210116_182352_szntfh.jpg', class: 'story-flex-image') %>
-      </div>
-      <div>
-        <p><%= t :welcome_story_click %></p>
-      </div>
+    <div class="timeline__component timeline__component--bg">
+      <p>
+        <%= t :welcome_story_intro %>
+      </p>
     </div>
-    <div class="story-flex-container">
-      <div>
-        <p><%= t :welcome_story_move_in %></p>
-      </div>
-      <div>
-        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738516810/IMG20230803143024-EDIT_sqaste.jpg', class: 'story-flex-image') %>
-      </div>
+    <div class="timeline__middle">
+      <div class="timeline__point"></div>
     </div>
-    <div class="story-flex-container">
+    <div class="timeline__component">
       <div>
-        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738091163/vlcsnap-2024-10-01-18h41m58s174_jcdhez.png', class: 'story-flex-image') %>
-      </div>
-      <div>
-        <p><%= t :welcome_story_proposed %></p>
-      </div>
-    </div>
-    <div class="story-flex-container">
-      <div>
-        <p><%= t :welcome_story_next_chapter %></p>
-      </div>
-      <div>
-        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1738091358/1000011830_ycknnr.jpg', class: 'story-flex-image') %>
+        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1737920704/WhatsApp_Image_2025-01-26_at_18.31.53_dqvp1u.jpg', class: 'story-flex-image') %>
       </div>
     </div>
   </div>
-</section>
+<% end %>

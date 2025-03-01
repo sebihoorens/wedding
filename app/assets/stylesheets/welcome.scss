@@ -104,6 +104,69 @@ img.story-flex-image {
   }
 }
 
+// body {
+//   background: #009578;
+// }
+
+.timeline {
+  margin: 0 auto;
+  // max-width: 750px;
+  // padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  // font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
+  // background: #009578;
+}
+
+.timeline__component {
+  margin: 100px 30px 100px 30px;
+}
+
+.timeline__component--bg {
+  padding: 1.5em;
+  // background: $tertiary-color;
+  background: #2a4f6b;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* LEAVE TILL LAST */
+// .timeline__component--bottom {
+//   margin-bottom: 0;
+// }
+
+.timeline__middle {
+  position: relative;
+  // background: $primary-color;
+  background-image: repeating-linear-gradient(white, white 2px, #CCC 2px, #CCC 4px);
+}
+
+.timeline__point {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: $primary-color;
+  border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+// .timeline__point--bottom {
+//   top: initial;
+//   bottom: 0;
+// }
+
+.timeline__date--right {
+  text-align: right;
+}
+
+// .timeline__paragraph {
+//   line-height: 1.5;
+// }
+
 #welcome-index-fun-facts-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
     url("https://res.cloudinary.com/dvvdwl8at/image/upload/v1737754790/jumbo_js_4_ptzhs4.jpg") center center no-repeat;

@@ -41,6 +41,7 @@ gem 'sass-embedded', '~> 1.66.1'
 gem 'ffi', '~> 1.17.1'
 
 gem 'country-select'
+gem 'browser'
 
 group :development, :test do
   gem 'rubocop'
