@@ -115,10 +115,9 @@ img.story-flex-image {
 }
 
 .timeline_component {
-  margin: 100px 30px 100px 30px;
-  // width: 50%;
-  // vertical-align: middle;
-  max-width: 700px;
+  margin: 100px 0px 100px 0px;
+  display: flex;
+  align-items: center;
 
   img {
     // display: block;
@@ -137,6 +136,17 @@ img.story-flex-image {
   background: #2a4f6b;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  max-width: 700px;
+}
+
+.timeline_left {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.timeline_right {
+  margin-left: 30px;
+  margin-right: auto;
 }
 
 .timeline_middle {
