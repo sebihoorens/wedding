@@ -1,5 +1,8 @@
 <nav class="navbar sticky-top navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://res.cloudinary.com/dvvdwl8at/image/upload/v1740942895/Screenshot_2025-03-02_at_20.11.46_prqu12.png" alt="J&S" height="25">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,14 +15,17 @@
           <%= link_to t(:navbar_travel), travel_and_stay_path, class: "nav-link #{navbar_active('travel')}" %>
         </li>
         <li class="nav-item">
-          <%= link_to 'FAQ', faq_path, class: "nav-link #{navbar_active('faq')}" %>
+          <%= link_to t(:navbar_exploring), exploring_ecuador_path, class: "nav-link #{navbar_active('exploring')}" %>
         </li>
         <li class="nav-item">
-          <%= link_to 'Exploring Ecuador', exploring_ecuador_path, class: "nav-link #{navbar_active('exploring')}" %>
+          <%= link_to t(:story_title), our_story_path, class: "nav-link #{navbar_active('story')}" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'FAQ', faq_path, class: "nav-link #{navbar_active('faq')}" %>
         </li>
       </ul>
     </div>
-    <%= link_to t(:confirm_your_presence), new_guest_path, class: 'btn nav-confirm-btn ms-2 me-2 ms-auto mb-2 mb-lg-0' %>
+    <%= link_to 'RSVP', new_guest_path, class: 'btn nav-confirm-btn ms-2 me-2 ms-auto mb-2 mb-lg-0' %>
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item dropdown">
         <a class="nav-link btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

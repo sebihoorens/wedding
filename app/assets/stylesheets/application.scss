@@ -34,6 +34,8 @@ $theme-colors: (
 $enable-rounded: false;
 
 @import "bootstrap";
+@import "story";
+@import "timeline";
 @import "guests";
 @import "welcome";
 @import "travel";
