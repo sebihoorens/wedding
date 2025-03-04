@@ -68,6 +68,13 @@ $enable-rounded: false;
   border-radius: 10px;
 }
 
+.navbar-brand {
+  padding-top: 0;
+  img {
+    height: 20px;
+  }
+}
+
 h1 {
   font-family: "Emilys Candy", serif;
   font-size: 60px;
