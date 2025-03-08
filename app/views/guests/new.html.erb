@@ -2,8 +2,9 @@
   <div class="row">
     <div class="offset-lg-2 col-lg-8">
       <%= render partial: 'leader' %>
+      <p class="guests-p-justify">We can’t wait to celebrate with you! Please <strong>RSVP as soon as possible</strong> so we can reserve your seat and a slice of cake. If plans change and you can’t make it, kindly let us know at your earliest convenience. <strong>Kindly RSVP by August 1, 2025.</strong></p>
       <%# <p>Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd.</p> # Disabled emails %>
-      <p>Please enter your email address to begin. We might send you some updates to this address.</p>
+      <p>Please enter your email address to begin.</p>
       <%= form_with scope: :guest, url: guests_path, local: true do |form| %>
       <div class="row">
         <div class="col-md-12">

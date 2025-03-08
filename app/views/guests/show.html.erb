@@ -23,6 +23,22 @@
           </div>
         </div>
 
+        <div class="form-group row form-section">
+        <div class="col-md-3">
+          <%= form.label :email_updates, 'Would you like us to send you updates to this email address?', class: 'col-form-label' %>
+        </div>
+        <div class="col-md-9">
+          <div class="form-check form-check-inline">
+            <%= form.radio_button :email_updates, 'true', required: true, checked: true, id: 'guest_email_updates_true', class: 'form-check-input' %>
+            <%= form.label :email_updates, 'Yes', value: 'true', class: 'form-check-label' %>
+          </div>
+          <div class="form-check form-check-inline">
+            <%= form.radio_button :email_updates, 'false', id: 'guest_email_updates_false', class: 'form-check-input' %>
+            <%= form.label :email_updates, 'No', value: 'false', class: 'form-check-label' %>
+          </div>
+        </div>
+      </div>
+
         <%= render partial: 'name', locals: { form: form, id_stem: 'guest' } %>
 
         <%= render partial: 'address', locals: { form: form, id_stem: 'guest' } %>

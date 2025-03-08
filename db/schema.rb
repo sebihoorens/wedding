@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2025_02_22_150359) do
+ActiveRecord::Schema.define(version: 2025_03_08_154203) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "citext"
@@ -65,6 +65,7 @@ ActiveRecord::Schema.define(version: 2025_02_22_150359) do
     t.string "address_zip"
     t.string "address_province"
     t.string "address_country"
+    t.boolean "email_updates", default: true, null: false
     t.index ["email"], name: "index_guests_on_email", unique: true
   end
 

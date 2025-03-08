@@ -3,7 +3,7 @@
 ActiveAdmin.register Guest do
   permit_params :email, :first_name, :last_name, :address_street, :address_number,
                 :address_city, :address_zip, :address_province, :address_country,
-                :attending, :diet, :songs, :notes
+                :email_updates, :attending, :diet, :songs, :notes
 
   index do
     selectable_column
@@ -11,6 +11,7 @@ ActiveAdmin.register Guest do
     column :email
     column :name
     column :address
+    column :email_updates
     column :attending
     column :diet
     column :songs
@@ -37,6 +38,7 @@ ActiveAdmin.register Guest do
       input :address_zip
       input :address_province
       input :address_country
+      input :email_updates
       input :attending
       input :diet, as: :text
       input :songs, as: :text
