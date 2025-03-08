@@ -2,13 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// #guests-leader {
+//   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
+//     image-url("rsvp.jpg") center center no-repeat;
+//   background-size: cover;
+
+//   h1 {
+//     color: rgba(255, 255, 255, 0.95);
+//   }
+// }
+
 #guests-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
-    image-url("rsvp.jpg") center center no-repeat;
+  image-url("rsvp.jpg") center center no-repeat;
   background-size: cover;
 
-  h1 {
+  * {
     color: rgba(255, 255, 255, 0.95);
+  }
+
+  h1 {
+    padding: 3 * $spacer 0;
   }
 }
 
