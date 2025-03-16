@@ -2,8 +2,10 @@
 
 <% if @guest.attending %>
   <p>We look forward to seeing you!</p>
-  <p>The address is:</p>
-  <address><%= render partial: 'application/wedding_address' %></address>
+  <p>The address of the church is:</p>
+  <address><%= render partial: 'application/wedding_address_church' %></address>
+  <p>The address of the venue is:</p>
+  <address><%= render partial: 'application/wedding_address_venue' %></address>
 
   <h3>Your RSVP</h3>
   <p>You can always go back to the website and edit your RSVP.</p>
