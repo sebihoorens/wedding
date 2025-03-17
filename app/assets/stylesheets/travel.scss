@@ -11,3 +11,18 @@
     padding: 3 * $spacer 0;
   }
 }
+
+#wedding-day-index-leader {
+  background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
+    url("https://res.cloudinary.com/dvvdwl8at/image/upload/v1741545399/eyJidWNrZXQiOiJ3ZWZseWNoZWFwIiwia2V5IjoiRWN1YWRvci0uanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6Mzg0MCwiZml0IjoiaW5zaWRlIiwicXVhbGl0eSI6ODB9fX0_mxws59.webp") center center no-repeat;
+  background-size: cover;
+  margin-top: 5 * $spacer;
+
+  * {
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  h1 {
+    padding: 3 * $spacer 0;
+  }
+}
