@@ -11,18 +11,25 @@
         <p>For practical details like the dress code, where to stay, and bringing children, check out the <%= link_to(t(:wedding_day_title), "#{travel_and_stay_path}#wedding-day-index-leader") %> section on our <%= link_to(t(:travel_title), travel_and_stay_path) %> page. It has everything you need to make your trip and wedding day as smooth as possible!</p>
 
         <h2>Order Of The Day</h2>
-        <p><strong>2:30pm</strong> &mdash; Guests start to arrive at the church</p>
-        <p><strong>3pm</strong> &mdash; Ecclesiastical Ceremony at Guápulo Church</p>
-        <p><strong>4:30pm</strong> &mdash; Cocktail Hour at Hacienda El Alcázar</p>
-        <p><strong>6pm</strong> &mdash; Dinner and drinks</p>
-        <p><strong>9pm</strong> &mdash; Cutting of the cake, dancing and celebrations!</p>
-        <p><strong>12am</strong> &mdash; Bar closes</p>
+        <dl class="row">
+          <dt class="col-sm-1">2:30pm</dt>
+          <dd class="col-sm-11">Guests start to arrive at the church</dd>
 
-        <h2>Attire</h2>
-        <p>We’d love to see our friends and family dressed up for our big day! While we encourage elegant attire, super formal outfits are not required. Your comfort is our priority.</p>
-        <p>Our dress code is cocktail/semi-formal, and we kindly ask that you avoid colors traditionally reserved for the bride (white, ivory, and cream). Stilettos are discouraged due to uneven terrain, so we recommend block heels, wedges, or flats for comfort.</p>
-        <p>Quito’s weather can be unpredictable, with temperatures around 15-25°C in the afternoon, dropping to 10°C at night, with a chance of light rain. Since parts of the celebration will be outdoors, we suggest bringing a light jacket or shawl just in case.</p>
-        <p>Most importantly, we want you to feel great and have fun! &#10024;</p>
+          <dt class="col-sm-1">3pm</dt>
+          <dd class="col-sm-11">Ecclesiastical Ceremony at Guápulo Church</dd>
+
+          <dt class="col-sm-1">4:30pm</dt>
+          <dd class="col-sm-11">Cocktail Hour at Hacienda El Alcázar</dd>
+
+          <dt class="col-sm-1">6pm</dt>
+          <dd class="col-sm-11">Dinner and drinks</dd>
+
+          <dt class="col-sm-1">9pm</dt>
+          <dd class="col-sm-11">Cutting of the cake, dancing and celebrations!</dd>
+
+          <dt class="col-sm-1">12am</dt>
+          <dd class="col-sm-11">Bar closes</dd>
+        </dl>
 
         <h2><%= t :welcome_getting_there_title %></h2>
         <p><%= t(:welcome_getting_there_body, travel_href: link_to(t(:travel_title), travel_and_stay_path)).html_safe %></p>
