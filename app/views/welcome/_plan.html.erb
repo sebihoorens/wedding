@@ -1,12 +1,15 @@
 <section id="welcome-index-wedding-plan-leader" class="jumbotron text-center">
   <div class="container">
-    <h1>The Plan</h1>
+    <h1><%= t :the_plan_title %></h1>
   </div>
 </section>
 <section class="default-content">
   <div class="container">
     <div class="row">
       <div class="offset-md-3 col-md-6">
+        <br><br>
+        <p>For practical details like the dress code, where to stay, and bringing children, check out the <%= link_to(t(:wedding_day_title), "#{travel_and_stay_path}#wedding-day-index-leader") %> section on our <%= link_to(t(:travel_title), travel_and_stay_path) %> page. It has everything you need to make your trip and wedding day as smooth as possible!</p>
+
         <h2>Order Of The Day</h2>
         <p><strong>2:30pm</strong> &mdash; Guests start to arrive at the church</p>
         <p><strong>3pm</strong> &mdash; Ecclesiastical Ceremony at Guápulo Church</p>
@@ -28,8 +31,9 @@
         <p><%= t :welcome_gifts_and_cards_body %></p>
         <p class="account-info">BE26 0016 1911 7229</p>
 
+        <h2>Menu</h2>
+        <p>We don’t know exactly what’s on the menu yet, but rest assured&mdash;it will be delicious, Ecuadorian, and worth the wait. Stay tuned for more details, and come hungry!</p>
         <%#
-          <h2>Menu</h2>
           <p><strong>Starter</strong> &mdash; Ceviche in a coconut bowl <sup>*</sup> &dagger;</p>
           <p><strong>Main</strong> &mdash; Fricassee of Chicken with Lyonnaise Potato &ddagger;</p>
           <p><strong>Dessert</strong> &mdash; Choux Swan with Chocolate & Brandy Sauce <sup>&sect;</sup></p>
