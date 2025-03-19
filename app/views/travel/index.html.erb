@@ -11,7 +11,7 @@
         <br><br>
         <p>For our traveling guests, we know that a trip to Ecuador requires careful planning, time, and financial commitment&mdash;and we are incredibly grateful for the effort you’re making to celebrate with us. To help make your journey smoother, we’ve put together some tips and recommendations for travel, accommodations, and activities.</p>
 
-        <p>We’re looking into ways to <strong>assist with logistics</strong>, such as airport transfers, a shuttle to the church and venue, and a shared Airbnb for guests (possibly with a swimming pool!). Additionally, we may be able to arrange discounts for accommodations, including hotels near the venue. While we can’t cover these costs, we’ll do our best to help coordinate. If you’d like to receive updates about these arrangements by email, be sure to check the corresponding box during the RSVP process.</p>
+        <p>We’re looking into ways to <strong>assist with logistics</strong>, such as airport transfers, a shuttle to the church and venue, and a shared Airbnb for guests (possibly with a swimming pool!). Additionally, we may be able to <%= link_to('arrange discounts for accommodations', '#hotel-san-jose') %>, including hotels near the venue. While we can’t cover these costs, we’ll do our best to help coordinate. If you’d like to receive updates about these arrangements by email, be sure to check the corresponding box during the RSVP process.</p>
 
         <h2>The Destination</h2>
         <p>Ecuador, located in South America, is one of the most biodiverse countries in the world. Being relatively small, it offers remarkably easy access to stunning landscapes across four unique regions:</p>
@@ -34,7 +34,7 @@
 
         <p>Ecuador uses the <strong>U.S. dollar</strong>, but payment methods vary. In Quito and major cities, most restaurants, supermarkets, and malls accept cards, while small shops, buses, and markets require cash. In rural areas, cash is essential. Banco Internacional ATMs are best for Visa cards (often fee-free), and Revolut works well for card payments. ATMs can be scarce outside cities, so withdraw money in a safe place and carry enough cash when traveling.</p>
 
-        <p><strong>Tipping</strong> is much more common in Ecuador than in Belgium. In restaurants, a 10% service charge is often included in the bill—if not, leaving 5-10% is customary for good service. Taxi drivers don’t expect tips, but rounding up the fare is common. Hotel staff and tour guides appreciate small tips: &#36;1-2 per bag for porters and &#36;5-10 per day for guides, depending on the service. In markets and small eateries, tipping isn’t necessary.</p>
+        <p><strong>Tipping</strong> is much more common in Ecuador than in Belgium. In restaurants, a 10% service charge is often included in the bill. If not, leaving 5-10% is customary for good service. Taxi drivers don’t expect tips, but rounding up the fare is common. Hotel staff and tour guides appreciate small tips: &#36;1-2 per bag for porters and &#36;5-10 per day for guides, depending on the service. In markets and small eateries, tipping isn’t necessary.</p>
 
         <h2>Getting To Ecuador</h2>
         <p>The wedding will take place during the low season, as February is one of the most affordable months to fly to Ecuador. To get the best prices, we recommend booking your flight 6–8 months in advance. Round-trip flights from Europe typically cost &#8364;700–&#8364;800 per person, with airlines like Air Europa, Iberia, and KLM offering the most budget-friendly options. These flights usually have stopovers in Madrid or Amsterdam. When booking, we suggest choosing shorter layovers. A 17-hour journey is already long and tiring, so there's no need to extend it further!</p>
@@ -89,8 +89,7 @@
     <div class="row">
       <div class="offset-md-3 col-md-6">
       <br><br>
-      <p>Looking for the schedule, gift information, or other wedding details? Head over to <%= link_to(t(:the_plan_title), "#{welcome_root_path}#welcome-index-wedding-plan-leader") %> on our homepage for a full overview of the day's events and how to celebrate with us!</p>
-      <p>While Ecuadorians are known for their relaxed approach to timing, church ceremonies start promptly. We recommend <strong>arriving</strong> at least 20 minutes early (2:40pm) to ensure a smooth start.</p>
+      <p>Looking for the schedule, gift information, or other wedding details? Head over to <%= link_to(t(:the_plan_title), "#{welcome_root_path}#welcome-index-wedding-plan-leader") %> on our homepage!</p>
       <p><strong>Children</strong> are welcome, but please keep in mind that there will be alcohol and possibly open fires. If more than five children attend, we may arrange for a nanny to help with supervision so you can fully enjoy the party&mdash;you can let us know during the RSVP process. Unfortunately, <strong>pets</strong> are not allowed at the venue.</p>
 
       <h2>Dress Code</h2>
@@ -100,12 +99,26 @@
       <p>Most importantly, wear something you love, feel great in, and can dance all night in! &#10024;</p>
 
       <h2>Where To Stay</h2>
-      <p>For convenience and safety, we recommend staying in Quito's north-central area or in the nearby valleys of Tumbaco, Cumbayá, or Puembo, as the wedding will take place in Guápulo and Puembo. These areas offer a variety of hotels and Airbnbs, making it easy to return safely after celebrating with us!</p>
+      <p>For convenience and safety, we recommend staying in Quito's north-central area or in the nearby valleys of Tumbaco, Cumbayá, or Puembo, as the wedding will take place in Guápulo and Puembo. These areas offer a variety of hotels and Airbnbs, making it easier to return safely after celebrating with us!</p>
+      <dl class="row">
+        <dt class="col-sm-8 dt-no-bold">
+          <p id="hotel-san-jose">We've secured a special rate at hotel <a href="https://www.sanjosedepuembo.com/" target="_blank">San José de Puembo</a>, a charming 17<sup>th</sup> century hacienda near the wedding venue. This beautiful hotel features a swimming pool, fitness center, breakfast, and airport transfers for a comfortable stay. Our discounted rate is &#36;85 for a double room. To book at this rate, use the code <strong>SPECIALCODE</strong> when making your reservation.</p>
+        </dt>
+        <dd class="col-sm-4">
+          <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742411727/BICUBIK_8429-1024x1536_w1seq8.jpg', width: '100%') %>
+        </dd>
+      </dl>
+
+      <h2>Santuario De Guápulo</h2>
+      <p>Our ecclesiastical ceremony is planned to take place at <strong>La Iglesia de Nuestra Señora de Guápulo</strong>, one of Quito’s oldest and most beautiful churches. This 17<sup>th</sup> century Baroque landmark sits on a small plateau between Quito and the Tumbaco Valley, along the historic route taken by Pizarro’s expedition to the Amazon.</p>
+      <p>While we are still awaiting final confirmation for our reservation at the Santuario De Guápulo, this remains our intended location. We will update you as soon as we have official confirmation.</p>
+      <p>Though Ecuadorians are known for their relaxed approach to timing, church ceremonies start promptly. We recommend <strong>arriving</strong> at least 20 minutes early (2:40pm) to ensure a smooth start.</p>
+
+      <h2>Quinta El Alcázar</h2>
       <ul>
           <li>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</li>
           <li>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</li>
         </ul>
-        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1740073839/9011_dlywjt.jpg', width: '100%') %>
       </div>
     </div>
   </div>
