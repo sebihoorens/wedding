@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 ActiveAdmin.register Attendee do
-  scope :child?
+  scope :child_12_or_under?
   scope :diet?
 
   controller do
@@ -16,7 +16,7 @@ ActiveAdmin.register Attendee do
     column :email
     column :diet
     column :notes
-    column :child
+    column :household_role
     column :updated_at
   end
 

@@ -12,8 +12,7 @@
   <div class="form-group row">
     <div class="offset-md-3 col-md-9">
       <div class="form-check form-check-inline">
-        <%= form.check_box :child, id: 'plus_one_child', class: 'form-check-input' %>
-        <%= form.label :child, 'Child (12 or under)', class: 'form-check-label' %>
+        <%= form.select :household_role, [['Child (12 or under)', 'child_12_or_under'], ['Child (over 12)', 'child_over_12'], ['Partner', 'partner']], selected: (@plus_one.household_role || 'child_12_or_under') %>
       </div>
     </div>
   </div>

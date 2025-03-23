@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2025_03_08_154203) do
+ActiveRecord::Schema.define(version: 2025_03_23_150752) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "citext"
@@ -72,11 +72,11 @@ ActiveRecord::Schema.define(version: 2025_03_08_154203) do
   create_table "plus_ones", force: :cascade do |t|
     t.bigint "guest_id"
     t.string "diet"
-    t.boolean "child"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "first_name"
     t.string "last_name"
+    t.string "household_role", default: "child_12_or_under", null: false
     t.index ["guest_id"], name: "index_plus_ones_on_guest_id"
   end
 
@@ -87,10 +87,16 @@ ActiveRecord::Schema.define(version: 2025_03_08_154203) do
       guests.first_name,
       guests.last_name,
       guests.email,
+      guests.address_street,
+      guests.address_number,
+      guests.address_city,
+      guests.address_zip,
+      guests.address_province,
+      guests.address_country,
       guests.diet,
       guests.songs,
       guests.notes,
-      NULL::boolean AS child,
+      NULL::character varying AS household_role,
       guests.updated_at
      FROM guests
     WHERE guests.attending
@@ -99,10 +105,16 @@ ActiveRecord::Schema.define(version: 2025_03_08_154203) do
       plus_ones.first_name,
       plus_ones.last_name,
       NULL::citext AS email,
+      NULL::character varying AS address_street,
+      NULL::character varying AS address_number,
+      NULL::character varying AS address_city,
+      NULL::character varying AS address_zip,
+      NULL::character varying AS address_province,
+      NULL::character varying AS address_country,
       plus_ones.diet,
       NULL::character varying AS songs,
       NULL::character varying AS notes,
-      plus_ones.child,
+      plus_ones.household_role,
       plus_ones.updated_at
      FROM (plus_ones
        JOIN guests ON ((plus_ones.guest_id = guests.id)))

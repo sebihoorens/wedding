@@ -14,7 +14,7 @@ module ApplicationHelper
     return unless object.errors.any?
 
     content_tag(:div, class: 'mb-3 card border-danger') do
-      concat(content_tag(:div, class: 'card-header bg-danger text-white') do
+      concat(content_tag(:div, class: 'card-header') do
         concat "Oops, #{pluralize(object.errors.count, 'problem')}:"
       end)
       concat(content_tag(:ul, class: 'mb-0 list-group list-group-flush') do
