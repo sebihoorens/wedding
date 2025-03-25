@@ -8,7 +8,8 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.6'
+gem 'rails', '~> 6.1'
+gem 'concurrent-ruby', '1.3.4' # Can be removed when upgrading to Rails 7 or higher
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -34,8 +35,6 @@ gem 'rack-canonical-host'
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'scenic'
 
-# .env file
-gem 'dotenv'
 # fly.io
 gem 'sass-embedded', '~> 1.66.1'
 gem 'ffi', '~> 1.17.1'
@@ -50,6 +49,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'dotenv'
 end
 
 group :development do
