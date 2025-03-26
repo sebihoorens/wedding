@@ -34,19 +34,26 @@ en:
   wedding_couple_names: 'Jess & Sebi'
   wedding_date: 'Saturday, 7 February 2026'
   wedding_reception_time: '12:30pm – late'
-  wedding_country: 'Ecuador'
+  wedding_country: Ecuador
+  church_name: Santuario De Guápulo
+  venue_name: Quinta El Alcázar
   wedding_add_to_calendar: 'Add to calendar'
   confirm_your_presence: 'Confirm your presence'
   navbar_home: Home
-  navbar_exploring: 'Exploring Ecuador'
   welcome_getting_married: "We're getting married!"
   welcome_save_the_date: 'Save The Date'
   the_plan_title: 'The Plan'
   welcome_plan_to_wedding_day: 'For practical details like the getting there, where to stay and dress code, check out the %{wedding_day_href} section on our %{travel_href} page.'
   welcome_gifts_and_cards_title: 'Gifts & Cards'
-  welcome_gifts_and_cards_body: "Many of you are travelling across the globe to celebrate with us in Ecuador, so your presence means the world to us and is all we ask for. If you'd still like to contribute to our registry or honeymoon funds you can either use the wedding cards box at the venue or make a transfer to:"
+  welcome_gifts_and_cards_body: "Many of you are travelling across the globe to celebrate with us in Ecuador, so your presence is the greatest gift we could ask for. If you'd still like to contribute to our registry or honeymoon funds, you can do so by leaving a card or gift in the designated box at the venue or by bank transfer to:"
   travel_title: 'Travel & Stay'
+  travel_health_title: Health
+  travel_safety_title: Safety
   wedding_day_title: 'The Day Of The Wedding'
+  wedding_day_children: '<strong>Children</strong> are welcome, but please keep in mind that there will be alcohol and possibly open fires. If many children attend, we may arrange for a nanny to help with supervision so you can fully enjoy the party. Unfortunately, <strong>pets</strong> are not allowed at the venue.'
+  wedding_day_dress_code_title: Dress Code
+  wedding_day_where_to_stay_title: Where To Stay
+  exploring_title: Exploring Ecuador
   story_title: 'Our Story'
   story_intro: "This is the story of two people who were born and raised in different parts of the world yet somehow found each other."
   story_jess: "Jess came to Belgium in 2020 for her master's program in physiotherapy. After a few weeks of online French classes (due to COVID) and only speaking Spanish with her family, she realized she needed more practice. So she joined an app to make new friends."
