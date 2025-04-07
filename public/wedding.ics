@@ -1,30 +1,32 @@
 BEGIN:VCALENDAR
 VERSION:2.0
+PRODID:-//jessandsebi//NONSGML Wedding//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-SUMMARY:Iglesia (Kerk) Jess & Sebi
+SUMMARY:Ecclesiastical ceremony Jess & Sebi
 DTSTART;TZID=America/Guayaquil:20260207T153000
 DTEND;TZID=America/Guayaquil:20260207T163000
-LOCATION:Santuario Católico Nuestra Señora de Guápulo, Quito, Ecuador
-DESCRIPTION: Wedding ceremony
+LOCATION:Santuario Católico Nuestra Señora de Guápulo\, Quito\, Ecuador
+DESCRIPTION:The location and time is not confirmed yet. Please, keep an eye out for updates on jessandsebi.com or in your mailbox.
+URL:https://jessandsebi.com
 STATUS:CONFIRMED
 SEQUENCE:3
 BEGIN:VALARM
-TRIGGER:-PT10M
+TRIGGER:-PT1H
 DESCRIPTION:Reminder
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Boda (Trouwfeest) Jess & Sebi
+SUMMARY:Wedding reception Jess & Sebi
 DTSTART;TZID=America/Guayaquil:20260207T170000
 DTEND;TZID=America/Guayaquil:20260208T010000
-LOCATION:Calle Santa Rosa, Puembo, Ecuador
-DESCRIPTION: Wedding reception
+LOCATION:Calle Santa Rosa\, Puembo\, Ecuador
+URL:https://jessandsebi.com
 STATUS:CONFIRMED
 SEQUENCE:3
 BEGIN:VALARM
-TRIGGER:-PT10M
+TRIGGER:-PT1H
 DESCRIPTION:Reminder
 ACTION:DISPLAY
 END:VALARM
