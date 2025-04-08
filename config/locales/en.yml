@@ -58,8 +58,24 @@ en:
     plan_order_cake_body: Cutting of the cake, dancing and celebrations!
     plan_order_bar_close_time: 12am
     plan_order_bar_close_body: Bar closes
-  welcome_gifts_and_cards_title: 'Gifts & Cards'
-  welcome_gifts_and_cards_body: "Your presence at our wedding is the greatest gift we could ask for, especially if you're crossing an ocean to be there! But if you're feeling extra generous and want to help us kick off married life, we'd be thrilled and grateful. You’ll find a little envelope with the invitation, feel free to drop it in the card box at the ceremony. Or if your suitcase is already full, you can send a contribution to:"
+    plan_menu_title: Menu
+    plan_menu_body: >
+      We haven't chosen the menu yet, but rest assured&mdash;it will be delicious, Ecuadorian, and
+      worth the wait. Stay tuned for more details!
+    plan_gifts_and_cards_title: 'Gifts & Cards'
+    plan_gifts_and_cards_body: >
+      Your presence at our wedding is the greatest gift we could ask for, especially if you're
+      crossing an ocean to be there! But if you're feeling extra generous and want to help us kick
+      off married life, we'd be thrilled and grateful. You’ll find a little envelope with the
+      invitation, feel free to drop it in the card box at the ceremony. Or if your suitcase is
+      already full, you can send a contribution to:
+    plan_rsvp_title: RSVPs
+    plan_rsvp_body: >
+      Please RSVP as soon as possible (before September 1<sup>st</sup>) so we know who is coming
+      and can make sure we keep a seat and a piece of cake for you if you can come! If it turns out
+      you can’t make it, please let us know as soon as you can.
+    footer_john_lees_miller: Thanks to John Lees-Miller for providing the initial Rails app on
+    footer_flaticon: Wedding icons created by Freepik, photo3idea_studio and Vector Squad on Flaticon
   travel_title: 'Travel & Stay'
   travel_health_title: Health
   travel_safety_title: Safety
