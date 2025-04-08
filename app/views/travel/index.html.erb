@@ -96,17 +96,17 @@
         <p><%= t('travel.wedding_day_to_plan', plan_link: link_to(t('home.plan_title'), "#{welcome_root_path}#welcome-index-wedding-plan-leader")).html_safe %></p>
         <p><%= t('travel.wedding_day_children').html_safe %></p>
 
-        <h2 id="wedding-day-dress-code"><%= t(:wedding_day_dress_code_title) %></h2>
-        <p>We’d love to see our friends and family dressed up for our big day! While we encourage elegant attire, there's no need for anything too formal. Your comfort is what matters most.</p>
-        <p>Our dress code is cocktail/semi-formal, and the colour palette of our wedding largely consists of burgundy <span style="color: transparent; text-shadow: 0 0 0 #660505;">&#129505;</span>, navy blue <span style="color: transparent; text-shadow: 0 0 0 #343173;">&#129505;</span>, and emerald green <span style="color: transparent; text-shadow: 0 0 0 #00674F;">&#129505;</span>. We kindly ask that you avoid white, ivory, and cream, as these are traditionally reserved for the bride. Due to uneven terrain, stilettos are not recommended. Block heels, wedges, or flats will keep you comfortable throughout the day.</p>
-        <p>Quito’s weather can be unpredictable, with temperatures around 15-25&deg;C in the afternoon, dropping to around 10&deg;C at night, sometimes with light rain. Since parts of the celebration will be outdoors, we suggest bringing a light jacket or shawl just in case.</p>
-        <p>Most importantly, wear something you love, feel great in, and can dance all night in! &#10024;</p>
+        <h2 id="wedding-day-dress-code"><%= t('travel.dress_code_title') %></h2>
+        <p><%= t('travel.dress_code_intro').html_safe %></p>
+        <p><%= t('travel.dress_code_palette').html_safe %></p>
+        <p><%= t('travel.dress_code_weather').html_safe %></p>
+        <p><%= t('travel.dress_code_closing').html_safe %></p>
 
-        <h2 id="wedding-day-where-to-stay"><%= t :wedding_day_where_to_stay_title %></h2>
-        <p>For convenience and safety, we recommend staying in Quito's north-central area or in the nearby valleys of Tumbaco, Cumbayá, or Puembo, as the wedding will take place in Guápulo and Puembo. These areas offer a variety of hotels and Airbnbs, making it easier to return safely after celebrating with us!</p>
+        <h2 id="wedding-day-where-to-stay"><%= t('travel.where_to_stay_title') %></h2>
+        <p><%= t('travel.where_to_stay_intro').html_safe %></p>
         <dl class="row">
           <dt class="col-sm-8 dt-no-bold">
-            <p id="hotel-san-jose">We've secured a special rate at hotel <a href="https://www.sanjosedepuembo.com/" target="_blank">San José de Puembo</a>, a charming 17<sup>th</sup> century hacienda near the wedding venue (15mins by car). This beautiful hotel features a swimming pool, fitness center, breakfast, and airport transfers for a comfortable stay. Our discounted rate is &#36;85 for a double room. You can email <a href="mailto:comercial@sanjosedepuembo.com">comercial@sanjosedepuembo.com</a>, mentioning <em>Hoorens–Leon wedding</em>, to book at this rate.</p>
+            <p id="hotel-san-jose"><%= t('travel.where_to_stay_hotel', hotel_link: link_to('San José de Puembo', 'https://www.sanjosedepuembo.com/', target: '_blank'), email_link: mail_to('comercial@sanjosedepuembo.com')).html_safe %></p>
           </dt>
           <dd class="col-sm-4">
             <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742411727/BICUBIK_8429-1024x1536_w1seq8.jpg', width: '100%') %>

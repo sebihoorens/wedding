@@ -192,8 +192,20 @@ en:
       possibly open fires. Please, make sure to include your children as plus ones when you RSVP.
       If many children attend, we may arrange for a nanny to help with supervision so you can fully
       enjoy the party. Unfortunately, <strong>pets</strong> are not allowed at the venue.
-  wedding_day_dress_code_title: Dress Code
-  wedding_day_where_to_stay_title: Where To Stay
+    dress_code_title: Dress Code
+    dress_code_intro: >
+      We’d love to see our friends and family dressed up for our big day! While we encourage elegant attire, there's no need for anything too formal. Your comfort is what matters most.
+    dress_code_palette: >
+      Our dress code is cocktail/semi-formal, and the colour palette of our wedding largely consists of burgundy <span style="color: transparent; text-shadow: 0 0 0 #660505;">&#129505;</span>, navy blue <span style="color: transparent; text-shadow: 0 0 0 #343173;">&#129505;</span>, and emerald green <span style="color: transparent; text-shadow: 0 0 0 #00674F;">&#129505;</span>. We kindly ask that you avoid white, ivory, and cream, as these are traditionally reserved for the bride. Due to uneven terrain, stilettos are not recommended. Block heels, wedges, or flats will keep you comfortable throughout the day.
+    dress_code_weather: >
+      Quito’s weather can be unpredictable, with temperatures around 15-25&deg;C in the afternoon, dropping to around 10&deg;C at night, sometimes with light rain. Since parts of the celebration will be outdoors, we suggest bringing a light jacket or shawl just in case.
+    dress_code_closing: >
+      Most importantly, wear something you love, feel great in, and can dance all night in! &#10024;
+    where_to_stay_title: 'Where To Stay'
+    where_to_stay_intro: >
+      For convenience and safety, we recommend staying in Quito's north-central area or in the nearby valleys of Tumbaco, Cumbayá, or Puembo, as the wedding will take place in Guápulo and Puembo. These areas offer a variety of hotels and Airbnbs, making it easier to return safely after celebrating with us!
+    where_to_stay_hotel: >
+      We've secured a special rate at hotel %{hotel_link}, a charming 17<sup>th</sup> century hacienda near the wedding venue (15mins by car). This beautiful hotel features a swimming pool, fitness center, breakfast, and airport transfers for a comfortable stay. Our discounted rate is &#36;85 for a double room. You can email %{email_link}, mentioning <em>Hoorens–Leon wedding</em>, to book at this rate.
   exploring:
     title: 'Exploring Ecuador'
     quito_title: 'Quito'
