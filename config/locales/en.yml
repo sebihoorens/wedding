@@ -415,6 +415,18 @@ en:
     required: Required
     about_you_title: About You
     about_you_updates: Would you like us to send you updates to this email address?
+    about_you_first_name: First Name
+    about_you_last_name: Last Name
+    about_you_address: Address
+    about_you_address_street: Street
+    about_you_address_number: Number
+    about_you_address_city: City
+    about_you_address_zip: Zip/Postcode
+    about_you_address_province: Province
+    about_you_address_country: Country
+    about_you_address_invitation: We'll send the formal invitation to this address.
+    about_you_diet: Dietary Preferences
+    about_you_diet_example: For example, vegan, vegetarian, gluten free, and any allergies or intolerances.
     about_you_joining: <strong>Will you be joining us?</strong>
     about_you_songs: Song Suggestions
     about_you_songs_crowd_sourcing: We're crowd sourcing our playlist! Choose some songs you'd like to hear.

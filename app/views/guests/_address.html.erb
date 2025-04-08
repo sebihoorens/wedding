@@ -1,38 +1,38 @@
 <div class="form-group row form-section">
   <div class="col-md-3">
-    <%= form.label :address, 'Address', class: 'col-form-label' %>
+    <%= form.label :address, t('rsvp.about_you_address'), class: 'col-form-label' %>
   </div>
   <div class="col-md-9">
     <div class="form-group row">
       <div class="form-group col-md-10">
-        <%= form.label :address_street, 'Street', class: 'col-form-label' %>
+        <%= form.label :address_street, t('rsvp.about_you_address_street'), class: 'col-form-label' %>
         <%= form.text_field :address_street, id: "#{id_stem}_address_street", class: 'form-control', autofocus: true, required: false %>
       </div>
       <div class="form-group col-md-2">
-        <%= form.label :address_number, 'Number', class: 'col-form-label' %>
+        <%= form.label :address_number, t('rsvp.about_you_address_number'), class: 'col-form-label' %>
         <%= form.text_field :address_number, id: "#{id_stem}_address_number", class: 'form-control', autofocus: true, required: false %>
       </div>
     </div>
     <div class="form-group row">
       <div class="form-group col-md-8">
-        <%= form.label :address_city, 'City', class: 'col-form-label' %>
+        <%= form.label :address_city, t('rsvp.about_you_address_city'), class: 'col-form-label' %>
         <%= form.text_field :address_city, id: "#{id_stem}_address_city", class: 'form-control', autofocus: true, required: false %>
       </div>
       <div class="form-group col-md-4">
-        <%= form.label :address_zip, 'Zip/Postcode', class: 'col-form-label' %>
+        <%= form.label :address_zip, t('rsvp.about_you_address_zip'), class: 'col-form-label' %>
         <%= form.text_field :address_zip, id: "#{id_stem}_address_zip", class: 'form-control', autofocus: true, required: false %>
       </div>
     </div>
     <div class="form-group row">
       <div class="form-group col-md-5">
-        <%= form.label :address_province, 'Province', class: 'col-form-label' %>
+        <%= form.label :address_province, t('rsvp.about_you_address_province'), class: 'col-form-label' %>
         <%= form.text_field :address_province, id: "#{id_stem}_address_province", class: 'form-control', autofocus: true, required: false %>
       </div>
       <div class="form-group col-md-5">
-        <%= form.label :address_country, 'Country', class: 'col-form-label' %>
+        <%= form.label :address_country, t('rsvp.about_you_address_country'), class: 'col-form-label' %>
         <%= form.country_select :address_country, %w[Belgium Ecuador], include_blank: true %>
       </div>
     </div>
-    <small class="form-text text-muted">We'll send the formal invitation to this address.</small>
+    <small class="form-text text-muted"><%= t('rsvp.about_you_address_invitation') %></small>
   </div>
 </div>
