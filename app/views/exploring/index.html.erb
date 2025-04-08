@@ -26,17 +26,17 @@
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742583721/464567819_8267470106691472_7707320191615684620_n_eyxqxp.jpg', class: 'story-flex-image') %>
       </div>
       <div>
-        <h3>Otavalo</h3>
-        <p>Known for hosting one of South America’s most iconic indigenous markets, Otavalo is a must-visit for culture lovers. At <em>La plaza de los ponchos</em>, you'll find a wide variety of handicrafts, textiles, and traditional artwork that reflect Ecuador’s indigenous heritage. As you wander through the market, you'll see skilled artisans selling everything from handwoven alpaca wool clothing to carved jewelry and colourful Andean souvenirs</p>
-        <p>A short drive away from the market, nature lovers can visit the <em>Cuicocha Lagoon</em>, a stunning crater lake with deep blue waters formed by a long-ago volcanic eruption. You can hike around or take a relaxing boat tour to enjoy the views.</p>
-        <p>Another highlight is the <em>Peguche Waterfall</em>, a sacred site for the Kichwa people, surrounded by a peaceful forest.</p>
+        <h3><%= t 'exploring.otavalo_title' %></h3>
+        <p><%= t('exploring.otavalo_body_market').html_safe %></p>
+        <p><%= t('exploring.otavalo_body_lagoon').html_safe %></p>
+        <p><%= t('exploring.otavalo_body_waterfall').html_safe %></p>
       </div>
     </div>
     <div class="story-flex-container">
       <div>
-        <h3>Cotopaxi National Park</h3>
-        <p>With wide open landscapes and the dramatic Cotopaxi Volcano towering above, this national park is a dream for hikers, bikers, and nature lovers. You can visit the mountain refuge <span style="white-space: nowrap;">(4&thinsp;800&thinsp;m)</span>, or, if you're up for a serious challenge, attempt to reach the top <span style="white-space: nowrap;">(5&thinsp;900&thinsp;m)</span> with a guide.</p>
-        <p>For an even more extreme adventure, head to <em>Chimborazo Volcano</em> <span style="white-space: nowrap;">(6&thinsp;300&thinsp;m)</span>, Ecuador’s tallest peak and the closest point to the sun on Earth. A lesser-known alternative is <em>Morurco</em>, a hidden gem behind the Cotopaxi, offering diverse hiking routes and breathtaking views, without the crowds.</p>
+        <h3><%= t 'exploring.cotopaxi_title' %></h3>
+        <p><%= t('exploring.cotopaxi_body_intro').html_safe %></p>
+        <p><%= t('exploring.cotopaxi_body_chimborazo').html_safe %></p>
       </div>
       <div>
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742584775/Cotopaxi_with_horses_view_trek_jp5kde.webp', class: 'story-flex-image') %>
