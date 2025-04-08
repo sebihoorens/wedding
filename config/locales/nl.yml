@@ -5,9 +5,11 @@ nl:
   wedding_country: 'Ecuador'
   confirm_your_presence: 'Bevestig uw aanwezigheid'
   navbar_home: Home
-  navbar_travel: 'Reis & Verblijf'
   home:
     jumbo_getting_married: "We gaan trouwen!"
     save_the_date_title: 'Save The Date'
     save_the_date_add_to_calendar: 'Aan kalender toevoegen'
-  story_title: 'Ons Verhaal'
+  story:
+    title: 'Ons Verhaal'
+  travel:
+    title: 'Reis & Verblijf'

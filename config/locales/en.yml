@@ -98,7 +98,26 @@ en:
     fun_facts_favourite_meal_a: 'Tigrillo! This was first Ecuadorian dish Jess felt the need to learn and share with Sebi, who loved it from the very beginning. Also, Belgian fries with mayo and joppie sauce.'
     fun_facts_weirdest_food_q: 'What is the weirdest food you’ve eaten?'
     fun_facts_weirdest_food_a: 'Lemon-flavored ants in Cuyabeno, Ecuador.'
-  travel_title: 'Travel & Stay'
+  travel:
+    title: 'Travel & Stay'
+    intro: >
+      For those considering traveling to Ecuador, we know that such a journey takes planning, time,
+      and financial commitment. We're incredibly grateful to anyone thinking about making the trip
+      to celebrate with us. To help you decide and prepare, we’ve put together some tips and
+      recommendations for travel, accommodations, and activities.
+    assist: >
+      We’re looking into ways to <strong>assist with logistics</strong>, such as airport transfers,
+      a shuttle to the church and venue, and a shared Airbnb for guests (possibly with a swimming
+      pool!). Additionally, we may be able to %{hotel_link}, including hotels near the venue. While
+      we can’t cover these costs, we’ll do our best to help coordinate. If you’d like to receive
+      updates about these arrangements by email, be sure to check the corresponding box during the
+      RSVP process.
+    assist_link: arrange discounts for accommodations
+    destination_title: The Destination
+    destination_regions: >
+      Ecuador, located in South America, is one of the most biodiverse countries in the world.
+      Being relatively small, it offers remarkably easy access to stunning landscapes across four
+      unique regions:
   travel_health_title: Health
   travel_safety_title: Safety
   wedding_day_title: 'The Day Of The Wedding'
