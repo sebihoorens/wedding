@@ -11,7 +11,7 @@
     %>
     <div class="row">
       <div class="col-md-12 text-center">
-        <h1><%= t :welcome_save_the_date %></h1>
+        <h1><%= t 'home.save_the_date_title' %></h1>
       </div>
     </div>
     <div class="row">
@@ -25,7 +25,7 @@
           <%= t :wedding_date %><br>
           &nbsp;<br>
         </p>
-        <p><%= link_to t(:wedding_add_to_calendar), 'wedding.ics' %></p>
+        <p><%= link_to t('home.save_the_date_add_to_calendar'), 'wedding.ics' %></p>
       </div>
       <div class="col-md-4 text-center">
         <%= link_to @google_maps_guapulo_url, target: :_blank do -%>

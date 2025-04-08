@@ -1,6 +1,6 @@
 <section id="welcome-index-wedding-plan-leader" class="jumbotron text-center">
   <div class="container">
-    <h1><%= t :the_plan_title %></h1>
+    <h1><%= t 'home.plan_title' %></h1>
   </div>
 </section>
 <section class="default-content">
@@ -8,31 +8,31 @@
     <div class="row">
       <div class="offset-md-3 col-md-6">
         <br><br>
-        <p><%= t(:welcome_plan_to_wedding_day, travel_href: link_to(t(:travel_title), travel_and_stay_path), wedding_day_href: link_to(t(:wedding_day_title), "#{travel_and_stay_path}#wedding-day-index-leader")).html_safe %></p>
+        <p><%= t('home.plan_to_wedding_day', travel_href: link_to(t(:travel_title), travel_and_stay_path), wedding_day_href: link_to(t(:wedding_day_title), "#{travel_and_stay_path}#wedding-day-index-leader")).html_safe %></p>
 
-        <h2>Order Of The Day</h2>
-        <p>Santuario De Guápulo &#9962;</p>
+        <h2><%= t('home.plan_order_title') %></h2>
+        <p><%= t :church_name %> &#9962;</p>
         <dl class="row">
-          <dt class="col-2">2:30pm</dt>
-          <dd class="col-10">Guests start to arrive</dd>
+          <dt class="col-2"><%= t('home.plan_order_arrive_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_arrive_body') %></dd>
 
-          <dt class="col-2">3pm</dt>
-          <dd class="col-10">Ecclesiastical ceremony</dd>
+          <dt class="col-2"><%= t('home.plan_order_ceremony_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_ceremony_body') %></dd>
         </dl>
 
-        <p>Quinta El Alcázar &#129346;</p>
+        <p><%= t :venue_name %> &#129346;</p>
         <dl class="row">
-          <dt class="col-2">4:30pm</dt>
-          <dd class="col-10">Cocktail hour with snacks</dd>
+          <dt class="col-2"><%= t('home.plan_order_cocktail_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_cocktail_body') %></dd>
 
-          <dt class="col-2">6pm</dt>
-          <dd class="col-10">Dinner and drinks</dd>
+          <dt class="col-2"><%= t('home.plan_order_dinner_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_dinner_body') %></dd>
 
-          <dt class="col-2">9pm</dt>
-          <dd class="col-10">Cutting of the cake, dancing and celebrations!</dd>
+          <dt class="col-2"><%= t('home.plan_order_cake_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_cake_body') %></dd>
 
-          <dt class="col-2">12am</dt>
-          <dd class="col-10">Bar closes</dd>
+          <dt class="col-2"><%= t('home.plan_order_bar_close_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_bar_close_body') %></dd>
         </dl>
 
         <h2>Menu</h2>

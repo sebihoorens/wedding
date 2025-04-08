@@ -30,20 +30,34 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  wedding_name: "Jess & Sebi's Wedding"
   wedding_couple_names: 'Jess & Sebi'
+  church_name: Santuario De Guápulo
+  venue_name: Quinta El Alcázar
+  wedding_name: "Jess & Sebi's Wedding"
   wedding_date: 'Saturday, 7 February 2026'
   wedding_reception_time: '2:30pm – 12am'
   wedding_country: Ecuador
-  church_name: Santuario De Guápulo
-  venue_name: Quinta El Alcázar
-  wedding_add_to_calendar: 'Add to calendar'
   confirm_your_presence: 'Confirm your presence'
   navbar_home: Home
-  welcome_getting_married: "We're getting married!"
-  welcome_save_the_date: 'Save The Date'
-  the_plan_title: 'The Plan'
-  welcome_plan_to_wedding_day: 'For practical details like the getting there, where to stay and dress code, check out the %{wedding_day_href} section on our %{travel_href} page.'
+  home:
+    jumbo_getting_married: "We're getting married!"
+    save_the_date_title: 'Save The Date'
+    save_the_date_add_to_calendar: 'Add to calendar'
+    plan_title: 'The Plan'
+    plan_to_wedding_day: 'For practical details like the getting there, where to stay and dress code, check out the %{wedding_day_href} section on our %{travel_href} page.'
+    plan_order_title: 'Order Of The day'
+    plan_order_arrive_time: 2:30pm
+    plan_order_arrive_body: Guests start to arrive
+    plan_order_ceremony_time: 3pm
+    plan_order_ceremony_body: Ecclesiastical ceremony
+    plan_order_cocktail_time: 4:30pm
+    plan_order_cocktail_body: Cocktail hour with snacks
+    plan_order_dinner_time: 6pm
+    plan_order_dinner_body: Dinner and drinks
+    plan_order_cake_time: 9pm
+    plan_order_cake_body: Cutting of the cake, dancing and celebrations!
+    plan_order_bar_close_time: 12am
+    plan_order_bar_close_body: Bar closes
   welcome_gifts_and_cards_title: 'Gifts & Cards'
   welcome_gifts_and_cards_body: "Your presence at our wedding is the greatest gift we could ask for, especially if you're crossing an ocean to be there! But if you're feeling extra generous and want to help us kick off married life, we'd be thrilled and grateful. You’ll find a little envelope with the invitation, feel free to drop it in the card box at the ceremony. Or if your suitcase is already full, you can send a contribution to:"
   travel_title: 'Travel & Stay'
