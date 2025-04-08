@@ -156,8 +156,42 @@ en:
     health_dining_out: >
       When dining out, opt for busy, well-reviewed restaurants and be cautious with street food, choosing vendors with high turnover. Sticking to thoroughly cooked meals and practicing good hygiene will help ensure a smooth and enjoyable trip!
     safety_title: Safety
-  wedding_day_title: 'The Day Of The Wedding'
-  wedding_day_children: '<strong>Children</strong> are welcome, but please keep in mind that there will be alcohol and possibly open fires. Please, make sure to include your children as plus ones when you RSVP. If many children attend, we may arrange for a nanny to help with supervision so you can fully enjoy the party. Unfortunately, <strong>pets</strong> are not allowed at the venue.'
+    safety_intro: >
+      Ecuador is a beautiful and welcoming country, but as with any travel destination, it’s important to stay aware of your surroundings and use your common sense. Official travel advisories from countries like Belgium, Canada, the UK, and the US provide useful information, but keep in mind that they tend to sound a bit dramatic (similar warnings exist for Brussels). With the right precautions, you’ll be able to fully enjoy your trip and explore with confidence. Here are some key tips to keep in mind:
+    safety_transport_title: 'Use safe transport'
+    safety_transport_body: >
+      Stick to hotel-arranged rides, Uber, or registered taxis.
+    safety_valuables_title: 'Keep valuables secure'
+    safety_valuables_body: >
+      Avoid displaying jewelry, expensive gadgets, or large amounts of cash. Use an anti-theft bag in busy areas.
+    safety_crowded_places_title: 'Stay aware in crowded places'
+    safety_crowded_places_body: >
+      Markets, bus stations, and tourist hotspots can attract pickpockets.
+    safety_scams_title: 'Beware of scams'
+    safety_scams_body: >
+      Be cautious of distraction tactics, like strangers asking for help with a map or newspaper. Stay alert.
+    safety_night_areas_title: 'Avoid certain areas at night'
+    safety_night_areas_body: >
+      Some neighborhoods in Guayaquil, Esmeraldas, Manabí, and Quito can be unsafe after dark. Ask locals or your hotel for advice, stick to well-lit areas, and avoid walking alone.
+    safety_cash_title: 'Withdraw cash safely'
+    safety_cash_body: >
+      Use ATMs inside banks or shopping malls, not on the street.
+    safety_documents_title: 'Keep copies of important documents'
+    safety_documents_body: >
+      Store copies of your passport, visa, and travel insurance separately from the originals.
+    safety_register_title: 'Register your travel'
+    safety_register_body: >
+      In case of emergency, government services can get in touch with you or your contact person and help you get back home. In Belgium, you can register with %{travellersonline_link}.
+    safety_closing: >
+      With basic precautions, Ecuador is an amazing place to visit! Stay safe, enjoy the wedding, and make the most of your time exploring.
+    wedding_day_title: 'The Day Of The Wedding'
+    wedding_day_to_plan: >
+      Looking for the schedule, gift information, or other wedding details? Head over to %{plan_link} on our homepage!
+    wedding_day_children: >
+      <strong>Children</strong> are welcome, but please keep in mind that there will be alcohol and
+      possibly open fires. Please, make sure to include your children as plus ones when you RSVP.
+      If many children attend, we may arrange for a nanny to help with supervision so you can fully
+      enjoy the party. Unfortunately, <strong>pets</strong> are not allowed at the venue.
   wedding_day_dress_code_title: Dress Code
   wedding_day_where_to_stay_title: Where To Stay
   exploring:

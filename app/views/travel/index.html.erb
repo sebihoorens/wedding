@@ -50,33 +50,33 @@
         <p><%= t('travel.health_dining_out').html_safe %></p>
 
         <h2 id="travel-safety"><%= t 'travel.safety_title' %></h2>
-        <p>Ecuador is a beautiful and welcoming country, but as with any travel destination, it’s important to stay aware of your surroundings and use your common sense. Official travel advisories from countries like Belgium, Canada, the UK, and the US provide useful information, but keep in mind that they tend to sound a bit dramatic (similar warnings exist for Brussels). With the right precautions, you’ll be able to fully enjoy your trip and explore with confidence. Here are some key tips to keep in mind:</p>
+        <p><%= t('travel.safety_intro').html_safe %></p>
         <dl class="row">
-          <dt class="col-sm-4">&#128661; Use safe transport</dt>
-          <dd class="col-sm-8">Stick to hotel-arranged rides, Uber, or registered taxis.</dd>
+          <dt class="col-sm-4">&#128661; <%= t('travel.safety_transport_title') %></dt>
+          <dd class="col-sm-8"><%= t('travel.safety_transport_body') %></dd>
 
-          <dt class="col-sm-4">&#127890; Keep valuables secure</dt>
-          <dd class="col-sm-8">Avoid displaying jewelry, expensive gadgets, or large amounts of cash. Use an anti-theft bag in busy areas.</dd>
+          <dt class="col-sm-4">&#127890; <%= t('travel.safety_valuables_title') %></dt>
+          <dd class="col-sm-8"><%= t('travel.safety_valuables_body') %></dd>
 
-          <dt class="col-sm-4">&#127757; Stay aware in crowded places</dt>
-          <dd class="col-sm-8">Markets, bus stations, and tourist hotspots can attract pickpockets.</dd>
+          <dt class="col-sm-4">&#127757; <%= t('travel.safety_crowded_places_title') %></dt>
+          <dd class="col-sm-8"><%= t('travel.safety_crowded_places_body') %></dd>
 
-          <dt class="col-sm-4">&#10071; Beware of scams</dt>
-          <dd class="col-sm-8">Be cautious of distraction tactics, like strangers asking for help with a map or newspaper. Stay alert.</dd>
+          <dt class="col-sm-4">&#10071; <%= t('travel.safety_scams_title') %></dt>
+          <dd class="col-sm-8"><%= t('travel.safety_scams_body') %></dd>
 
-          <dt class="col-sm-4">&#127769; Avoid certain areas at night</dt>
-          <dd class="col-sm-8">Some neighborhoods in Guayaquil, Esmeraldas, Manabí, and Quito can be unsafe after dark. Ask locals or your hotel for advice, stick to well-lit areas, and avoid walking alone.</dd>
+          <dt class="col-sm-4">&#127769; <%= t('travel.safety_night_areas_title') %></dt>
+          <dd class="col-sm-8"><%= t('travel.safety_night_areas_body') %></dd>
 
-          <dt class="col-sm-4">&#128176; Withdraw cash safely</dt>
-          <dd class="col-sm-8">Use ATMs inside banks or shopping malls, not on the street.</dd>
+          <dt class="col-sm-4">&#128176; <%= t('travel.safety_cash_title') %></dt>
+          <dd class="col-sm-8"><%= t('travel.safety_cash_body') %></dd>
 
-          <dt class="col-sm-4">&#128706; Keep copies of important documents</dt>
-          <dd class="col-sm-8">Store copies of your passport, visa, and travel insurance separately from the originals.</dd>
+          <dt class="col-sm-4">&#128706; <%= t('travel.safety_documents_title') %></dt>
+          <dd class="col-sm-8"><%= t('travel.safety_documents_body') %></dd>
 
-          <dt class="col-sm-4">&#128269; Register your travel</dt>
-          <dd class="col-sm-8">In case of emergency, government services can get in touch with you or your contact person and help you get back home. In Belgium, you can register with <a href="https://travellersonline.diplomatie.be/" target="_blank">travellersonline</a>.</dd>
+          <dt class="col-sm-4">&#128269; <%= t('travel.safety_register_title') %></dt>
+          <dd class="col-sm-8"><%= t('travel.safety_register_body', travellersonline_link: link_to('travellersonline', 'https://travellersonline.diplomatie.be/', target: '_blank')).html_safe %></dd>
         </dl>
-        <p>With basic precautions, Ecuador is an amazing place to visit! Stay safe, enjoy the wedding, and make the most of your time exploring.</p>
+        <p><%= t('travel.safety_closing').html_safe %></p>
       </div>
     </div>
   </div>
@@ -84,7 +84,7 @@
 
 <section id="wedding-day-index-leader" class="jumbotron text-center">
   <div class="container">
-    <h1><%= t :wedding_day_title %></h1>
+    <h1><%= t 'travel.wedding_day_title' %></h1>
   </div>
 </section>
 
@@ -93,8 +93,8 @@
     <div class="row">
       <div class="offset-md-3 col-md-6">
         <br><br>
-        <p>Looking for the schedule, gift information, or other wedding details? Head over to <%= link_to(t('home.plan_title'), "#{welcome_root_path}#welcome-index-wedding-plan-leader") %> on our homepage!</p>
-        <p><%= t(:wedding_day_children).html_safe %></p>
+        <p><%= t('travel.wedding_day_to_plan', plan_link: link_to(t('home.plan_title'), "#{welcome_root_path}#welcome-index-wedding-plan-leader")).html_safe %></p>
+        <p><%= t('travel.wedding_day_children').html_safe %></p>
 
         <h2 id="wedding-day-dress-code"><%= t(:wedding_day_dress_code_title) %></h2>
         <p>We’d love to see our friends and family dressed up for our big day! While we encourage elegant attire, there's no need for anything too formal. Your comfort is what matters most.</p>
