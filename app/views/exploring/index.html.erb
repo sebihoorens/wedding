@@ -79,10 +79,10 @@
     </div>
     <div class="story-flex-container">
       <div>
-        <h3>Baños</h3>
-        <p>Located between the Andes and the edge of the Amazon, Baños de Agua Santa is known as Ecuador’s adventure capital. Thrill-seekers can go rafting on the Pastaza River, canyoning through waterfalls, ziplining over deep canyons, or hiking scenic mountain trails.</p>
-        <p>Don’t miss the <em>Ruta de las Cascadas</em>, a road dotted with waterfalls, including the famous <em>Pailón del Diablo</em>, where walkways take you right up close to the roaring water. Visit the <em>Casa del Árbol</em>, home to the swing at the end of the world, where you can swing out over a cliff with amazing views of Tungurahua Volcano.</p>
-        <p>For a slower pace, relax in the town’s natural hot springs, which are said to have healing properties. Baños also has a fun and lively nightlife, with bars and clubs where travelers gather after a day outdoors.</p>
+        <h3><%= t 'exploring.banos_title' %></h3>
+        <p><%= t('exploring.banos_body_intro').html_safe %></p>
+        <p><%= t('exploring.banos_body_cascadas').html_safe %></p>
+        <p><%= t('exploring.banos_body_hot_springs').html_safe %></p>
       </div>
       <div>
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742584781/pailon_del_diablo_turismo_ecuador_24_um7vmp.jpg', class: 'story-flex-image') %>
@@ -95,32 +95,28 @@
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742759721/IMG_3574_wxxpun.jpg', class: 'story-flex-image') %>
       </div>
       <div>
-        <h3>The Amazon Rainforest</h3>
-        <p>Ecuador’s slice of the Amazon is one of the most biodiverse places on Earth. With a good guide and a bit of luck, you might spot monkeys, jaguars, sloths, tamanduas, toucans, anacondas (on the second picture, you can see one sleeping next to Sebi), caimans, iguanas, poison dart frogs, and the pink river dolphin. The legendary city of gold, El Dorado, was once believed to lie somewhere in the Ecuadorian Amazon.</p>
-        <p>There are several ways to explore this incredible ecosystem, depending on how deep into the jungle you want to go:</p>
+        <h3><%= t 'exploring.amazon_title' %></h3>
+        <p><%= t('exploring.amazon_body_intro').html_safe %></p>
         <dl class="row">
-          <dt class="col-sm-3">Cuyabeno & Yasuní</dt>
-          <dd class="col-sm-9">The most remote and pristine parts of Ecuador’s Amazon. These protected reserves are perfect for multi-day excursions and wildlife spotting. You'll travel by canoe, sleep in eco-lodges, and be fully immersed in nature.</dd>
-
-          <dt class="col-sm-3">Tena</dt>
-          <dd class="col-sm-9">Known as the gateway to the Amazon, it’s a great base for adventure sports like rafting, while still offering access to jungle experiences and cultural visits with indigenous communities.</dd>
-
-          <dt class="col-sm-3">Puyo</dt>
-          <dd class="col-sm-9">Easily reachable by road, Puyo offers shorter day trips into the rainforest, plus visits to animal rescue centers and botanical gardens.</dd>
-
-          <dt class="col-sm-3">Misahuallí</dt>
-          <dd class="col-sm-9">A small riverside town where monkeys roam freely in the central plaza. From here, you can arrange jungle tours and boat rides on the Napo river.</dd>
+          <dt class="col-sm-3"><%= t 'exploring.amazon_cuyabeno_title' %></dt>
+          <dd class="col-sm-9"><%= t 'exploring.amazon_cuyabeno_body' %></dd>
+          <dt class="col-sm-3"><%= t 'exploring.amazon_tena_title' %></dt>
+          <dd class="col-sm-9"><%= t 'exploring.amazon_tena_body' %></dd>
+          <dt class="col-sm-3"><%= t 'exploring.amazon_puyo_title' %></dt>
+          <dd class="col-sm-9"><%= t 'exploring.amazon_puyo_body' %></dd>
+          <dt class="col-sm-3"><%= t 'exploring.amazon_misahualli_title' %></dt>
+          <dd class="col-sm-9"><%= t 'exploring.amazon_misahualli_body' %></dd>
         </dl>
       </div>
     </div>
     <div class="story-flex-container">
       <div>
-        <h3>The Pacific Coast</h3>
-        <p>Ecuador’s Pacific Coast offers warm beaches, fresh seafood, and relaxed coastal vibes. While the beaches here may not be as remote or wildlife-rich as in the Galápagos, they're perfect for surfing, swimming, and enjoying a more budget-friendly trip.</p>
-        <p>Nature lovers should head to <em>Machalilla National Park</em>, a coastal reserve with dry forest trails, marine life, and some of Ecuador’s most scenic beaches. From <em>Puerto López</em>, you can visit the famous <em>Los Frailes</em> beach (popular for whale watching, but only between June and September).</p>
-        <p>For a slower pace, <em>Ayampe</em> is a peaceful surf town known for yoga retreats, beach walks, and amazing food. It’s quiet and relaxing, but close enough to <em>Montañita</em> and <em>Olón</em> if you’re looking for bars and nightlife.</p>
-        <p>Ecuador’s <em>coastal cuisine</em> is a highlight on its own. Try ceviche, encocado (a coconut seafood stew), grilled fish, and plantain-based dishes like patacones and bolones.</p>
-        <p>Avoid traveling at night and keep an eye on your belongings, especially on the beach or in busier towns. Most destinations not mentioned on this page are best avoided, and we don’t recommend visiting Guayaquil, unless absolutely necessary (e.g. for the airport).</p>
+        <h3><%= t 'exploring.coast_title' %></h3>
+        <p><%= t('exploring.coast_body_intro').html_safe %></p>
+        <p><%= t('exploring.coast_body_machalilla').html_safe %></p>
+        <p><%= t('exploring.coast_body_ayampe').html_safe %></p>
+        <p><%= t('exploring.coast_body_cuisine').html_safe %></p>
+        <p><%= t('exploring.coast_body_safety').html_safe %></p>
       </div>
       <div>
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742759481/Coast_los_Frailes_v7ong3.webp', class: 'story-flex-image') %>
@@ -131,11 +127,11 @@
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742759488/IMG_20211220_172625130_HDR_xhzpzk.jpg', class: 'story-flex-image') %>
       </div>
       <div>
-        <h3>The Galápagos Archipelago</h3>
-        <p>A true paradise on Earth, the Galápagos Islands are famous for their incredible wildlife and otherworldly landscapes. Because there are so few natural predators, animals here aren’t afraid of humans, making it easy to observe (and photograph) sea lions, blue-footed boobies, giant tortoises, penguins, iguanas, albatrosses, and more up close.</p>
-        <p>The islands inspired Charles Darwin’s theory of evolution, and today they remain one of the world’s most unique ecosystems. Strict conservation rules help keep it that way: you’re not allowed to touch the animals, feed them, or stray from marked paths. You also can't bring in fresh produce, seeds, or animal products, so pack accordingly.</p>
-        <p>To visit, you’ll need to fly from mainland Ecuador (Quito or Guayaquil) and pass through an extra checkpoint for your luggage. You’ll also pay two separate fees: a &#36;20 Transit Control Card at the airport, and a &#36;100 national park entrance fee upon arrival.</p>
-        <p>While it’s possible to plan your own visit, we strongly recommend going with a guide or a tour. Most places can only be accessed with authorized guides, and they’ll help you make the most of this once-in-a-lifetime experience.</p>
+        <h3><%= t 'exploring.galapagos_title' %></h3>
+        <p><%= t('exploring.galapagos_body_intro').html_safe %></p>
+        <p><%= t('exploring.galapagos_body_conservation').html_safe %></p>
+        <p><%= t('exploring.galapagos_body_visit').html_safe %></p>
+        <p><%= t('exploring.galapagos_body_guide').html_safe %></p>
       </div>
     </div>
   </div>
