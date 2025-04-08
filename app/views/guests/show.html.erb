@@ -4,7 +4,7 @@
     <div class="offset-lg-2 col-lg-8">
       <%= render partial: 'rsvp_nav', locals: { active: 1 } %>
 
-      <h2>About You</h2>
+      <h2><%= t('rsvp.about_you_title')  %></h2>
 
       <%= form_with(model: @guest, method: :patch, local: true, id: 'guest-edit-form') do |form| %>
         <div class="row">
@@ -25,16 +25,16 @@
 
         <div class="form-group row form-section">
         <div class="col-md-3">
-          <%= form.label :email_updates, 'Would you like us to send you updates to this email address?', class: 'col-form-label' %>
+          <%= form.label :email_updates, t('rsvp.about_you_updates'), class: 'col-form-label' %>
         </div>
         <div class="col-md-9">
           <div class="form-check form-check-inline">
             <%= form.radio_button :email_updates, 'true', required: true, checked: true, id: 'guest_email_updates_true', class: 'form-check-input' %>
-            <%= form.label :email_updates, 'Yes', value: 'true', class: 'form-check-label' %>
+            <%= form.label :email_updates, t('rsvp.yes'), value: 'true', class: 'form-check-label' %>
           </div>
           <div class="form-check form-check-inline">
             <%= form.radio_button :email_updates, 'false', id: 'guest_email_updates_false', class: 'form-check-input' %>
-            <%= form.label :email_updates, 'No', value: 'false', class: 'form-check-label' %>
+            <%= form.label :email_updates, t('rsvp.no'), value: 'false', class: 'form-check-label' %>
           </div>
         </div>
       </div>
@@ -45,17 +45,17 @@
 
         <div class="form-group row form-section">
           <div class="col-md-3">
-            <%= form.label :joining, '<strong>Will you be joining us?</strong>'.html_safe, class: 'col-form-label' %>
+            <%= form.label :joining, t('rsvp.about_you_joining').html_safe, class: 'col-form-label' %>
             <span class="wedding-required">*</span>
           </div>
           <div class="col-md-9">
             <div class="form-check form-check-inline">
               <%= form.radio_button :attending, 'true', required: true, id: 'guest_attending_true', class: 'form-check-input' %>
-              <%= form.label :attending, 'Yes', value: 'true', class: 'form-check-label' %>
+              <%= form.label :attending, t('rsvp.yes'), value: 'true', class: 'form-check-label' %>
             </div>
             <div class="form-check form-check-inline">
               <%= form.radio_button :attending, 'false', id: 'guest_attending_false', class: 'form-check-input' %>
-              <%= form.label :attending, 'No', value: 'false', class: 'form-check-label' %>
+              <%= form.label :attending, t('rsvp.no'), value: 'false', class: 'form-check-label' %>
             </div>
           </div>
         </div>
@@ -65,21 +65,21 @@
 
           <div class="form-group row">
             <div class="col-md-3">
-              <%= form.label :songs, 'Song Suggestions', class: 'col-form-label' %>
+              <%= form.label :songs, t('rsvp.about_you_songs'), class: 'col-form-label' %>
             </div>
             <div class="col-md-9">
               <%= form.text_area :songs, id: 'guest_songs', class: 'form-control' %>
-              <small class="form-text text-muted">We're crowd sourcing our playlist! Choose some songs you'd like to hear.</small>
+              <small class="form-text text-muted"><%= t('rsvp.about_you_songs_crowd_sourcing')  %></small>
             </div>
           </div>
         </div>
 
         <div class="row guests-buttons">
           <div class="col-md-3">
-            <span class="wedding-required">* Required</span>
+            <span class="wedding-required">* <%= t('rsvp.required')  %></span>
           </div>
           <div class="col-md-6 text-center">
-            <%= form.submit 'Continue', class: 'btn btn-primary', data: { disable_with: 'Sending...' } %>
+            <%= form.submit t('rsvp.continue'), class: 'btn btn-primary', data: { disable_with: t('rsvp.sending') } %>
           </div>
         </div>
       <% end %>

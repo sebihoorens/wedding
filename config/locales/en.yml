@@ -410,6 +410,13 @@ en:
     enter_email: Please enter your email address to begin.
     continue: Continue
     sending: Sending...
+    yes: Yes
+    no: No
+    required: Required
     about_you_title: About You
+    about_you_updates: Would you like us to send you updates to this email address?
+    about_you_joining: <strong>Will you be joining us?</strong>
+    about_you_songs: Song Suggestions
+    about_you_songs_crowd_sourcing: We're crowd sourcing our playlist! Choose some songs you'd like to hear.
     plus_ones_title: Plus Ones
     confirm_title: Confirm
