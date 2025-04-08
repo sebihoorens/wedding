@@ -53,7 +53,6 @@ en:
   wedding_day_children: '<strong>Children</strong> are welcome, but please keep in mind that there will be alcohol and possibly open fires. Please, make sure to include your children as plus ones when you RSVP. If many children attend, we may arrange for a nanny to help with supervision so you can fully enjoy the party. Unfortunately, <strong>pets</strong> are not allowed at the venue.'
   wedding_day_dress_code_title: Dress Code
   wedding_day_where_to_stay_title: Where To Stay
-  exploring_title: Exploring Ecuador
   story_title: 'Our Story'
   story_intro: "This is the story of two people who were born and raised in different parts of the world yet somehow found each other."
   story_jess: "Jess came to Belgium in 2020 for her master's program in physiotherapy. After a few weeks of online French classes (due to COVID) and only speaking Spanish with her family, she realized she needed more practice. So she joined an app to make new friends."
@@ -75,6 +74,35 @@ en:
   fun_facts_favourite_meal_a: 'Tigrillo! This was first Ecuadorian dish Jess felt the need to learn and share with Sebi, who loved it from the very beginning. Also, Belgian fries with mayo and joppie sauce.'
   fun_facts_weirdest_food_q: 'What is the weirdest food you’ve eaten?'
   fun_facts_weirdest_food_a: 'Lemon-flavored ants in Cuyabeno, Ecuador.'
+  exploring:
+    title: 'Exploring Ecuador'
+    quito_title: 'Quito'
+    quito_body_intro: >
+      Ecuador's capital <span style="white-space: nowrap;">(2&thinsp;850&thinsp;m)</span> is not just
+      where our wedding will take place, but it’s also where Jess was born and raised. Quito has the
+      best-preserved historic center in South America, with colonial churches and a rich blend of
+      history and culture.
+    quito_body_center: >
+      For a deeper dive into Quito’s past, we recommend the <em>Museo de la Ciudad</em> or <em>Casa
+      del Alabado</em>, both located in the center. Climb up <em>El Panecillo</em>, the iconic hill
+      where the <em>Virgin of the Apocalypse</em> stands as a protector of the city, unique for her
+      wings, chained serpent, and crescent moon. For a taste of local life and some great deals, head
+      to the artisan market in <em>La Mariscal</em>, where you'll find a variety of handmade crafts
+      and souvenirs.
+    quito_body_hikes: >
+      If you're feeling adventurous, hop on the <em>Teleférico</em> that takes you up to <span
+      style="white-space: nowrap;">3&thinsp;900&thinsp;m</span> for breathtaking views and mountain
+      hikes. For serious hikers, the nearby <em>Pichincha volcano</em> <span style="white-space:
+      nowrap;">(4&thinsp;900&thinsp;m)</span> offers great trails, but we strongly recommend going
+      with a guide for safety reasons.
+    quito_body_mitad_del_mundo: >
+      A little north of the city, you’ll find the <em>Mitad del Mundo</em>, the monument marking the
+      Equator, with an artisan market nearby (this one is more touristic than La Mariscal).
+    quito_body_stay: >
+      We suggest staying at least a week in Quito: two days to explore the city (keep an eye on your
+      belongings in busy areas), and the rest discovering nearby gems like <em>Papallacta</em> (hot
+      springs), <em>Otavalo</em>, <em>Mindo</em>, <em>Cotopaxi</em>, and the beautiful
+      <em>Quilotoa</em> lagoon. Bring warm layers when going up in the mountains.
   faq:
     title: Frequently Asked Questions
     no_invitation_title: "I didn't receive an invitation. Did you forget me?"

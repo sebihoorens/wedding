@@ -1,27 +1,19 @@
 <section id="exploring-index-leader" class="jumbotron text-center">
   <div class="container">
-    <h1><%= t :exploring_title %></h1>
+    <h1><%= t 'exploring.title' %></h1>
   </div>
 </section>
 
 <section class="default-content">
   <div class="container">
-    <% if false %>
-      <div class="row">
-          <p>
-            These are some of the many adventures you can embark on during your stay in Ecuador:
-          </p>
-      </div>
-      <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1740073839/9011_dlywjt.jpg', class: 'story-flex-image') %>
-    <% end %>
     <div class="story-flex-container">
       <div>
-        <h3>Quito</h3>
-        <p>Ecuador's capital <span style="white-space: nowrap;">(2&thinsp;850&thinsp;m)</span> is not just where our wedding will take place, but it’s also where Jess was born and raised. Quito has the best-preserved historic center in South America, with colonial churches and a rich blend of history and culture.</p>
-        <p>For a deeper dive into Quito’s past, we recommend the <em>Museo de la Ciudad</em> or <em>Casa del Alabado</em>, both located in the center. Climb up <em>El Panecillo</em>, the iconic hill where the <em>Virgin of the Apocalypse</em> stands as a protector of the city, unique for her wings, chained serpent, and crescent moon. For a taste of local life and some great deals, head to the artisan market in <em>La Mariscal</em>, where you'll find a variety of handmade crafts and souvenirs.</p>
-        <p>If you're feeling adventurous, hop on the <em>Teleférico</em> that takes you up to <span style="white-space: nowrap;">3&thinsp;900&thinsp;m</span> for breathtaking views and mountain hikes. For serious hikers, the nearby <em>Pichincha volcano</em> <span style="white-space: nowrap;">(4&thinsp;900&thinsp;m)</span> offers great trails, but we strongly recommend going with a guide for safety reasons.</p>
-        <p>A little north of the city, you’ll find the <em>Mitad del Mundo</em>, the monument marking the Equator, with an artisan market nearby (this one is more touristic than La Mariscal).</p>
-        <p>We suggest staying at least a week in Quito: two days to explore the city (keep an eye on your belongings in busy areas), and the rest discovering nearby gems like <em>Papallacta</em> (hot springs), <em>Otavalo</em>, <em>Mindo</em>, <em>Cotopaxi</em>, and the beautiful <em>Quilotoa</em> lagoon. Bring warm layers when going up in the mountains.</p>
+        <h3><%= t 'exploring.quito_title' %></h3>
+        <p><%= t('exploring.quito_body_intro').html_safe %></p>
+        <p><%= t('exploring.quito_body_center').html_safe %></p>
+        <p><%= t('exploring.quito_body_hikes').html_safe %></p>
+        <p><%= t('exploring.quito_body_mitad_del_mundo').html_safe %></p>
+        <p><%= t('exploring.quito_body_stay').html_safe %></p>
       </div>
       <div>
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742582913/quito-cotopaxi-ecuador-land_eaz3hq.webp', class: 'story-flex-image') %>
@@ -72,12 +64,15 @@
     <div class="story-flex-container">
       <div>
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742759481/cuenca-ecuador-27-dsc_6476_aagxsc.jpg', class: 'story-flex-image') %>
+        <br>
+        <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1744121446/temple_v0svz4.jpg', class: 'story-flex-image') %>
       </div>
       <div>
         <h3>Cuenca</h3>
         <p>A charming city full of history, colonial architecture, and vibrant local culture. Cuenca was once an important Inca city. Today, it’s also popular with digital nomads. Don’t miss the iconic blue domes of the <em>New Cathedral</em> (climb up before 4:00pm for a great view). Head to <em>Mercado 10 de Agosto</em> to try dishes like mote pillo (a typical Cuencano dish) or hornado.</p>
         <p>Take a double-decker bus ride to the <em>Mirador de Turi</em>, a hilltop viewpoint perfect for photos, or venture out to <em>Cajas National Park</em> for peaceful high-altitude hikes among lakes and dramatic landscapes.</p>
         <p>Fun fact: the <em>Panama Hat</em> actually comes from Cuenca, not Panama! You can even visit a hat museum to learn how they’re made. If you have extra time, explore <em>Saraguro</em> for Andean Kichwa culture, or visit <em>Gualaceo</em> and <em>Chordeleg</em>, known for their handmade jewelry and textiles (perfect for a unique souvenir).</p>
+        <p>Ecuador’s most important Inca ruins, <em>Ingapirca</em>, offers a glimpse into the country’s pre-Columbian history. Set in the highlands north of Cuenca, the site features stone walls, ritual spaces, and the famous <em>Temple of the Sun</em>. It’s a peaceful spot to explore and imagine how the Inca once lived.</p>
       </div>
     </div>
     <div class="story-flex-container">
