@@ -1,6 +1,6 @@
 <section id="faq-index-leader" class="jumbotron text-center">
   <div class="container">
-    <h1><%= t(:faq) %></h1>
+    <h1><%= t('faq.title') %></h1>
   </div>
 </section>
 
@@ -10,47 +10,52 @@
       <div class="accordion" id="accordionFaq">
 
         <div class="accordion-item">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoInvitation" aria-expanded="false" aria-controls="collapseNoInvitation">
+            <%= t('faq.no_invitation_title') %>
+          </button>
+          <div id="collapseNoInvitation" class="accordion-collapse collapse" aria-labelledby="headingNoInvitation" data-bs-parent="#accordionFaq">
+            <div class="accordion-body">
+              <p><%= t('faq.no_invitation_body', rsvp_link: link_to('RSVP', new_guest_path)).html_safe %></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCantMakeIt" aria-expanded="false" aria-controls="collapseCantMakeIt">
-            What should I do if I can't make it?
+            <%= t('faq.cant_make_it_title') %>
           </button>
           <div id="collapseCantMakeIt" class="accordion-collapse collapse" aria-labelledby="headingCantMakeIt" data-bs-parent="#accordionFaq">
             <div class="accordion-body">
-              <p>
-                Your presence will surely be missed. If you cannot attend, please let us know through the <%= link_to 'RSVP', new_guest_path %> by selecting <strong>No</strong> for the question <em>Will you be joining us?</em>. You can still change your mind before September 1<sup>st</sup>, by updating your <%= link_to 'RSVP', new_guest_path %> (using the same email address).
-              </p>
+              <p><%= t('faq.cant_make_it_body', rsvp_link: link_to('RSVP', new_guest_path)).html_safe %></p>
             </div>
           </div>
         </div>
 
         <div class="accordion-item">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRsvpTime" aria-expanded="false" aria-controls="collapseRsvpTime">
-            What if I don't RSVP in time?
+            <%= t('faq.rsvp_time_title') %>
           </button>
           <div id="collapseRsvpTime" class="accordion-collapse collapse" aria-labelledby="headingRsvpTime" data-bs-parent="#accordionFaq">
             <div class="accordion-body">
-              <p>
-                If you don't <%= link_to 'RSVP', new_guest_path %> by September 1<sup>st</sup>, we’ll assume you’re <em>not attending</em>. Unfortunately, we won’t be able to accommodate late confirmations after this date.
-              </p>
+              <p><%= t('faq.rsvp_time_body', rsvp_link: link_to('RSVP', new_guest_path)).html_safe %></p>
             </div>
           </div>
         </div>
 
         <div class="accordion-item">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePersonalData" aria-expanded="false" aria-controls="collapsePersonalData">
-            Will my personal data be shared with third parties?
+            <%= t('faq.personal_data_title') %>
           </button>
           <div id="collapsePersonalData" class="accordion-collapse collapse" aria-labelledby="headingPersonalData" data-bs-parent="#accordionFaq">
             <div class="accordion-body">
-              <p>
-                Nope! We built our own wedding website and host our own database in Amsterdam. Only we and our wedding planner have access to your information, and it won’t be shared with anyone else.
-              </p>
+              <p><%= t('faq.personal_data_body') %></p>
             </div>
           </div>
         </div>
 
         <div class="accordion-item">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChildrenPets" aria-expanded="false" aria-controls="collapseChildrenPets">
-            Are kids allowed? What about pets?
+            <%= t('faq.children_pets_title') %>
           </button>
           <div id="collapseChildrenPets" class="accordion-collapse collapse" aria-labelledby="headingChildrenPets" data-bs-parent="#accordionFaq">
             <div class="accordion-body">
@@ -61,25 +66,24 @@
 
         <div class="accordion-item">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVegan" aria-expanded="false" aria-controls="collapseVegan">
-            Will there be vegetarian/vegan meals? Will my food allergies be taken into account?
+            <%= t('faq.vegan_title') %>
           </button>
           <div id="collapseVegan" class="accordion-collapse collapse" aria-labelledby="headingVegan" data-bs-parent="#accordionFaq">
             <div class="accordion-body">
-              <p>
-                We’ll do our best to accommodate your dietary lifestyle and any food allergies by offering meal variations. Please let us know your needs when you <%= link_to 'RSVP', new_guest_path %>, and we’ll make the necessary arrangements!
-              </p>
+              <p><%= t('faq.vegan_body', rsvp_link: link_to('RSVP', new_guest_path)).html_safe %></p>
             </div>
           </div>
         </div>
 
         <div class="accordion-item">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGift" aria-expanded="false" aria-controls="collapseGift">
-            Should we bring a gift?
+            <%= t('faq.gift_title') %>
           </button>
           <div id="collapseGift" class="accordion-collapse collapse" aria-labelledby="headingGift" data-bs-parent="#accordionFaq">
             <div class="accordion-body">
               <p><%= t :welcome_gifts_and_cards_body %></p>
               <p class="account-info">BE26 0016 1911 7229</p>
+              <p class="account-info">Sébastien Hoorens &mdash; GEBABEBB (BNP Paribas Fortis)</p>
             </div>
           </div>
         </div>

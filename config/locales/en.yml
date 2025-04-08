@@ -75,4 +75,62 @@ en:
   fun_facts_favourite_meal_a: 'Tigrillo! This was first Ecuadorian dish Jess felt the need to learn and share with Sebi, who loved it from the very beginning. Also, Belgian fries with mayo and joppie sauce.'
   fun_facts_weirdest_food_q: 'What is the weirdest food you’ve eaten?'
   fun_facts_weirdest_food_a: 'Lemon-flavored ants in Cuyabeno, Ecuador.'
-  faq: Frequently Asked Questions
+  faq:
+    title: Frequently Asked Questions
+    no_invitation_title: "I didn't receive an invitation. Did you forget me?"
+    no_invitation_body: >
+      Not at all! We're first sending out the <em>Save The Dates</em> so everyone can
+      %{rsvp_link} and fill in their address. This way, we can send out the formal invitations
+      to everyone who is coming.
+    cant_make_it_title: "What should I do if I can't make it?"
+    cant_make_it_body: >
+      Your presence will surely be missed. If you cannot attend, please let us know through
+      %{rsvp_link} by selecting <strong>No</strong> for the question <em>Will you be joining us?</em>.
+      You can still change your mind before September 1<sup>st</sup>, by updating your %{rsvp_link}
+      (using the same email address).
+    rsvp_time_title: "What if I don't RSVP in time?"
+    rsvp_time_body: >
+      If you don't %{rsvp_link} by September 1<sup>st</sup>, we’ll assume you’re <em>not attending</em>.
+      Unfortunately, we won’t be able to accommodate late confirmations after this date.
+    personal_data_title: "Will my personal data be shared with third parties?"
+    personal_data_body: >
+      Nope! We built our own wedding website and host our own database in Amsterdam. Only we and our
+      wedding planner have access to your information, and it won’t be shared with anyone else.
+    children_pets_title: "Are kids allowed? What about pets?"
+    vegan_title: "Will there be vegetarian/vegan meals? Will my food allergies be taken into account?"
+    vegan_body: >
+      We’ll do our best to accommodate your dietary lifestyle and any food allergies by offering meal
+      variations. Please let us know your needs when you %{rsvp_link}, and we’ll make the necessary arrangements!
+    gift_title: "Should we bring a gift?"
+    dress_code_title: "Is there a dress code?"
+    dress_code_body: >
+      Our dress code is cocktail/semi-formal, but what matters most is your comfort. For more information,
+      go to the %{dress_code_link} section on our %{travel_link} page.
+    transport_title: "Do you have any recommendations for transport to/from the venue/church?"
+    transport_body: >
+      Yes! We're planning to provide a shuttle to go from the church to the venue. For more information on
+      getting to the church, go to the %{church_link} section on our %{travel_link} page. For more information
+      on getting to the venue, go to the %{venue_link} section on the same page.
+    hotels_title: "Do you have any recommendations for hotels situated near the venue?"
+    hotels_body: >
+      Yes, find out more on the %{where_to_stay_link} section on our %{travel_link} page.
+    pictures_title: "Can I upload pictures I took during the wedding?"
+    pictures_body: >
+      We’d like everyone to be fully present and enjoy the moment, so we kindly ask that you refrain from taking
+      pictures <em>during the ceremony</em>. We’ve hired a professional photographer, and we’ll share the wedding
+      photos on this website after our honeymoon.
+      <p>After the ceremony, feel free to take as many pictures as you like. If you want to share them with us,
+      you can get in touch with us <a href="mailto:jessi-leon@hotmail.com">by email</a>.</p>
+    plan_trip_title: "Any tips for planning our trip to Ecuador?"
+    plan_trip_body: >
+      Absolutely! For all the practical details, check out our %{travel_link} page. If you’re looking for inspiration
+      on things to do and places to visit, head over to our %{exploring_link} page. Happy planning!
+    safety_title: "Is it safe to travel to Ecuador?"
+    safety_body: >
+      Like any travel destination, Ecuador requires some basic precautions, but it’s a wonderful place to visit!
+      For tips on staying safe, check out the %{travel_safety_link} section on our %{travel_link} page.
+    vaccines_title: "What vaccines do I need for Ecuador?"
+    vaccines_body: >
+      The recommended vaccines are <strong>yellow fever</strong>, <strong>hepatitis A</strong>, and
+      <strong>tetanus-diphtheria-pertussis (whooping cough)</strong>. For more details, check out the
+      %{travel_health_link} section on our %{travel_link} page.
