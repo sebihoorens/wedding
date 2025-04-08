@@ -114,30 +114,30 @@
         </dl>
 
         <h2 id="wedding-day-church"><%= t :church_name %></h2>
-        <p>Our ecclesiastical ceremony is planned to take place at <strong>La Iglesia de Nuestra Señora de Guápulo</strong>, one of Quito’s oldest and most beautiful churches. This 17<sup>th</sup> century Baroque landmark sits on a small plateau between Quito and the Tumbaco Valley, along the historic route taken by Pizarro’s expedition to the Amazon.</p>
-        <p>While we are still awaiting final confirmation for our reservation at the Santuario De Guápulo, this remains our intended location. We will update you as soon as we have official confirmation.</p>
-        <p>Though Ecuadorians are known for their relaxed approach to timing, church ceremonies start promptly. We recommend <strong>arriving</strong> at least 20 minutes early (2:40pm) to ensure a smooth start.</p>
-        <p>&#128661; <strong>We recommend taking a taxi or Uber</strong> to get to the church. Make sure to use a registered taxi, with an orange license plate, and check that the meter is running correctly. If possible, book your taxi through a trusted hotel, restaurant or taxi app (we recommend Uber). Ask your driver to drop you off at the entrance of the church to avoid climbing up steep streets in formal attire.</p>
-        <p>&#128663; We do not reccomend going to the church by car, as it can be tricky for gringo's to navigate the streets of Quito. The parking of the church is small and street parking is scarce. If you still decide to come by car, we recommend these routes:</p>
+        <p><%= t('travel.church_intro').html_safe %></p>
+        <p><%= t('travel.church_confirmation').html_safe %></p>
+        <p><%= t('travel.church_timing').html_safe %></p>
+        <p>&#128661; <%= t('travel.church_transport').html_safe %></p>
+        <p>&#128663; <%= t('travel.church_parking').html_safe %></p>
         <dl class="row">
-          <dt class="col-4">From La Floresta / González Suárez</dt>
-          <dd class="col-8">Take Camino de Orellana, a steep and winding road (5-10 min).</dd>
+          <dt class="col-4"><%= t('travel.church_route_floresta_title') %></dt>
+          <dd class="col-8"><%= t('travel.church_route_floresta_body') %></dd>
 
-          <dt class="col-4">From La Carolina / La Mariscal</dt>
-          <dd class="col-8">Take Av. 6 de Diciembre, then González Suárez, then Camino de Orellana (15-20 min).</dd>
+          <dt class="col-4"><%= t('travel.church_route_carolina_title') %></dt>
+          <dd class="col-8"><%= t('travel.church_route_carolina_body') %></dd>
 
-          <dt class="col-4">From the center of Quito</dt>
-          <dd class="col-8">Take Av. 12 de Octubre, then González Suárez, then Camino de Orellana (15-20 min).</dd>
+          <dt class="col-4"><%= t('travel.church_route_center_title') %></dt>
+          <dd class="col-8"><%= t('travel.church_route_center_body') %></dd>
 
-          <dt class="col-4">From Cumbayá / Tumbaco</dt>
-          <dd class="col-8">Take Av. Simón Bolívar, then Interoceánica, then follow the signs to Guápulo (25-30 min).</dd>
+          <dt class="col-4"><%= t('travel.church_route_cumbaya_title') %></dt>
+          <dd class="col-8"><%= t('travel.church_route_cumbaya_body') %></dd>
         </dl>
-        <p>&#128694; If you're staying near González Suárez, you could get to the church by walking down the Camino de Orellana, but take into account that this is a steep descent that requires proper shoes.</p>
+        <p>&#128694; <%= t('travel.church_walking').html_safe %></p>
 
         <h2 id="wedding-day-venue"><%= t :venue_name %></h2>
-        <p>The reception with dinner and drinks will take place at Quinta El Alcázar in Puembo.</p>
-        <p>&#128656; We're planning to provide a shuttle to get to Quinta El Alcázar from the church.</p>
-        <p>&#128663; For those who prefer going by car (15-20 min): take  Camino de Orellana, then González Suárez, then Av. Simón Bolívar towards Tumbaco. Continue until you reach the signs for Quinta El Alcázar.</p>
+        <p><%= t('travel.venue_intro').html_safe %></p>
+        <p>&#128656; <%= t('travel.venue_shuttle').html_safe %></p>
+        <p>&#128663; <%= t('travel.venue_parking').html_safe %></p>
         <br><br>
       </div>
     </div>
