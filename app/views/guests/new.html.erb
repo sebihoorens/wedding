@@ -3,10 +3,9 @@
   <div class="row">
     <div class="offset-lg-2 col-lg-8">
       <br><br>
-      <p class="guests-p-justify">We can’t wait to celebrate with you! Please RSVP as soon as possible so we can reserve your seat and a slice of cake. If plans change and you can’t make it, let us know at your earliest convenience. Kindly RSVP by <strong>September 1<sup>st</sup>, 2025</strong>.</p>
+      <p class="guests-p-justify"><%= t('rsvp.intro').html_safe %></p>
       <br><br>
-      <%# <p>Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd.</p> # Disabled emails %>
-      <p>Please enter your email address to begin.</p>
+      <p><%= t('rsvp.enter_email') %></p>
       <%= form_with scope: :guest, url: guests_path, local: true do |form| %>
       <div class="row">
         <div class="col-md-12">
@@ -26,9 +25,9 @@
       <div class="row guests-buttons">
         <div class="offset-md-3 col-md-6 text-center">
           <%- if ENV['RECAPTCHA_SECRET_KEY'].blank? -%>
-          <%= form.submit 'Continue', class: 'btn btn-primary', data: { disable_with: 'Sending...' } %>
+          <%= form.submit t('rsvp.continue'), class: 'btn btn-primary', data: { disable_with: t('rsvp.sending') } %>
           <%- else -%>
-          <%= invisible_recaptcha_tags text: 'Continue', class: 'btn btn-primary', data: { disable_with: 'Sending...' } %>
+          <%= invisible_recaptcha_tags text: t('rsvp.continue'), class: 'btn btn-primary', data: { disable_with: t('rsvp.sending') } %>
           <%- end -%>
         </div>
       </div>

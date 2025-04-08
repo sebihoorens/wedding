@@ -402,3 +402,11 @@ en:
       The recommended vaccines are <strong>yellow fever</strong>, <strong>hepatitis A</strong>, and
       <strong>tetanus-diphtheria-pertussis (whooping cough)</strong>. For more details, check out the
       %{travel_health_link} section on our %{travel_link} page.
+  rsvp:
+    intro: >
+      We can’t wait to celebrate with you! Please RSVP as soon as possible so we can reserve your
+      seat and a slice of cake. If plans change and you can’t make it, let us know at your earliest
+      convenience. Kindly RSVP by <strong>September 1<sup>st</sup>, 2025</strong>.
+    enter_email: Please enter your email address to begin.
+    continue: Continue
+    sending: Sending...
