@@ -47,15 +47,17 @@
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1741544283/landscape-e1467643435868_yfd3p6.jpg', class: 'story-flex-image') %>
       </div>
       <div>
-        <h3>Mindo</h3>
-        <p>Tucked into the cloud forest about two hours from Quito, Mindo is a favorite getaway for nature lovers and adventure seekers. It’s known for its rich biodiversity, with excellent birdwatching (keep an eye out for hummingbirds, toucans, and the bright red Andean cock-of-the-rock).</p>
-        <p>You can visit butterfly farms, hike to waterfalls, or ride a tarabita (cable car). If you're up for some action, try tubing on the Mindo River, ziplining, or even canyoning. For something more relaxing, visit a chocolate tour (we recommend <a href="https://maps.app.goo.gl/v4DtRPbUNdZPTJE87" target="_blank">Yumbos Chocolate</a>, where we had the best brownies of our life) and see how cacao is transformed into delicious chocolate.</p>
+        <h3><%= t 'exploring.mindo_title' %></h3>
+        <p><%= t('exploring.mindo_body_intro').html_safe %></p>
+        <p><%= t('exploring.mindo_body_activities').html_safe %></p>
+        <p><%= t('exploring.mindo_body_chocolate').html_safe %></p>
       </div>
     </div>
     <div class="story-flex-container">
       <div>
-        <h3>Quilotoa</h3>
-        <p>A stunning turquoise crater lake high in the Andes, formed by a long-ago volcanic eruption. You can hike along the rim for sweeping views, or walk down to the lake for a closer look. Try to go in the morning, as the crater often fills with mist in the afternoon. Nearby villages offer a glimpse into traditional Andean life.</p>
+        <h3><%= t 'exploring.quilotoa_title' %></h3>
+        <p><%= t('exploring.quilotoa_body_intro').html_safe %></p>
+        <p><%= t('exploring.quilotoa_body_tips').html_safe %></p>
       </div>
       <div>
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742760401/quilotoa-crater-lake_wq1sxw.jpg', class: 'story-flex-image') %>
@@ -68,11 +70,11 @@
         <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1744121446/temple_v0svz4.jpg', class: 'story-flex-image') %>
       </div>
       <div>
-        <h3>Cuenca</h3>
-        <p>A charming city full of history, colonial architecture, and vibrant local culture. Cuenca was once an important Inca city. Today, it’s also popular with digital nomads. Don’t miss the iconic blue domes of the <em>New Cathedral</em> (climb up before 4:00pm for a great view). Head to <em>Mercado 10 de Agosto</em> to try dishes like mote pillo (a typical Cuencano dish) or hornado.</p>
-        <p>Take a double-decker bus ride to the <em>Mirador de Turi</em>, a hilltop viewpoint perfect for photos, or venture out to <em>Cajas National Park</em> for peaceful high-altitude hikes among lakes and dramatic landscapes.</p>
-        <p>Fun fact: the <em>Panama Hat</em> actually comes from Cuenca, not Panama! You can even visit a hat museum to learn how they’re made. If you have extra time, explore <em>Saraguro</em> for Andean Kichwa culture, or visit <em>Gualaceo</em> and <em>Chordeleg</em>, known for their handmade jewelry and textiles (perfect for a unique souvenir).</p>
-        <p>Ecuador’s most important Inca ruins, <em>Ingapirca</em>, offers a glimpse into the country’s pre-Columbian history. Set in the highlands north of Cuenca, the site features stone walls, ritual spaces, and the famous <em>Temple of the Sun</em>. It’s a peaceful spot to explore and imagine how the Inca once lived.</p>
+        <h3><%= t 'exploring.cuenca_title' %></h3>
+        <p><%= t('exploring.cuenca_body_intro').html_safe %></p>
+        <p><%= t('exploring.cuenca_body_activities').html_safe %></p>
+        <p><%= t('exploring.cuenca_body_food').html_safe %></p>
+        <p><%= t('exploring.cuenca_body_facts').html_safe %></p>
       </div>
     </div>
     <div class="story-flex-container">
