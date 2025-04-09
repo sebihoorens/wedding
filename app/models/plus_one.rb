@@ -28,7 +28,7 @@ class PlusOne < ApplicationRecord
 
   private def max_one_partner
     if household_role == 'partner' && guest.plus_ones.where.not(id: id).exists?(household_role: 'partner')
-      errors.add(:household_role, 'While we respect your views on polygamy, we kindly ask that you bring just one partner.')
+      errors.add(:household_role, I18n.t('rsvp.polygamy'))
     end
   end
 end

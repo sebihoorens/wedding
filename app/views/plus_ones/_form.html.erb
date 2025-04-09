@@ -12,20 +12,20 @@
   <div class="form-group row">
     <div class="offset-md-3 col-md-9">
       <div class="form-check form-check-inline">
-        <%= form.select :household_role, [['Child (12 or under)', 'child_12_or_under'], ['Child (over 12)', 'child_over_12'], ['Partner', 'partner']], selected: (@plus_one.household_role || 'child_12_or_under') %>
+        <%= form.select :household_role, [[t('rsvp.plus_ones_child_12_or_under'), 'child_12_or_under'], [t('rsvp.plus_ones_child_over_12'), 'child_over_12'], [t('rsvp.plus_ones_partner'), 'partner']], selected: (@plus_one.household_role || 'child_12_or_under') %>
       </div>
     </div>
   </div>
 
   <div class="row guests-buttons">
     <div class="col-md-3">
-      <span class="wedding-required">* Required</span>
+      <span class="wedding-required">* <%= t('rsvp.required')  %></span>
     </div>
     <div class="col-md-6 text-center">
-      <%= form.submit submit_action, class: 'btn btn-primary', data: { disable_with: 'Sending...' } %>
+      <%= form.submit submit_action, class: 'btn btn-primary', data: { disable_with: t('rsvp.sending') } %>
     </div>
     <div class="col-md-3 text-right">
-      <%= link_to 'Cancel', guest_plus_ones_path(@guest), class: 'btn btn-secondary' %>
+      <%= link_to t('rsvp.cancel'), guest_plus_ones_path(@guest), class: 'btn btn-secondary' %>
     </div>
   </div>
 <% end %>

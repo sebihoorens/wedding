@@ -2,11 +2,11 @@
 <div class="container">
   <div class="row">
     <div class="offset-lg-2 col-lg-8">
-      <h2>Thanks!</h2>
-      <p>We've sent an email confirmation to <tt><%= @guest.email %></tt>.</p>
-      <p>If you don't receive the email within a few minutes, please check your spam folder, and if it's not there <%= mail_to ENV['CONTACT_EMAIL'], 'contact us' %>.</p>
+      <h2><%= t('rsvp.complete_thanks') %></h2>
+      <p><%= t('rsvp.complete_email_confirmation', guest_email: @guest.email).html_safe %></p>
+      <p><%= t('rsvp.complete_email_not_received', contact_link: mail_to(ENV['CONTACT_EMAIL'], t('rsvp.complete_email_contact_us'))).html_safe %></p>
       <%# <p>The email contains a link that you can use to update your RSVP later if you need to.</p> %>
-      <p><%= link_to 'Back to the Home Page', root_path %></p>
+      <p><%= link_to t('rsvp.complete_back_home'), root_path %></p>
     </div>
   </div>
 </div>

@@ -4,7 +4,7 @@
     <div class="offset-lg-2 col-lg-8">
       <%= render partial: 'rsvp_nav', locals: { active: 3 } %>
 
-      <h2>Confirm</h2>
+      <h2><%= t('rsvp.confirm_title') %></h2>
 
       <%= form_with(model: @guest, url: complete_guest_path(@guest), local: true) do |form| %>
       <div class="row">
@@ -14,7 +14,7 @@
       </div>
 
       <% if @guest.attending? %>
-      <h3>Your Details</h3>
+      <h3><%= t('rsvp.confirm_details') %></h3>
       <div class="card mb-3">
         <h5 class="card-header"><%= @guest.name %></h5>
         <div class="card-body">
@@ -28,15 +28,15 @@
           </div>
           <div class="row">
             <div class="col-md-4">
-              Would you like to receive updates by email?
+              <%= t('rsvp.about_you_updates') %>
             </div>
             <div class="col-md-8">
-              <p><%= @guest.email_updates ? 'Yes' : 'No' %></p>
+              <p><%= @guest.email_updates ? t('rsvp.yes') : t('rsvp.no') %></p>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              Address
+              <%= t('rsvp.about_you_address') %>
             </div>
             <div class="col-md-8">
               <% if @guest.address_street.present? && @guest.address_number.present? && @guest.address_city.present? %>
@@ -44,51 +44,51 @@
                 <pre><%= @guest.address_city %> <%= @guest.address_zip %></pre>
                 <pre><%= @guest.address_province %> <%= @guest.address_country %></pre>
               <% else %>
-                <p>(None)</p>
+                <p>(<%= t('rsvp.none') %>)</p>
               <% end %>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              Dietary Preferences
+              <%= t('rsvp.about_you_diet') %>
             </div>
             <div class="col-md-8">
               <% if @guest.diet.present? %>
                 <pre><%= @guest.diet %></pre>
               <% else %>
-                <p>(None)</p>
+                <p>(<%= t('rsvp.none') %>)</p>
               <% end %>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              Song Suggestions
+              <%= t('rsvp.about_you_songs') %>
             </div>
             <div class="col-md-8">
               <% if @guest.songs.present? %>
                 <pre><%= @guest.songs %></pre>
               <% else %>
-                <p>(None)</p>
+                <p>(<%= t('rsvp.none') %>)</p>
               <% end %>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12 text-right">
-              <%= link_to 'Edit', guest_path(@guest), class: 'card-link', data: { disable_with: 'Loading...' } %>
+              <%= link_to t('rsvp.edit'), guest_path(@guest), class: 'card-link', data: { disable_with: t('rsvp.loading') } %>
             </div>
           </div>
         </div>
       </div>
 
-      <h3>Plus Ones</h3>
+      <h3><%= t('rsvp.plus_ones_title') %></h3>
       <% if @guest.plus_ones.any? %>
         <%= render @guest.plus_ones %>
       <% else %>
-        <p>(None &mdash; just you.)</p>
+        <p>(<%= t('rsvp.none') %> &mdash; <%= t('rsvp.confirm_just_you') %>)</p>
       <% end %>
       <% else %>
-      <p>Sorry to hear you won't be joining us!</p>
-      <h3>Your Details</h3>
+      <p><%= t('rsvp.confirm_not_joining') %></p>
+      <h3><%= t('rsvp.confirm_details') %></h3>
       <div class="card mb-3">
         <h5 class="card-header"><%= @guest.name %></h5>
         <div class="card-body">
@@ -104,14 +104,14 @@
       </div>
       <% end %>
 
-      <h3>Other Comments?</h3>
+      <h3><%= t('rsvp.confirm_other_comments') %></h3>
 
       <%= form.text_area :notes, class: 'form-control' %>
-      <small class="form-text text-muted">Anything else you'd like to let us know?</small>
+      <small class="form-text text-muted"><%= t('rsvp.confirm_anything_else') %></small>
 
       <div class="row guests-buttons">
         <div class="offset-md-3 col-md-6 text-center">
-          <%= form.submit 'Complete RSVP', class: 'btn btn-primary', data: { disable_with: 'Sending...' } %>
+          <%= form.submit t('rsvp.confirm_complete'), class: 'btn btn-primary', data: { disable_with: t('rsvp.sending') } %>
         </div>
       </div>
       <% end %>

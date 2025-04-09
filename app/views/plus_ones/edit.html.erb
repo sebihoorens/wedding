@@ -4,8 +4,8 @@
     <div class="offset-lg-2 col-lg-8">
       <%= render partial: 'guests/rsvp_nav', locals: { active: 2 } %>
 
-      <h2>Edit Plus One</h2>
-      <%= render partial: 'form', locals: { submit_action: 'Save Plus One' } %>
+      <h2><%= t('rsvp.plus_ones_edit') %></h2>
+      <%= render partial: 'form', locals: { submit_action: t('rsvp.plus_ones_save') } %>
     </div>
   </div>
 </div>

@@ -5,6 +5,7 @@ nl:
   wedding_country: 'Ecuador'
   confirm_your_presence: 'Bevestig uw aanwezigheid'
   navbar_home: Home
+  problem: probleem
   home:
     jumbo_getting_married: "We gaan trouwen!"
     save_the_date_title: 'Save The Date'
