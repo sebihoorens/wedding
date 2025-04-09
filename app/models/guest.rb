@@ -32,10 +32,10 @@ class Guest < ApplicationRecord
 
   # Don't allow long or odd names in emails; may be spam.
   def email_safe_salutation
-    return 'Hello,' if
+    return "#{I18n.t('email.hello')}," if
       first_name.blank? || first_name !~ /\A[\p{Word}\s'-]{1,30}\z/i
 
-    "Dear #{first_name},"
+    "#{I18n.t('email.dear')} #{first_name},"
   end
 
   validates :address_street, :address_number, :address_city, :address_zip,

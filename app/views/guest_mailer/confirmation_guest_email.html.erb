@@ -1,21 +1,21 @@
 <p><%= @guest.email_safe_salutation %></p>
 
 <% if @guest.attending %>
-  <p>We look forward to seeing you on <%= t :wedding_date %>!</p>
-  <p>The location of the church is:</p>
+  <p><%= t 'email.guest_attending_look_forward', wedding_date: t(:wedding_date) %></p>
+  <p><%= t 'email.guest_attending_church_location' %></p>
   <address><%= render partial: 'application/wedding_address_church' %></address>
-  <p>The location and time of the ecclesiastical ceremony <strong>is not confirmed yet</strong>. Please, keep an eye out for updates on the wedding website or in your mailbox.</p>
-  <p>The location of the venue is:</p>
+  <p><%= t('email.guest_attending_church_time_not_confirmed').html_safe %></p>
+  <p><%= t 'email.guest_attending_venue_location' %></p>
   <address><%= render partial: 'application/wedding_address_venue' %></address>
 
-  <h3>Your RSVP</h3>
-  <p>You can always go back to the website and edit your RSVP.</p>
+  <h3><%= t 'email.guest_attending_rsvp_title' %></h3>
+  <p><%= t 'email.guest_attending_rsvp_edit' %></p>
 
-  <h3>Questions and answers</h3>
-  <p>Please check <%= link_to 'our wedding website', root_url %> for more information, or you can reply to this email.</p>
+  <h3><%= t 'email.guest_attending_questions_title' %></h3>
+  <p><%= t('email.guest_attending_questions_body', wedding_website: link_to(t('email.guest_attending_wedding_website'), root_url)).html_safe %></p>
 <% else %>
-  <p>We're sorry to hear you can't make it. If you change your mind, you can go back to the website update your RSVP.</p>
-  <p>We hope to see you another time!</p>
+  <p><%= t 'email.guest_not_attending_sorry' %></p>
+  <p><%= t 'email.guest_not_attending_hope' %></p>
 <% end %>
 
 <p>&nbsp;</p>

@@ -461,3 +461,17 @@ en:
     complete_email_contact_us: 'contact us'
     complete_back_home: Back to the Home Page
     polygamy: 'While we respect your views on polygamy, we kindly ask that you bring just one partner.'
+  email:
+    hello: Hello
+    dear: Dear
+    guest_attending_look_forward: We look forward to seeing you on %{wedding_date}!
+    guest_attending_church_location: 'The location of the church is:'
+    guest_attending_church_time_not_confirmed: 'The location and time of the ecclesiastical ceremony <strong>is not confirmed yet</strong>. Please, keep an eye out for updates on the wedding website or in your mailbox.'
+    guest_attending_venue_location: 'The location of the venue is:'
+    guest_attending_rsvp_title: 'Your RSVP'
+    guest_attending_rsvp_edit: 'You can always go back to the website and edit your RSVP.'
+    guest_attending_questions_title: 'Questions and answers'
+    guest_attending_questions_body: 'Please check %{wedding_website} for more information, or you can reply to this email.'
+    guest_attending_wedding_website: 'our wedding website'
+    guest_not_attending_sorry: "We're sorry to hear you can't make it. If you change your mind, you can go back to the website update your RSVP."
+    guest_not_attending_hope: 'We hope to see you another time!'
