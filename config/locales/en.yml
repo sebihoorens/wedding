@@ -33,7 +33,7 @@ en:
   wedding_couple_names: 'Jess & Sebi'
   church_name: Santuario De Guápulo
   venue_name: Quinta El Alcázar
-  wedding_name: "Jess & Sebi's Wedding"
+  wedding_name: "Jess & Sebi’s Wedding"
   wedding_date: 'Saturday, 7 February 2026'
   wedding_reception_time: '2:30pm – 12am'
   wedding_country: Ecuador
@@ -41,7 +41,7 @@ en:
   navbar_home: Home
   problem: problem
   home:
-    jumbo_getting_married: "We're getting married!"
+    jumbo_getting_married: "We’re getting married!"
     save_the_date_title: 'Save The Date'
     save_the_date_add_to_calendar: 'Add to calendar'
     plan_title: 'The Plan'
@@ -61,13 +61,13 @@ en:
     plan_order_bar_close_body: Bar closes
     plan_menu_title: Menu
     plan_menu_body: >
-      We haven't chosen the menu yet, but rest assured&mdash;it will be delicious, Ecuadorian, and
+      We haven’t chosen the menu yet, but rest assured&mdash;it will be delicious, Ecuadorian, and
       worth the wait. Stay tuned for more details!
     plan_gifts_and_cards_title: 'Gifts & Cards'
     plan_gifts_and_cards_body: >
-      Your presence at our wedding is the greatest gift we could ask for, especially if you're
-      crossing an ocean to be there! But if you're feeling extra generous and want to help us kick
-      off married life, we'd be thrilled and grateful. You’ll find a little envelope with the
+      Your presence at our wedding is the greatest gift we could ask for, especially if you’re
+      crossing an ocean to be there! But if you’re feeling extra generous and want to help us kick
+      off married life, we’d be thrilled and grateful. You’ll find a little envelope with the
       invitation, feel free to drop it in the card box at the ceremony. Or if your suitcase is
       already full, you can send a contribution to:
     plan_rsvp_title: RSVPs
@@ -80,10 +80,10 @@ en:
   story:
     title: 'Our Story'
     timeline_intro: "This is the story of two people who were born and raised in different parts of the world yet somehow found each other."
-    timeline_jess: "Jess came to Belgium in 2020 for her master's program in physiotherapy. After a few weeks of online French classes (due to COVID) and only speaking Spanish with her family, she realized she needed more practice. So she joined an app to make new friends."
+    timeline_jess: "Jess came to Belgium in 2020 for her master’s program in physiotherapy. After a few weeks of online French classes (due to COVID) and only speaking Spanish with her family, she realized she needed more practice. So she joined an app to make new friends."
     timeline_sebi: "And this is Sebi, who worked remotely during the pandemic and frequently went for walks in different places across Belgium. He was looking for someone to join him on these adventures."
     timeline_click: "What began as language practice turned into something deeper as we talked every day, met often, and really connected. Instead, we spent our time exploring new places, meeting family and friends, and making memories together."
-    timeline_move_in: "Time flew by, and after a year of dating, we decided to move in together. Jess' master program started, and we knew it would be harder to find the time to see each other as often as we had before."
+    timeline_move_in: "Time flew by, and after a year of dating, we decided to move in together. Jess’ master program started, and we knew it would be harder to find the time to see each other as often as we had before."
     timeline_proposed: "After three years together, we were more than sure that we wanted to spend the rest of our lives together and build a family. In the summer of 2024, when both of our families met for the first time, Sebi proposed."
     timeline_next_chapter: "Now, we are thrilled to invite you to join us for another chapter in our lives. We would love to have you there with us!"
     fun_facts_title: 'Fun Facts'
@@ -103,7 +103,7 @@ en:
     title: 'Travel & Stay'
     intro: >
       For those considering traveling to Ecuador, we know that such a journey takes planning, time,
-      and financial commitment. We're incredibly grateful to anyone thinking about making the trip
+      and financial commitment. We’re incredibly grateful to anyone thinking about making the trip
       to celebrate with us. To help you decide and prepare, we’ve put together some tips and
       recommendations for travel, accommodations, and activities.
     assist: >
@@ -345,20 +345,20 @@ en:
       While it’s possible to plan your own visit, we strongly recommend going with a guide or a tour. Most places can only be accessed with authorized guides, and they’ll help you make the most of this once-in-a-lifetime experience.
   faq:
     title: Frequently Asked Questions
-    no_invitation_title: "I didn't receive an invitation. Did you forget me?"
+    no_invitation_title: "I didn’t receive an invitation. Did you forget me?"
     no_invitation_body: >
       Not at all! We're first sending out the <em>Save The Dates</em> so everyone can
       %{rsvp_link} and fill in their address. This way, we can send out the formal invitations
       to everyone who is coming.
-    cant_make_it_title: "What should I do if I can't make it?"
+    cant_make_it_title: "What should I do if I can’t make it?"
     cant_make_it_body: >
       Your presence will surely be missed. If you cannot attend, please let us know through
       %{rsvp_link} by selecting <strong>No</strong> for the question <em>Will you be joining us?</em>.
       You can still change your mind before September 1<sup>st</sup>, by updating your %{rsvp_link}
       (using the same email address).
-    rsvp_time_title: "What if I don't RSVP in time?"
+    rsvp_time_title: "What if I don’t RSVP in time?"
     rsvp_time_body: >
-      If you don't %{rsvp_link} by September 1<sup>st</sup>, we’ll assume you’re <em>not attending</em>.
+      If you don’t %{rsvp_link} by September 1<sup>st</sup>, we’ll assume you’re <em>not attending</em>.
       Unfortunately, we won’t be able to accommodate late confirmations after this date.
     personal_data_title: "Will my personal data be shared with third parties?"
     personal_data_body: >
@@ -475,8 +475,8 @@ en:
     guest_attending_questions_title: 'Questions and answers'
     guest_attending_questions_body: 'Please check %{wedding_website} for more information, or you can reply to this email.'
     guest_attending_wedding_website: 'our wedding website'
-    guest_not_attending_sorry: "We're sorry to hear you can't make it. If you change your mind, you can go back to the website update your RSVP."
+    guest_not_attending_sorry: "We’re sorry to hear you can’t make it. If you change your mind, you can go back to the website update your RSVP."
     guest_not_attending_hope: 'We hope to see you another time!'
     admin_attending: confirmed their attendance.
-    admin_not_attending: can't make it.
+    admin_not_attending: can’t make it.
     admin_left_message: 'They left you a message:'
