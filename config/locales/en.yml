@@ -347,7 +347,7 @@ en:
     title: Frequently Asked Questions
     no_invitation_title: "I didn’t receive an invitation. Did you forget me?"
     no_invitation_body: >
-      Not at all! We're first sending out the <em>Save The Dates</em> so everyone can
+      Not at all! We’re first sending out the <em>Save The Dates</em> so everyone can
       %{rsvp_link} and fill in their address. This way, we can send out the formal invitations
       to everyone who is coming.
     cant_make_it_title: "What should I do if I can’t make it?"
@@ -376,7 +376,7 @@ en:
       go to the %{dress_code_link} section on our %{travel_link} page.
     transport_title: "Do you have any recommendations for transport to/from the venue/church?"
     transport_body: >
-      Yes! We're planning to provide a shuttle to go from the church to the venue. For more information on
+      Yes! We’re planning to provide a shuttle to go from the church to the venue. For more information on
       getting to the church, go to the %{church_link} section on our %{travel_link} page. For more information
       on getting to the venue, go to the %{venue_link} section on the same page.
     hotels_title: "Do you have any recommendations for hotels situated near the venue?"
@@ -437,7 +437,7 @@ en:
     about_you_diet_example: For example, vegan, vegetarian, gluten free, and any allergies or intolerances.
     about_you_joining: <strong>Will you be joining us?</strong>
     about_you_songs: Song Suggestions
-    about_you_songs_crowd_sourcing: We're crowd sourcing our playlist! Choose some songs you'd like to hear.
+    about_you_songs_crowd_sourcing: We’re crowd sourcing our playlist! Choose some songs you’d like to hear.
     plus_ones_title: Plus Ones
     plus_ones_let_us_know: Please let us know below if you're bringing someone else to the wedding.
     plus_ones_child: Child
@@ -451,9 +451,9 @@ en:
     confirm_title: Confirm
     confirm_details: Your Details
     confirm_just_you: just you.
-    confirm_not_joining: Sorry to hear you won't be joining us!
+    confirm_not_joining: Sorry to hear you won’t be joining us!
     confirm_other_comments: Other Comments?
-    confirm_anything_else: Anything else you'd like to let us know?
+    confirm_anything_else: Anything else you’d like to let us know?
     confirm_complete: Complete RSVP
     complete_thanks: Thanks!
     complete_email_confirmation: We've sent an email confirmation to <tt>%{guest_email}</tt>.

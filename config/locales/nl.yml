@@ -1,14 +1,11 @@
 nl:
-  wedding_name: "Jess & Sebi's Trouw"
+  wedding_name: "Jess & Sebi’s Trouw"
   wedding_date: 'Zaterdag, 7 februari 2026'
   wedding_reception_time: '14u30 – 0u00'
   wedding_country: 'Ecuador'
   confirm_your_presence: 'Bevestig uw aanwezigheid'
   navbar_home: Home
   problem: probleem
-  wedding_couple_names: 'Jess & Sebi'
-  church_name: Santuario De Guápulo
-  venue_name: Quinta El Alcázar
   home:
     jumbo_getting_married: "We gaan trouwen!"
     save_the_date_title: 'Save The Date'
@@ -52,7 +49,7 @@ nl:
     timeline_jess: "Jess kwam in 2020 naar België voor haar masteropleiding fysiotherapie. Na een paar weken online Franse lessen (vanwege COVID) en enkel Spaans spreken met haar familie, besefte ze dat ze meer oefening nodig had. Dus schreef ze zich in op een app om nieuwe vrienden te maken."
     timeline_sebi: "En dit is Sebi, die tijdens de pandemie op afstand werkte en vaak wandelingen maakte op verschillende plekken in België. Hij zocht iemand om hem te vergezellen op deze avonturen."
     timeline_click: "Wat begon als taaloefening groeide uit tot iets diepers terwijl we elke dag spraken, elkaar vaak ontmoetten en echt een klik hadden. We brachten onze tijd samen door met het verkennen van nieuwe plekken, familie en vrienden ontmoeten, en herinneringen maken."
-    timeline_move_in: "De tijd vloog voorbij, en na een jaar samen besloten we te gaan samenwonen. Jess' masteropleiding begon, en we wisten dat het moeilijker zou worden om elkaar zo vaak te zien als voorheen."
+    timeline_move_in: "De tijd vloog voorbij, en na een jaar samen besloten we te gaan samenwonen. Jess’ masteropleiding begon, en we wisten dat het moeilijker zou worden om elkaar zo vaak te zien als voorheen."
     timeline_proposed: "Na drie jaar samen waren we er meer dan zeker van dat we de rest van ons leven samen wilden doorbrengen en een gezin wilden stichten. In de zomer van 2024, toen onze families elkaar voor het eerst ontmoetten, deed Sebi zijn aanzoek."
     timeline_next_chapter: "Nu zijn we verheugd om jullie uit te nodigen voor een nieuw hoofdstuk in ons leven. We zouden het geweldig vinden als jullie erbij kunnen zijn!"
     fun_facts_title: 'Leuke Weetjes'
@@ -71,7 +68,7 @@ nl:
   travel:
     title: 'Reis & Verblijf'
     intro: >
-      Voor wie overweegt naar Ecuador te reizen, we begrijpen dat zo'n reis planning, tijd en
+      Voor wie overweegt naar Ecuador te reizen, we begrijpen dat zo’n reis planning, tijd en
       financiële inzet vraagt. We zijn ontzettend dankbaar aan iedereen die overweegt deze reis
       te maken om met ons te vieren. Om je te helpen beslissen en voorbereiden, hebben we enkele
       tips en aanbevelingen verzameld voor reis, verblijf en activiteiten.
@@ -87,7 +84,7 @@ nl:
     destination_regions: >
       Ecuador, gelegen in Zuid-Amerika, is een van de meest biodiverse landen ter wereld.
       Het land is relatief klein, maar biedt gemakkelijke toegang tot prachtige landschappen
-      verspreid over vier unieke regio's:
+      verspreid over vier unieke regio’s:
     destination_amazon_title: 'Het Amazonewoud'
     destination_amazon_body: 'Ontdek weelderige jungle, exotische dieren en inheemse culturen.'
     destination_andes_title: 'De Andes Bergen'
@@ -110,7 +107,7 @@ nl:
       zijn verkrijgbaar op de luchthaven, in winkelcentra en officiële winkels (paspoort vereist). Als je 
       telefoon het ondersteunt, is eSIM meestal duurder maar handiger, omdat je je abonnement direct bij aankomst 
       kunt activeren. %{airalo_link} biedt Ecuador-specifieke of regionale plannen, maar je kunt goedkopere 
-      eSIM-providers vinden via %{esimdb_link} (let op: de goedkope opties bevatten vaak geen bellen of sms'en 
+      eSIM-providers vinden via %{esimdb_link} (let op: de goedkope opties bevatten vaak geen bellen of sms’en 
       en kunnen al geactiveerd worden zodra je betaald hebt).
     currency: >
       Ecuador gebruikt de <strong>Amerikaanse dollar</strong>, maar betaalmethoden variëren. In Quito en grote 
@@ -178,7 +175,7 @@ nl:
       en met vertrouwen op verkenning gaan. Hier zijn enkele belangrijke tips:
     safety_transport_title: 'Gebruik veilig vervoer'
     safety_transport_body: >
-      Neem alleen door het hotel geregelde ritten, Uber, of geregistreerde taxi's.
+      Neem alleen door het hotel geregelde ritten, Uber, of geregistreerde taxi’s.
     safety_valuables_title: 'Hou waardevolle spullen veilig'
     safety_valuables_body: >
       Vermijd het tonen van sieraden, dure gadgets of grote geldbedragen. Gebruik een anti-diefstal tas in drukke gebieden.
@@ -188,7 +185,7 @@ nl:
     safety_scams_title: 'Pas op voor oplichting'
     safety_scams_body: >
       Wees voorzichtig met afleidingstactieken, zoals vreemden die om hulp vragen met een kaart of krant. Blijf alert.
-    safety_night_areas_title: "Vermijd bepaalde gebieden 's nachts"
+    safety_night_areas_title: "Vermijd bepaalde gebieden ’s nachts"
     safety_night_areas_body: >
       Sommige wijken in Guayaquil, Esmeraldas, Manabí en Quito kunnen onveilig zijn na zonsondergang. Vraag advies aan locals of je hotel, blijf in goed verlichte gebieden en vermijd alleen wandelen.
     safety_cash_title: 'Pin veilig'
@@ -206,14 +203,14 @@ nl:
     wedding_day_to_plan: >
       Op zoek naar het programma, informatie over geschenken of andere details? Ga naar %{plan_link} op onze homepage!
     wedding_day_children: >
-      <strong>Kinderen</strong> zijn welkom, maar houd er rekening mee dat er alcohol en mogelijk open vuur aanwezig zal zijn. Vermeld je kinderen alsjeblieft als plus ones wanneer je RSVP't. Als er veel kinderen komen, kunnen we mogelijk een oppas regelen zodat jij volop van het feest kunt genieten. Helaas zijn <strong>huisdieren</strong> niet toegestaan op de locatie.
+      <strong>Kinderen</strong> zijn welkom, maar houd er rekening mee dat er alcohol en mogelijk open vuur aanwezig zal zijn. Vermeld je kinderen alsjeblieft als plus ones wanneer je RSVP’t. Als er veel kinderen komen, kunnen we mogelijk een oppas regelen zodat jij volop van het feest kunt genieten. Helaas zijn <strong>huisdieren</strong> niet toegestaan op de locatie.
     dress_code_title: Dresscode
     dress_code_intro: >
       We zien onze vrienden en familie graag mooi gekleed op onze grote dag! Hoewel we elegante kleding aanmoedigen, hoeft het niet te formeel. Je comfort is het belangrijkst.
     dress_code_palette: >
-      Onze dresscode is cocktail/semi-formeel, en het kleurenpalet van onze bruiloft bestaat voornamelijk uit bordeauxrood <span style="color: transparent; text-shadow: 0 0 0 #660505;">&#129505;</span>, marineblauw <span style="color: transparent; text-shadow: 0 0 0 #343173;">&#129505;</span>, en smaragdgroen <span style="color: transparent; text-shadow: 0 0 0 #00674F;">&#129505;</span>. We vragen vriendelijk om wit, ivoor en crème te vermijden, aangezien deze kleuren traditioneel voor de bruid zijn. Vanwege het ongelijke terrein raden we stiletto's af. Blokhakken, sleehakken of platte schoenen houden je comfortabel gedurende de dag.
+      Onze dresscode is cocktail/semi-formeel, en het kleurenpalet van onze bruiloft bestaat voornamelijk uit bordeauxrood <span style="color: transparent; text-shadow: 0 0 0 #660505;">&#129505;</span>, marineblauw <span style="color: transparent; text-shadow: 0 0 0 #343173;">&#129505;</span>, en smaragdgroen <span style="color: transparent; text-shadow: 0 0 0 #00674F;">&#129505;</span>. We vragen vriendelijk om wit, ivoor en crème te vermijden, aangezien deze kleuren traditioneel voor de bruid zijn. Vanwege het ongelijke terrein raden we stiletto’s af. Blokhakken, sleehakken of platte schoenen houden je comfortabel gedurende de dag.
     dress_code_weather: >
-      Het weer in Quito kan onvoorspelbaar zijn, met temperaturen rond 15-25&deg;C in de middag, dalend tot ongeveer 10&deg;C 's nachts, soms met lichte regen. Aangezien delen van het feest buiten plaatsvinden, raden we aan om voor de zekerheid een licht jasje of sjaal mee te nemen.
+      Het weer in Quito kan onvoorspelbaar zijn, met temperaturen rond 15-25&deg;C in de middag, dalend tot ongeveer 10&deg;C ’s nachts, soms met lichte regen. Aangezien delen van het feest buiten plaatsvinden, raden we aan om voor de zekerheid een licht jasje of sjaal mee te nemen.
     dress_code_closing: >
       Het belangrijkste is dat je iets draagt waar je van houdt, waar je je geweldig in voelt, en waarin je de hele nacht kunt dansen! &#10024;
     where_to_stay_title: 'Waar Verblijven'
@@ -223,7 +220,7 @@ nl:
       We hebben een speciaal tarief geregeld bij hotel %{hotel_link}, een charmante haciënda uit de 17e eeuw vlakbij de trouwlocatie (15 minuten met de auto). Dit prachtige hotel beschikt over een zwembad, fitnesscentrum, ontbijt en luchthaventransfers voor een comfortabel verblijf. Ons gereduceerde tarief is &#36;85 voor een tweepersoonskamer. Je kunt mailen naar %{email_link}, met vermelding van <em>Hoorens–Leon bruiloft</em>, om tegen dit tarief te boeken.
     church_title: 'De Kerk'
     church_intro: >
-      Onze kerkelijke ceremonie staat gepland in <strong>La Iglesia de Nuestra Señora de Guápulo</strong>, een van de oudste en mooiste kerken van Quito. Dit barokke monument uit de 17e eeuw ligt op een klein plateau tussen Quito en de Tumbaco Vallei, langs de historische route die Pizarro's expeditie naar de Amazone volgde.
+      Onze kerkelijke ceremonie staat gepland in <strong>La Iglesia de Nuestra Señora de Guápulo</strong>, een van de oudste en mooiste kerken van Quito. Dit barokke monument uit de 17e eeuw ligt op een klein plateau tussen Quito en de Tumbaco Vallei, langs de historische route die Pizarro’s expeditie naar de Amazone volgde.
     church_confirmation: >
       Hoewel we nog wachten op de definitieve bevestiging van onze reservering bij het Santuario De Guápulo, blijft dit onze beoogde locatie. We zullen je updaten zodra we officiële bevestiging hebben.
     church_timing: >
@@ -261,7 +258,7 @@ nl:
       waar onze bruiloft plaatsvindt, maar ook waar Jess geboren en opgegroeid is. Quito heeft het best bewaarde 
       historische centrum van Zuid-Amerika, met koloniale kerken en een rijke mix van geschiedenis en cultuur.
     quito_body_center: >
-      Voor een diepere duik in Quito's verleden raden we het <em>Museo de la Ciudad</em> of <em>Casa del Alabado</em> 
+      Voor een diepere duik in Quito’s verleden raden we het <em>Museo de la Ciudad</em> of <em>Casa del Alabado</em> 
       aan, beide in het centrum. Klim naar <em>El Panecillo</em>, de iconische heuvel waar de <em>Maagd van de 
       Apocalyps</em> over de stad waakt, uniek vanwege haar vleugels, geketende slang en halvemaan. Voor een 
       proefje van het lokale leven en goede koopjes, ga naar de ambachtsmarkt in <em>La Mariscal</em>, waar je 
@@ -281,7 +278,7 @@ nl:
       kleding mee als je de bergen in gaat.
     otavalo_title: 'Otavalo'
     otavalo_body_market: >
-      Bekend om een van Zuid-Amerika's meest iconische inheemse markten, is Otavalo een must-see voor cultuurliefhebbers. Op <em>La plaza de los ponchos</em> vind je een grote verscheidenheid aan handwerk, textiel en traditionele kunst die Ecuador's inheemse erfgoed weerspiegelen. Terwijl je over de markt wandelt, zie je bekwame ambachtslieden die alles verkopen, van handgeweven alpacawollen kleding tot gesneden sieraden en kleurrijke Andes-souvenirs.
+      Bekend om een van Zuid-Amerika’s meest iconische inheemse markten, is Otavalo een must-see voor cultuurliefhebbers. Op <em>La plaza de los ponchos</em> vind je een grote verscheidenheid aan handwerk, textiel en traditionele kunst die Ecuador’s inheemse erfgoed weerspiegelen. Terwijl je over de markt wandelt, zie je bekwame ambachtslieden die alles verkopen, van handgeweven alpacawollen kleding tot gesneden sieraden en kleurrijke Andes-souvenirs.
     otavalo_body_lagoon: >
       Een kort ritje van de markt kunnen natuurliefhebbers het <em>Cuicocha meer</em> bezoeken, een prachtig kratermeer met diepblauw water gevormd door een vulkaanuitbarsting lang geleden. Je kunt er rondwandelen of een ontspannen boottocht maken om van het uitzicht te genieten.
     otavalo_body_waterfall: >
@@ -290,7 +287,7 @@ nl:
     cotopaxi_body_intro: >
       Met uitgestrekte landschappen en de imposante Cotopaxi Vulkaan die er bovenuit torent, is dit nationaal park een droom voor wandelaars, fietsers en natuurliefhebbers. Je kunt de bergschuilplaats bezoeken <span style="white-space: nowrap;">(4&thinsp;800&thinsp;m)</span>, of, als je een serieuze uitdaging aandurft, proberen de top te bereiken <span style="white-space: nowrap;">(5&thinsp;900&thinsp;m)</span> met een gids.
     cotopaxi_body_chimborazo: >
-      Voor een nog extremer avontuur, ga naar de <em>Chimborazo Vulkaan</em> <span style="white-space: nowrap;">(6&thinsp;300&thinsp;m)</span>, Ecuador's hoogste piek en het punt dat het dichtst bij de zon ligt op aarde. Een minder bekend alternatief is <em>Morurco</em>, een verborgen parel achter de Cotopaxi, met diverse wandelroutes en adembenemende uitzichten, zonder de drukte.
+      Voor een nog extremer avontuur, ga naar de <em>Chimborazo Vulkaan</em> <span style="white-space: nowrap;">(6&thinsp;300&thinsp;m)</span>, Ecuador’s hoogste piek en het punt dat het dichtst bij de zon ligt op aarde. Een minder bekend alternatief is <em>Morurco</em>, een verborgen parel achter de Cotopaxi, met diverse wandelroutes en adembenemende uitzichten, zonder de drukte.
     mindo_title: 'Mindo'
     mindo_body_intro: >
       Verscholen in het nevelwoud op ongeveer twee uur van Quito, is Mindo een favoriete bestemming voor natuurliefhebbers en avonturiers. Het staat bekend om zijn rijke biodiversiteit, met uitstekende mogelijkheden voor vogelspotten (let op kolibries, toekans en de felrode Andesrotshaan).
@@ -302,29 +299,29 @@ nl:
     quilotoa_body_intro: >
       Een prachtig turquoise kratermeer hoog in de Andes, gevormd door een vulkaanuitbarsting lang geleden. Je kunt langs de rand wandelen voor indrukwekkende uitzichten, of afdalen naar het meer voor een beter zicht.
     quilotoa_body_tips: >
-      Probeer 's ochtends te gaan, aangezien de krater vaak vol mist raakt in de middag. Nabijgelegen dorpjes bieden een kijkje in het traditionele Andes-leven.
+      Probeer ’s ochtends te gaan, aangezien de krater vaak vol mist raakt in de middag. Nabijgelegen dorpjes bieden een kijkje in het traditionele Andes-leven.
     cuenca_title: 'Cuenca'
     cuenca_body_intro: >
       Een charmante stad vol geschiedenis, koloniale architectuur en een levendige lokale cultuur. Cuenca was ooit een belangrijke Inca-stad. Tegenwoordig is het een van de Zuid-Amerikaanse steden met de hoogste levenskwaliteit, wat het populair maakt bij digitale nomaden.
     cuenca_body_activities: >
-      Mis de iconische blauwe koepels van de <em>Nieuwe Kathedraal</em> niet (klim voor 16u00 naar boven voor een prachtig uitzicht). Ga naar <em>Mercado 10 de Agosto</em> om gerechten zoals mote pillo (een typisch Cuencaans gerecht) of hornado te proeven. Maak een rit met een dubbeldekker naar het <em>Mirador de Turi</em>, een uitkijkpunt op een heuvel perfect voor foto's, of trek erop uit naar <em>Cajas Nationaal Park</em> voor rustige hooggebergtetochten tussen meren en dramatische landschappen.
+      Mis de iconische blauwe koepels van de <em>Nieuwe Kathedraal</em> niet (klim voor 16u00 naar boven voor een prachtig uitzicht). Ga naar <em>Mercado 10 de Agosto</em> om gerechten zoals mote pillo (een typisch Cuencaans gerecht) of hornado te proeven. Maak een rit met een dubbeldekker naar het <em>Mirador de Turi</em>, een uitkijkpunt op een heuvel perfect voor foto’s, of trek erop uit naar <em>Cajas Nationaal Park</em> voor rustige hooggebergtetochten tussen meren en dramatische landschappen.
     cuenca_body_food: >
       Leuk weetje: de <em>Panama Hoed</em> komt eigenlijk uit Cuenca, niet uit Panama! Je kunt zelfs een hoedenmuneum bezoeken om te leren hoe ze gemaakt worden. Als je extra tijd hebt, verken dan <em>Saraguro</em> voor Andes-Kichwa cultuur, of bezoek <em>Gualaceo</em> en <em>Chordeleg</em>, bekend om hun handgemaakte sieraden en textiel (perfect voor een uniek souvenir).
     cuenca_body_facts: >
-      Ecuador's belangrijkste Inca-ruïnes, <em>Ingapirca</em>, bieden een kijkje in de pre-Columbiaanse geschiedenis van het land. Gelegen in het hoogland ten noorden van Cuenca, heeft de site stenen muren, rituele ruimtes en de beroemde <em>Zonnetempel</em>. Het is een vredige plek om te verkennen en je voor te stellen hoe de Inca's hier ooit leefden.
+      Ecuador’s belangrijkste Inca-ruïnes, <em>Ingapirca</em>, bieden een kijkje in de pre-Columbiaanse geschiedenis van het land. Gelegen in het hoogland ten noorden van Cuenca, heeft de site stenen muren, rituele ruimtes en de beroemde <em>Zonnetempel</em>. Het is een vredige plek om te verkennen en je voor te stellen hoe de Inca’s hier ooit leefden.
     banos_title: 'Baños'
     banos_body_intro: >
-      Gelegen tussen de Andes en de rand van de Amazone, staat Baños de Agua Santa bekend als Ecuador's avontuurshoofdstad. Thrillseekers kunnen raften op de Pastaza-rivier, canyoning door watervallen, ziplinen over diepe kloven, of wandelen over schilderachtige bergpaden.
+      Gelegen tussen de Andes en de rand van de Amazone, staat Baños de Agua Santa bekend als Ecuador’s avontuurshoofdstad. Thrillseekers kunnen raften op de Pastaza-rivier, canyoning door watervallen, ziplinen over diepe kloven, of wandelen over schilderachtige bergpaden.
     banos_body_cascadas: >
       Mis de <em>Ruta de las Cascadas</em> niet, een weg bezaaid met watervallen, waaronder de beroemde <em>Pailón del Diablo</em>, waar wandelpaden je vlakbij het donderende water brengen. Bezoek het <em>Casa del Árbol</em>, thuis van de schommel aan het einde van de wereld, waar je over een klif kunt schommelen met een geweldig uitzicht op de Tungurahua-vulkaan.
     banos_body_hot_springs: >
       Voor een rustiger tempo kun je ontspannen in de natuurlijke warmwaterbronnen van de stad, waarvan gezegd wordt dat ze helende eigenschappen hebben. Baños heeft ook een levendig nachtleven, met bars en clubs waar reizigers samenkomen na een dag in de buitenlucht.
     amazon_title: 'Het Amazonewoud'
     amazon_body_intro: >
-      Ecuador's deel van de Amazone is een van de meest biodiverse plekken op aarde. Met een goede gids en een beetje geluk kun je apen, jaguars, luiaards, tamandua's, toekans, anaconda's, kaaimannen, leguanen, pijlgifkikkers en de roze rivierdolfijn spotten.
+      Ecuador’s deel van de Amazone is een van de meest biodiverse plekken op aarde. Met een goede gids en een beetje geluk kun je apen, jaguars, luiaards, tamandua’s, toekans, anaconda’s, kaaimannen, leguanen, pijlgifkikkers en de roze rivierdolfijn spotten.
     amazon_cuyabeno_title: 'Cuyabeno & Yasuní'
     amazon_cuyabeno_body: >
-      De meest afgelegen en ongerepte delen van Ecuador's Amazone. Deze beschermde reservaten zijn perfect voor meerdaagse excursies en het spotten van wilde dieren. Je reist per kano, slaapt in eco-lodges en bent volledig ondergedompeld in de natuur.
+      De meest afgelegen en ongerepte delen van Ecuador’s Amazone. Deze beschermde reservaten zijn perfect voor meerdaagse excursies en het spotten van wilde dieren. Je reist per kano, slaapt in eco-lodges en bent volledig ondergedompeld in de natuur.
     amazon_tena_title: 'Tena'
     amazon_tena_body: >
       Bekend als de poort naar de Amazone, is dit een geweldige uitvalsbasis voor avontuursporten zoals raften, terwijl je nog steeds toegang hebt tot jungleavonturen en culturele bezoeken aan inheemse gemeenschappen.
@@ -336,26 +333,26 @@ nl:
       Een klein stadje aan de rivier waar apen vrij rondlopen op het centrale plein. Van hieruit kun je jungletours en boottochtjes op de Napo-rivier regelen.
     coast_title: 'De Pacifische Kust'
     coast_body_intro: >
-      Ecuador's Pacifische kust biedt warme stranden, verse zeevruchten en een ontspannen kustsfeer. Hoewel de stranden hier misschien niet zo afgelegen of rijk aan wilde dieren zijn als op de Galápagos, zijn ze perfect om te surfen, zwemmen en te genieten van een budgetvriendelijkere trip.
+      Ecuador’s Pacifische kust biedt warme stranden, verse zeevruchten en een ontspannen kustsfeer. Hoewel de stranden hier misschien niet zo afgelegen of rijk aan wilde dieren zijn als op de Galápagos, zijn ze perfect om te surfen, zwemmen en te genieten van een budgetvriendelijkere trip.
     coast_body_machalilla: >
-      Natuurliefhebbers moeten naar het <em>Machalilla Nationaal Park</em>, een kustnatuurgebied met droge bosroutes, zeeleven en enkele van Ecuador's meest schilderachtige stranden. Vanuit <em>Puerto López</em> kun je het beroemde <em>Los Frailes</em> strand bezoeken (populair voor walvisspotten, maar alleen tussen juni en september).
+      Natuurliefhebbers moeten naar het <em>Machalilla Nationaal Park</em>, een kustnatuurgebied met droge bosroutes, zeeleven en enkele van Ecuador’s meest schilderachtige stranden. Vanuit <em>Puerto López</em> kun je het beroemde <em>Los Frailes</em> strand bezoeken (populair voor walvisspotten, maar alleen tussen juni en september).
     coast_body_ayampe: >
       Voor een rustiger tempo is <em>Ayampe</em> een vredige surfplaats bekend om zijn yogaretraites, strandwandelingen en geweldig eten. Het is rustig en ontspannend, maar dicht genoeg bij <em>Montañita</em> en <em>Olón</em> als je op zoek bent naar bars en nachtleven.
     coast_body_cuisine: >
-      Ecuador's <em>kustkeuken</em> is op zichzelf al een hoogtepunt. Probeer ceviche, encocado (een kokos-zeevruchtenstoofpot), gegrilde vis en gerechten op basis van bakbanaan zoals patacones en bolones.
+      Ecuador’s <em>kustkeuken</em> is op zichzelf al een hoogtepunt. Probeer ceviche, encocado (een kokos-zeevruchtenstoofpot), gegrilde vis en gerechten op basis van bakbanaan zoals patacones en bolones.
     coast_body_safety: >
-      Vermijd 's nachts reizen en let op je spullen, vooral op het strand of in drukkere plaatsen. De meeste bestemmingen die niet op deze pagina worden genoemd, kun je beter vermijden, en we raden af om Guayaquil te bezoeken, tenzij het absoluut noodzakelijk is (bijvoorbeeld voor de luchthaven).
+      Vermijd ’s nachts reizen en let op je spullen, vooral op het strand of in drukkere plaatsen. De meeste bestemmingen die niet op deze pagina worden genoemd, kun je beter vermijden, en we raden af om Guayaquil te bezoeken, tenzij het absoluut noodzakelijk is (bijvoorbeeld voor de luchthaven).
     galapagos_title: 'De Galápagos Archipel'
     galapagos_body_intro: >
       Een waar paradijs op aarde, de Galápagos-eilanden zijn beroemd om hun ongelooflijke wilde dieren en buitenaardse landschappen. Omdat er zo weinig natuurlijke roofdieren zijn, zijn de dieren hier niet bang voor mensen, waardoor je zeeleeuwen, blauwvoetgenten, reuzenschildpadden, pinguïns, leguanen, albatrossen en meer van dichtbij kunt observeren (en fotograferen).
     galapagos_body_conservation: >
-      De eilanden inspireerden Charles Darwins evolutietheorie, en vandaag blijven ze een van 's werelds meest unieke ecosystemen. Strenge natuurbeschermingsregels helpen dit zo te houden: je mag de dieren niet aanraken, voeren of van de aangegeven paden afwijken. Je mag ook geen vers fruit, zaden of dierlijke producten meenemen, dus pak je bagage daarop in.
+      De eilanden inspireerden Charles Darwins evolutietheorie, en vandaag blijven ze een van ’s werelds meest unieke ecosystemen. Strenge natuurbeschermingsregels helpen dit zo te houden: je mag de dieren niet aanraken, voeren of van de aangegeven paden afwijken. Je mag ook geen vers fruit, zaden of dierlijke producten meenemen, dus pak je bagage daarop in.
     galapagos_body_visit: >
       Om te bezoeken moet je vliegen vanaf het vasteland van Ecuador (Quito of Guayaquil) en door een extra controle van je bagage gaan. Je betaalt ook twee aparte vergoedingen: een Transit Control Card van &#36;20 op de luchthaven en een nationaal park toegangsprijs van &#36;100 bij aankomst.
     galapagos_body_guide: >
       Hoewel het mogelijk is om je eigen bezoek te plannen, raden we sterk aan om met een gids of een tour te gaan. De meeste plekken zijn alleen toegankelijk met erkende gidsen, en zij helpen je het meeste uit deze once-in-a-lifetime ervaring te halen.
   faq:
-    title: Veelgestelde Vragen
+    title: 'Veelgestelde Vragen'
     no_invitation_title: "Ik heb geen uitnodiging ontvangen. Zijn jullie mij vergeten?"
     no_invitation_body: >
       Helemaal niet! We sturen eerst de <em>Save The Dates</em> zodat iedereen kan 
@@ -403,10 +400,10 @@ nl:
     pictures_title: "Kan ik foto's uploaden die ik tijdens de bruiloft heb gemaakt?"
     pictures_body_ceremony: >
       We willen graag dat iedereen volledig aanwezig is en van het moment geniet, dus vragen we vriendelijk 
-      om geen foto's te maken <em>tijdens de ceremonie</em>. We hebben een professionele fotograaf ingehuurd, 
-      en we zullen de trouwfoto's na onze huwelijksreis op deze website delen.
+      om geen foto’s te maken <em>tijdens de ceremonie</em>. We hebben een professionele fotograaf ingehuurd, 
+      en we zullen de trouwfoto’s na onze huwelijksreis op deze website delen.
     pictures_body_reception: >
-      Na de ceremonie kun je zoveel foto's maken als je wilt. Als je ze met ons wilt delen, kun je contact 
+      Na de ceremonie kun je zoveel foto’s maken als je wilt. Als je ze met ons wilt delen, kun je contact 
       met ons opnemen <a href="mailto:jessi-leon@hotmail.com">via e-mail</a>.
     plan_trip_title: "Hebben jullie tips voor het plannen van onze reis naar Ecuador?"
     plan_trip_body: >
@@ -474,9 +471,9 @@ nl:
     confirm_not_joining: Jammer dat je er niet bij kunt zijn!
     confirm_other_comments: Andere Opmerkingen?
     confirm_anything_else: Wil je ons nog iets anders laten weten?
-    confirm_complete: RSVP Voltooien
-    complete_thanks: Bedankt!
-    complete_email_confirmation: We hebben een bevestigingsmail gestuurd naar <tt>%{guest_email}</tt>.
+    confirm_complete: 'RSVP Voltooien'
+    complete_thanks: 'Bedankt!'
+    complete_email_confirmation: 'We hebben een bevestigingsmail gestuurd naar <tt>%{guest_email}</tt>.'
     complete_email_not_received: Als je de e-mail niet binnen enkele minuten ontvangt, controleer dan je spam-map, en als die er niet is %{contact_link}.
     complete_email_contact_us: 'neem contact met ons op'
     complete_back_home: Terug naar de Homepagina
