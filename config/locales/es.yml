@@ -1,11 +1,8 @@
 es:
-  wedding_country: 'Ecuador'
-  wedding_couple_names: 'Jess & Sebi'
-  church_name: Santuario De Guápulo
-  venue_name: Quinta El Alcázar
   wedding_name: "La Boda de Jess & Sebi"
   wedding_date: 'Sábado, 7 de febrero de 2026'
   wedding_reception_time: '2:30pm – 12am'
+  wedding_country: 'Ecuador'
   confirm_your_presence: 'Confirma tu asistencia'
   navbar_home: Inicio
   problem: problema
