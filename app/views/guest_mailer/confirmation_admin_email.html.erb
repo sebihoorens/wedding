@@ -1,13 +1,13 @@
 <p><%= t 'email.hello' %>,</p>
 
 <% if @guest.attending %>
-  <p><%= @guest.first_name %> <%= @guest.last_name %> confirmed their attendance. </p>
+  <p><%= @guest.first_name %> <%= @guest.last_name %> <%=  t 'email.admin_attending' %></p>
 <% else %>
-  <p><%= @guest.first_name %> <%= @guest.last_name %> can't make it.</p>
+  <p><%= @guest.first_name %> <%= @guest.last_name %> <%=  t 'email.admin_not_attending' %></p>
 <% end %>
 
 <% if @guest.notes.present? %>
-  <p>They left you a message:</p>
+  <p><%=  t 'email.admin_left_message' %></p>
   <blockquote> <%= @guest.notes %></blockquote>
 <% end %>
 

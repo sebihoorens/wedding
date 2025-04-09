@@ -464,6 +464,8 @@ en:
   email:
     hello: Hello
     dear: Dear
+    rsvp_confirmation: 'RSVP Confirmation'
+    your_rsvp: 'Your RSVP'
     guest_attending_look_forward: We look forward to seeing you on %{wedding_date}!
     guest_attending_church_location: 'The location of the church is:'
     guest_attending_church_time_not_confirmed: 'The location and time of the ecclesiastical ceremony <strong>is not confirmed yet</strong>. Please, keep an eye out for updates on the wedding website or in your mailbox.'
@@ -475,3 +477,6 @@ en:
     guest_attending_wedding_website: 'our wedding website'
     guest_not_attending_sorry: "We're sorry to hear you can't make it. If you change your mind, you can go back to the website update your RSVP."
     guest_not_attending_hope: 'We hope to see you another time!'
+    admin_attending: confirmed their attendance.
+    admin_not_attending: can't make it.
+    admin_left_message: 'They left you a message:'
