@@ -284,14 +284,10 @@ en:
     mindo_body_intro: >
       Tucked into the cloud forest about two hours from Quito, Mindo is a favorite getaway for nature lovers and adventure seekers. It’s known for its rich biodiversity, with excellent birdwatching (keep an eye out for hummingbirds, toucans, and the bright red Andean cock-of-the-rock).
     mindo_body_activities: >
-      You can visit butterfly farms, hike to waterfalls, or ride a tarabita (cable car). If you're up for some action, try tubing on the Mindo River, ziplining, or even canyoning.
-    mindo_body_chocolate: >
-      For something more relaxing, visit a chocolate tour (we recommend <a href="https://maps.app.goo.gl/v4DtRPbUNdZPTJE87" target="_blank">Yumbos Chocolate</a>, where we had the best brownies of our life) and see how cacao is transformed into delicious chocolate.
+      You can visit butterfly farms, hike to waterfalls, or ride a tarabita (cable car). If you're up for some action, try tubing on the Mindo River, ziplining, or even canyoning. For something more relaxing, visit a chocolate tour (we recommend <a href="https://maps.app.goo.gl/v4DtRPbUNdZPTJE87" target="_blank">Yumbos Chocolate</a>, where we had the best brownies of our life) and see how cacao is transformed into delicious chocolate.
     quilotoa_title: 'Quilotoa'
-    quilotoa_body_intro: >
-      A stunning turquoise crater lake high in the Andes, formed by a long-ago volcanic eruption. You can hike along the rim for sweeping views, or walk down to the lake for a closer look.
-    quilotoa_body_tips: >
-      Try to go in the morning, as the crater often fills with mist in the afternoon. Nearby villages offer a glimpse into traditional Andean life.
+    quilotoa_body: >
+      A stunning turquoise crater lake high in the Andes, formed by a long-ago volcanic eruption. You can hike along the rim for sweeping views, or walk down to the lake for a closer look. Try to go in the morning, as the crater often fills with mist in the afternoon. Nearby villages offer a glimpse into traditional Andean life.
     cuenca_title: 'Cuenca'
     cuenca_body_intro: >
       A charming city full of history, colonial architecture, and vibrant local culture. Cuenca was once an important Inca city. Today, it's one of South America's cities with the best quality of life, making it popular with digital nomads.
@@ -310,9 +306,11 @@ en:
       For a slower pace, relax in the town’s natural hot springs, which are said to have healing properties. Baños also has a fun and lively nightlife, with bars and clubs where travelers gather after a day outdoors.
     amazon_title: 'The Amazon Rainforest'
     amazon_body_intro: >
-      Ecuador’s slice of the Amazon is one of the most biodiverse places on Earth. With a good guide and a bit of luck, you might spot monkeys, jaguars, sloths, tamanduas, toucans, anacondas, caimans, iguanas, poison dart frogs, and the pink river dolphin.
+      Ecuador’s slice of the Amazon is one of the most biodiverse places on Earth. With a good guide and a bit of luck, you might spot monkeys, jaguars, sloths, tamanduas, toucans, anacondas (on the second picture, you can see one sleeping next to Sebi), caimans, iguanas, poison dart frogs, and the pink river dolphin. The legendary city of gold, El Dorado, was once believed to lie somewhere in the Ecuadorian Amazon.
+    amazon_body_places: >
+      There are several ways to explore this incredible ecosystem, depending on how deep into the jungle you want to go:
     amazon_cuyabeno_title: 'Cuyabeno & Yasuní'
-    amazon_cuyabeno_body: >
+    amazon_cuyabeno_body: > 
       The most remote and pristine parts of Ecuador’s Amazon. These protected reserves are perfect for multi-day excursions and wildlife spotting. You'll travel by canoe, sleep in eco-lodges, and be fully immersed in nature.
     amazon_tena_title: 'Tena'
     amazon_tena_body: >

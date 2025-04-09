@@ -292,14 +292,10 @@ nl:
     mindo_body_intro: >
       Verscholen in het nevelwoud op ongeveer twee uur van Quito, is Mindo een favoriete bestemming voor natuurliefhebbers en avonturiers. Het staat bekend om zijn rijke biodiversiteit, met uitstekende mogelijkheden voor vogelspotten (let op kolibries, toekans en de felrode Andesrotshaan).
     mindo_body_activities: >
-      Je kunt vlindertuinen bezoeken, wandelen naar watervallen, of een ritje maken met de tarabita (kabelbaan). Voor wat meer actie kun je tubingen op de Mindo rivier, ziplinen, of zelfs canyoning proberen.
-    mindo_body_chocolate: >
-      Voor iets rustiger, bezoek een chocoladetour (we raden <a href="https://maps.app.goo.gl/v4DtRPbUNdZPTJE87" target="_blank">Yumbos Chocolate</a> aan, waar we de beste brownies van ons leven hadden) en zie hoe cacao wordt omgetoverd tot heerlijke chocolade.
+      Je kunt vlindertuinen bezoeken, wandelen naar watervallen, of een ritje maken met de tarabita (kabelbaan). Voor wat meer actie kun je tubingen op de Mindo rivier, ziplinen, of zelfs canyoning proberen. Voor iets rustiger, bezoek een chocoladetour (we raden <a href="https://maps.app.goo.gl/v4DtRPbUNdZPTJE87" target="_blank">Yumbos Chocolate</a> aan, waar we de beste brownies van ons leven hadden) en zie hoe cacao wordt omgetoverd tot heerlijke chocolade.
     quilotoa_title: 'Quilotoa'
-    quilotoa_body_intro: >
-      Een prachtig turquoise kratermeer hoog in de Andes, gevormd door een vulkaanuitbarsting lang geleden. Je kunt langs de rand wandelen voor indrukwekkende uitzichten, of afdalen naar het meer voor een beter zicht.
-    quilotoa_body_tips: >
-      Probeer ’s ochtends te gaan, aangezien de krater vaak vol mist raakt in de middag. Nabijgelegen dorpjes bieden een kijkje in het traditionele Andes-leven.
+    quilotoa_body: >
+      Een prachtig turquoise kratermeer hoog in de Andes, gevormd door een vulkaanuitbarsting lang geleden. Je kunt langs de rand wandelen voor indrukwekkende uitzichten, of afdalen naar het meer voor een beter zicht. Probeer ’s ochtends te gaan, aangezien de krater vaak vol mist raakt in de middag. Nabijgelegen dorpjes bieden een kijkje in het traditionele Andes-leven.
     cuenca_title: 'Cuenca'
     cuenca_body_intro: >
       Een charmante stad vol geschiedenis, koloniale architectuur en een levendige lokale cultuur. Cuenca was ooit een belangrijke Inca-stad. Tegenwoordig is het een van de Zuid-Amerikaanse steden met de hoogste levenskwaliteit, wat het populair maakt bij digitale nomaden.
@@ -317,20 +313,6 @@ nl:
     banos_body_hot_springs: >
       Voor een rustiger tempo kun je ontspannen in de natuurlijke warmwaterbronnen van de stad, waarvan gezegd wordt dat ze helende eigenschappen hebben. Baños heeft ook een levendig nachtleven, met bars en clubs waar reizigers samenkomen na een dag in de buitenlucht.
     amazon_title: 'Het Amazonewoud'
-    amazon_body_intro: >
-      Ecuador’s deel van de Amazone is een van de meest biodiverse plekken op aarde. Met een goede gids en een beetje geluk kun je apen, jaguars, luiaards, tamandua’s, toekans, anaconda’s, kaaimannen, leguanen, pijlgifkikkers en de roze rivierdolfijn spotten.
-    amazon_cuyabeno_title: 'Cuyabeno & Yasuní'
-    amazon_cuyabeno_body: >
-      De meest afgelegen en ongerepte delen van Ecuador’s Amazone. Deze beschermde reservaten zijn perfect voor meerdaagse excursies en het spotten van wilde dieren. Je reist per kano, slaapt in eco-lodges en bent volledig ondergedompeld in de natuur.
-    amazon_tena_title: 'Tena'
-    amazon_tena_body: >
-      Bekend als de poort naar de Amazone, is dit een geweldige uitvalsbasis voor avontuursporten zoals raften, terwijl je nog steeds toegang hebt tot jungleavonturen en culturele bezoeken aan inheemse gemeenschappen.
-    amazon_puyo_title: 'Puyo'
-    amazon_puyo_body: >
-      Gemakkelijk bereikbaar over de weg, biedt Puyo kortere dagtrips naar het regenwoud, plus bezoeken aan dierenopvangcentra en botanische tuinen.
-    amazon_misahualli_title: 'Misahuallí'
-    amazon_misahualli_body: >
-      Een klein stadje aan de rivier waar apen vrij rondlopen op het centrale plein. Van hieruit kun je jungletours en boottochtjes op de Napo-rivier regelen.
     coast_title: 'De Pacifische Kust'
     coast_body_intro: >
       Ecuador’s Pacifische kust biedt warme stranden, verse zeevruchten en een ontspannen kustsfeer. Hoewel de stranden hier misschien niet zo afgelegen of rijk aan wilde dieren zijn als op de Galápagos, zijn ze perfect om te surfen, zwemmen en te genieten van een budgetvriendelijkere trip.

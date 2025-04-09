@@ -1,0 +1,451 @@
+es:
+  wedding_country: 'Ecuador'
+  wedding_couple_names: 'Jess & Sebi'
+  church_name: Santuario De Guápulo
+  venue_name: Quinta El Alcázar
+  wedding_name: "La Boda de Jess & Sebi"
+  wedding_date: 'Sábado, 7 de febrero de 2026'
+  wedding_reception_time: '2:30pm – 12am'
+  confirm_your_presence: 'Confirma tu asistencia'
+  navbar_home: Inicio
+  problem: problema
+  home:
+    jumbo_getting_married: "¡Nos casamos!"
+    save_the_date_title: 'Reserva la Fecha'
+    save_the_date_add_to_calendar: 'Agregar al calendario'
+    plan_title: 'El Plan'
+    plan_to_wedding_day: 'Para detalles prácticos como cómo llegar, dónde alojarse y el código de vestimenta, revisa la sección %{wedding_day_href} en nuestra página de %{travel_href}.'
+    plan_order_title: 'Cronograma del Día'
+    plan_order_arrive_time: 2:30pm
+    plan_order_arrive_body: Llegada de los invitados
+    plan_order_ceremony_time: 3pm
+    plan_order_ceremony_body: Ceremonia eclesiástica
+    plan_order_cocktail_time: 4:30pm
+    plan_order_cocktail_body: Hora del cóctel con bocaditos
+    plan_order_dinner_time: 6pm
+    plan_order_dinner_body: Cena y bebidas
+    plan_order_cake_time: 9pm
+    plan_order_cake_body: '¡Corte del pastel, baile y celebración!'
+    plan_order_bar_close_time: 12am
+    plan_order_bar_close_body: Cierre del bar
+    plan_menu_title: Menú
+    plan_menu_body: >
+      Aún no hemos elegido el menú, pero no se preocupen&mdash;será delicioso, ecuatoriano, y
+      valdrá la pena la espera. ¡Manténganse atentos para más detalles!
+    plan_gifts_and_cards_title: 'Regalos y Tarjetas'
+    plan_gifts_and_cards_body: >
+      ¡Tu presencia en nuestra boda es el mejor regalo que podríamos pedir, especialmente si cruzas
+      un océano para estar aquí! Pero si te sientes extra generoso y quieres ayudarnos a comenzar
+      nuestra vida de casados, estaremos encantados y agradecidos. Encontrarás un pequeño sobre
+      con la invitación, siéntete libre de dejarlo en la caja de tarjetas en la ceremonia. O si tu
+      maleta ya está llena, puedes enviar una contribución a:
+    plan_rsvp_title: Confirmaciones
+    plan_rsvp_body: >
+      Por favor, confirma tu asistencia lo antes posible (antes del 1<sup>ro</sup> de septiembre)
+      para saber quién viene y asegurarnos de guardar un asiento y un pedazo de pastel para ti si
+      puedes venir. Si resulta que no puedes asistir, por favor avísanos lo antes posible.
+    footer_john_lees_miller: Gracias a John Lees-Miller por proporcionar la aplicación inicial en Rails en
+    footer_flaticon: Íconos de boda creados por Freepik, photo3idea_studio y Vector Squad en Flaticon
+  story:
+    title: 'Nuestra Historia'
+    timeline_intro: "Esta es la historia de dos personas que nacieron y se criaron en diferentes partes del mundo pero que de alguna manera se encontraron."
+    timeline_jess: "Jess vino a Bélgica en 2020 para su maestría en fisioterapia. Después de algunas semanas de clases de francés en línea (debido al COVID) y de hablar solo español con su familia, se dio cuenta de que necesitaba más práctica. Así que se unió a una aplicación para hacer nuevos amigos."
+    timeline_sebi: "Y este es Sebi, quien trabajaba remotamente durante la pandemia y frecuentemente salía a caminar por diferentes lugares de Bélgica. Estaba buscando a alguien que lo acompañara en estas aventuras."
+    timeline_click: "Lo que comenzó como práctica de idiomas se convirtió en algo más profundo mientras hablábamos todos los días, nos veíamos frecuentemente y realmente conectamos. Pasábamos nuestro tiempo explorando nuevos lugares, conociendo a familia y amigos, y creando memorias juntos."
+    timeline_move_in: "El tiempo voló, y después de un año de noviazgo, decidimos mudarnos juntos. El programa de maestría de Jess comenzaba, y sabíamos que sería más difícil encontrar tiempo para vernos tan seguido como antes."
+    timeline_proposed: "Después de tres años juntos, estábamos más que seguros de que queríamos pasar el resto de nuestras vidas juntos y formar una familia. En el verano de 2024, cuando nuestras familias se conocieron por primera vez, Sebi se propuso."
+    timeline_next_chapter: "Ahora, estamos emocionados de invitarte a que nos acompañes en otro capítulo de nuestras vidas. ¡Nos encantaría tenerte con nosotros!"
+    fun_facts_title: 'Datos Curiosos'
+    fun_facts_first_move_q: '¿Quién dio el primer paso?'
+    fun_facts_first_move_a: 'Después de una noche de fiesta con su prima Angela y una botella de tequila, Jess envió un mensaje diciendo lo lindo que sería pasar más tiempo juntos.'
+    fun_facts_first_date_q: '¿Dónde fue su primera cita?'
+    fun_facts_first_date_a: 'En el Parque de Tervuren, un hermoso espacio abierto donde caminamos por horas, hablando durante los tiempos de COVID. Jess se perdió cuando intentaba encontrarse con Sebi en la estación de metro.'
+    fun_facts_honeymoon_q: '¿A dónde van de luna de miel?'
+    fun_facts_honeymoon_a: 'Estamos planeando un viaje por varios países de Sudamérica comenzando el día después de la boda. Nuestra ruta incluye Colombia, Perú, Argentina o Brasil.'
+    fun_facts_first_holiday_q: '¿Dónde fueron sus primeras vacaciones juntos?'
+    fun_facts_first_holiday_a: 'En septiembre de 2021, pasamos unas hermosas vacaciones en Andalucía, disfrutando del clima cálido y la deliciosa comida española.'
+    fun_facts_favourite_meal_q: '¿Cuál es la comida favorita de la pareja?'
+    fun_facts_favourite_meal_a: '¡Tigrillo! Este fue el primer plato ecuatoriano que Jess sintió la necesidad de aprender y compartir con Sebi, quien lo amó desde el principio. También, las papas fritas belgas con mayonesa y salsa joppie.'
+    fun_facts_weirdest_food_q: '¿Cuál es la comida más rara que han probado?'
+    fun_facts_weirdest_food_a: 'Hormigas con sabor a limón en Cuyabeno, Ecuador.'
+  travel:
+    title: 'Viaje y Estadía'
+    intro: >
+      Para aquellos que están considerando viajar a Ecuador, sabemos que tal viaje requiere planificación,
+      tiempo y compromiso financiero. Estamos increíblemente agradecidos con cualquiera que esté pensando
+      en hacer el viaje para celebrar con nosotros. Para ayudarte a decidir y prepararte, hemos reunido
+      algunos consejos y recomendaciones para el viaje, alojamiento y actividades.
+    assist: >
+      Estamos buscando maneras de <strong>ayudar con la logística</strong>, como traslados desde el aeropuerto,
+      transporte a la iglesia y al local, y un Airbnb compartido para los invitados (¡posiblemente con piscina!).
+      Además, es posible que podamos %{hotel_link}, incluyendo hoteles cerca del local. Si bien no podemos cubrir
+      estos costos, haremos nuestro mejor esfuerzo para coordinar. Si deseas recibir actualizaciones sobre estos
+      arreglos por correo electrónico, asegúrate de marcar la casilla correspondiente durante el proceso de confirmación.
+    assist_link: conseguir descuentos en alojamientos
+    destination_title: El Destino
+    destination_regions: >
+      Ecuador, ubicado en Sudamérica, es uno de los países más biodiversos del mundo.
+      Al ser relativamente pequeño, ofrece un acceso sorprendentemente fácil a paisajes
+      impresionantes a través de cuatro regiones únicas:
+    destination_amazon_title: 'La Selva Amazónica'
+    destination_amazon_body: 'Explora selvas exuberantes, vida silvestre exótica y culturas indígenas.'
+    destination_andes_title: 'La Cordillera de los Andes'
+    destination_andes_body: 'Sube volcanes, visita pueblos andinos y disfruta de paisajes impresionantes.'
+    destination_pacific_title: 'La Costa del Pacífico'
+    destination_pacific_body: 'Relájate en playas de arena o surfea en pueblos costeros.'
+    destination_galapagos_title: 'Las Islas Galápagos'
+    destination_galapagos_body: 'Experimenta vida silvestre incomparable y playas prístinas.'
+    language: >
+      El idioma principal en Ecuador es el <strong>español</strong>. Todos hablan español en las ciudades, e incluso en áreas rurales la mayoría de la gente puede hablar español. Muchas personas también pueden hablar inglés, especialmente los jóvenes.
+    weather: >
+      El clima de Ecuador en febrero varía según la región debido a su diversa geografía. En Quito y la Sierra Andina, <strong>la temperatura está entre 13-25&deg;C</strong> con días templados, noches frescas y lluvia ocasional. Recomendamos traer una chaqueta ligera para la lluvia y revisar el pronóstico del tiempo antes de partir.
+    mobile_data: >
+      Para datos móviles confiables, un <strong>SIM local</strong> o <strong>eSIM</strong> es tu mejor opción. Claro ofrece la mejor cobertura, Movistar funciona bien en ciudades, y Tuenti es económico. Las tarjetas SIM están disponibles en el aeropuerto, centros comerciales y tiendas oficiales (pasaporte requerido). Si tu teléfono lo soporta, el eSIM suele ser más caro pero más conveniente, ya que puedes activar tu plan inmediatamente al llegar. %{airalo_link} ofrece planes específicos para Ecuador o regionales, pero puedes encontrar proveedores de eSIM más económicos a través de %{esimdb_link} (atención: los económicos a menudo no incluyen llamadas o SMS y pueden activarse tan pronto como pagues).
+    currency: >
+      Ecuador usa el <strong>dólar estadounidense</strong>, pero los métodos de pago varían. En Quito y ciudades principales, la mayoría de restaurantes, supermercados y centros comerciales aceptan tarjetas, mientras que tiendas pequeñas, buses y mercados requieren efectivo (en billetes pequeños). En áreas rurales, el efectivo es esencial. Los cajeros de Banco Internacional son los mejores para tarjetas Visa (a menudo sin comisión), y Revolut parece funcionar bien para pagos con tarjeta. Los cajeros pueden ser escasos fuera de las ciudades, así que retira dinero en un lugar seguro y lleva suficiente efectivo cuando viajes.
+    tipping: >
+      Las <strong>propinas</strong> son mucho más comunes en Ecuador que en Bélgica. En restaurantes, un cargo por servicio del 10% suele estar incluido en la cuenta. Si no, es costumbre dejar entre 5-10% por buen servicio. Los taxistas no esperan propina, pero es común redondear la tarifa. El personal del hotel y los guías turísticos aprecian pequeñas propinas: &#36;1-2 por maleta para los maleteros y &#36;5-10 por día para los guías, dependiendo del servicio. En mercados y pequeños restaurantes, no es necesario dejar propina.
+    getting_to_ecuador_title: 'Cómo Llegar a Ecuador'
+    getting_to_ecuador_low_season: >
+      La boda se realizará en temporada baja, ya que febrero es uno de los meses más económicos para volar a Ecuador. Para obtener los mejores precios, recomendamos reservar tu vuelo con 6-8 meses de anticipación. Los precios de vuelos de ida y vuelta desde Europa típicamente comienzan desde &#8364;800 por persona, con aerolíneas como Air Europa, Iberia y KLM ofreciendo las opciones más económicas. Estos vuelos generalmente tienen escalas en Madrid o Ámsterdam. Al reservar, sugerimos elegir escalas más cortas. Un viaje de 17 horas ya es largo y cansado, ¡así que no hay necesidad de extenderlo más!
+    getting_to_ecuador_airport: >
+      Como la boda se realizará cerca de Quito (Guápulo y Puembo), recomendamos volar al Aeropuerto Internacional Mariscal Sucre, que está a unos 45 minutos de la ciudad.
+    getting_to_ecuador_visa: >
+      La mayoría de nacionalidades pueden visitar Ecuador sin visa por hasta 90 días en un período de 12 meses, pero los <strong>pasaportes</strong> deben tener validez de al menos seis meses al momento de la entrada. Los oficiales de migración pueden pedir prueba de viaje de salida. Para los requisitos de entrada más actualizados, revisa el sitio web de Asuntos Exteriores de tu país (por ejemplo, %{foreign_affairs_link}) antes de partir. Se aplican requisitos de entrada adicionales para las Islas Galápagos.
+    getting_to_ecuador_belgian_foreign_affairs: Asuntos Exteriores de Bélgica
+    health_title: Salud
+    health_altitude: >
+      Recomendamos llegar unos días antes de la boda para permitir que tu cuerpo se adapte a la <strong>altura</strong>. Quito está a <span style="white-space: nowrap;">9&thinsp;350&thinsp;pies</span> <span style="white-space: nowrap;">(2&thinsp;850&thinsp;m)</span> sobre el nivel del mar, y puede tomar tiempo para que tu cuerpo se aclimate.
+    health_vaccinations: >
+      Antes de tu viaje, considera discutir tus planes con tu médico o una clínica de viajes, idealmente ocho a diez semanas antes de partir. Las <strong>vacunas</strong> comúnmente recomendadas incluyen <strong>fiebre amarilla</strong>, <strong>hepatitis A</strong> y <strong>tétanos-difteria-tos ferina</strong>. Estas vacunas típicamente cuestan alrededor de &#8364;80, y parte del gasto puede estar cubierto por tu seguro de salud.
+    health_insurance: >
+      El <strong>seguro de viaje</strong> no es obligatorio para Ecuador, pero lo recomendamos encarecidamente. Las clínicas privadas generalmente ofrecen mejor atención que los hospitales públicos, y el seguro puede ayudar a cubrir emergencias médicas, cancelaciones de viaje, pérdida de equipaje y robo. Es especialmente valioso si planeas explorar áreas remotas como la Amazonía o Galápagos o participar en actividades al aire libre. En Bélgica, puedes obtener seguros de viaje a través de tu compañía de tarjeta de crédito (esto podría ser posible solo si reservaste tus vuelos con su tarjeta de crédito), tu banco, o con %{touring_link}.
+    health_food_safety: >
+      Ten cuidado con la <strong>seguridad alimentaria y del agua</strong> durante tu viaje. Siempre bebe agua embotellada o filtrada, incluso al cepillarte los dientes o lavar frutas y verduras, ya que el agua del grifo no siempre es segura para beber. Los estándares de higiene pueden variar, especialmente en restaurantes pequeños y económicos, así que es mejor evitar vegetales crudos, ensaladas y carnes poco cocidas, particularmente cerdo y mariscos.
+    health_dining_out: >
+      Al comer fuera, opta por restaurantes concurridos y bien reseñados, y sé cauteloso con la comida callejera, eligiendo vendedores con alta rotación. ¡Manteniéndote con comidas bien cocidas y practicando buena higiene ayudará a asegurar un viaje placentero y sin contratiempos!
+    safety_title: Seguridad
+    safety_intro: >
+      Ecuador es un país hermoso y acogedor, pero como con cualquier destino de viaje, es importante estar atento a tu entorno y usar el sentido común. Los avisos oficiales de viaje de países como Bélgica, Canadá, el Reino Unido y los Estados Unidos proporcionan información útil, pero ten en cuenta que tienden a sonar un poco dramáticos (existen advertencias similares para Bruselas). Con las precauciones adecuadas, podrás disfrutar plenamente de tu viaje y explorar con confianza. Aquí hay algunos consejos clave a tener en cuenta:
+    safety_transport_title: 'Usa transporte seguro'
+    safety_transport_body: >
+      Mantente con transportes arreglados por el hotel, Uber o taxis registrados.
+    safety_valuables_title: 'Mantén los objetos de valor seguros'
+    safety_valuables_body: >
+      Evita mostrar joyas, aparatos costosos o grandes cantidades de efectivo. Usa un bolso antirrobo en áreas concurridas.
+    safety_crowded_places_title: 'Mantente alerta en lugares concurridos'
+    safety_crowded_places_body: >
+      Los mercados, terminales de buses y lugares turísticos pueden atraer carteristas.
+    safety_scams_title: 'Cuidado con las estafas'
+    safety_scams_body: >
+      Ten cuidado con tácticas de distracción, como extraños pidiendo ayuda con un mapa o periódico. Mantente alerta.
+    safety_night_areas_title: 'Evita ciertas zonas por la noche'
+    safety_night_areas_body: >
+      Algunos barrios en Guayaquil, Esmeraldas, Manabí y Quito pueden ser inseguros después del anochecer. Pide consejo a los lugareños o a tu hotel, mantente en áreas bien iluminadas y evita caminar solo.
+    safety_cash_title: 'Retira dinero de forma segura'
+    safety_cash_body: >
+      Usa cajeros dentro de bancos o centros comerciales, no en la calle.
+    safety_documents_title: 'Guarda copias de documentos importantes'
+    safety_documents_body: >
+      Guarda copias de tu pasaporte, visa y seguro de viaje separadas de los originales.
+    safety_register_title: 'Registra tu viaje'
+    safety_register_body: >
+      En caso de emergencia, los servicios gubernamentales pueden contactarte o a tu persona de contacto y ayudarte a regresar a casa. En Bélgica, puedes registrarte en %{travellersonline_link}.
+    safety_closing: >
+      ¡Con precauciones básicas, Ecuador es un lugar increíble para visitar! Mantente seguro, disfruta la boda y aprovecha al máximo tu tiempo explorando.
+    wedding_day_title: 'El Día de la Boda'
+    wedding_day_to_plan: >
+      ¿Buscas el cronograma, información sobre regalos u otros detalles de la boda? ¡Ve a %{plan_link} en nuestra página de inicio!
+    wedding_day_children: >
+      Los <strong>niños</strong> son bienvenidos, pero ten en cuenta que habrá alcohol y posiblemente fuegos abiertos. Por favor, asegúrate de incluir a tus hijos como acompañantes cuando confirmes tu asistencia. Si vienen muchos niños, podríamos contratar una niñera para ayudar con la supervisión para que puedas disfrutar plenamente de la fiesta. Lamentablemente, no se permiten <strong>mascotas</strong> en el local.
+    dress_code_title: Código de Vestimenta
+    dress_code_intro: >
+      ¡Nos encantaría ver a nuestros amigos y familiares vestidos elegantemente para nuestro gran día! Si bien sugerimos un atuendo elegante, no es necesario nada demasiado formal. Tu comodidad es lo más importante.
+    dress_code_palette: >
+      Nuestro código de vestimenta es cocktail/semi-formal, y la paleta de colores de nuestra boda consiste principalmente en burgundy <span style="color: transparent; text-shadow: 0 0 0 #660505;">&#129505;</span>, azul marino <span style="color: transparent; text-shadow: 0 0 0 #343173;">&#129505;</span>, y verde esmeralda <span style="color: transparent; text-shadow: 0 0 0 #00674F;">&#129505;</span>. Te pedimos amablemente que evites el blanco, marfil y crema, ya que estos están tradicionalmente reservados para la novia. Debido al terreno irregular, no se recomiendan tacones de aguja. Tacones gruesos, cuñas o zapatos planos te mantendrán cómodo durante todo el día.
+    dress_code_weather: >
+      El clima de Quito puede ser impredecible, con temperaturas alrededor de 15-25&deg;C en la tarde, bajando a alrededor de 10&deg;C por la noche, a veces con lluvia ligera. Como partes de la celebración serán al aire libre, sugerimos traer una chaqueta ligera o chal por si acaso.
+    dress_code_closing: >
+      Lo más importante, ¡usa algo que te encante, te haga sentir bien y con lo que puedas bailar toda la noche! &#10024;
+    where_to_stay_title: 'Dónde Alojarse'
+    where_to_stay_intro: >
+      Por conveniencia y seguridad, recomendamos alojarse en el área norte-central de Quito o en los valles cercanos de Tumbaco, Cumbayá o Puembo, ya que la boda se realizará en Guápulo y Puembo. ¡Estas áreas ofrecen una variedad de hoteles y Airbnbs, facilitando el regreso seguro después de celebrar con nosotros!
+    where_to_stay_hotel: >
+      Hemos conseguido una tarifa especial en el hotel %{hotel_link}, una encantadora hacienda del siglo XVII cerca del lugar de la boda (15 minutos en auto). Este hermoso hotel cuenta con piscina, gimnasio, desayuno y traslados al aeropuerto para una estadía confortable. Nuestra tarifa con descuento es de &#36;85 por habitación doble. Puedes enviar un correo a %{email_link}, mencionando <em>boda Hoorens–Leon</em>, para reservar con esta tarifa.
+    church_title: 'La Iglesia'
+    church_intro: >
+      Nuestra ceremonia eclesiástica está planeada para realizarse en la <strong>Iglesia de Nuestra Señora de Guápulo</strong>, una de las iglesias más antiguas y hermosas de Quito. Este monumento barroco del siglo XVII se encuentra en una pequeña meseta entre Quito y el Valle de Tumbaco, a lo largo de la ruta histórica tomada por la expedición de Pizarro hacia la Amazonía.
+    church_confirmation: >
+      Si bien aún estamos esperando la confirmación final de nuestra reserva en el Santuario De Guápulo, este sigue siendo el lugar previsto. Te actualizaremos tan pronto como tengamos la confirmación oficial.
+    church_timing: >
+      Aunque los ecuatorianos son conocidos por su enfoque relajado con los horarios, las ceremonias religiosas comienzan puntualmente. Recomendamos <strong>llegar</strong> al menos 20 minutos antes (2:40pm) para asegurar un inicio sin contratiempos.
+    church_transport: >
+      <strong>Recomendamos tomar un taxi o Uber</strong> para llegar a la iglesia. Asegúrate de usar un taxi registrado, con placa naranja, y verifica que el taxímetro funcione correctamente. Si es posible, reserva tu taxi a través de un hotel, restaurante o aplicación de confianza (recomendamos Uber). Pide al conductor que te deje en la entrada de la iglesia para evitar subir calles empinadas con ropa formal.
+    church_parking: >
+      No recomendamos ir a la iglesia en auto, ya que puede ser complicado para extranjeros navegar las calles de Quito. El parqueadero de la iglesia es pequeño y el estacionamiento en la calle es escaso. Si aun así decides ir en auto, recomendamos estas rutas:
+    church_route_floresta_title: 'Desde La Floresta / González Suárez'
+    church_route_floresta_body: >
+      Toma el Camino de Orellana, una calle empinada y sinuosa (5-10 min).
+    church_route_carolina_title: 'Desde La Carolina / La Mariscal'
+    church_route_carolina_body: >
+      Toma la Av. 6 de Diciembre, luego González Suárez, luego Camino de Orellana (15-20 min).
+    church_route_center_title: 'Desde el centro de Quito'
+    church_route_center_body: >
+      Toma la Av. 12 de Octubre, luego González Suárez, luego Camino de Orellana (15-20 min).
+    church_route_cumbaya_title: 'Desde Cumbayá / Tumbaco'
+    church_route_cumbaya_body: >
+      Toma la Av. Simón Bolívar, luego la Interoceánica, luego sigue los letreros hacia Guápulo (25-30 min).
+    church_walking: >
+      Si te alojas cerca de González Suárez, podrías llegar a la iglesia caminando por el Camino de Orellana, pero ten en cuenta que es un descenso empinado que requiere zapatos apropiados.
+    venue_title: 'El Local'
+    venue_intro: >
+      La recepción con cena y bebidas se realizará en Quinta El Alcázar en Puembo.
+    venue_shuttle: >
+      Estamos planeando proporcionar transporte para llegar a Quinta El Alcázar desde la iglesia.
+    venue_parking: >
+      Para quienes prefieren ir en auto (15-20 min): toma el Camino de Orellana, luego González Suárez, luego la Av. Simón Bolívar hacia Tumbaco. Continúa hasta ver los letreros de Quinta El Alcázar.
+  exploring:
+    title: 'Explorando Ecuador'
+    quito_title: 'Quito'
+    quito_body_intro: >
+      La capital de Ecuador <span style="white-space: nowrap;">(2&thinsp;850&thinsp;m)</span> no es solo
+      donde se realizará nuestra boda, sino también donde Jess nació y se crió. Quito tiene el
+      centro histórico mejor preservado de Sudamérica, con iglesias coloniales y una rica mezcla de
+      historia y cultura.
+    quito_body_center: >
+      Para una inmersión más profunda en la historia de Quito, recomendamos el <em>Museo de la Ciudad</em> o la <em>Casa
+      del Alabado</em>, ambos ubicados en el centro. Sube a <em>El Panecillo</em>, la icónica colina
+      donde la <em>Virgen del Apocalipsis</em> se erige como protectora de la ciudad, única por sus
+      alas, serpiente encadenada y luna creciente. Para probar la vida local y encontrar buenas ofertas, visita
+      el mercado artesanal en <em>La Mariscal</em>, donde encontrarás una variedad de artesanías
+      y recuerdos hechos a mano.
+    quito_body_hikes: >
+      Si te sientes aventurero, toma el <em>Teleférico</em> que te lleva hasta los <span
+      style="white-space: nowrap;">3&thinsp;900&thinsp;m</span> para vistas impresionantes y caminatas
+      de montaña. Para excursionistas experimentados, el cercano <em>volcán Pichincha</em> <span style="white-space:
+      nowrap;">(4&thinsp;900&thinsp;m)</span> ofrece excelentes senderos, pero recomendamos encarecidamente ir
+      con un guía por razones de seguridad.
+    quito_body_mitad_del_mundo: >
+      Un poco al norte de la ciudad, encontrarás la <em>Mitad del Mundo</em>, el monumento que marca el
+      Ecuador, con un mercado artesanal cercano (este es más turístico que La Mariscal).
+    quito_body_stay: >
+      Sugerimos quedarte al menos una semana en Quito: dos días para explorar la ciudad (mantén vigiladas
+      tus pertenencias en áreas concurridas), y el resto descubriendo joyas cercanas como <em>Papallacta</em>
+      (aguas termales), <em>Otavalo</em>, <em>Mindo</em>, <em>Cotopaxi</em>, y la hermosa
+      laguna del <em>Quilotoa</em>. Trae ropa abrigada cuando subas a las montañas.
+    otavalo_title: 'Otavalo'
+    otavalo_body_market: >
+      Conocido por albergar uno de los mercados indígenas más emblemáticos de Sudamérica, Otavalo es una visita obligada para los amantes de la cultura. En la <em>Plaza de los Ponchos</em>, encontrarás una amplia variedad de artesanías, textiles y obras de arte tradicionales que reflejan la herencia indígena del Ecuador. Mientras recorres el mercado, verás artesanos hábiles vendiendo desde ropa de lana de alpaca tejida a mano hasta joyas talladas y coloridos recuerdos andinos.
+    otavalo_body_lagoon: >
+      A un corto viaje en auto desde el mercado, los amantes de la naturaleza pueden visitar la <em>Laguna de Cuicocha</em>, un impresionante lago cráter con aguas azul profundo formado por una erupción volcánica hace mucho tiempo. Puedes caminar alrededor o tomar un relajante paseo en bote para disfrutar las vistas.
+    otavalo_body_waterfall: >
+      Otro punto destacado es la <em>Cascada de Peguche</em>, un sitio sagrado para el pueblo Kichwa, rodeado de un bosque tranquilo.
+    cotopaxi_title: 'Parque Nacional Cotopaxi'
+    cotopaxi_body_intro: >
+      Con paisajes abiertos y el dramático Volcán Cotopaxi alzándose sobre ellos, este parque nacional es un sueño para excursionistas, ciclistas y amantes de la naturaleza. Puedes visitar el refugio de montaña <span style="white-space: nowrap;">(4&thinsp;800&thinsp;m)</span>, o, si estás listo para un desafío serio, intentar llegar a la cima <span style="white-space: nowrap;">(5&thinsp;900&thinsp;m)</span> con un guía.
+    cotopaxi_body_chimborazo: >
+      Para una aventura aún más extrema, dirígete al <em>Volcán Chimborazo</em> <span style="white-space: nowrap;">(6&thinsp;300&thinsp;m)</span>, el pico más alto de Ecuador y el punto más cercano al sol en la Tierra. Una alternativa menos conocida es el <em>Morurco</em>, una joya escondida detrás del Cotopaxi, que ofrece diversas rutas de senderismo y vistas impresionantes, sin las multitudes.
+    mindo_title: 'Mindo'
+    mindo_body_intro: >
+      Escondido en el bosque nublado a unas dos horas de Quito, Mindo es un escape favorito para amantes de la naturaleza y buscadores de aventuras. Es conocido por su rica biodiversidad, con excelente observación de aves (mantén un ojo abierto para colibríes, tucanes y el brillante gallo de la peña andino).
+    mindo_body_activities: >
+      Puedes visitar mariposarios, caminar a cascadas o montar en tarabita (teleférico). Si buscas acción, prueba el tubing en el Río Mindo, canopy o incluso canyoning. Para algo más relajado, visita un tour de chocolate (recomendamos <a href="https://maps.app.goo.gl/v4DtRPbUNdZPTJE87" target="_blank">Yumbos Chocolate</a>, donde probamos los mejores brownies de nuestra vida) y ve cómo el cacao se transforma en delicioso chocolate.
+    quilotoa_title: 'Quilotoa'
+    quilotoa_body: >
+      Una impresionante laguna turquesa en lo alto de los Andes, formada por una erupción volcánica hace mucho tiempo. Puedes caminar por el borde para vistas panorámicas, o bajar hasta la laguna para una vista más cercana. Trata de ir en la mañana, ya que el cráter a menudo se llena de neblina en la tarde. Los pueblos cercanos ofrecen una visión de la vida tradicional andina.
+    cuenca_title: 'Cuenca'
+    cuenca_body_intro: >
+      Una encantadora ciudad llena de historia, arquitectura colonial y vibrante cultura local. Cuenca fue una vez una importante ciudad inca. Hoy, es una de las ciudades de Sudamérica con mejor calidad de vida, haciéndola popular entre los nómadas digitales.
+    cuenca_body_activities: >
+      No te pierdas las icónicas cúpulas azules de la <em>Catedral Nueva</em> (sube antes de las 4:00pm para una gran vista). Ve al <em>Mercado 10 de Agosto</em> para probar platos como mote pillo (un plato típico cuencano) u hornado. Toma un paseo en bus de dos pisos hasta el <em>Mirador de Turi</em>, un punto panorámico perfecto para fotos, o aventúrate al <em>Parque Nacional Cajas</em> para caminatas tranquilas de altura entre lagos y paisajes dramáticos.
+    cuenca_body_food: >
+      ¡Dato curioso: el <em>Sombrero de Panamá</em> en realidad viene de Cuenca, no de Panamá! Incluso puedes visitar un museo del sombrero para aprender cómo se hacen. Si tienes tiempo extra, explora <em>Saraguro</em> para conocer la cultura Kichwa andina, o visita <em>Gualaceo</em> y <em>Chordeleg</em>, conocidos por sus joyas y textiles hechos a mano (perfecto para un recuerdo único).
+    cuenca_body_facts: >
+      Las ruinas incas más importantes del Ecuador, <em>Ingapirca</em>, ofrecen una visión de la historia precolombina del país. Ubicadas en los Andes al norte de Cuenca, el sitio cuenta con muros de piedra, espacios rituales y el famoso <em>Templo del Sol</em>. Es un lugar tranquilo para explorar e imaginar cómo vivían los incas.
+    banos_title: 'Baños'
+    banos_body_intro: >
+      Ubicado entre los Andes y el borde de la Amazonía, Baños de Agua Santa es conocida como la capital de la aventura en Ecuador. Los buscadores de emociones pueden hacer rafting en el Río Pastaza, canyoning en cascadas, canopy sobre cañones profundos, o caminar por senderos montañosos escénicos.
+    banos_body_cascadas: >
+      No te pierdas la <em>Ruta de las Cascadas</em>, un camino salpicado de cascadas, incluyendo el famoso <em>Pailón del Diablo</em>, donde los senderos te llevan muy cerca del agua rugiente. Visita la <em>Casa del Árbol</em>, hogar del columpio del fin del mundo, donde puedes mecerte sobre un acantilado con vistas increíbles al Volcán Tungurahua.
+    banos_body_hot_springs: >
+      Para un ritmo más tranquilo, relájate en las aguas termales naturales del pueblo, que se dice tienen propiedades curativas. Baños también tiene una vida nocturna divertida y animada, con bares y discotecas donde los viajeros se reúnen después de un día al aire libre.
+    amazon_title: 'La Selva Amazónica'
+    amazon_body_intro: >
+      La porción amazónica de Ecuador es uno de los lugares más biodiversos de la Tierra. Con un buen guía y un poco de suerte, podrías ver monos, jaguares, perezosos, osos hormigueros, tucanes, anacondas (en la segunda foto, puedes ver una durmiendo junto a Sebi), caimanes, iguanas, ranas venenosas y el delfín rosado de río. Se creía que la legendaria ciudad de oro, El Dorado, se encontraba en algún lugar de la Amazonía ecuatoriana.
+    amazon_body_places: >
+      Hay varias formas de explorar este increíble ecosistema, dependiendo de qué tan profundo en la selva quieras ir:
+    amazon_cuyabeno_title: 'Cuyabeno y Yasuní'
+    amazon_cuyabeno_body: >
+      Las partes más remotas y prístinas de la Amazonía ecuatoriana. Estas reservas protegidas son perfectas para excursiones de varios días y observación de vida silvestre. Viajarás en canoa, dormirás en eco-lodges y estarás completamente inmerso en la naturaleza.
+    amazon_tena_title: 'Tena'
+    amazon_tena_body: >
+      Conocida como la puerta de entrada a la Amazonía, es una excelente base para deportes de aventura como rafting, mientras aún ofrece acceso a experiencias en la selva y visitas culturales con comunidades indígenas.
+    amazon_puyo_title: 'Puyo'
+    amazon_puyo_body: >
+      Fácilmente accesible por carretera, Puyo ofrece excursiones más cortas a la selva, además de visitas a centros de rescate animal y jardines botánicos.
+    amazon_misahualli_title: 'Misahuallí'
+    amazon_misahualli_body: >
+      Un pequeño pueblo ribereño donde los monos deambulan libremente en la plaza central. Desde aquí, puedes organizar tours por la selva y paseos en bote por el río Napo.
+    coast_title: 'La Costa del Pacífico'
+    coast_body_intro: >
+      La Costa del Pacífico ecuatoriano ofrece playas cálidas, mariscos frescos y un ambiente costero relajado. Si bien las playas aquí pueden no ser tan remotas o ricas en vida silvestre como en Galápagos, son perfectas para surfear, nadar y disfrutar de un viaje más económico.
+    coast_body_machalilla: >
+      Los amantes de la naturaleza deberían dirigirse al <em>Parque Nacional Machalilla</em>, una reserva costera con senderos de bosque seco, vida marina y algunas de las playas más escénicas de Ecuador. Desde <em>Puerto López</em>, puedes visitar la famosa playa <em>Los Frailes</em> (popular para el avistamiento de ballenas, pero solo entre junio y septiembre).
+    coast_body_ayampe: >
+      Para un ritmo más tranquilo, <em>Ayampe</em> es un pueblo surfero pacífico conocido por sus retiros de yoga, caminatas en la playa y comida increíble. Es tranquilo y relajante, pero lo suficientemente cerca de <em>Montañita</em> y <em>Olón</em> si buscas bares y vida nocturna.
+    coast_body_cuisine: >
+      La <em>cocina costeña</em> ecuatoriana es un punto destacado por sí misma. Prueba el ceviche, el encocado (un guiso de mariscos con coco), pescado a la parrilla y platos a base de plátano verde como patacones y bolones.
+    coast_body_safety: >
+      Evita viajar de noche y mantén vigiladas tus pertenencias, especialmente en la playa o en pueblos más concurridos. Es mejor evitar la mayoría de destinos no mencionados en esta página, y no recomendamos visitar Guayaquil, a menos que sea absolutamente necesario (por ejemplo, para el aeropuerto).
+    galapagos_title: 'El Archipiélago de Galápagos'
+    galapagos_body_intro: >
+      Un verdadero paraíso en la Tierra, las Islas Galápagos son famosas por su increíble vida silvestre y paisajes de otro mundo. Debido a que hay tan pocos depredadores naturales, los animales aquí no le temen a los humanos, lo que hace fácil observar (y fotografiar) de cerca lobos marinos, piqueros patas azules, tortugas gigantes, pingüinos, iguanas, albatros y más.
+    galapagos_body_conservation: >
+      Las islas inspiraron la teoría de la evolución de Charles Darwin, y hoy siguen siendo uno de los ecosistemas más únicos del mundo. Estrictas reglas de conservación ayudan a mantenerlo así: no está permitido tocar a los animales, alimentarlos o desviarse de los senderos marcados. Tampoco puedes ingresar productos frescos, semillas o productos de origen animal, así que empaca en consecuencia.
+    galapagos_body_visit: >
+      Para visitar, necesitarás volar desde Ecuador continental (Quito o Guayaquil) y pasar por un control adicional de equipaje. También pagarás dos tarifas separadas: una Tarjeta de Control de Tránsito de &#36;20 en el aeropuerto, y una tarifa de entrada al parque nacional de &#36;100 al llegar.
+    galapagos_body_guide: >
+      Si bien es posible planear tu propia visita, recomendamos encarecidamente ir con un guía o un tour. La mayoría de lugares solo son accesibles con guías autorizados, y te ayudarán a aprovechar al máximo esta experiencia única en la vida.
+  faq:
+    title: 'Preguntas Frecuentes'
+    no_invitation_title: "No recibí una invitación. ¿Se olvidaron de mí?"
+    no_invitation_body: >
+      ¡Para nada! Primero estamos enviando las <em>Reservas de Fecha</em> para que todos puedan
+      %{rsvp_link} y completar su dirección. Así podremos enviar las invitaciones formales
+      a todos los que vendrán.
+    cant_make_it_title: "¿Qué debo hacer si no puedo asistir?"
+    cant_make_it_body: >
+      Lamentaremos mucho tu ausencia. Si no puedes asistir, por favor háznos saber a través de
+      %{rsvp_link} seleccionando <strong>No</strong> para la pregunta <em>¿Asistirás?</em>.
+      Puedes cambiar de opinión antes del 1<sup>ro</sup> de septiembre, actualizando tu %{rsvp_link}
+      (usando la misma dirección de correo electrónico).
+    rsvp_time_title: "¿Qué pasa si no confirmo a tiempo?"
+    rsvp_time_body: >
+      Si no %{rsvp_link} antes del 1<sup>ro</sup> de septiembre, asumiremos que <em>no asistirás</em>.
+      Lamentablemente, no podremos acomodar confirmaciones tardías después de esta fecha.
+    personal_data_title: "¿Se compartirán mis datos personales con terceros?"
+    personal_data_body: >
+      ¡No! Construimos nuestro propio sitio web de boda y alojamos nuestra propia base de datos en
+      Ámsterdam. Solo nosotros y nuestra planificadora de bodas tenemos acceso a tu información, y
+      no será compartida con nadie más.
+    children_pets_title: "¿Se permiten niños? ¿Y mascotas?"
+    vegan_title: "¿Habrá comidas vegetarianas/veganas? ¿Se tendrán en cuenta mis alergias alimentarias?"
+    vegan_body: >
+      ¡Haremos nuestro mejor esfuerzo para acomodar tu estilo de vida alimenticio y cualquier alergia
+      ofreciendo variaciones del menú. Por favor, háznoslo saber cuando %{rsvp_link}, y haremos los
+      arreglos necesarios!
+    gift_title: "¿Debemos llevar un regalo?"
+    dress_code_title: "¿Hay código de vestimenta?"
+    dress_code_body: >
+      Nuestro código de vestimenta es cocktail/semi-formal, pero lo más importante es tu comodidad.
+      Para más información, ve a la sección de %{dress_code_link} en nuestra página de %{travel_link}.
+    transport_title: "¿Tienen recomendaciones para el transporte hacia/desde el local/iglesia?"
+    transport_body: >
+      ¡Sí! Estamos planeando proporcionar un transporte para ir de la iglesia al local. Para más
+      información sobre cómo llegar a la iglesia, ve a la sección %{church_link} en nuestra página
+      de %{travel_link}. Para más información sobre cómo llegar al local, ve a la sección %{venue_link}
+      en la misma página.
+    hotels_title: "¿Tienen recomendaciones de hoteles cerca del local?"
+    hotels_body: >
+      Sí, encuentra más información en la sección %{where_to_stay_link} en nuestra página de %{travel_link}.
+    pictures_title: "¿Puedo subir fotos que tome durante la boda?"
+    pictures_body_ceremony: >
+      Nos gustaría que todos estén completamente presentes y disfruten el momento, así que pedimos
+      amablemente que te abstengas de tomar fotos <em>durante la ceremonia</em>. Hemos contratado
+      un fotógrafo profesional, y compartiremos las fotos de la boda en este sitio web después de
+      nuestra luna de miel.
+    pictures_body_reception: >
+      Después de la ceremonia, siéntete libre de tomar todas las fotos que quieras. Si quieres
+      compartirlas con nosotros, puedes contactarnos <a href="mailto:jessi-leon@hotmail.com">por correo electrónico</a>.
+    plan_trip_title: "¿Algún consejo para planear nuestro viaje a Ecuador?"
+    plan_trip_body: >
+      ¡Por supuesto! Para todos los detalles prácticos, revisa nuestra página de %{travel_link}.
+      Si buscas inspiración sobre qué hacer y lugares para visitar, visita nuestra página de
+      %{exploring_link}. ¡Feliz planificación!
+    safety_title: "¿Es seguro viajar a Ecuador?"
+    safety_body: >
+      Como cualquier destino de viaje, Ecuador requiere algunas precauciones básicas, ¡pero es un
+      lugar maravilloso para visitar! Para consejos sobre seguridad, revisa la sección
+      %{travel_safety_link} en nuestra página de %{travel_link}.
+    vaccines_title: "¿Qué vacunas necesito para Ecuador?"
+    vaccines_body: >
+      Las vacunas recomendadas son <strong>fiebre amarilla</strong>, <strong>hepatitis A</strong>, y
+      <strong>tétanos-difteria-tos ferina</strong>. Para más detalles, revisa la sección
+      %{travel_health_link} en nuestra página de %{travel_link}.
+  rsvp:
+    intro: >
+      ¡Estamos ansiosos por celebrar contigo! Por favor confirma tu asistencia lo antes posible para poder reservar
+      tu asiento y una porción de pastel. Si tus planes cambian y no puedes asistir, avísanos lo antes posible.
+      Por favor confirma antes del <strong>1<sup>ro</sup> de septiembre de 2025</strong>.
+    enter_email: Por favor ingresa tu dirección de correo electrónico para comenzar.
+    continue: Continuar
+    edit: Editar
+    remove: Eliminar
+    cancel: Cancelar
+    sending: Enviando...
+    loading: Cargando...
+    removing: Eliminando...
+    sure: ¿Estás seguro?
+    yes: Sí
+    no: No
+    none: Ninguno
+    required: Requerido
+    about_you_title: Sobre Ti
+    about_you_updates: ¿Te gustaría que te enviemos actualizaciones a este correo electrónico?
+    about_you_first_name: Nombre
+    about_you_last_name: Apellido
+    about_you_address: Dirección
+    about_you_address_street: Calle
+    about_you_address_number: Número
+    about_you_address_city: Ciudad
+    about_you_address_zip: Código Postal
+    about_you_address_province: Provincia
+    about_you_address_country: País
+    about_you_address_invitation: Enviaremos la invitación formal a esta dirección.
+    about_you_diet: Preferencias Alimenticias
+    about_you_diet_example: Por ejemplo, vegano, vegetariano, sin gluten, y cualquier alergia o intolerancia.
+    about_you_joining: <strong>¿Asistirás?</strong>
+    about_you_songs: Sugerencias de Canciones
+    about_you_songs_crowd_sourcing: ¡Estamos creando nuestra lista de reproducción colectivamente! Elige algunas canciones que te gustaría escuchar.
+    plus_ones_title: Acompañantes
+    plus_ones_let_us_know: Por favor, déjanos saber si traerás a alguien más a la boda.
+    plus_ones_child: Niño/a
+    plus_ones_child_12_or_under: Niño/a (12 años o menos)
+    plus_ones_child_over_12: Niño/a (mayor de 12 años)
+    plus_ones_partner: Pareja
+    plus_ones_none_yet: No hay acompañantes agregados aún
+    plus_ones_add: Agregar Acompañante
+    plus_ones_edit: Editar Acompañante
+    plus_ones_save: Guardar Acompañante
+    confirm_title: Confirmar
+    confirm_details: Tus Detalles
+    confirm_just_you: solo tú.
+    confirm_not_joining: ¡Lamentamos que no puedas acompañarnos!
+    confirm_other_comments: ¿Otros Comentarios?
+    confirm_anything_else: ¿Algo más que nos quieras contar?
+    confirm_complete: Completar Confirmación
+    complete_thanks: ¡Gracias!
+    complete_email_confirmation: Hemos enviado una confirmación por correo electrónico a <tt>%{guest_email}</tt>.
+    complete_email_not_received: Si no recibes el correo dentro de unos minutos, por favor revisa tu carpeta de spam, y si no está ahí %{contact_link}.
+    complete_email_contact_us: 'contáctanos'
+    complete_back_home: Volver a la Página Principal
+    polygamy: 'Aunque respetamos tus puntos de vista sobre la poligamia, te pedimos amablemente que traigas solo una pareja.'
+  email:
+    hello: Hola
+    dear: Estimado/a
+    rsvp_confirmation: 'Confirmación de Asistencia'
+    your_rsvp: 'Tu Confirmación'
+    guest_attending_look_forward: '¡Nos vemos el %{wedding_date}!'
+    guest_attending_church_location: 'La ubicación de la iglesia es:'
+    guest_attending_church_time_not_confirmed: 'La ubicación y el horario de la ceremonia religiosa <strong>aún no están confirmados</strong>. Por favor, mantente atento a las actualizaciones en el sitio web de la boda o en tu correo.'
+    guest_attending_venue_location: 'La ubicación del local es:'
+    guest_attending_rsvp_title: 'Tu Confirmación'
+    guest_attending_rsvp_edit: 'Siempre puedes volver al sitio web y editar tu confirmación.'
+    guest_attending_questions_title: 'Preguntas y respuestas'
+    guest_attending_questions_body: 'Por favor revisa %{wedding_website} para más información, o puedes responder a este correo.'
+    guest_attending_wedding_website: 'nuestro sitio web de boda'
+    guest_not_attending_sorry: "Lamentamos que no puedas asistir. Si cambias de opinión, puedes volver al sitio web y actualizar tu confirmación."
+    guest_not_attending_hope: '¡Esperamos verte en otra ocasión!'
+    admin_attending: confirmó su asistencia.
+    admin_not_attending: no podrá asistir.
+    admin_left_message: 'Te dejaron un mensaje:'
