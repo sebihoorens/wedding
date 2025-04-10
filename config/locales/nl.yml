@@ -3,7 +3,7 @@ nl:
   wedding_date: 'Zaterdag, 7 februari 2026'
   wedding_reception_time: '14u30 – 0u00'
   wedding_country: 'Ecuador'
-  confirm_your_presence: 'Bevestig uw aanwezigheid'
+  confirm_your_presence: 'Bevestig je aanwezigheid'
   navbar_home: Home
   problem: probleem
   home:
@@ -11,7 +11,7 @@ nl:
     save_the_date_title: 'Save The Date'
     save_the_date_add_to_calendar: 'Aan kalender toevoegen'
     plan_title: 'Het Plan'
-    plan_to_wedding_day: 'Voor praktische details zoals het vervoer, verblijf en dresscode, bekijk de %{wedding_day_href} sectie op onze %{travel_href} pagina.'
+    plan_to_wedding_day: 'Voor praktische zaken zoals vervoer, verblijf en dresscode, bekijk de %{wedding_day_href} sectie op onze %{travel_href} pagina.'
     plan_order_title: 'Dagindeling'
     plan_order_arrive_time: '14u30'
     plan_order_arrive_body: Aankomst van de gasten
@@ -22,7 +22,7 @@ nl:
     plan_order_dinner_time: '18u00'
     plan_order_dinner_body: Diner en drank
     plan_order_cake_time: '21u00'
-    plan_order_cake_body: Aansnijden van de taart, dansen en feest!
+    plan_order_cake_body: Aansnijden van de taart, dansen en feesten!
     plan_order_bar_close_time: '00u00'
     plan_order_bar_close_body: Bar sluit
     plan_menu_title: Menu
@@ -39,7 +39,7 @@ nl:
     plan_rsvp_title: RSVPs
     plan_rsvp_body: >
       Gelieve zo snel mogelijk (vóór 1 september) te laten weten of je erbij kunt zijn, zodat we een
-      plaats en een stuk taart voor je kunnen voorzien als je komt! Als je toch niet kan komen,
+      plaats en een stuk taart kunnen voorzien als je komt! Mocht je toch niet kunnen komen,
       laat het ons dan zo snel mogelijk weten.
     footer_john_lees_miller: Met dank aan John Lees-Miller voor het ter beschikking stellen van de initiële Rails app op
     footer_flaticon: Bruiloft iconen gemaakt door Freepik, photo3idea_studio en Vector Squad op Flaticon
