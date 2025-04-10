@@ -68,29 +68,29 @@ nl:
   travel:
     title: 'Reis & Verblijf'
     intro: >
-      Voor wie overweegt naar Ecuador te reizen, we begrijpen dat zo’n reis planning, tijd en
+      Voor wie overweegt naar Ecuador te reizen, snappen we dat zo’n reis planning, tijd en
       financiële inzet vraagt. We zijn ontzettend dankbaar aan iedereen die overweegt deze reis
       te maken om met ons te vieren. Om je te helpen beslissen en voorbereiden, hebben we enkele
       tips en aanbevelingen verzameld voor reis, verblijf en activiteiten.
     assist: >
       We onderzoeken manieren om te <strong>helpen met de logistiek</strong>, zoals luchthaven transfers,
-      een shuttle naar de kerk en locatie, en een gedeelde Airbnb voor gasten (mogelijk met zwembad!).
-      Daarnaast kunnen we mogelijk %{hotel_link}, inclusief hotels in de buurt van de locatie. Hoewel
+      een shuttle naar de kerk en/of receptie, en een gedeelde Airbnb voor gasten (mogelijks met zwembad!).
+      Daarnaast kunnen we mogelijk %{hotel_link}, inclusief hotels in de buurt van de receptie. Hoewel
       we deze kosten niet kunnen dekken, zullen we ons best doen om te coördineren. Als je updates
-      over deze regelingen via e-mail wilt ontvangen, vink dan het betreffende vakje aan tijdens het
+      over deze regelingen via e-mail wilt ontvangen, vink dan het overeenkomstige vakje aan tijdens het
       RSVP-proces.
     assist_link: kortingen regelen voor accommodatie
     destination_title: De Bestemming
     destination_regions: >
       Ecuador, gelegen in Zuid-Amerika, is een van de meest biodiverse landen ter wereld.
-      Het land is relatief klein, maar biedt gemakkelijke toegang tot prachtige landschappen
+      Het land is relatief klein, maar biedt gemakkelijk toegang tot prachtige landschappen
       verspreid over vier unieke regio’s:
     destination_amazon_title: 'Het Amazonewoud'
     destination_amazon_body: 'Ontdek weelderige jungle, exotische dieren en inheemse culturen.'
     destination_andes_title: 'De Andes Bergen'
     destination_andes_body: 'Wandel op vulkanen, bezoek bergdorpjes en geniet van adembenemende uitzichten.'
     destination_pacific_title: 'De Pacifische Kust'
-    destination_pacific_body: 'Ontspan op zandstranden of surf in kustplaatsjes.'
+    destination_pacific_body: 'Ontspan op zandstranden of surf in kustplekjes.'
     destination_galapagos_title: 'De Galápagos Eilanden'
     destination_galapagos_body: 'Ervaar unieke dieren en ongerepte stranden.'
     language: >
@@ -107,15 +107,15 @@ nl:
       zijn verkrijgbaar op de luchthaven, in winkelcentra en officiële winkels (paspoort vereist). Als je 
       telefoon het ondersteunt, is eSIM meestal duurder maar handiger, omdat je je abonnement direct bij aankomst 
       kunt activeren. %{airalo_link} biedt Ecuador-specifieke of regionale plannen, maar je kunt goedkopere 
-      eSIM-providers vinden via %{esimdb_link} (let op: de goedkope opties bevatten vaak geen bellen of sms’en 
-      en kunnen al geactiveerd worden zodra je betaald hebt).
+      eSIM-providers vinden via %{esimdb_link} (let op: de goedkope opties bevatten vaak geen belminuten of sms’en 
+      en worden soms al geactiveerd zodra je betaald hebt).
     currency: >
       Ecuador gebruikt de <strong>Amerikaanse dollar</strong>, maar betaalmethoden variëren. In Quito en grote 
       steden accepteren de meeste restaurants, supermarkten en winkelcentra kaarten, terwijl kleine winkels, 
       bussen en markten contant geld vereisen (in kleine biljetten). In landelijke gebieden is contant geld 
-      essentieel. Banco Internacional geldautomaten zijn het best voor Visa-kaarten (vaak zonder kosten), 
-      en Revolut werkt goed voor kaartbetalingen. Geldautomaten zijn schaars buiten de steden, dus haal 
-      geld op een veilige plek en neem voldoende cash mee tijdens het reizen.
+      essentieel. De geldautomaten van Banco Internacional zijn het best voor Visa-kaarten (vaak zonder kosten), 
+      en Revolut zou goed moeten werken voor kaartbetalingen. Geldautomaten zijn schaars buiten de steden, dus haal 
+      geld af op een veilige plek en neem voldoende cash mee tijdens het reizen.
     tipping: >
       <strong>Fooien geven</strong> is veel gebruikelijker in Ecuador dan in België. In restaurants is vaak 
       een servicekost van 10% inbegrepen in de rekening. Zo niet, is 5-10% gebruikelijk voor goede service. 
