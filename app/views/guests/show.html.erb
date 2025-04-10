@@ -30,11 +30,11 @@
         <div class="col-md-9">
           <div class="form-check form-check-inline">
             <%= form.radio_button :email_updates, 'true', required: true, checked: true, id: 'guest_email_updates_true', class: 'form-check-input' %>
-            <%= form.label :email_updates, t('rsvp.yes'), value: 'true', class: 'form-check-label' %>
+            <%= form.label :email_updates, t('rsvp.yees'), value: 'true', class: 'form-check-label' %>
           </div>
           <div class="form-check form-check-inline">
             <%= form.radio_button :email_updates, 'false', id: 'guest_email_updates_false', class: 'form-check-input' %>
-            <%= form.label :email_updates, t('rsvp.no'), value: 'false', class: 'form-check-label' %>
+            <%= form.label :email_updates, t('rsvp.noo'), value: 'false', class: 'form-check-label' %>
           </div>
         </div>
       </div>
@@ -51,11 +51,11 @@
           <div class="col-md-9">
             <div class="form-check form-check-inline">
               <%= form.radio_button :attending, 'true', required: true, id: 'guest_attending_true', class: 'form-check-input' %>
-              <%= form.label :attending, t('rsvp.yes'), value: 'true', class: 'form-check-label' %>
+              <%= form.label :attending, t('rsvp.yees'), value: 'true', class: 'form-check-label' %>
             </div>
             <div class="form-check form-check-inline">
               <%= form.radio_button :attending, 'false', id: 'guest_attending_false', class: 'form-check-input' %>
-              <%= form.label :attending, t('rsvp.no'), value: 'false', class: 'form-check-label' %>
+              <%= form.label :attending, t('rsvp.noo'), value: 'false', class: 'form-check-label' %>
             </div>
           </div>
         </div>

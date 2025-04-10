@@ -383,8 +383,8 @@ es:
     loading: Cargando...
     removing: Eliminando...
     sure: ¿Estás seguro?
-    yes: Sí
-    no: No
+    yees: Sí
+    noo: 'No'
     none: Ninguno
     required: Requerido
     about_you_title: Sobre Ti

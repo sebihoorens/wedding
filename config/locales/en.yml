@@ -415,8 +415,8 @@ en:
     loading: Loading...
     removing: Removing...
     sure: Are you sure?
-    yes: Yes
-    no: No
+    yees: 'Yes'
+    noo: 'No'
     none: None
     required: Required
     about_you_title: About You
