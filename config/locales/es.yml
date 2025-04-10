@@ -47,10 +47,13 @@ es:
     title: 'Nuestra Historia'
     timeline_intro: "Esta es la historia de dos personas que nacieron y se criaron en diferentes partes del mundo pero que de alguna manera se encontraron."
     timeline_jess: "Jess vino a Bélgica en 2020 para su maestría en fisioterapia. Después de algunas semanas de clases de francés en línea (debido al COVID) y de hablar solo español con su familia, se dio cuenta de que necesitaba más práctica. Así que se unió a una aplicación para hacer nuevos amigos."
-    timeline_sebi: "Y este es Sebi, quien trabajaba remotamente durante la pandemia y frecuentemente salía a caminar por diferentes lugares de Bélgica. Estaba buscando a alguien que lo acompañara en estas aventuras."
-    timeline_click: "Lo que comenzó como práctica de idiomas se convirtió en algo más profundo mientras hablábamos todos los días, nos veíamos frecuentemente y realmente conectamos. Pasábamos nuestro tiempo explorando nuevos lugares, conociendo a familia y amigos, y creando memorias juntos."
-    timeline_move_in: "El tiempo voló, y después de un año de noviazgo, decidimos mudarnos juntos. El programa de maestría de Jess comenzaba, y sabíamos que sería más difícil encontrar tiempo para vernos tan seguido como antes."
-    timeline_proposed: "Después de tres años juntos, estábamos más que seguros de que queríamos pasar el resto de nuestras vidas juntos y formar una familia. En el verano de 2024, cuando nuestras familias se conocieron por primera vez, Sebi se propuso."
+    timeline_sebi: >
+      Y este es Sebi, quien estaba descubriendo nuevos lugares en Bélgica y le gustaba dar paseos.
+      Estaba buscando a alguien que lo acompañara en estas aventuras. Él estaba interesado en
+      aprender español.
+    timeline_click: "Lo que comenzó como práctica de idiomas se convirtió en algo más profundo mientras hablábamos todos los días, nos encontrábamos a menudo y realmente conectábamos. Pasábamos nuestro tiempo explorando nuevos lugares, conociendo familia y amigos, y creando memorias juntos."
+    timeline_move_in: "El tiempo voló, y después de un año de noviazgo, decidimos mudarnos juntos. El programa de maestría de Jess estaba por comenzar, y sabíamos que habría sido más difícil encontrar el tiempo para vernos tan seguido como antes."
+    timeline_proposed: "Después de casi cuatro años juntos, estábamos más que seguros de que queríamos pasar el resto de nuestras vidas juntos y formar una familia. En el verano de 2024, cuando ambas familias se conocieron por primera vez, Sebi propuso matrimonio."
     timeline_next_chapter: "Ahora, estamos emocionados de invitarte a que nos acompañes en otro capítulo de nuestras vidas. ¡Nos encantaría tenerte con nosotros!"
     fun_facts_title: 'Datos Curiosos'
     fun_facts_first_move_q: '¿Quién dio el primer paso?'

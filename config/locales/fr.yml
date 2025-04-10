@@ -49,10 +49,13 @@ fr:
     title: 'Notre Histoire'
     timeline_intro: "Voici l'histoire de deux personnes nées et élevées dans des parties différentes du monde qui se sont pourtant trouvées."
     timeline_jess: "Jess est venue en Belgique en 2020 pour son master en kinésithérapie. Après quelques semaines de cours de français en ligne (à cause du COVID) et ne parlant qu'espagnol avec sa famille, elle s'est rendu compte qu'elle avait besoin de plus de pratique. Elle a donc rejoint une application pour se faire de nouveaux amis."
-    timeline_sebi: "Et voici Sebi, qui travaillait à distance pendant la pandémie et faisait souvent des promenades dans différents endroits en Belgique. Il cherchait quelqu'un pour partager ces aventures."
-    timeline_click: "Ce qui a commencé comme de la pratique linguistique s'est transformé en quelque chose de plus profond alors que nous parlions tous les jours, nous rencontrions souvent et nous nous sommes vraiment connectés. Nous avons passé notre temps à explorer de nouveaux endroits, à rencontrer la famille et les amis, et à créer des souvenirs ensemble."
-    timeline_move_in: "Le temps a passé vite, et après un an de relation, nous avons décidé d'emménager ensemble. Le master de Jess commençait, et nous savions qu'il serait plus difficile de trouver le temps de nous voir aussi souvent qu'avant."
-    timeline_proposed: "Après trois ans ensemble, nous étions plus que sûrs de vouloir passer le reste de notre vie ensemble et fonder une famille. À l'été 2024, lorsque nos deux familles se sont rencontrées pour la première fois, Sebi a fait sa demande."
+    timeline_sebi: >
+      Et voici Sebi, qui découvrait de nouveaux endroits en Belgique et aimait faire des
+      promenades. Il cherchait quelqu'un pour partager ces aventures. Il était intéressé à
+      apprendre l'espagnol.
+    timeline_click: "Ce qui a commencé comme de la pratique linguistique s'est transformé en quelque chose de plus profond alors que nous parlions tous les jours, nous rencontrions souvent et établissions une véritable connexion. Nous passions notre temps à explorer de nouveaux endroits, à rencontrer la famille et les amis, et à créer des souvenirs ensemble."
+    timeline_move_in: "Le temps a passé vite, et après un an ensemble, nous avons décidé d'emménager ensemble. Le programme de master de Jess allait commencer, et nous savions qu'il aurait été plus difficile de trouver le temps de nous voir aussi souvent qu'avant."
+    timeline_proposed: "Après presque quatre ans ensemble, nous étions plus que certains de vouloir passer le reste de nos vies ensemble et fonder une famille. À l'été 2024, lorsque nos deux familles se sont rencontrées pour la première fois, Sebi a fait sa demande."
     timeline_next_chapter: "Maintenant, nous sommes ravis de vous inviter à partager un nouveau chapitre de notre vie. Nous serions ravis de vous avoir à nos côtés !"
     fun_facts_title: 'Anecdotes'
     fun_facts_first_move_q: 'Qui a fait le premier pas ?'

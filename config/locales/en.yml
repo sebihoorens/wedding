@@ -81,10 +81,12 @@ en:
     title: 'Our Story'
     timeline_intro: "This is the story of two people who were born and raised in different parts of the world yet somehow found each other."
     timeline_jess: "Jess came to Belgium in 2020 for her master’s program in physiotherapy. After a few weeks of online French classes (due to COVID) and only speaking Spanish with her family, she realized she needed more practice. So she joined an app to make new friends."
-    timeline_sebi: "And this is Sebi, who worked remotely during the pandemic and frequently went for walks in different places across Belgium. He was looking for someone to join him on these adventures."
-    timeline_click: "What began as language practice turned into something deeper as we talked every day, met often, and really connected. Instead, we spent our time exploring new places, meeting family and friends, and making memories together."
-    timeline_move_in: "Time flew by, and after a year of dating, we decided to move in together. Jess’ master program started, and we knew it would be harder to find the time to see each other as often as we had before."
-    timeline_proposed: "After three years together, we were more than sure that we wanted to spend the rest of our lives together and build a family. In the summer of 2024, when both of our families met for the first time, Sebi proposed."
+    timeline_sebi: >
+      And this is Sebi, who was discovering new places in Belgium and liked to go for walks. He was
+      looking for someone to join him on these adventures. He was interested in learning Spanish.
+    timeline_click: "What began as language practice turned into something deeper as we talked every day, met often, and really connected. We spent our time exploring new places, meeting family and friends, and making memories together."
+    timeline_move_in: "Time flew by, and after a year of dating, we decided to move in together. Jess’ master program started, and we knew it would have been harder to find the time to see each other as often as we had before."
+    timeline_proposed: "After almost four years together, we were more than sure that we wanted to spend the rest of our lives together and build a family. In the summer of 2024, when both our families met for the first time, Sebi proposed."
     timeline_next_chapter: "Now, we are thrilled to invite you to join us for another chapter in our lives. We would love to have you there with us!"
     fun_facts_title: 'Fun Facts'
     fun_facts_first_move_q: 'Who made the first move?'
