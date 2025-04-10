@@ -45,7 +45,7 @@ en:
     save_the_date_title: 'Save The Date'
     save_the_date_add_to_calendar: 'Add to calendar'
     plan_title: 'The Plan'
-    plan_to_wedding_day: 'For practical details like the getting there, where to stay and dress code, check out the %{wedding_day_href} section on our %{travel_href} page.'
+    plan_to_wedding_day: 'For practical details like getting there, where to stay and dress code, check out the %{wedding_day_href} section on our %{travel_href} page.'
     plan_order_title: 'Order Of The day'
     plan_order_arrive_time: 2:30pm
     plan_order_arrive_body: Guests start to arrive
@@ -132,7 +132,7 @@ en:
     weather: >
       Ecuador's weather in February varies by region due to its diverse geography. In Quito and the Andean Highlands, <strong>temperature is around 13-25&deg;C</strong> with mild days, chilly nights and occasional rain. We recommend bringing a light rain jacket and checking the weather forecast before departing.
     mobile_data: >
-      For reliable mobile data, a <strong>local SIM</strong> or <strong>eSIM</strong> is your best option. Claro offers the best coverage, Movistar works well in cities, and Tuenti is budget-friendly. SIM cards are available at the airport, malls, and official stores (passport required). If your phone supports it, eSIM is usually more expensive, but more convenient, as you can activate your plan immediately upon arrival. %{airalo_link} offers Ecuador-specific or regional plans, but you can find cheaper eSIM providers through %{esimdb_link} (watch out: the cheap ones often don't include calls or SMS and may already activate as soon as you paid).
+      For reliable mobile data, a <strong>local SIM</strong> or <strong>eSIM</strong> is your best option. Claro offers the best coverage, Movistar works well in cities, and Tuenti is budget-friendly. SIM cards are available at the airport, malls, and official stores (passport required). If your phone supports it, eSIMs are usually more expensive, but more convenient, as you can activate your plan immediately upon arrival. %{airalo_link} offers Ecuador-specific or regional plans, but you can find cheaper eSIM providers through %{esimdb_link} (watch out: the cheap ones often don't include calls or SMS and may already activate as soon as you have paid).
     currency: >
       Ecuador uses the <strong>U.S. dollar</strong>, but payment methods vary. In Quito and major cities, most restaurants, supermarkets, and malls accept cards, while small shops, buses, and markets require cash (in small bills). In rural areas, cash is essential. Banco Internacional ATMs are best for Visa cards (often fee-free), and Revolut seems to work well for card payments. ATMs can be scarce outside cities, so withdraw money in a safe place and carry enough cash when traveling.
     tipping: >
@@ -473,7 +473,7 @@ en:
     guest_attending_questions_title: 'Questions and answers'
     guest_attending_questions_body: 'Please check %{wedding_website} for more information, or you can reply to this email.'
     guest_attending_wedding_website: 'our wedding website'
-    guest_not_attending_sorry: "We’re sorry to hear you can’t make it. If you change your mind, you can go back to the website update your RSVP."
+    guest_not_attending_sorry: "We’re sorry to hear you can’t make it. If you change your mind, you can go back to the website to update your RSVP."
     guest_not_attending_hope: 'We hope to see you another time!'
     admin_attending: confirmed their attendance.
     admin_not_attending: can’t make it.
