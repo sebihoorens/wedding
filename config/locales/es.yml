@@ -171,7 +171,7 @@ es:
     where_to_stay_intro: >
       Por conveniencia y seguridad, recomendamos alojarse en el área norte-central de Quito o en los valles cercanos de Tumbaco, Cumbayá o Puembo, ya que la boda se realizará en Guápulo y Puembo. ¡Estas áreas ofrecen una variedad de hoteles y Airbnbs, facilitando el regreso seguro después de celebrar con nosotros!
     where_to_stay_hotel: >
-      Hemos conseguido una tarifa especial en el hotel %{hotel_link}, una encantadora hacienda del siglo XVII cerca del lugar de la boda (15 minutos en auto). Este hermoso hotel cuenta con piscina, gimnasio, desayuno y traslados al aeropuerto para una estadía confortable. Nuestra tarifa con descuento es de &#36;85 por habitación doble. Puedes enviar un correo a %{email_link}, mencionando <em>boda Hoorens–Leon</em>, para reservar con esta tarifa.
+      Hemos conseguido una tarifa especial en el hotel %{hotel_link}, una encantadora hacienda del siglo XVII cerca del lugar de la boda (15 minutos en auto). Este hermoso hotel cuenta con piscina, gimnasio, desayuno y traslados al aeropuerto para una estadía confortable. Nuestra tarifa con descuento es de &#36;85 por habitación doble. Puedes enviar un correo a %{email_link}, mencionando <em>boda Hoorens-León</em>, para reservar con esta tarifa.
     church_title: 'La Iglesia'
     church_intro: >
       Nuestra ceremonia eclesiástica está planeada para realizarse en la <strong>Iglesia de Nuestra Señora de Guápulo</strong>, una de las iglesias más antiguas y hermosas de Quito. Este monumento barroco del siglo XVII se encuentra en una pequeña meseta entre Quito y el Valle de Tumbaco, a lo largo de la ruta histórica tomada por la expedición de Pizarro hacia la Amazonía.
