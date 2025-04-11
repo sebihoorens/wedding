@@ -49,4 +49,16 @@ class Guest < ApplicationRecord
   scope :confirmed, -> { where.not(confirmed_at: nil) }
   scope :attending, -> { confirmed.where(attending: true) }
   scope :not_attending, -> { confirmed.where(attending: false) }
+
+  def self.ransackable_attributes(_auth_object = nil)
+    %w[
+      address_city address_country address_number address_province address_street address_zip
+      attending confirmed_at created_at diet email email_updates first_name id last_name notes
+      songs token updated_at
+    ]
+  end
+
+  def self.ransackable_associations(_auth_object = nil)
+    ['plus_ones']
+  end
 end

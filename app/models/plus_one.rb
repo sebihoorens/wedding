@@ -26,6 +26,14 @@ class PlusOne < ApplicationRecord
     household_role.in?(%w[child_12_or_under child_over_12])
   end
 
+  def self.ransackable_attributes(_auth_object = nil)
+    %w[created_at diet first_name guest_id household_role id last_name updated_at]
+  end
+
+  def self.ransackable_associations(_auth_object = nil)
+    ['guest']
+  end
+
   private def max_one_partner
     if household_role == 'partner' && guest.plus_ones.where.not(id: id).exists?(household_role: 'partner')
       errors.add(:household_role, I18n.t('rsvp.polygamy'))
