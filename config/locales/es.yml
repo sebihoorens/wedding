@@ -8,9 +8,9 @@ es:
   problem: problema
   home:
     jumbo_getting_married: "¡Nos casamos!"
-    save_the_date_title: 'Reserva la Fecha'
+    save_the_date_title: 'Agenda la fecha'
     save_the_date_add_to_calendar: 'Agregar al calendario'
-    plan_title: 'El Plan'
+    plan_title: 'Programa'
     plan_to_wedding_day: 'Para detalles prácticos como cómo llegar, dónde alojarse y el código de vestimenta, revisa la sección %{wedding_day_href} en nuestra página de %{travel_href}.'
     plan_order_title: 'Cronograma del Día'
     plan_order_arrive_time: 2:30pm
@@ -31,11 +31,11 @@ es:
       valdrá la pena la espera. ¡Manténganse atentos para más detalles!
     plan_gifts_and_cards_title: 'Regalos y Tarjetas'
     plan_gifts_and_cards_body: >
-      ¡Tu presencia en nuestra boda es el mejor regalo que podríamos pedir, especialmente si cruzas
-      un océano para estar aquí! Pero si te sientes extra generoso y quieres ayudarnos a comenzar
-      nuestra vida de casados, estaremos encantados y agradecidos. Encontrarás un pequeño sobre
-      con la invitación, siéntete libre de dejarlo en la caja de tarjetas en la ceremonia. O si tu
-      maleta ya está llena, puedes enviar una contribución a:
+      Tu presencia en nuestra boda es el mejor regalo que podríamos pedir, estamos emocionados de
+      compartir nuestro día especial contigo. Si estás pensando en darnos un regalo y quieres
+      ayudarnos a comenzar nuestra vida de casados, estaremos encantados y agradecidos. Encontrarás
+      un pequeño sobre cuando te enviemos la invitación, siéntete libre de dejarlo en la caja de
+      tarjetas en la ceremonia. O si tu maleta ya está llena, puedes enviar una contribución a:
     plan_rsvp_title: Confirmaciones
     plan_rsvp_body: >
       Por favor, confirma tu asistencia lo antes posible (antes del 1<sup>ro</sup> de septiembre)
@@ -45,15 +45,15 @@ es:
     footer_flaticon: Íconos de boda creados por Freepik, photo3idea_studio y Vector Squad en Flaticon
   story:
     title: 'Nuestra Historia'
-    timeline_intro: "Esta es la historia de dos personas que nacieron y se criaron en diferentes partes del mundo pero que de alguna manera se encontraron."
+    timeline_intro: "Esta es la historia de dos personas que nacieron y crecieron en diferentes partes del mundo pero por alguna razón del destino se encontraron."
     timeline_jess: "Jess vino a Bélgica en 2020 para su maestría en fisioterapia. Después de algunas semanas de clases de francés en línea (debido al COVID) y de hablar solo español con su familia, se dio cuenta de que necesitaba más práctica. Así que se unió a una aplicación para hacer nuevos amigos."
     timeline_sebi: >
       Y este es Sebi, quien estaba descubriendo nuevos lugares en Bélgica y le gustaba dar paseos.
       Estaba buscando a alguien que lo acompañara en estas aventuras. Él estaba interesado en
       aprender español.
-    timeline_click: "Lo que comenzó como práctica de idiomas se convirtió en algo más profundo mientras hablábamos todos los días, nos encontrábamos a menudo y realmente conectábamos. Pasábamos nuestro tiempo explorando nuevos lugares, conociendo familia y amigos, y creando memorias juntos."
+    timeline_click: "Lo que comenzó como práctica de idiomas se convirtió en algo más profundo mientras hablábamos todos los días, nos veíamos frecuentemente y conectábamos. Pasábamos nuestro tiempo explorando nuevos lugares, conociendo familia y amigos, y creando memorias juntos."
     timeline_move_in: "El tiempo voló, y después de un año de noviazgo, decidimos mudarnos juntos. El programa de maestría de Jess estaba por comenzar, y sabíamos que habría sido más difícil encontrar el tiempo para vernos tan seguido como antes."
-    timeline_proposed: "Después de casi cuatro años juntos, estábamos más que seguros de que queríamos pasar el resto de nuestras vidas juntos y formar una familia. En el verano de 2024, cuando ambas familias se conocieron por primera vez, Sebi propuso matrimonio."
+    timeline_proposed: "Después de casi cuatro años juntos, estábamos más que seguros de que queríamos pasar el resto de nuestras vidas juntos y formar una familia. En el verano de 2024, cuando nuestras familias de conocieron por primera vez, Sebi le propuso matrimonio."
     timeline_next_chapter: "Ahora, estamos emocionados de invitarte a que nos acompañes en otro capítulo de nuestras vidas. ¡Nos encantaría tenerte con nosotros!"
     fun_facts_title: 'Datos Curiosos'
     fun_facts_first_move_q: '¿Quién dio el primer paso?'
@@ -71,10 +71,11 @@ es:
   travel:
     title: 'Viaje y Estadía'
     intro: >
-      Para aquellos que están considerando viajar a Ecuador, sabemos que tal viaje requiere planificación,
-      tiempo y compromiso financiero. Estamos increíblemente agradecidos con cualquiera que esté pensando
-      en hacer el viaje para celebrar con nosotros. Para ayudarte a decidir y prepararte, hemos reunido
-      algunos consejos y recomendaciones para el viaje, alojamiento y actividades.
+      Para quienes están considerando viajar a Ecuador, sabemos que un viaje así requiere
+      planificación, tiempo y una inversión importante. Valoramos muchísimo el esfuerzo de cada
+      persona dispuesta a acompañarnos en este momento tan especial, ¡gracias de corazón! Para
+      ayudarte a decidir y prepararte, reunimos algunos consejos y recomendaciones sobre el viaje,
+      alojamiento y actividades.
     assist: >
       Estamos buscando maneras de <strong>ayudar con la logística</strong>, como traslados desde el aeropuerto,
       transporte a la iglesia y al local, y un Airbnb compartido para los invitados (¡posiblemente con piscina!).
@@ -123,7 +124,10 @@ es:
     health_food_safety: >
       Ten cuidado con la <strong>seguridad alimentaria y del agua</strong> durante tu viaje. Siempre bebe agua embotellada o filtrada, incluso al cepillarte los dientes o lavar frutas y verduras, ya que el agua del grifo no siempre es segura para beber. Los estándares de higiene pueden variar, especialmente en restaurantes pequeños y económicos, así que es mejor evitar vegetales crudos, ensaladas y carnes poco cocidas, particularmente cerdo y mariscos.
     health_dining_out: >
-      Al comer fuera, opta por restaurantes concurridos y bien reseñados, y sé cauteloso con la comida callejera, eligiendo vendedores con alta rotación. ¡Manteniéndote con comidas bien cocidas y practicando buena higiene ayudará a asegurar un viaje placentero y sin contratiempos!
+      Al comer fuera, opta por restaurantes concurridos y bien reseñados, y sé cauteloso con la
+      comida callejera, eligiendo vendedores con bastante concurrencia. Manteniéndote con comidas
+      bien cocidas y practicando buena higiene ayudará a asegurar un viaje placentero y sin
+      contratiempos!
     safety_title: Seguridad
     safety_intro: >
       Ecuador es un país hermoso y acogedor, pero como con cualquier destino de viaje, es importante estar atento a tu entorno y usar el sentido común. Los avisos oficiales de viaje de países como Bélgica, Canadá, el Reino Unido y los Estados Unidos proporcionan información útil, pero ten en cuenta que tienden a sonar un poco dramáticos (existen advertencias similares para Bruselas). Con las precauciones adecuadas, podrás disfrutar plenamente de tu viaje y explorar con confianza. Aquí hay algunos consejos clave a tener en cuenta:
@@ -157,7 +161,11 @@ es:
     wedding_day_to_plan: >
       ¿Buscas el cronograma, información sobre regalos u otros detalles de la boda? ¡Ve a %{plan_link} en nuestra página de inicio!
     wedding_day_children: >
-      Los <strong>niños</strong> son bienvenidos, pero ten en cuenta que habrá alcohol y posiblemente fuegos abiertos. Por favor, asegúrate de incluir a tus hijos como acompañantes cuando confirmes tu asistencia. Si vienen muchos niños, podríamos contratar una niñera para ayudar con la supervisión para que puedas disfrutar plenamente de la fiesta. Lamentablemente, no se permiten <strong>mascotas</strong> en el local.
+      Los <strong>niños</strong> son bienvenidos, pero ten en cuenta que habrá alcohol y
+      posiblemente fogatas. Por favor, asegúrate de incluir a tus hijos como acompañantes cuando
+      confirmes tu asistencia. Si vienen muchos niños, podríamos contratar una niñera para ayudar
+      con la supervisión para que puedas disfrutar plenamente de la fiesta. Lamentablemente, no se
+      permiten <strong>mascotas</strong> en el local.
     dress_code_title: Código de Vestimenta
     dress_code_intro: >
       ¡Nos encantaría ver a nuestros amigos y familiares vestidos elegantemente para nuestro gran día! Si bien sugerimos un atuendo elegante, no es necesario nada demasiado formal. Tu comodidad es lo más importante.
@@ -208,10 +216,10 @@ es:
     title: 'Explorando Ecuador'
     quito_title: 'Quito'
     quito_body_intro: >
-      La capital de Ecuador <span style="white-space: nowrap;">(2&thinsp;850&thinsp;m)</span> no es solo
-      donde se realizará nuestra boda, sino también donde Jess nació y se crió. Quito tiene el
-      centro histórico mejor preservado de Sudamérica, con iglesias coloniales y una rica mezcla de
-      historia y cultura.
+      La capital de Ecuador <span style="white-space: nowrap;">(2&thinsp;850&thinsp;m)</span> no es
+      solo donde se realizará nuestra boda, sino también donde Jess nació y vivió por casi 30 años.
+      Quito tiene el centro histórico mejor preservado de Sudamérica, con iglesias coloniales y una
+      rica mezcla de historia y cultura.
     quito_body_center: >
       Para una inmersión más profunda en la historia de Quito, recomendamos el <em>Museo de la Ciudad</em> o la <em>Casa
       del Alabado</em>, ambos ubicados en el centro. Sube a <em>El Panecillo</em>, la icónica colina
@@ -239,12 +247,16 @@ es:
     otavalo_body_lagoon: >
       A un corto viaje en auto desde el mercado, los amantes de la naturaleza pueden visitar la <em>Laguna de Cuicocha</em>, un impresionante lago cráter con aguas azul profundo formado por una erupción volcánica hace mucho tiempo. Puedes caminar alrededor o tomar un relajante paseo en bote para disfrutar las vistas.
     otavalo_body_waterfall: >
-      Otro punto destacado es la <em>Cascada de Peguche</em>, un sitio sagrado para el pueblo Kichwa, rodeado de un bosque tranquilo.
+      Otro punto destacado es la <em>Cascada de Peguche</em>, un sitio sagrado para el pueblo otavaleño, rodeado de un bosque tranquilo.
     cotopaxi_title: 'Parque Nacional Cotopaxi'
     cotopaxi_body_intro: >
       Con paisajes abiertos y el dramático Volcán Cotopaxi alzándose sobre ellos, este parque nacional es un sueño para excursionistas, ciclistas y amantes de la naturaleza. Puedes visitar el refugio de montaña <span style="white-space: nowrap;">(4&thinsp;800&thinsp;m)</span>, o, si estás listo para un desafío serio, intentar llegar a la cima <span style="white-space: nowrap;">(5&thinsp;900&thinsp;m)</span> con un guía.
     cotopaxi_body_chimborazo: >
-      Para una aventura aún más extrema, dirígete al <em>Volcán Chimborazo</em> <span style="white-space: nowrap;">(6&thinsp;300&thinsp;m)</span>, el pico más alto de Ecuador y el punto más cercano al sol en la Tierra. Una alternativa menos conocida es el <em>Morurco</em>, una joya escondida detrás del Cotopaxi, que ofrece diversas rutas de senderismo y vistas impresionantes, sin las multitudes.
+      Para una aventura aún más extrema, dirígete al <em>Volcán Chimborazo</em>
+      <span style="white-space: nowrap;">(6&thinsp;300&thinsp;m)</span>, el pico más alto de
+      Ecuador y el punto más cercano al sol en la Tierra. Una alternativa menos conocida es el
+      <em>Morurco</em>, una joya escondida detrás del Cotopaxi, que ofrece diversas rutas de
+      senderismo y vistas impresionantes, sin las multitudes de turistas.
     mindo_title: 'Mindo'
     mindo_body_intro: >
       Escondido en el bosque nublado a unas dos horas de Quito, Mindo es un escape favorito para amantes de la naturaleza y buscadores de aventuras. Es conocido por su rica biodiversidad, con excelente observación de aves (mantén un ojo abierto para colibríes, tucanes y el brillante gallo de la peña andino).
@@ -257,7 +269,12 @@ es:
     cuenca_body_intro: >
       Una encantadora ciudad llena de historia, arquitectura colonial y vibrante cultura local. Cuenca fue una vez una importante ciudad inca. Hoy, es una de las ciudades de Sudamérica con mejor calidad de vida, haciéndola popular entre los nómadas digitales.
     cuenca_body_activities: >
-      No te pierdas las icónicas cúpulas azules de la <em>Catedral Nueva</em> (sube antes de las 4:00pm para una gran vista). Ve al <em>Mercado 10 de Agosto</em> para probar platos como mote pillo (un plato típico cuencano) u hornado. Toma un paseo en bus de dos pisos hasta el <em>Mirador de Turi</em>, un punto panorámico perfecto para fotos, o aventúrate al <em>Parque Nacional Cajas</em> para caminatas tranquilas de altura entre lagos y paisajes dramáticos.
+      No te pierdas las icónicas cúpulas azules de la <em>Catedral Nueva</em> (sube antes de las
+      4:00pm para una gran vista). Ve al <em>Mercado 10 de Agosto</em> para probar platos como mote
+      pillo (un plato típico cuencano) u hornado. Toma un paseo en bus de dos pisos hasta el
+      <em>Mirador de Turi</em>, un punto panorámico perfecto para fotos, o aventúrate al
+      <em>Parque Nacional Cajas</em> para caminatas tranquilas de altura entre lagos y paisajes
+      que te dejarán sin palabras.
     cuenca_body_food: >
       ¡Dato curioso: el <em>Sombrero de Panamá</em> en realidad viene de Cuenca, no de Panamá! Incluso puedes visitar un museo del sombrero para aprender cómo se hacen. Si tienes tiempo extra, explora <em>Saraguro</em> para conocer la cultura Kichwa andina, o visita <em>Gualaceo</em> y <em>Chordeleg</em>, conocidos por sus joyas y textiles hechos a mano (perfecto para un recuerdo único).
     cuenca_body_facts: >
@@ -310,9 +327,9 @@ es:
     title: 'Preguntas Frecuentes'
     no_invitation_title: "No recibí una invitación. ¿Se olvidaron de mí?"
     no_invitation_body: >
-      ¡Para nada! Primero estamos enviando las <em>Reservas de Fecha</em> para que todos puedan
+      ¡Para nada! Primero estamos enviando los <em>Save The Date</em> para que todos puedan
       %{rsvp_link} y completar su dirección. Así podremos enviar las invitaciones formales
-      a todos los que vendrán.
+      a todos los todas las personas los que vendrán.
     cant_make_it_title: "¿Qué debo hacer si no puedo asistir?"
     cant_make_it_body: >
       Lamentaremos mucho tu ausencia. Si no puedes asistir, por favor háznos saber a través de
@@ -351,12 +368,13 @@ es:
     pictures_title: "¿Puedo subir fotos que tome durante la boda?"
     pictures_body_ceremony: >
       Nos gustaría que todos estén completamente presentes y disfruten el momento, así que pedimos
-      amablemente que te abstengas de tomar fotos <em>durante la ceremonia</em>. Hemos contratado
-      un fotógrafo profesional, y compartiremos las fotos de la boda en este sitio web después de
-      nuestra luna de miel.
+      amablemente que se abstengan de tomar fotos <em>durante la ceremonia eclesiástica</em>.
+      Hemos contratado un fotógrafo profesional, y compartiremos las fotos de la boda en este sitio
+      web después de nuestra luna de miel.
     pictures_body_reception: >
-      Después de la ceremonia, siéntete libre de tomar todas las fotos que quieras. Si quieres
-      compartirlas con nosotros, puedes contactarnos <a href="mailto:jessi-leon@hotmail.com">por correo electrónico</a>.
+      Después de la ceremonia en la iglesia, siéntete libre de
+      tomar todas las fotos que quieras. Si quieres compartirlas con nosotros, puedes contactarnos
+      por <a href="mailto:jessi-leon@hotmail.com">por correo electrónico</a>.
     plan_trip_title: "¿Algún consejo para planear nuestro viaje a Ecuador?"
     plan_trip_body: >
       ¡Por supuesto! Para todos los detalles prácticos, revisa nuestra página de %{travel_link}.

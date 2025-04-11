@@ -75,7 +75,7 @@ nl:
     assist: >
       We onderzoeken manieren om te <strong>helpen met de logistiek</strong>, zoals luchthaven transfers,
       een shuttle naar de kerk en/of receptie, en een gedeelde Airbnb voor gasten (mogelijks met zwembad!).
-      Daarnaast kunnen we mogelijk %{hotel_link}, inclusief hotels in de buurt van de receptie. Hoewel
+      Daarnaast kunnen we %{hotel_link}, inclusief hotels in de buurt van de receptie. Hoewel
       we deze kosten niet kunnen dekken, zullen we ons best doen om te coördineren. Als je updates
       over deze regelingen via e-mail wilt ontvangen, vink dan het overeenkomstige vakje aan tijdens het
       RSVP-proces.
@@ -92,15 +92,15 @@ nl:
     destination_pacific_title: 'De Pacifische Kust'
     destination_pacific_body: 'Ontspan op zandstranden of surf in kustplekjes.'
     destination_galapagos_title: 'De Galápagos Eilanden'
-    destination_galapagos_body: 'Ervaar unieke dieren en ongerepte stranden.'
+    destination_galapagos_body: 'Ontdek zeldzame diersoorten en ongerepte stranden in dit unieke natuurparadijs.'
     language: >
       De hoofdtaal in Ecuador is <strong>Spaans</strong>. Iedereen spreekt Spaans in de steden, en zelfs
       in landelijke gebieden spreekt de meerderheid Spaans. Veel mensen spreken ook Engels, vooral jongeren.
     weather: >
       Het weer in Ecuador in februari varieert per regio door de diverse geografie. In Quito en de Andes
       Hooglanden is de <strong>temperatuur rond 13-25&deg;C</strong> met milde dagen, frisse nachten en
-      af en toe regen. We raden aan om een licht regenjasje mee te nemen en de weersverwachting te
-      checken voor vertrek.
+      af en toe regen. We raden aan om een licht regenjasje mee te nemen en de weersverwachting na te
+      kijken voor vertrek.
     mobile_data: >
       Voor betrouwbaar mobiel internet is een <strong>lokale SIM</strong> of <strong>eSIM</strong> de beste optie. 
       Claro heeft de beste dekking, Movistar werkt goed in steden, en Tuenti is budgetvriendelijk. SIM-kaarten 
@@ -115,7 +115,7 @@ nl:
       bussen en markten contant geld vereisen (in kleine biljetten). In landelijke gebieden is contant geld 
       essentieel. De geldautomaten van Banco Internacional zijn het best voor Visa-kaarten (vaak zonder kosten), 
       en Revolut zou goed moeten werken voor kaartbetalingen. Geldautomaten zijn schaars buiten de steden, dus haal 
-      geld af op een veilige plek en neem voldoende cash mee tijdens het reizen.
+      geld af op een veilige plek en neem wat cash mee tijdens het reizen.
     tipping: >
       <strong>Fooien geven</strong> is veel gebruikelijker in Ecuador dan in België. In restaurants is vaak 
       een servicekost van 10% inbegrepen in de rekening. Zo niet, is 5-10% gebruikelijk voor goede service. 
@@ -143,8 +143,8 @@ nl:
     health_title: Gezondheid
     health_altitude: >
       We raden aan om een paar dagen voor de bruiloft aan te komen om te wennen aan de <strong>hoogte</strong>. 
-      Quito ligt op <span style="white-space: nowrap;">2&thinsp;850&thinsp;m</span> boven zeeniveau, en het kan 
-      even duren voordat je lichaam zich heeft aangepast.
+      Quito ligt op <span style="white-space: nowrap;">2&thinsp;850&thinsp;m</span> boven de zeespiegel, en het
+      kan even duren voordat je lichaam zich heeft aangepast.
     health_vaccinations: >
       Bespreek je reisplannen met je huisarts of een reiskliniek, idealiter acht tot tien weken voor vertrek. 
       Vaak aanbevolen <strong>vaccinaties</strong> zijn <strong>gele koorts</strong>, <strong>hepatitis A</strong>, 
@@ -155,7 +155,7 @@ nl:
       bieden over het algemeen betere zorg dan openbare ziekenhuizen, en een verzekering kan helpen bij medische 
       noodgevallen, reisannulering, verloren bagage en diefstal. Het is vooral waardevol als je afgelegen gebieden 
       zoals het Amazonegebied of de Galápagos wilt verkennen of buitenactiviteiten wilt ondernemen. In België kun 
-      je vaak een reisverzekering krijgen via je kredietkaartmaatschappij (dit is mogelijk alleen als je je vluchten 
+      je vaak een reisverzekering krijgen via je kredietkaartmaatschappij (soms gaat dit alleen als je je vluchten 
       met hun kredietkaart hebt geboekt), je bank, of bij %{touring_link}.
     health_food_safety: >
       Let tijdens je reis op <strong>voedsel- en waterveiligheid</strong>. Drink altijd water uit flessen of 
@@ -172,7 +172,7 @@ nl:
       blijven en je gezond verstand te gebruiken. Officiële reisadviezen van landen als België, Canada, het VK en 
       de VS bieden nuttige informatie, maar houd er rekening mee dat ze vaak wat dramatisch klinken (vergelijkbare 
       waarschuwingen bestaan voor Brussel). Met de juiste voorzorgsmaatregelen kun je volop van je reis genieten 
-      en met vertrouwen op verkenning gaan. Hier zijn enkele belangrijke tips:
+      en met een gerust hart op verkenning gaan. Hier zijn enkele belangrijke tips:
     safety_transport_title: 'Gebruik veilig vervoer'
     safety_transport_body: >
       Neem alleen door het hotel geregelde ritten, Uber, of geregistreerde taxi’s.
@@ -188,7 +188,7 @@ nl:
     safety_night_areas_title: "Vermijd bepaalde gebieden ’s nachts"
     safety_night_areas_body: >
       Sommige wijken in Guayaquil, Esmeraldas, Manabí en Quito kunnen onveilig zijn na zonsondergang. Vraag advies aan locals of je hotel, blijf in goed verlichte gebieden en vermijd alleen wandelen.
-    safety_cash_title: 'Pin veilig'
+    safety_cash_title: 'Gebruik de geldautomaat veilig'
     safety_cash_body: >
       Gebruik geldautomaten binnen in banken of winkelcentra, niet op straat.
     safety_documents_title: 'Bewaar kopieën van belangrijke documenten'
@@ -201,7 +201,7 @@ nl:
       Met deze basisvoorzorgsmaatregelen is Ecuador een geweldige plek om te bezoeken! Blijf veilig, geniet van de bruiloft en maak het beste van je tijd tijdens het verkennen.
     wedding_day_title: 'De Trouwdag'
     wedding_day_to_plan: >
-      Op zoek naar het programma, informatie over geschenken of andere details? Ga naar %{plan_link} op onze homepage!
+      Op zoek naar het programma, informatie over geschenken of andere zaken? Ga naar %{plan_link} op onze homepage!
     wedding_day_children: >
       <strong>Kinderen</strong> zijn welkom, maar houd er rekening mee dat er alcohol en mogelijk open vuur aanwezig zal zijn. Vermeld je kinderen alsjeblieft als plus ones wanneer je RSVP’t. Als er veel kinderen komen, kunnen we mogelijk een oppas regelen zodat jij volop van het feest kunt genieten. Helaas zijn <strong>huisdieren</strong> niet toegestaan op de locatie.
     dress_code_title: Dresscode
@@ -215,7 +215,7 @@ nl:
       Het belangrijkste is dat je iets draagt waar je van houdt, waar je je geweldig in voelt, en waarin je de hele nacht kunt dansen! &#10024;
     where_to_stay_title: 'Waar Verblijven'
     where_to_stay_intro: >
-      Voor gemak en veiligheid raden we aan om te verblijven in het noordelijk-centrale deel van Quito of in de nabijgelegen valleien van Tumbaco, Cumbayá of Puembo, aangezien de bruiloft in Guápulo en Puembo plaatsvindt. Deze gebieden bieden verschillende hotels en Airbnbs, waardoor je na het feest veilig kunt terugkeren!
+      Voor gemak en veiligheid raden we aan om te verblijven in het noordelijk-centrale deel van Quito of in de nabijgelegen valleien van Tumbaco, Cumbayá of Puembo, aangezien de bruiloft in Guápulo en Puembo plaatsvindt. Deze gebieden bieden verschillende hotels en Airbnbs, zodat je na het feest veilig kunt terugkeren!
     where_to_stay_hotel: >
       We hebben een speciaal tarief geregeld bij hotel %{hotel_link}, een charmante haciënda uit de 17e eeuw vlakbij de trouwlocatie (15 minuten met de auto). Dit prachtige hotel beschikt over een zwembad, fitnesscentrum, ontbijt en luchthaventransfers voor een comfortabel verblijf. Ons gereduceerde tarief is &#36;85 voor een tweepersoonskamer. Je kunt mailen naar %{email_link}, met vermelding van <em>boda Hoorens-León</em>, om tegen dit tarief te boeken.
     church_title: 'De Kerk'
@@ -226,9 +226,9 @@ nl:
     church_timing: >
       Hoewel Ecuadorianen bekend staan om hun ontspannen benadering van timing, beginnen kerkelijke ceremonies stipt op tijd. We raden aan om minstens 20 minuten voor aanvang (14u40) aanwezig te zijn voor een soepele start.
     church_transport: >
-      <strong>We raden aan om een taxi of Uber te nemen</strong> naar de kerk. Zorg ervoor dat je een geregistreerde taxi gebruikt, met een oranje nummerplaat, en controleer of de meter correct loopt. Boek indien mogelijk je taxi via een vertrouwd hotel, restaurant of taxi-app (we raden Uber aan). Vraag je chauffeur om je bij de ingang van de kerk af te zetten om te voorkomen dat je in feestkleding steile straten moet beklimmen.
+      <strong>We raden aan om een taxi of Uber te nemen</strong> naar de kerk. Zorg ervoor dat je een geregistreerde taxi gebruikt, met een oranje nummerplaat, en controleer of de meter correct loopt. Boek indien mogelijk je taxi via een vertrouwd hotel, restaurant of taxi-app (we raden Uber aan). Vraag je chauffeur om je aan de ingang van de kerk af te zetten om te voorkomen dat je in feestkleding steile straten moet beklimmen.
     church_parking: >
-      We raden niet aan om met de auto naar de kerk te gaan, omdat het voor buitenlanders lastig kan zijn om door de straten van Quito te navigeren. De parkeerplaats van de kerk is klein en straatparkeren is schaars. Als je toch besluit met de auto te komen, raden we deze routes aan:
+      We raden niet aan om met de auto naar de kerk te gaan, omdat het voor buitenlanders een beetje uitdagend kan zijn om door de straten van Quito te navigeren. De parkeerplaats van de kerk is klein en straatparkeren is schaars. Als je toch besluit met de auto te komen, raden we deze routes aan:
     church_route_floresta_title: 'Vanaf La Floresta / González Suárez'
     church_route_floresta_body: >
       Neem de Camino de Orellana, een steile en bochtige weg (5-10 min).
@@ -255,8 +255,9 @@ nl:
     quito_title: 'Quito'
     quito_body_intro: >
       De hoofdstad van Ecuador <span style="white-space: nowrap;">(2&thinsp;850&thinsp;m)</span> is niet alleen 
-      waar onze bruiloft plaatsvindt, maar ook waar Jess geboren en opgegroeid is. Quito heeft het best bewaarde 
-      historische centrum van Zuid-Amerika, met koloniale kerken en een rijke mix van geschiedenis en cultuur.
+      de plaats waar onze bruiloft plaatsvindt, maar is ook waar Jess geboren en opgegroeid is. Quito heeft het
+      best bewaarde historische centrum van Zuid-Amerika, met koloniale kerken en een rijke mix van geschiedenis
+      en cultuur.
     quito_body_center: >
       Voor een diepere duik in Quito’s verleden raden we het <em>Museo de la Ciudad</em> of <em>Casa del Alabado</em> 
       aan, beide in het centrum. Klim naar <em>El Panecillo</em>, de iconische heuvel waar de <em>Maagd van de 
@@ -304,14 +305,19 @@ nl:
       dierenopvangcentra en botanische tuinen.
     otavalo_title: 'Otavalo'
     otavalo_body_market: >
-      Bekend om een van Zuid-Amerika’s meest iconische inheemse markten, is Otavalo een must-see voor cultuurliefhebbers. Op <em>La plaza de los ponchos</em> vind je een grote verscheidenheid aan handwerk, textiel en traditionele kunst die Ecuador’s inheemse erfgoed weerspiegelen. Terwijl je over de markt wandelt, zie je bekwame ambachtslieden die alles verkopen, van handgeweven alpacawollen kleding tot gesneden sieraden en kleurrijke Andes-souvenirs.
+      Bekend om een van Zuid-Amerika’s meest iconische inheemse markten, is Otavalo een must-see
+      voor cultuurliefhebbers. Op <em>La plaza de los ponchos</em> vind je een grote
+      verscheidenheid aan handwerk, textiel en traditionele kunst die Ecuador’s inheemse erfgoed
+      weerspiegelen. Terwijl je door de markt rondwandelt, zie je bekwame ambachtslieden die van
+      alles verkopen, van handgeweven alpacawollen kleding tot gesneden sieraden en kleurrijke
+      Andes-souvenirs.
     otavalo_body_lagoon: >
       Een kort ritje van de markt kunnen natuurliefhebbers het <em>Cuicocha meer</em> bezoeken, een prachtig kratermeer met diepblauw water gevormd door een vulkaanuitbarsting lang geleden. Je kunt er rondwandelen of een ontspannen boottocht maken om van het uitzicht te genieten.
     otavalo_body_waterfall: >
-      Een andere highlight is de <em>Peguche waterval</em>, een heilige plek voor de Kichwa-mensen, omringd door een vredig bos.
+      Een andere highlight is de <em>Peguche waterval</em>, een heilige plek voor de Otavalo-mensen, omringd door een vredig bos.
     cotopaxi_title: 'Cotopaxi Nationaal Park'
     cotopaxi_body_intro: >
-      Met uitgestrekte landschappen en de imposante Cotopaxi Vulkaan die er bovenuit torent, is dit nationaal park een droom voor wandelaars, fietsers en natuurliefhebbers. Je kunt de bergschuilplaats bezoeken <span style="white-space: nowrap;">(4&thinsp;800&thinsp;m)</span>, of, als je een serieuze uitdaging aandurft, proberen de top te bereiken <span style="white-space: nowrap;">(5&thinsp;900&thinsp;m)</span> met een gids.
+      Met uitgestrekte landschappen en de imposante Cotopaxi Vulkaan die er bovenuit torent, is dit nationaal park een droom voor wandelaars, fietsers en natuurliefhebbers. Je kunt de bergchalet bezoeken <span style="white-space: nowrap;">(4&thinsp;800&thinsp;m)</span>, of, als je een serieuze uitdaging aandurft, proberen de top te bereiken <span style="white-space: nowrap;">(5&thinsp;900&thinsp;m)</span> met een gids.
     cotopaxi_body_chimborazo: >
       Voor een nog extremer avontuur, ga naar de <em>Chimborazo Vulkaan</em> <span style="white-space: nowrap;">(6&thinsp;300&thinsp;m)</span>, Ecuador’s hoogste piek en het punt dat het dichtst bij de zon ligt op aarde. Een minder bekend alternatief is <em>Morurco</em>, een verborgen parel achter de Cotopaxi, met diverse wandelroutes en adembenemende uitzichten, zonder de drukte.
     mindo_title: 'Mindo'
