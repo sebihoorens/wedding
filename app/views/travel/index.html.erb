@@ -40,7 +40,7 @@
         <h2><%= t('travel.getting_to_ecuador_title') %></h2>
         <p><%= t('travel.getting_to_ecuador_low_season').html_safe %></p>
         <p><%= t('travel.getting_to_ecuador_airport').html_safe %></p>
-        <p><%= t('travel.getting_to_ecuador_visa', foreign_affairs_link: link_to(t('travel.getting_to_ecuador_belgian_foreign_affairs'), 'https://diplomatie.belgium.be/nl/landen/ecuador/reizen-naar-ecuador-reisadvies/praktische-info-voor-ecuador', target: '_blank')).html_safe %></p>
+        <p><%= t('travel.getting_to_ecuador_visa', foreign_affairs_link: link_to(t('travel.getting_to_ecuador_belgian_foreign_affairs'), 'https://diplomatie.belgium.be/nl/landen/ecuador/reizen-naar-ecuador-reisadvies/praktische-info-voor-ecuador', target: '_blank'), galapagos_link: link_to(t('exploring.galapagos_title'), "#{exploring_ecuador_path}#galapagos"), exploring_link: link_to(t('exploring.title'), exploring_ecuador_path)).html_safe %></p>
 
         <h2 id="travel-health"><%= t 'travel.health_title' %></h2>
         <p><%= t('travel.health_altitude').html_safe %></p>

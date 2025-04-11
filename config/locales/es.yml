@@ -112,7 +112,13 @@ es:
     getting_to_ecuador_airport: >
       Como la boda se realizará cerca de Quito (Guápulo y Puembo), recomendamos volar al Aeropuerto Internacional Mariscal Sucre, que está a unos 45 minutos de la ciudad.
     getting_to_ecuador_visa: >
-      La mayoría de nacionalidades pueden visitar Ecuador sin visa por hasta 90 días en un período de 12 meses, pero los <strong>pasaportes</strong> deben tener validez de al menos seis meses al momento de la entrada. Los oficiales de migración pueden pedir prueba de viaje de salida. Para los requisitos de entrada más actualizados, revisa el sitio web de Asuntos Exteriores de tu país (por ejemplo, %{foreign_affairs_link}) antes de partir. Se aplican requisitos de entrada adicionales para las Islas Galápagos.
+      La mayoría de nacionalidades pueden visitar Ecuador sin visa por hasta 90 días en un período 
+      de 12 meses, pero los <strong>pasaportes</strong> deben tener validez de al menos seis meses 
+      al momento de la entrada. Los oficiales de migración pueden pedir prueba de viaje de salida. 
+      Para los requisitos de entrada más actualizados, revisa el sitio web de Asuntos Exteriores 
+      de tu país (por ejemplo, %{foreign_affairs_link}) antes de partir. Se aplican requisitos de 
+      entrada adicionales para las Islas Galápagos, consulta la sección %{galapagos_link} en nuestra 
+      página %{exploring_link}.
     getting_to_ecuador_belgian_foreign_affairs: Asuntos Exteriores de Bélgica
     health_title: Salud
     health_altitude: >

@@ -165,7 +165,8 @@ fr:
       valides pendant au moins six mois après l'entrée. Les agents aux frontières peuvent demander
       une preuve de voyage retour. Pour les dernières exigences d'entrée, consultez le site des
       Affaires étrangères de votre pays (par exemple, %{foreign_affairs_link}) avant le départ.
-      Des exigences d'entrée supplémentaires s'appliquent pour les îles Galápagos.
+      Des exigences d'entrée supplémentaires s'appliquent pour les îles Galápagos, voir la section
+      %{galapagos_link} sur notre page %{exploring_link}.
     getting_to_ecuador_belgian_foreign_affairs: Affaires Étrangères Belges
     health_title: Santé
     health_altitude: >

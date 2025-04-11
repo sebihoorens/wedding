@@ -145,7 +145,7 @@ en:
     getting_to_ecuador_airport: >
       Since the wedding will take place around Quito (Guápulo and Puembo), we recommend flying into Mariscal Sucre International Airport, which is about 45 minutes from the city.
     getting_to_ecuador_visa: >
-      Most nationalities can visit Ecuador visa-free for up to 90 days within a 12-month period, but <strong>passports</strong> must be valid for at least six months upon entry. Border officials may ask for proof of onward travel. For the latest entry requirements, check the website of Foreign Affairs of your country (for example, %{foreign_affairs_link}) before departure. Additional entry requirements apply for the Galápagos Islands.
+      Most nationalities can visit Ecuador visa-free for up to 90 days within a 12-month period, but <strong>passports</strong> must be valid for at least six months upon entry. Border officials may ask for proof of onward travel. For the latest entry requirements, check the website of Foreign Affairs of your country (for example, %{foreign_affairs_link}) before departure. Additional entry requirements apply for the Galápagos Islands, see the %{galapagos_link} section on our %{exploring_link} page.
     getting_to_ecuador_belgian_foreign_affairs: Belgian Foreign Affairs
     health_title: Health
     health_altitude: >
