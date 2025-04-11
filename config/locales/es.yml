@@ -53,7 +53,7 @@ es:
       aprender español.
     timeline_click: "Lo que comenzó como práctica de idiomas se convirtió en algo más profundo mientras hablábamos todos los días, nos veíamos frecuentemente y conectábamos. Pasábamos nuestro tiempo explorando nuevos lugares, conociendo familia y amigos, y creando memorias juntos."
     timeline_move_in: "El tiempo voló, y después de un año de noviazgo, decidimos mudarnos juntos. El programa de maestría de Jess estaba por comenzar, y sabíamos que habría sido más difícil encontrar el tiempo para vernos tan seguido como antes."
-    timeline_proposed: "Después de casi cuatro años juntos, estábamos más que seguros de que queríamos pasar el resto de nuestras vidas juntos y formar una familia. En el verano de 2024, cuando nuestras familias de conocieron por primera vez, Sebi le propuso matrimonio."
+    timeline_proposed: "Después de casi cuatro años juntos, estábamos más que seguros de que queríamos pasar el resto de nuestras vidas juntos y formar una familia. En el verano de 2024, cuando nuestras familias se conocieron por primera vez, Sebi le propuso matrimonio."
     timeline_next_chapter: "Ahora, estamos emocionados de invitarte a que nos acompañes en otro capítulo de nuestras vidas. ¡Nos encantaría tenerte con nosotros!"
     fun_facts_title: 'Datos Curiosos'
     fun_facts_first_move_q: '¿Quién dio el primer paso?'
@@ -327,9 +327,9 @@ es:
     title: 'Preguntas Frecuentes'
     no_invitation_title: "No recibí una invitación. ¿Se olvidaron de mí?"
     no_invitation_body: >
-      ¡Para nada! Primero estamos enviando los <em>Save The Date</em> para que todos puedan
+      ¡Para nada! Primero estamos enviando los <em>Save The Date</em> para que todos puedan
       %{rsvp_link} y completar su dirección. Así podremos enviar las invitaciones formales
-      a todos los todas las personas los que vendrán.
+      a todas las personas que vendrán.
     cant_make_it_title: "¿Qué debo hacer si no puedo asistir?"
     cant_make_it_body: >
       Lamentaremos mucho tu ausencia. Si no puedes asistir, por favor háznos saber a través de

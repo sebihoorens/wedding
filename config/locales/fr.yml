@@ -8,13 +8,13 @@ fr:
   problem: problème
   home:
     jumbo_getting_married: 'Nous nous marions !'
-    save_the_date_title: 'À vos agendas'
+    save_the_date_title: 'À Vos Agendas'
     save_the_date_add_to_calendar: 'Ajouter au calendrier'
     plan_title: 'Le Programme'
     plan_to_wedding_day: >
       Pour les détails pratiques comme l'accès, l'hébergement et le code vestimentaire, consultez la
       section %{wedding_day_href} sur notre page %{travel_href}.
-    plan_order_title: 'Déroulement de la journée'
+    plan_order_title: 'Déroulement de la Journée'
     plan_order_arrive_time: 14h30
     plan_order_arrive_body: Arrivée des invités
     plan_order_ceremony_time: 15h00
@@ -71,7 +71,7 @@ fr:
     fun_facts_honeymoon_a: >
       Nous prévoyons un voyage à travers plusieurs pays d'Amérique du Sud à partir du lendemain du
       mariage. Notre itinéraire inclut la Colombie, le Pérou et le Brésil.
-    fun_facts_first_holiday_q: 'Où était vos premières vacances ensemble ?'
+    fun_facts_first_holiday_q: 'Où étaient vos premières vacances ensemble ?'
     fun_facts_first_holiday_a: 'En septembre 2021, nous avons passé de belles vacances en Andalousie, profitant du beau temps et de la délicieuse cuisine espagnole.'
     fun_facts_favourite_meal_q: 'Quel est le plat préféré du couple ?'
     fun_facts_favourite_meal_a: >
@@ -149,7 +149,7 @@ fr:
     getting_to_ecuador_title: 'Se Rendre en Équateur'
     getting_to_ecuador_low_season: >
       Le mariage aura lieu pendant la basse saison, car février est l'un des mois les plus abordables
-      pour voler vers l'Équateur. Pour obtenir les meilleurs prix, nous vous recommandons de réserver
+      pour voyager vers l'Équateur. Pour obtenir les meilleurs prix, nous vous recommandons de réserver
       votre vol 6 à 8 mois à l'avance. Les prix des vols aller-retour depuis l'Europe commencent
       généralement à partir de 800&#8364; par personne, avec des compagnies comme Air Europa, Iberia
       et KLM offrant les options les plus économiques. Ces vols font généralement escale à Madrid ou
@@ -310,7 +310,7 @@ fr:
     church_parking: >
       Nous ne recommandons pas de se rendre à l'église en voiture, car il peut être difficile
       pour les gringos de naviguer dans les rues de Quito. Le parking de l'église est petit et
-      le stationnement dans la rue est rare. Si vous décidez quand même de venir en voiture,
+      le stationnement dans la rue est rare. Si vous décidez quand même d'y venir en voiture,
       nous recommandons ces itinéraires :
     church_route_floresta_title: 'Depuis La Floresta / González Suárez'
     church_route_floresta_body: >
