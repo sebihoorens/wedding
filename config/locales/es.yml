@@ -467,7 +467,7 @@ es:
     guest_attending_questions_body: 'Por favor revisa %{wedding_website} para más información, o puedes responder a este correo.'
     guest_attending_wedding_website: 'nuestro sitio web de boda'
     guest_not_attending_sorry: "Lamentamos que no puedas asistir. Si cambias de opinión, puedes volver al sitio web y actualizar tu confirmación."
-    guest_not_attending_hope: '¡Esperamos verte en otra ocasión!'
+    guest_not_attending_hope: '¡Esperamos tener el gusto de verte pronto en otra ocasión!'
     admin_attending: confirmó su asistencia.
     admin_not_attending: no podrá asistir.
     admin_left_message: 'Te dejaron un mensaje:'

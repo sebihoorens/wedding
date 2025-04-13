@@ -683,7 +683,7 @@ fr:
     guest_not_attending_sorry: >
       Nous sommes désolés que vous ne puissiez pas venir. Si vous changez d'avis, vous pouvez
       retourner sur le site web pour mettre à jour votre RSVP.
-    guest_not_attending_hope: 'Nous espérons vous voir une prochaine fois !'
+    guest_not_attending_hope: 'Nous espérons avoir bientôt le plaisir de vous revoir !'
     admin_attending: 'a confirmé sa présence.'
     admin_not_attending: 'ne peut pas venir.'
     admin_left_message: 'Ils ont laissé un message :'

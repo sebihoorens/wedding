@@ -506,7 +506,7 @@ nl:
     guest_attending_questions_body: 'Kijk op %{wedding_website} voor meer informatie, of beantwoord deze e-mail.'
     guest_attending_wedding_website: 'onze trouwwebsite'
     guest_not_attending_sorry: "We vinden het jammer dat je er niet bij kunt zijn. Als je van gedachten verandert, kun je terug naar de website gaan om je RSVP bij te werken."
-    guest_not_attending_hope: 'We hopen je een andere keer te zien!'
+    guest_not_attending_hope: 'We hopen je snel weer eens te zien!'
     admin_attending: heeft bevestigd te komen.
     admin_not_attending: kan niet komen.
     admin_left_message: 'Ze lieten een bericht achter:'

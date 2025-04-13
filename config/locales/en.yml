@@ -483,7 +483,7 @@ en:
     guest_attending_questions_body: 'Please check %{wedding_website} for more information, or you can reply to this email.'
     guest_attending_wedding_website: 'our wedding website'
     guest_not_attending_sorry: "We’re sorry to hear you can’t make it. If you change your mind, you can go back to the website to update your RSVP."
-    guest_not_attending_hope: 'We hope to see you another time!'
+    guest_not_attending_hope: 'We hope to see you another time soon!'
     admin_attending: confirmed their attendance.
     admin_not_attending: can’t make it.
     admin_left_message: 'They left you a message:'
