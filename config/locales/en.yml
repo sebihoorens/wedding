@@ -33,6 +33,8 @@ en:
   wedding_couple_names: 'Jess & Sebi'
   church_name: Santuario De Guápulo
   venue_name: Quinta El Alcázar
+  church_maps_url: https://maps.app.goo.gl/DTiD1FDRUUtRwWHBA
+  venue_maps_url: https://maps.app.goo.gl/C5CQ6MW2hFktH5wA7
   wedding_name: "Jess & Sebi’s Wedding"
   wedding_date: 'Saturday, 7 February 2026'
   wedding_reception_time: '2:30pm – 12am'
@@ -474,9 +476,7 @@ en:
     rsvp_confirmation: 'RSVP Confirmation'
     your_rsvp: 'Your RSVP'
     guest_attending_look_forward: We look forward to seeing you on %{wedding_date}!
-    guest_attending_church_location: 'The location of the church is:'
     guest_attending_church_time_not_confirmed: 'The location and time of the ecclesiastical ceremony <strong>is not confirmed yet</strong>. Please, keep an eye out for updates on the wedding website or in your mailbox.'
-    guest_attending_venue_location: 'The location of the venue is:'
     guest_attending_rsvp_title: 'Your RSVP'
     guest_attending_rsvp_edit: 'You can always go back to the website and edit your RSVP.'
     guest_attending_questions_title: 'Questions and answers'

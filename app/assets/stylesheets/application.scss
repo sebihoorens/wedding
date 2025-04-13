@@ -22,9 +22,10 @@ $headings-font-family: $font-family-serif; // $font-family-sans-serif;
 
 $body-color: rgba(28, 13, 10, 0.7);
 $headings-color: rgba(28, 13, 10, 0.7);
-$primary-color: #660505; // #4c091a;
-$secondary-color: #0e0d20;
-$tertiary-color: #343173;
+$primary-color: #661515; // #4c091a;
+$secondary-color: #3e3a6c;
+$tertiary-color: #264d44;
+$quaternary-color: #0e0d20;
 
 $theme-colors: (
   "primary": $primary-color,
@@ -44,18 +45,18 @@ $enable-rounded: false;
 
 // Use tertiary color in bootstrap components
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  background-color: $tertiary-color;
+  background-color: $secondary-color;
 }
 .nav-pills .nav-link {
-  color: $tertiary-color;
+  color: $secondary-color;
 }
 .form-check-input:checked {
-  background-color: $tertiary-color;
-  border-color: $tertiary-color;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
 }
 .dropdown-item.active, .dropdown-item:active {
   // color: var(--bs-dropdown-link-active-color);
-  background-color: $tertiary-color;
+  background-color: $secondary-color;
 }
 // .dropdown-menu {
 //   --bs-dropdown-bg: $secondary-color;
@@ -107,7 +108,7 @@ p {
 }
 
 a {
-  color: $tertiary-color;
+  color: $secondary-color;
 }
 
 .default-content {

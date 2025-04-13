@@ -671,11 +671,9 @@ fr:
     rsvp_confirmation: 'Confirmation RSVP'
     your_rsvp: 'Votre RSVP'
     guest_attending_look_forward: Nous avons hâte de vous voir le %{wedding_date} !
-    guest_attending_church_location: "L'emplacement de l'église est :"
     guest_attending_church_time_not_confirmed: >
       Le lieu et l'heure de la cérémonie religieuse <strong>ne sont pas encore confirmés</strong>.
       Veuillez consulter régulièrement le site web du mariage ou votre boîte mail pour des mises à jour.
-    guest_attending_venue_location: 'Le lieu de réception est :'
     guest_attending_rsvp_title: 'Votre RSVP'
     guest_attending_rsvp_edit: 'Vous pouvez toujours retourner sur le site web et modifier votre RSVP.'
     guest_attending_questions_title: 'Questions et réponses'

@@ -28,18 +28,18 @@
         <p><%= link_to t('home.save_the_date_add_to_calendar'), 'wedding.ics' %></p>
       </div>
       <div class="col-md-4 text-center">
-        <%= link_to @google_maps_guapulo_url, target: :_blank do -%>
+        <%= link_to t('church_maps_url'), target: :_blank do -%>
           <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742137817/church_sbezya.png', height: '100px', class: 'img-when-where') %>
         <%- end %>
         <p>
           <%= render partial: 'wedding_address_church' %>
         </p>
         <p>
-          <%= link_to 'Google Maps', @google_maps_guapulo_url, target: :_blank %>
+          <%= link_to 'Google Maps', t('church_maps_url'), target: :_blank %>
         </p>
       </div>
       <div class="col-md-4 text-center">
-        <%= link_to @google_maps_alcazar_url, target: :_blank do -%>
+        <%= link_to t('venue_maps_url'), target: :_blank do -%>
           <%# <%= render partial: 'map_marker_svg' %>
           <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742139128/wine_hkj4ix.png', height: '100px', class: 'img-when-where') %>
         <%- end %>
@@ -47,7 +47,7 @@
           <%= render partial: 'wedding_address_venue' %>
         </p>
         <p>
-          <%= link_to 'Google Maps', @google_maps_alcazar_url, target: :_blank %>
+          <%= link_to 'Google Maps', t('venue_maps_url'), target: :_blank %>
         </p>
       </div>
     </div>

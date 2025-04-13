@@ -499,9 +499,7 @@ nl:
     rsvp_confirmation: 'RSVP Bevestiging'
     your_rsvp: 'Je RSVP'
     guest_attending_look_forward: We kijken er naar uit je te zien op %{wedding_date}!
-    guest_attending_church_location: 'De locatie van de kerk is:'
     guest_attending_church_time_not_confirmed: 'De locatie en tijd van de kerkelijke ceremonie <strong>is nog niet bevestigd</strong>. Hou de trouwwebsite of je mailbox in de gaten voor updates.'
-    guest_attending_venue_location: 'De locatie van de feestlocatie is:'
     guest_attending_rsvp_title: 'Je RSVP'
     guest_attending_rsvp_edit: 'Je kunt altijd terug naar de website gaan en je RSVP bewerken.'
     guest_attending_questions_title: 'Vragen en antwoorden'
