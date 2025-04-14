@@ -475,7 +475,7 @@ en:
     dear: Dear
     rsvp_confirmation: 'RSVP Confirmation'
     your_rsvp: 'Your RSVP'
-    guest_attending_look_forward: We look forward to seeing you on %{wedding_date}!
+    guest_attending_look_forward: We're glad you can make it. We look forward to seeing you on %{wedding_date}!
     guest_attending_church_time_not_confirmed: 'The location and time of the ecclesiastical ceremony <strong>is not confirmed yet</strong>. Please, keep an eye out for updates on the wedding website or in your mailbox.'
     guest_attending_rsvp_title: 'Your RSVP'
     guest_attending_rsvp_edit: 'You can always go back to the website and edit your RSVP.'

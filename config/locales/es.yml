@@ -459,7 +459,7 @@ es:
     dear: Estimado/a
     rsvp_confirmation: 'Confirmación de Asistencia'
     your_rsvp: 'Tu Confirmación'
-    guest_attending_look_forward: '¡Nos vemos el %{wedding_date}!'
+    guest_attending_look_forward: '¡Nos alegra mucho que puedas venir. Nos vemos el %{wedding_date}!'
     guest_attending_church_time_not_confirmed: 'La ubicación y el horario de la ceremonia religiosa <strong>aún no están confirmados</strong>. Por favor, mantente atento a las actualizaciones en el sitio web de la boda o en tu correo.'
     guest_attending_rsvp_title: 'Tu Confirmación'
     guest_attending_rsvp_edit: 'Siempre puedes volver al sitio web y editar tu confirmación.'
