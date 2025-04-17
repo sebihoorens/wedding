@@ -69,25 +69,26 @@ en:
     plan_gifts_and_cards_body: >
       Your presence at our wedding is the greatest gift we could ask for, especially if you’re
       crossing an ocean to be there! But if you’re feeling extra generous and want to help us kick
-      off married life, we’d be thrilled and grateful. You’ll find a little envelope with the
-      invitation, feel free to drop it in the card box at the ceremony. Or if your suitcase is
+      off married life, we’d be thrilled and absolutely grateful. You’ll find a little envelope with the
+      invitation, which you can drop in the card box at the ceremony. Or if your suitcase is
       already full, you can send a contribution to:
     plan_rsvp_title: RSVPs
     plan_rsvp_body: >
-      Please RSVP as soon as possible (before September 1<sup>st</sup>) so we know who is coming
-      and can make sure we keep a seat and a piece of cake for you if you can come! If it turns out
-      you can’t make it, please let us know as soon as you can.
+      Please RSVP as soon as possible (before September 1<sup>st</sup>) so we know who’s coming and
+      can save you a seat and a piece of cake! If it turns out you can’t make it, please let us
+      know as soon as you can, also through the RSVP.
     footer_john_lees_miller: Thanks to John Lees-Miller for providing the initial Rails app on
     footer_flaticon: Wedding icons created by Freepik, photo3idea_studio and Vector Squad on Flaticon
   story:
     title: 'Our Story'
-    timeline_intro: "This is the story of two people who were born and raised in different parts of the world yet somehow found each other."
+    timeline_intro: "This is our story, two people who were born and raised in different parts of the world yet somehow found each other."
     timeline_jess: "Jess came to Belgium in 2020 for her master’s program in physiotherapy. After a few weeks of online French classes (due to COVID) and only speaking Spanish with her family, she realized she needed more practice. So she joined an app to make new friends."
     timeline_sebi: >
-      And this is Sebi, who was discovering new places in Belgium and liked to go for walks. He was
-      looking for someone to join him on these adventures. He was interested in learning Spanish.
+      At the same time, Sebi was discovering new places in Belgium and enjoyed going for walks. He
+      was looking for someone to join him on these adventures, and was also interested in learning
+      Spanish.
     timeline_click: "What began as language practice turned into something deeper as we talked every day, met often, and really connected. We spent our time exploring new places, meeting family and friends, and making memories together."
-    timeline_move_in: "Time flew by, and after a year of dating, we decided to move in together. Jess’ master program started, and we knew it would have been harder to find the time to see each other as often as we had before."
+    timeline_move_in: "Time flew by, and after a year of dating, we decided to move in together. Jess’ master program had started, and we knew it would have been harder to find the time to see each other as often as before."
     timeline_proposed: "After almost four years together, we were more than sure that we wanted to spend the rest of our lives together and build a family. In the summer of 2024, when both our families met for the first time, Sebi proposed."
     timeline_next_chapter: "Now, we are thrilled to invite you to join us for another chapter in our lives. We would love to have you there with us!"
     fun_facts_title: 'Fun Facts'
@@ -100,13 +101,13 @@ en:
     fun_facts_first_holiday_q: 'Where was your first holiday together?'
     fun_facts_first_holiday_a: 'In September 2021, we spent a beautiful holiday in Andalucía, enjoying the warm weather and delicious Spanish food.'
     fun_facts_favourite_meal_q: 'What is the couple’s favourite meal?'
-    fun_facts_favourite_meal_a: 'Tigrillo! This was first Ecuadorian dish Jess felt the need to learn and share with Sebi, who loved it from the very beginning. Also, Belgian fries with mayo and joppie sauce.'
+    fun_facts_favourite_meal_a: 'Tigrillo! This was the first Ecuadorian dish Jess felt the need to learn and share with Sebi, who loved it from the very beginning. Also, Belgian fries with mayo and joppie sauce.'
     fun_facts_weirdest_food_q: 'What is the weirdest food you’ve eaten?'
-    fun_facts_weirdest_food_a: 'Lemon-flavored ants in Cuyabeno, Ecuador.'
+    fun_facts_weirdest_food_a: 'Lemon-flavoured ants in Cuyabeno, Ecuador.'
   travel:
     title: 'Travel & Stay'
     intro: >
-      For those considering traveling to Ecuador, we know that such a journey takes planning, time,
+      For those considering travelling to Ecuador, we know that such a journey takes planning, time,
       and financial commitment. We’re incredibly grateful to anyone thinking about making the trip
       to celebrate with us. To help you decide and prepare, we’ve put together some tips and
       recommendations for travel, accommodations, and activities.
@@ -138,7 +139,7 @@ en:
     mobile_data: >
       For reliable mobile data, a <strong>local SIM</strong> or <strong>eSIM</strong> is your best option. Claro offers the best coverage, Movistar works well in cities, and Tuenti is budget-friendly. SIM cards are available at the airport, malls, and official stores (passport required). If your phone supports it, eSIMs are usually more expensive, but more convenient, as you can activate your plan immediately upon arrival. %{airalo_link} offers Ecuador-specific or regional plans, but you can find cheaper eSIM providers through %{esimdb_link} (watch out: the cheap ones often don’t include calls or SMS and may already activate as soon as you have paid).
     currency: >
-      Ecuador uses the <strong>U.S. dollar</strong>, but payment methods vary. In Quito and major cities, most restaurants, supermarkets, and malls accept cards, while small shops, buses, and markets require cash (in small bills). In rural areas, cash is essential. Banco Internacional ATMs are best for Visa cards (often fee-free), and Revolut seems to work well for card payments. ATMs can be scarce outside cities, so withdraw money in a safe place and carry enough cash when traveling.
+      Ecuador uses the <strong>U.S. dollar</strong>, but payment methods vary. In Quito and major cities, most restaurants, supermarkets, and malls accept cards, while small shops, buses, and markets require cash (in small bills). In rural areas, cash is essential. Banco Internacional ATMs are best for Visa cards (often fee-free), and Revolut seems to work well for card payments. ATMs can be scarce outside cities, so withdraw money in a safe place and carry enough cash when travelling.
     tipping: >
       <strong>Tipping</strong> is much more common in Ecuador than in Belgium. In restaurants, a 10% service charge is often included in the bill. If not, leaving 5-10% is customary for good service. Taxi drivers don’t expect tips, but rounding up the fare is common. Hotel staff and tour guides appreciate small tips: &#36;1-2 per bag for porters and &#36;5-10 per day for guides, depending on the service. In markets and small eateries, tipping isn’t necessary.
     getting_to_ecuador_title: 'Getting To Ecuador'
@@ -155,7 +156,7 @@ en:
     health_vaccinations: >
       Before your trip, consider discussing your travel plans with your doctor or a travel clinic, ideally eight to ten weeks before departure. Commonly recommended <strong>vaccinations</strong> include <strong>yellow fever</strong>, <strong>hepatitis A</strong>, and <strong>tetanus-diphtheria-pertussis (whooping cough)</strong>. These vaccines typically cost around &#8364;80, and part of the expense may be covered by your health insurance.
     health_insurance: >
-      <strong>Travel insurance</strong> isn’t mandatory for Ecuador, but we highly recommend it. Private clinics generally offer better care than public hospitals, and insurance can help cover medical emergencies, trip cancellations, lost luggage, and theft. It’s especially valuable if you plan to explore remote areas like the Amazon or Galápagos or take part in outdoor activities. In Belgium, you can often get travel insurance through your credit card company (this might only be possible if you booked your flights with their credit card), your bank, or with %{touring_link}.
+      <strong>Travel insurance</strong> isn’t mandatory for Ecuador, but we highly recommend it. Private clinics generally offer better care than public hospitals, and insurance can help cover medical emergencies, trip cancellations, lost luggage, and theft. It’s especially valuable if you plan to explore remote areas like the Amazon or Galápagos, or take part in outdoor activities. In Belgium, you can often get travel insurance through your credit card company (this might only be possible if you booked your flights with their credit card), your bank, or with %{touring_link}.
     health_food_safety: >
       Be mindful of <strong>food and water safety</strong> during your trip. Always drink bottled or filtered water, including when brushing your teeth or washing fruits and vegetables, as tap water isn’t always safe to drink. Hygiene standards can vary, especially in smaller, budget-friendly restaurants, so it’s best to avoid raw vegetables, salads, and undercooked meats, particularly pork and seafood.
     health_dining_out: >
@@ -177,7 +178,7 @@ en:
       Be cautious of distraction tactics, like strangers asking for help with a map or newspaper. Stay alert.
     safety_night_areas_title: 'Avoid certain areas at night'
     safety_night_areas_body: >
-      Some neighborhoods in Guayaquil, Esmeraldas, Manabí, and Quito can be unsafe after dark. Ask locals or your hotel for advice, stick to well-lit areas, and avoid walking alone.
+      Some neighbourhoods in Guayaquil, Esmeraldas, Manabí, and Quito can be unsafe after dark. Ask locals or your hotel for advice, stick to well-lit areas, and avoid walking alone.
     safety_cash_title: 'Withdraw cash safely'
     safety_cash_body: >
       Use ATMs inside banks or shopping malls, not on the street.
@@ -186,7 +187,7 @@ en:
       Store copies of your passport, visa, and travel insurance separately from the originals.
     safety_register_title: 'Register your travel'
     safety_register_body: >
-      In case of emergency, government services can get in touch with you or your contact person and help you get back home. In Belgium, you can register with %{travellersonline_link}.
+      In case of an emergency, government services can get in touch with you or your contact person and help you get back home. In Belgium, you can register with %{travellersonline_link}.
     safety_closing: >
       With basic precautions, Ecuador is an amazing place to visit! Stay safe, enjoy the wedding, and make the most of your time exploring.
     wedding_day_title: 'The Day Of The Wedding'
@@ -219,9 +220,9 @@ en:
     church_timing: >
       Though Ecuadorians are known for their relaxed approach to timing, church ceremonies start promptly. We recommend <strong>arriving</strong> at least 20 minutes early (2:40pm) to ensure a smooth start.
     church_transport: >
-      <strong>We recommend taking a taxi or Uber</strong> to get to the church. Make sure to use a registered taxi, with an orange license plate, and check that the meter is running correctly. If possible, book your taxi through a trusted hotel, restaurant or taxi app (we recommend Uber). Ask your driver to drop you off at the entrance of the church to avoid climbing up steep streets in formal attire.
+      <strong>We recommend taking a taxi or Uber</strong> to get to the church. Make sure to use a registered taxi with an orange license plate, and check that the meter is running correctly. If possible, book your taxi through a trusted hotel, restaurant or taxi app (we recommend Uber). Ask your driver to drop you off at the entrance of the church to avoid climbing up steep streets in formal attire.
     church_parking: >
-      We do not recommend going to the church by car, as it can be tricky for gringos to navigate the streets of Quito. The parking of the church is small and street parking is scarce. If you still decide to come by car, we recommend these routes:
+      We do not recommend going to the church by car, as it can be tricky for gringos to navigate the streets of Quito. The parking at the church is small, and street parking is scarce. If you still decide to come by car, we recommend these routes:
     church_route_floresta_title: 'From La Floresta / González Suárez'
     church_route_floresta_body: >
       Take Camino de Orellana, a steep and winding road (5-10 min).
@@ -286,7 +287,7 @@ en:
       For an even more extreme adventure, head to <em>Chimborazo Volcano</em> <span style="white-space: nowrap;">(6&thinsp;300&thinsp;m)</span>, Ecuador’s tallest peak and the closest point to the sun on Earth. A lesser-known alternative is <em>Morurco</em>, a hidden gem behind the Cotopaxi, offering diverse hiking routes and breathtaking views, without the crowds.
     mindo_title: 'Mindo'
     mindo_body_intro: >
-      Tucked into the cloud forest about two hours from Quito, Mindo is a favorite getaway for nature lovers and adventure seekers. It’s known for its rich biodiversity, with excellent birdwatching (keep an eye out for hummingbirds, toucans, and the bright red Andean cock-of-the-rock).
+      Tucked into the cloud forest about two hours from Quito, Mindo is a favourite getaway for nature lovers and adventure seekers. It’s known for its rich biodiversity, with excellent birdwatching (keep an eye out for hummingbirds, toucans, and the bright red Andean cock-of-the-rock).
     mindo_body_activities: >
       You can visit butterfly farms, hike to waterfalls, or ride a tarabita (cable car). If you’re 
       up for some action, try tubing on the Mindo River, zip-lining, or even canyoning. For something 
@@ -304,17 +305,17 @@ en:
     cuenca_body_food: >
       Fun fact: the <em>Panama Hat</em> actually comes from Cuenca, not Panama! You can even visit a hat museum to learn how they’re made. If you have extra time, explore <em>Saraguro</em> for Andean Kichwa culture, or visit <em>Gualaceo</em> and <em>Chordeleg</em>, known for their handmade jewelry and textiles (perfect for a unique souvenir).
     cuenca_body_facts: >
-      Ecuador’s most important Inca ruins, <em>Ingapirca</em>, offers a glimpse into the country’s pre-Columbian history. Set in the highlands north of Cuenca, the site features stone walls, ritual spaces, and the famous <em>Temple of the Sun</em>. It’s a peaceful spot to explore and imagine how the Inca once lived.
+      Ecuador’s most important Inca ruins, <em>Ingapirca</em>, offers a glimpse into the country’s pre-Columbian history. Set in the highlands north of Cuenca, the site features stone walls, ritual spaces, and the famous <em>Temple of the Sun</em>. It’s a peaceful spot to explore and imagine how the Incas once lived.
     banos_title: 'Baños'
     banos_body_intro: >
       Located between the Andes and the edge of the Amazon, Baños de Agua Santa is known as Ecuador’s adventure capital. Thrill-seekers can go rafting on the Pastaza River, canyoning through waterfalls, ziplining over deep canyons, or hiking scenic mountain trails.
     banos_body_cascadas: >
       Don’t miss the <em>Ruta de las Cascadas</em>, a road dotted with waterfalls, including the famous <em>Pailón del Diablo</em>, where walkways take you right up close to the roaring water. Visit the <em>Casa del Árbol</em>, home to the swing at the end of the world, where you can swing out over a cliff with amazing views of Tungurahua Volcano.
     banos_body_hot_springs: >
-      For a slower pace, relax in the town’s natural hot springs, which are said to have healing properties. Baños also has a fun and lively nightlife, with bars and clubs where travelers gather after a day outdoors.
+      For a slower pace, relax in the town’s natural hot springs, which are said to have healing properties. Baños also has a fun and lively nightlife, with bars and clubs where travellers gather after a day outdoors.
     amazon_title: 'The Amazon Rainforest'
     amazon_body_intro: >
-      Ecuador’s slice of the Amazon is one of the most biodiverse places on Earth. With a good guide and a bit of luck, you might spot monkeys, jaguars, sloths, tamanduas, toucans, anacondas (on the second picture, you can see one sleeping next to Sebi), caimans, iguanas, poison dart frogs, and the pink river dolphin. The legendary city of gold, El Dorado, was once believed to lie somewhere in the Ecuadorian Amazon.
+      Ecuador’s slice of the Amazon is one of the most biodiverse places on Earth. With a good guide and a bit of luck, you might spot monkeys, jaguars, sloths, tamanduas, toucans, anacondas (in the second picture, you can see one sleeping next to Sebi), caimans, iguanas, poison dart frogs, and the pink river dolphin. The legendary city of gold, El Dorado, was once believed to lie somewhere in the Ecuadorian Amazon.
     amazon_body_places: >
       There are several ways to explore this incredible ecosystem, depending on how deep into the jungle you want to go:
     amazon_cuyabeno_title: 'Cuyabeno & Yasuní'
@@ -342,7 +343,7 @@ en:
     coast_body_cuisine: >
       Ecuador’s <em>coastal cuisine</em> is a highlight on its own. Try ceviche, encocado (a coconut seafood stew), grilled fish, and plantain-based dishes like patacones and bolones.
     coast_body_safety: >
-      Avoid traveling at night and keep an eye on your belongings, especially on the beach or in busier towns. Most destinations not mentioned on this page are best avoided, and we don’t recommend visiting Guayaquil, unless absolutely necessary (e.g. for the airport).
+      Avoid travelling at night and keep an eye on your belongings, especially on the beach or in busier towns. Most destinations not mentioned on this page are best avoided, and we don’t recommend visiting Guayaquil unless absolutely necessary (e.g. for the airport).
     galapagos_title: 'The Galápagos Archipelago'
     galapagos_body_intro: >
       A true paradise on Earth, the Galápagos Islands are famous for their incredible wildlife and otherworldly landscapes. Because there are so few natural predators, animals here aren’t afraid of humans, making it easy to observe (and photograph) sea lions, blue-footed boobies, giant tortoises, penguins, iguanas, albatrosses, and more up close.
@@ -443,10 +444,10 @@ en:
     about_you_address_country: Country
     about_you_address_invitation: We’ll send the formal invitation to this address.
     about_you_diet: Dietary Preferences
-    about_you_diet_example: For example, vegan, vegetarian, gluten free, and any allergies or intolerances.
+    about_you_diet_example: For example, vegan, vegetarian, gluten-free, and any allergies or intolerances.
     about_you_joining: <strong>Will you be joining us?</strong>
     about_you_songs: Song Suggestions
-    about_you_songs_crowd_sourcing: We’re crowd sourcing our playlist! Choose some songs you’d like to hear.
+    about_you_songs_crowd_sourcing: We’re crowd-sourcing our playlist! Choose some songs you’d like to hear.
     plus_ones_title: Plus Ones
     plus_ones_let_us_know: Please let us know below if you’re bringing someone else to the wedding.
     plus_ones_child: Child
