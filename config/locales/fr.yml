@@ -287,6 +287,13 @@ fr:
       d'une salle de sport, d'un petit-déjeuner et de transferts aéroport pour un séjour confortable.
       Notre tarif préférentiel est de 85&#36; pour une chambre double. Vous pouvez envoyer un email
       à %{email_link}, en mentionnant <em>boda Hoorens-León</em>, pour réserver à ce tarif.
+    where_to_stay_hotel_go_quito: >
+      Nous avons également obtenu une offre spéciale avec <em>GO Quito Hotel</em>, un hôtel moderne
+      en ville, à seulement 15 minutes en voiture de l'église de Guápulo. La promotion comprend le
+      petit-déjeuner, l'accès au sauna, à la piscine et à la salle de sport. Vous pouvez
+      <a href="https://booking.profitroom.com/en/goquitohotel/home?currency=USD&codes=bodaHoorensLeon&no-cache=1" target="_blank">réserver directement via ce lien</a>
+      ou utiliser le code <strong style="font-weight: 700;">bodaHoorensLeon</strong> sur leur site
+      web pour bénéficier du tarif spécial.
     church_title: "L'Église"
     church_intro: >
       Notre cérémonie religieuse est prévue à <strong>La Iglesia de Nuestra Señora de Guápulo</strong>,

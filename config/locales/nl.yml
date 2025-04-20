@@ -219,6 +219,13 @@ nl:
       Voor gemak en veiligheid raden we aan om te verblijven in het noordelijk-centrale deel van Quito of in de nabijgelegen valleien van Tumbaco, Cumbayá of Puembo, aangezien de bruiloft in Guápulo en Puembo plaatsvindt. Deze gebieden bieden verschillende hotels en Airbnbs, zodat je na het feest veilig kunt terugkeren!
     where_to_stay_hotel_san_jose: >
       We hebben een speciaal tarief geregeld bij hotel %{hotel_link}, een charmante haciënda uit de 17e eeuw vlakbij de trouwlocatie (15 minuten met de auto). Dit prachtige hotel beschikt over een zwembad, fitnesscentrum, ontbijt en luchthaventransfers voor een comfortabel verblijf. Ons gereduceerde tarief is &#36;85 voor een tweepersoonskamer. Je kunt mailen naar %{email_link}, met vermelding van <em>boda Hoorens-León</em>, om tegen dit tarief te boeken.
+    where_to_stay_hotel_go_quito: >
+      We hebben ook een speciale aanbieding geregeld met <em>GO Quito Hotel</em>, een modern hotel
+      in de stad, op slechts 15 minuten rijden van de kerk in Guápulo. De promotie omvat ontbijt,
+      toegang tot de sauna, het zwembad en de fitness. Je kunt
+      <a href="https://booking.profitroom.com/en/goquitohotel/home?currency=USD&codes=bodaHoorensLeon&no-cache=1" target="_blank">rechtstreeks boeken via deze link</a>
+      of gebruik de code <strong style="font-weight: 700;">bodaHoorensLeon</strong> op hun website
+      om het speciale tarief te krijgen.
     church_title: 'De Kerk'
     church_intro: >
       Onze kerkelijke ceremonie staat gepland in <strong>La Iglesia de Nuestra Señora de Guápulo</strong>, een van de oudste en mooiste kerken van Quito. Dit barokke monument uit de 17e eeuw ligt op een klein plateau tussen Quito en de Tumbaco Vallei, langs de historische route die Pizarro’s expeditie naar de Amazone volgde.
