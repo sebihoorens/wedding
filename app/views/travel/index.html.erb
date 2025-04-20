@@ -106,11 +106,19 @@
         <p><%= t('travel.where_to_stay_intro').html_safe %></p>
         <dl class="row">
           <dt class="col-sm-8 dt-no-bold">
-            <p id="hotel-san-jose"><%= t('travel.where_to_stay_hotel', hotel_link: link_to('San José de Puembo', 'https://www.sanjosedepuembo.com/', target: '_blank'), email_link: mail_to('comercial@sanjosedepuembo.com')).html_safe %></p>
+            <p id="hotel-san-jose"><%= t('travel.where_to_stay_hotel_san_jose', hotel_link: link_to('San José de Puembo', 'https://www.sanjosedepuembo.com/', target: '_blank'), email_link: mail_to('comercial@sanjosedepuembo.com')).html_safe %></p>
           </dt>
           <dd class="col-sm-4">
             <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1742411727/BICUBIK_8429-1024x1536_w1seq8.jpg', width: '100%') %>
           </dd>
+        </dl>
+        <dl class="row">
+          <dd class="col-sm-4">
+            <%= image_tag('https://res.cloudinary.com/dvvdwl8at/image/upload/v1745169240/GoQuitoHotelBestLocation_zqgkza.webp', width: '100%') %>
+          </dd>
+          <dt class="col-sm-8 dt-no-bold">
+            <p id="hotel-san-jose"><%= t('travel.where_to_stay_hotel_go_quito').html_safe %></p>
+          </dt>
         </dl>
 
         <h2 id="wedding-day-church"><%= t :church_name %></h2>

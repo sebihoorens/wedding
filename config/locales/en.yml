@@ -210,8 +210,14 @@ en:
     where_to_stay_title: 'Where To Stay'
     where_to_stay_intro: >
       For convenience and safety, we recommend staying in Quito’s north-central area or in the nearby valleys of Tumbaco, Cumbayá, or Puembo, as the wedding will take place in Guápulo and Puembo. These areas offer a variety of hotels and Airbnbs, making it easier to return safely after celebrating with us!
-    where_to_stay_hotel: >
+    where_to_stay_hotel_san_jose: >
       We’ve secured a special rate at hotel %{hotel_link}, a charming 17<sup>th</sup> century hacienda near the wedding venue (15mins by car). This beautiful hotel features a swimming pool, fitness center, breakfast, and airport transfers for a comfortable stay. Our discounted rate is &#36;85 for a double room. You can email %{email_link}, mentioning <em>boda Hoorens-León</em>, to book at this rate.
+    where_to_stay_hotel_go_quito: >
+      We’ve also arranged a special offer with <em>GO Quito Hotel</em>, a modern hotel in the city, just 15
+      minutes by car from the church in Guápulo. The promotion includes breakfast, access to the
+      sauna, pool, and gym. You can
+      <a href="https://booking.profitroom.com/en/goquitohotel/home?currency=USD&codes=bodaHoorensLeon&no-cache=1" target="_blank">book directly through this link</a>
+      or use the code <strong style="font-weight: 700;">bodaHoorensLeon</strong> on their website to get the special rate.
     church_title: 'The Church'
     church_intro: >
       Our ecclesiastical ceremony is planned to take place at <strong>La Iglesia de Nuestra Señora de Guápulo</strong>, one of Quito’s oldest and most beautiful churches. This 17<sup>th</sup> century Baroque landmark sits on a small plateau between Quito and the Tumbaco Valley, along the historic route taken by Pizarro’s expedition to the Amazon.
