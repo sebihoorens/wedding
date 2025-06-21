@@ -99,12 +99,12 @@ nl:
     weather: >
       Het weer in Ecuador in februari varieert per regio door de diverse geografie. In Quito en de Andes
       Hooglanden is de <strong>temperatuur rond 13-25&deg;C</strong> met milde dagen, frisse nachten en
-      af en toe regen. We raden aan om een licht regenjasje mee te nemen en de weersverwachting na te
-      kijken voor vertrek.
+      af en toe regen. Omdat de zon op grote hoogte erg sterk is, is het belangrijk om elke keer dat je naar buiten gaat zonnecrème te gebruiken, zelfs als het bewolkt is.
+      We raden ook aan om een licht regenjasje mee te nemen en de weersverwachting na te kijken voor vertrek.
     mobile_data: >
       Voor betrouwbaar mobiel internet is een <strong>lokale SIM</strong> of <strong>eSIM</strong> de beste optie. 
       Claro heeft de beste dekking, Movistar werkt goed in steden, en Tuenti is budgetvriendelijk. SIM-kaarten 
-      zijn verkrijgbaar op de luchthaven, in winkelcentra en officiële winkels (paspoort vereist). Als je 
+      zijn verkrijgbaar op de luchthaven, in winkelcentra en officiële winkels (paspoort vereist). We raden aan je SIM-kaart te kopen in een officiële winkel, waar het personeel je kan helpen met de installatie. Dit is vaak lastig om zelf te doen zonder een Ecuadoraanse verblijfskaart. Als je 
       telefoon het ondersteunt, is eSIM meestal duurder maar handiger, omdat je je abonnement direct bij aankomst 
       kunt activeren. %{airalo_link} biedt Ecuador-specifieke of regionale plannen, maar je kunt goedkopere 
       eSIM-providers vinden via %{esimdb_link} (let op: de goedkope opties bevatten vaak geen belminuten of sms’en 
@@ -209,7 +209,7 @@ nl:
     dress_code_intro: >
       We zien onze vrienden en familie graag mooi gekleed op onze grote dag! Hoewel we elegante kleding aanmoedigen, hoeft het niet te formeel. Je comfort is het belangrijkst.
     dress_code_palette: >
-      Onze dresscode is cocktail/semi-formeel, en het kleurenpalet van onze bruiloft bestaat voornamelijk uit bordeauxrood <span style="color: transparent; text-shadow: 0 0 0 #660505;">&#129505;</span>, marineblauw <span style="color: transparent; text-shadow: 0 0 0 #343173;">&#129505;</span>, en smaragdgroen <span style="color: transparent; text-shadow: 0 0 0 #00674F;">&#129505;</span>. We vragen vriendelijk om wit, ivoor en crème te vermijden, aangezien deze kleuren traditioneel voor de bruid zijn. Vanwege het ongelijke terrein raden we stiletto’s af. Blokhakken, sleehakken of platte schoenen houden je comfortabel gedurende de dag.
+      Onze dresscode is cocktail/semi-formeel, en het kleurenpalet van onze bruiloft bestaat voornamelijk uit bordeauxrood <span style="color: transparent; text-shadow: 0 0 0 #660505;">&#129505;</span> and marineblauw <span style="color: transparent; text-shadow: 0 0 0 #343173;">&#129505;</span>. We vragen vriendelijk om wit, ivoor en crème te vermijden, aangezien deze kleuren traditioneel voor de bruid zijn. Vanwege het ongelijke terrein raden we stiletto’s af. Blokhakken, sleehakken of platte schoenen houden je comfortabel gedurende de dag.
     dress_code_weather: >
       Het weer in Quito kan onvoorspelbaar zijn, met temperaturen rond 15-25&deg;C in de middag, dalend tot ongeveer 10&deg;C ’s nachts, soms met lichte regen. Aangezien delen van het feest buiten plaatsvinden, raden we aan om voor de zekerheid een licht jasje of sjaal mee te nemen.
     dress_code_closing: >
