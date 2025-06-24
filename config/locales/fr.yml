@@ -28,9 +28,23 @@ fr:
     plan_order_bar_close_time: 00h00
     plan_order_bar_close_body: Fermeture du bar
     plan_menu_title: Menu
-    plan_menu_body: >
-      Nous n'avons pas encore choisi le menu, mais soyez assurés qu'il sera délicieux, équatorien et
-      vaudra l'attente. Plus de détails à venir !
+    plan_menu_starter_title: Entrée
+    plan_menu_starter_body: >
+      Fruits de mer façon ceviche<br>
+      avec une délicate sauce au fruit de la passion
+    plan_menu_second_title: Deuxième plat
+    plan_menu_second_body: Velouté de figues au fromage de Guaranda
+    plan_menu_main_title: Plat principal
+    plan_menu_main_body: >
+      Filet de bœuf rôti avec sauce au poivre vert,<br>
+      accompagné d’un risotto crémeux au quinoa,<br>
+      d’asperges et de carottes glacées
+    plan_menu_dessert_title: Dessert
+    plan_menu_dessert_body: Mousse au chocolat avec un cœur de fruit de la passion
+    plan_menu_note: >
+      Si vous avez des restrictions alimentaires ou des allergies,<br>
+      merci de nous en informer lors de votre %{rsvp_link}.<br>
+      Nous ferons de notre mieux pour répondre à vos besoins.
     plan_gifts_and_cards_title: 'Cadeaux & Cartes'
     plan_gifts_and_cards_body: >
       Votre présence à notre mariage est le plus beau cadeau que vous puissiez nous faire, surtout si vous

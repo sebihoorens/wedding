@@ -73,7 +73,7 @@
 
 #welcome-index-wedding-plan-leader {
   background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
-    url("https://res.cloudinary.com/dvvdwl8at/image/upload/v1742147271/Iglesia_de_Gua%CC%81pulo__fachada_v8r0pn.jpg") center center no-repeat;
+    url("https://res.cloudinary.com/dvvdwl8at/image/upload/v1750711804/Iglesia_de_Santo_Domingo__Quito__Ecuador__2015-07-22__DD_202-204_HDR_jqhvpk.jpg") center center no-repeat;
   background-size: cover;
   margin-top: 5 * $spacer;
 
@@ -84,6 +84,31 @@
   h1 {
     padding: 3 * $spacer 0;
   }
+}
+
+.wedding-menu {
+  text-align: center;
+  max-width: 600px;
+  // margin: auto;
+  // padding: 2em;
+  line-height: 1.8;
+}
+
+.wedding-menu p {
+  text-align: center !important;
+}
+
+.menu-section {
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+
+.menu-note {
+  margin-top: 3em;
+  font-size: 0.9em;
+  color: #666;
 }
 
 .account-info {

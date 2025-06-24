@@ -31,13 +31,13 @@
 
 en:
   wedding_couple_names: 'Jess & Sebi'
-  church_name: Santuario De Guápulo
+  church_name: Iglesia de Santo Domingo
   venue_name: Quinta El Alcázar
-  church_maps_url: https://maps.app.goo.gl/DTiD1FDRUUtRwWHBA
+  church_maps_url: https://maps.app.goo.gl/jtTT4GCS9xLc13hz7
   venue_maps_url: https://maps.app.goo.gl/C5CQ6MW2hFktH5wA7
   wedding_name: "Jess & Sebi’s Wedding"
   wedding_date: 'Saturday, 7 February 2026'
-  wedding_reception_time: '2:30pm – 12am'
+  wedding_reception_time: '1:30pm – 12:30am'
   wedding_country: Ecuador
   confirm_your_presence: 'Confirm your presence'
   navbar_home: Home
@@ -49,22 +49,44 @@ en:
     plan_title: 'The Plan'
     plan_to_wedding_day: 'For practical details like getting there, where to stay and dress code, check out the %{wedding_day_href} section on our %{travel_href} page.'
     plan_order_title: 'Order Of The day'
-    plan_order_arrive_time: 2:30pm
-    plan_order_arrive_body: Guests start to arrive
-    plan_order_ceremony_time: 3pm
+    plan_order_arrive_time: 1:30pm
+    plan_order_arrive_body: Guests arrive
+    plan_order_ceremony_time: 2pm
     plan_order_ceremony_body: Ecclesiastical ceremony
+    plan_order_exit_time: 3pm
+    plan_order_exit_body: Ceremony concludes
     plan_order_cocktail_time: 4:30pm
-    plan_order_cocktail_body: Cocktail hour with snacks
-    plan_order_dinner_time: 6pm
-    plan_order_dinner_body: Dinner and drinks
-    plan_order_cake_time: 9pm
-    plan_order_cake_body: Cutting of the cake, dancing and celebrations!
+    plan_order_cocktail_body: Cocktail hour (with snacks)
+    plan_order_dinner_time: 5:30pm
+    plan_order_dinner_body: Dinner & speeches
+    plan_order_bar_open_time: 7pm
+    plan_order_bar_open_body: Bar opens
+    plan_order_dance_time: 7:40pm
+    plan_order_dance_body: First dance
+    plan_order_cake_time: 8pm
+    plan_order_cake_body: Cake cutting, dancing & celebrations
+    plan_order_reanimador_time: 11:30pm
+    plan_order_reanimador_body: Late-night meal (locro)
     plan_order_bar_close_time: 12am
     plan_order_bar_close_body: Bar closes
     plan_menu_title: Menu
-    plan_menu_body: >
-      We haven’t chosen the menu yet, but rest assured&mdash;it will be delicious, Ecuadorian, and
-      worth the wait. Stay tuned for more details!
+    plan_menu_starter_title: Starter
+    plan_menu_starter_body: > 
+      Ceviche-style marinated seafood<br>
+      with a delicate passion fruit sauce
+    plan_menu_second_title: Second course
+    plan_menu_second_body: Cream of fig with Guaranda cheese
+    plan_menu_main_title: Main course
+    plan_menu_main_body: >
+      Roasted tenderloin with green pepper sauce<br>  
+      served with creamy quinoa risotto, asparagus,<br>  
+      and glazed baby carrots
+    plan_menu_dessert_title: Dessert
+    plan_menu_dessert_body: Chocolate mousse with a passion fruit filling
+    plan_menu_note: >
+      If you have any dietary restrictions or allergies,<br>  
+      please let us know when you %{rsvp_link}. We will do our best<br>  
+      to accommodate your needs.
     plan_gifts_and_cards_title: 'Gifts & Cards'
     plan_gifts_and_cards_body: >
       Your presence at our wedding is the greatest gift we could ask for, especially if you’re
@@ -148,7 +170,7 @@ en:
     getting_to_ecuador_low_season: >
       The wedding will take place during the low season, as February is one of the most affordable months to fly to Ecuador. To get the best prices, we recommend booking your flight 6-8 months in advance. Prices of round-trip flights from Europe typically start from &#8364;800 per person, with airlines like Air Europa, Iberia, and KLM offering the most budget-friendly options. These flights usually have stopovers in Madrid or Amsterdam. When booking, we suggest choosing shorter layovers. A 17-hour journey is already long and tiring, so there’s no need to extend it further!
     getting_to_ecuador_airport: >
-      Since the wedding will take place around Quito (Guápulo and Puembo), we recommend flying into Mariscal Sucre International Airport, which is about 45 minutes from the city.
+      Since the wedding will take place around Quito (the historic center and Puembo), we recommend flying into Mariscal Sucre International Airport, which is about 45 minutes from the city.
     getting_to_ecuador_visa: >
       Most nationalities can visit Ecuador visa-free for up to 90 days within a 12-month period, but <strong>passports</strong> must be valid for at least six months upon entry. Border officials may ask for proof of onward travel. For the latest entry requirements, check the website of Foreign Affairs of your country (for example, %{foreign_affairs_link}) before departure. Additional entry requirements apply for the Galápagos Islands, see the %{galapagos_link} section on our %{exploring_link} page.
     getting_to_ecuador_belgian_foreign_affairs: Belgian Foreign Affairs
@@ -168,7 +190,7 @@ en:
       Ecuador is a beautiful and welcoming country, but as with any travel destination, it’s important to stay aware of your surroundings and use your common sense. Official travel advisories from countries like Belgium, Canada, the UK, and the US provide useful information, but keep in mind that they tend to sound a bit dramatic (similar warnings exist for Brussels). With the right precautions, you’ll be able to fully enjoy your trip and explore with confidence. Here are some key tips to keep in mind:
     safety_transport_title: 'Use safe transport'
     safety_transport_body: >
-      Stick to hotel-arranged rides, Uber, or registered taxis.
+      Stick to hotel-arranged rides or registered taxis.
     safety_valuables_title: 'Keep valuables secure'
     safety_valuables_body: >
       Avoid displaying jewelry, expensive gadgets, or large amounts of cash. Use an anti-theft bag in busy areas.
@@ -211,40 +233,27 @@ en:
       Most importantly, wear something you love, feel great in, and can dance all night in! &#10024;
     where_to_stay_title: 'Where To Stay'
     where_to_stay_intro: >
-      For convenience and safety, we recommend staying in Quito’s north-central area or in the nearby valleys of Tumbaco, Cumbayá, or Puembo, as the wedding will take place in Guápulo and Puembo. These areas offer a variety of hotels and Airbnbs, making it easier to return safely after celebrating with us!
+      For convenience and safety, we recommend staying in Quito’s north-central area or in the nearby valleys of Tumbaco, Cumbayá, or Puembo, as the wedding will take place in the historic center and Puembo. These areas offer a variety of hotels and Airbnbs, making it easier to return safely after celebrating with us!
     where_to_stay_hotel_san_jose: >
       We’ve secured a special rate at hotel %{hotel_link}, a charming 17<sup>th</sup> century hacienda near the wedding venue (15mins by car). This beautiful hotel features a swimming pool, fitness center, breakfast, and airport transfers for a comfortable stay. Our discounted rate is &#36;85 for a double room. You can email %{email_link}, mentioning <em>boda Hoorens-León</em>, to book at this rate.
     where_to_stay_hotel_go_quito: >
-      We’ve also arranged a special offer with <em>GO Quito Hotel</em>, a modern hotel in the city, just 15
-      minutes by car from the church in Guápulo. The promotion includes breakfast, access to the
+      We’ve also arranged a special offer with <em>GO Quito Hotel</em>, a modern hotel in the city. The promotion includes breakfast, access to the
       sauna, pool, and gym. You can
       <a href="https://booking.profitroom.com/en/goquitohotel/home?currency=USD&codes=bodaHoorensLeon&no-cache=1" target="_blank">book directly through this link</a>
       or use the code <strong style="font-weight: 700;">bodaHoorensLeon</strong> on their website to get the special rate.
     church_title: 'The Church'
     church_intro: >
-      Our ecclesiastical ceremony is planned to take place at <strong>La Iglesia de Nuestra Señora de Guápulo</strong>, one of Quito’s oldest and most beautiful churches. This 17<sup>th</sup> century Baroque landmark sits on a small plateau between Quito and the Tumbaco Valley, along the historic route taken by Pizarro’s expedition to the Amazon.
-    church_confirmation: >
-      While we are still awaiting final confirmation for our reservation at the Santuario De Guápulo, this remains our intended location. We will update you as soon as we have official confirmation.
+      Our ecclesiastical ceremony will take place at the 17<sup>th</sup> century <strong>Iglesia de Santo Domingo</strong>, located in Quito’s historic center, a UNESCO World Heritage site. Originally founded by the Dominicans in the late 16<sup>th</sup> century, the current church showcases a blend of Baroque, Gothic, and Moorish architectural elements. Its wooden Mudéjar-style ceiling, inspired by Islamic art, is among its most admired features. The ceremony will be held in the Chapel of the Rosary (Capilla del Rosario), considered one of the most beautiful chapels in Latin America.
     church_timing: >
-      Though Ecuadorians are known for their relaxed approach to timing, church ceremonies start promptly. We recommend <strong>arriving</strong> at least 20 minutes early (2:40pm) to ensure a smooth start.
+      Though Ecuadorians are known for their relaxed approach to timing, church ceremonies start promptly. We recommend <strong>arriving</strong> at least 20 minutes early (1:40pm) to ensure a smooth start.
     church_transport: >
-      <strong>We recommend taking a taxi or Uber</strong> to get to the church. Make sure to use a registered taxi with an orange license plate, and check that the meter is running correctly. If possible, book your taxi through a trusted hotel, restaurant or taxi app (we recommend Uber). Ask your driver to drop you off at the entrance of the church to avoid climbing up steep streets in formal attire.
+      <strong>We recommend taking a taxi</strong> to get to the church. Make sure to use a registered taxi with an orange license plate, and check that the meter is running correctly. If possible, book your taxi through a trusted hotel or restaurant.
     church_parking: >
-      We do not recommend going to the church by car, as it can be tricky for gringos to navigate the streets of Quito. The parking at the church is small, and street parking is scarce. If you still decide to come by car, we recommend these routes:
-    church_route_floresta_title: 'From La Floresta / González Suárez'
-    church_route_floresta_body: >
-      Take Camino de Orellana, a steep and winding road (5-10 min).
-    church_route_carolina_title: 'From La Carolina / La Mariscal'
-    church_route_carolina_body: >
-      Take Av. 6 de Diciembre, then González Suárez, then Camino de Orellana (15-20 min).
-    church_route_center_title: 'From the center of Quito'
-    church_route_center_body: >
-      Take Av. 12 de Octubre, then González Suárez, then Camino de Orellana (15-20 min).
-    church_route_cumbaya_title: 'From Cumbayá / Tumbaco'
-    church_route_cumbaya_body: >
-      Take Av. Simón Bolívar, then Interoceánica, then follow the signs to Guápulo (25-30 min).
-    church_walking: >
-      If you’re staying near González Suárez, you could get to the church by walking down the Camino de Orellana, but take into account that this is a steep descent that requires proper shoes.
+      Guests who come by car may park inside the church parking lot (we have arranged access for you). Please note that driving and parking in Quito’s historic center can be challenging due to narrow streets and traffic, so allow extra time if you choose to drive. The entrance to the parking is on the right side of the church, on the street Juan José Flores (see screenshot below).
+    church_metro: >
+      The church can also be reached by Quito’s metro. The nearest metro station is San Francisco, about a 5-10 minute walk away (follow Simón Bolívar street). The walk is slightly downhill and may be tricky in formal shoes or high heels.
+    church_bus: >
+      There’s also a Trolebús stop right in front of Plaza Santo Domingo, making it easy to reach the church by bus.
     venue_title: 'The Venue'
     venue_intro: >
       The reception with dinner and drinks will take place at Quinta El Alcázar in Puembo.
@@ -485,7 +494,6 @@ en:
     rsvp_confirmation: 'RSVP Confirmation'
     your_rsvp: 'Your RSVP'
     guest_attending_look_forward: We're glad you can make it. We look forward to seeing you on %{wedding_date}!
-    guest_attending_church_time_not_confirmed: 'The location and time of the ecclesiastical ceremony <strong>is not confirmed yet</strong>. Please, keep an eye out for updates on the wedding website or in your mailbox.'
     guest_attending_rsvp_title: 'Your RSVP'
     guest_attending_rsvp_edit: 'You can always go back to the website and edit your RSVP.'
     guest_attending_questions_title: 'Questions and answers'

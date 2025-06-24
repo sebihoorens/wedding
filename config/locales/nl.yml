@@ -26,9 +26,23 @@ nl:
     plan_order_bar_close_time: '00u00'
     plan_order_bar_close_body: Bar sluit
     plan_menu_title: Menu
-    plan_menu_body: >
-      We hebben het menu nog niet gekozen, maar wees gerust&mdash;het wordt heerlijk, Ecuadoriaans, en
-      het wachten waard. We houden je op de hoogte!
+    plan_menu_starter_title: Voorgerecht
+    plan_menu_starter_body: >
+      Gemarineerde zeevruchten in cevichestijl<br>
+      met een verfijnde passievruchtensaus
+    plan_menu_second_title: Tussengerecht
+    plan_menu_second_body: Rijke vijgencrème met Guaranda-kaas
+    plan_menu_main_title: Hoofdgerecht
+    plan_menu_main_body: >
+      Geroosterde ossenhaas met groene pepersaus,<br>
+      geserveerd met romige quinoarisotto,<br>
+      asperges en geglaceerde babywortelen
+    plan_menu_dessert_title: Dessert
+    plan_menu_dessert_body: Chocolademousse met passievruchtvulling
+    plan_menu_note: >
+      Heb je dieetwensen of allergieën?<br>
+      Laat het ons weten bij je %{rsvp_link}.<br>
+      We doen ons best om hiermee rekening te houden.
     plan_gifts_and_cards_title: 'Geschenken & Kaarten'
     plan_gifts_and_cards_body: >
       Jullie aanwezigheid op onze bruiloft is het mooiste geschenk dat we kunnen wensen, zeker als je de

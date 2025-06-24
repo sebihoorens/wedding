@@ -11,16 +11,19 @@
         <p><%= t('home.plan_to_wedding_day', travel_href: link_to(t('travel.title'), travel_and_stay_path), wedding_day_href: link_to(t('travel.wedding_day_title'), "#{travel_and_stay_path}#wedding-day-index-leader")).html_safe %></p>
 
         <h2><%= t('home.plan_order_title') %></h2>
-        <p><%= t :church_name %> &#9962;</p>
+        <p style="letter-spacing: 0.0833333em;"><%= t :church_name %> &#9962;</p>
         <dl class="row">
           <dt class="col-2"><%= t('home.plan_order_arrive_time') %></dt>
           <dd class="col-10"><%= t('home.plan_order_arrive_body') %></dd>
 
           <dt class="col-2"><%= t('home.plan_order_ceremony_time') %></dt>
           <dd class="col-10"><%= t('home.plan_order_ceremony_body') %></dd>
+
+          <dt class="col-2"><%= t('home.plan_order_exit_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_exit_body') %></dd>
         </dl>
 
-        <p><%= t :venue_name %> &#129346;</p>
+        <p style="letter-spacing: 0.0833333em;"><%= t :venue_name %> &#129346;</p>
         <dl class="row">
           <dt class="col-2"><%= t('home.plan_order_cocktail_time') %></dt>
           <dd class="col-10"><%= t('home.plan_order_cocktail_body') %></dd>
@@ -28,28 +31,41 @@
           <dt class="col-2"><%= t('home.plan_order_dinner_time') %></dt>
           <dd class="col-10"><%= t('home.plan_order_dinner_body') %></dd>
 
+          <dt class="col-2"><%= t('home.plan_order_bar_open_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_bar_open_body') %></dd>
+
+          <dt class="col-2"><%= t('home.plan_order_dance_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_dance_body') %></dd>
+
           <dt class="col-2"><%= t('home.plan_order_cake_time') %></dt>
           <dd class="col-10"><%= t('home.plan_order_cake_body') %></dd>
+
+          <dt class="col-2"><%= t('home.plan_order_reanimador_time') %></dt>
+          <dd class="col-10"><%= t('home.plan_order_reanimador_body') %></dd>
 
           <dt class="col-2"><%= t('home.plan_order_bar_close_time') %></dt>
           <dd class="col-10"><%= t('home.plan_order_bar_close_body') %></dd>
         </dl>
 
-        <h2><%= t('home.plan_menu_title') %></h2>
-        <p><%= t('home.plan_menu_body').html_safe %></p>
-        <%#
-          <p><strong>Starter</strong> &mdash; Ceviche in a coconut bowl <sup>*</sup> &dagger;</p>
-          <p><strong>Main</strong> &mdash; Fricassee of Chicken with Lyonnaise Potato &ddagger;</p>
-          <p><strong>Dessert</strong> &mdash; Choux Swan with Chocolate & Brandy Sauce <sup>&sect;</sup></p>
-          <p><strong>Children's Menu</strong>: Garlic bread, chicken goujons and chips, ice cream.</p>
-          <ul class="list-unstyled">
-            <li><small><sup>*</sup> Gluten free &amp; vegan starter: Tomato soup</small></li>
-            <li><small>&dagger; Gluten free &amp; dairy free starter: Gravadlax served without tart</small></li>
-            <li><small>&ddagger; Main is gluten free. Vegan main: Aubergine &amp; Black Bean Chilli with Cumin Rice</small></li>
-            <li><small><sup>&sect;</sup> Vegan, gluten free &amp; dairy free dessert: Fruit platter</small></li>
-          </ul>
-          <p>The venue is making every effort to cater for vegan, vegetarian, gluten free, allergies and other dietary preferences, as indicated in your RSVPs.</p>
-        %>
+        <div class="wedding-menu">
+          <h2><%= t('home.plan_menu_title') %></h2>
+
+          <p class="menu-section">• <%= t('home.plan_menu_starter_title') %> •</p>
+          <p><%= t('home.plan_menu_starter_body').html_safe %></p>
+
+          <p class="menu-section">• <%= t('home.plan_menu_second_title') %> •</p>
+          <p><%= t('home.plan_menu_second_body').html_safe %></p>
+
+          <p class="menu-section">• <%= t('home.plan_menu_main_title') %> •</p>
+          <p><%= t('home.plan_menu_main_body').html_safe %></p>
+
+          <p class="menu-section">• <%= t('home.plan_menu_dessert_title') %> •</p>
+          <p><%= t('home.plan_menu_dessert_body').html_safe %></p>
+
+          <p class="menu-note">
+            <%= t('home.plan_menu_note', rsvp_link: link_to('RSVP', new_guest_path)).html_safe %>
+          </p>
+        </div>
 
         <h2><%= t('home.plan_gifts_and_cards_title') %></h2>
         <p><%= t('home.plan_gifts_and_cards_body') %></p>

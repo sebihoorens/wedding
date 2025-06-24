@@ -26,9 +26,23 @@ es:
     plan_order_bar_close_time: 12am
     plan_order_bar_close_body: Cierre del bar
     plan_menu_title: Menú
-    plan_menu_body: >
-      Aún no hemos elegido el menú, pero no se preocupen&mdash;será delicioso, ecuatoriano, y
-      valdrá la pena la espera. ¡Manténganse atentos para más detalles!
+    plan_menu_starter_title: Entrada
+    plan_menu_starter_body: >
+      Mariscos acevichados<br>
+      con una delicada salsa de maracuyá
+    plan_menu_second_title: Segundo plato
+    plan_menu_second_body: Crema espesa de higos con queso de Guaranda
+    plan_menu_main_title: Plato fuerte
+    plan_menu_main_body: >
+      Lomo de buey asado con salsa de pimienta verde<br>
+      acompañado de quinoto cremoso, espárragos<br>
+      y zanahorias baby glaseadas
+    plan_menu_dessert_title: Postre
+    plan_menu_dessert_body: Cremoso de chocolate con relleno de maracuyá
+    plan_menu_note: >
+      Si tienes alguna restricción alimentaria o alergia,<br>
+      por favor indícalo cuando %{rsvp_link}. Haremos todo<br>
+      lo posible para atender tus necesidades.
     plan_gifts_and_cards_title: 'Regalos y Tarjetas'
     plan_gifts_and_cards_body: >
       Tu presencia en nuestra boda es el mejor regalo que podríamos pedir, estamos emocionados de
