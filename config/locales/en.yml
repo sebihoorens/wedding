@@ -56,15 +56,13 @@ en:
     plan_order_exit_time: 3pm
     plan_order_exit_body: Ceremony concludes
     plan_order_cocktail_time: 4:30pm
-    plan_order_cocktail_body: Cocktail hour (with snacks)
+    plan_order_cocktail_body: Welcome cocktail (with snacks)
     plan_order_dinner_time: 5:30pm
-    plan_order_dinner_body: Dinner & speeches
+    plan_order_dinner_body: Toast & dinner
     plan_order_bar_open_time: 7pm
     plan_order_bar_open_body: Bar opens
-    plan_order_dance_time: 7:40pm
-    plan_order_dance_body: First dance
     plan_order_cake_time: 8pm
-    plan_order_cake_body: Cake cutting, dancing & celebrations
+    plan_order_cake_body: Cake cutting, dancing & celebration
     plan_order_reanimador_time: 11:30pm
     plan_order_reanimador_body: Late-night meal (locro)
     plan_order_bar_close_time: 12am
@@ -243,17 +241,17 @@ en:
       or use the code <strong style="font-weight: 700;">bodaHoorensLeon</strong> on their website to get the special rate.
     church_title: 'The Church'
     church_intro: >
-      Our ecclesiastical ceremony will take place at the 17<sup>th</sup> century <strong>Iglesia de Santo Domingo</strong>, located in Quito’s historic center, a UNESCO World Heritage site. Originally founded by the Dominicans in the late 16<sup>th</sup> century, the current church showcases a blend of Baroque, Gothic, and Moorish architectural elements. Its wooden Mudéjar-style ceiling, inspired by Islamic art, is among its most admired features. The ceremony will be held in the Chapel of the Rosary (Capilla del Rosario), considered one of the most beautiful chapels in Latin America.
+      Our ecclesiastical ceremony will take place at the 17<sup>th</sup> century <strong>Iglesia de Santo Domingo</strong>, located in Quito’s historic center, a UNESCO World Heritage site. Originally founded by the Dominican Order in the late 16<sup>th</sup> century, the current church showcases a blend of Baroque, Gothic, and Moorish architectural elements. Its wooden Mudéjar-style ceiling, inspired by Islamic art, is among its most admired features. The ceremony will be held in the Chapel of the Rosary (Capilla del Rosario), considered one of the most beautiful chapels in Latin America.
     church_timing: >
-      Though Ecuadorians are known for their relaxed approach to timing, church ceremonies start promptly. We recommend <strong>arriving</strong> at least 20 minutes early (1:40pm) to ensure a smooth start.
+      Though Ecuadorians are known for their relaxed approach to time, church ceremonies begin promptly. We recommend arriving at least 20 minutes early (by 1:40pm) to ensure a smooth start.
     church_transport: >
-      <strong>We recommend taking a taxi</strong> to get to the church. Make sure to use a registered taxi with an orange license plate, and check that the meter is running correctly. If possible, book your taxi through a trusted hotel or restaurant.
+      <strong>We recommend taking a taxi</strong> to reach the church. Make sure to use a registered taxi with an orange license plate, and confirm that the meter is running correctly. If possible, book your taxi through a trusted hotel or restaurant.
     church_parking: >
-      Guests who come by car may park inside the church parking lot (we have arranged access for you). Please note that driving and parking in Quito’s historic center can be challenging due to narrow streets and traffic, so allow extra time if you choose to drive. The entrance to the parking is on the right side of the church, on the street Juan José Flores (see screenshot below).
+      Guests arriving by car may park inside the church parking lot (we have arranged access for you). Please note that driving and parking in Quito’s historic center can be challenging due to narrow streets and traffic, so allow extra time. The entrance to the parking is located on Juan José Flores Street, on the left of the church (see screenshot below).
     church_metro: >
-      The church can also be reached by Quito’s metro. The nearest metro station is San Francisco, about a 5-10 minute walk away (follow Simón Bolívar street). The walk is slightly downhill and may be tricky in formal shoes or high heels.
+      The church also accessible via Quito’s metro. The nearest station, San Francisco, is about a 5-10 minute walk away (follow Simón Bolívar street). The path is slightly downhill and may be tricky in formal shoes or high heels.
     church_bus: >
-      There’s also a Trolebús stop right in front of Plaza Santo Domingo, making it easy to reach the church by bus.
+      A Trolebús is conveniently located right in front of Plaza Santo Domingo, offering an easy way to reach the church by bus.
     venue_title: 'The Venue'
     venue_intro: >
       The reception with dinner and drinks will take place at Quinta El Alcázar in Puembo.

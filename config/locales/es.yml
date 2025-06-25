@@ -1,7 +1,7 @@
 es:
   wedding_name: "La Boda de Jess & Sebi"
   wedding_date: 'Sábado, 7 de febrero de 2026'
-  wedding_reception_time: '2:30pm – 12am'
+  wedding_reception_time: '1:30pm – 12:30am'
   wedding_country: 'Ecuador'
   confirm_your_presence: 'Confirma tu asistencia'
   navbar_home: Inicio
@@ -13,16 +13,22 @@ es:
     plan_title: 'Programa'
     plan_to_wedding_day: 'Para detalles prácticos como cómo llegar, dónde alojarse y el código de vestimenta, revisa la sección %{wedding_day_href} en nuestra página de %{travel_href}.'
     plan_order_title: 'Cronograma del Día'
-    plan_order_arrive_time: 2:30pm
+    plan_order_arrive_time: 1:30pm
     plan_order_arrive_body: Llegada de los invitados
-    plan_order_ceremony_time: 3pm
+    plan_order_ceremony_time: 2pm
     plan_order_ceremony_body: Ceremonia eclesiástica
+    plan_order_exit_time: 3pm
+    plan_order_exit_body: Fin de la ceremonia
     plan_order_cocktail_time: 4:30pm
-    plan_order_cocktail_body: Hora del cóctel con bocaditos
-    plan_order_dinner_time: 6pm
-    plan_order_dinner_body: Cena y bebidas
-    plan_order_cake_time: 9pm
-    plan_order_cake_body: '¡Corte del pastel, baile y celebración!'
+    plan_order_cocktail_body: Cóctel de bienvenida (con bocaditos)
+    plan_order_dinner_time: 5:30pm
+    plan_order_dinner_body: Brindis y cena
+    plan_order_bar_open_time: 7pm
+    plan_order_bar_open_body: Apertura del bar
+    plan_order_cake_time: 8pm
+    plan_order_cake_body: 'Corte del pastel, baile y celebración'
+    plan_order_reanimador_time: 11:30pm
+    plan_order_reanimador_body: Locro reanimador
     plan_order_bar_close_time: 12am
     plan_order_bar_close_body: Cierre del bar
     plan_menu_title: Menú
@@ -126,7 +132,7 @@ es:
     getting_to_ecuador_low_season: >
       La boda se realizará en temporada baja, ya que febrero es uno de los meses más económicos para volar a Ecuador. Para obtener los mejores precios, recomendamos reservar tu vuelo con 6-8 meses de anticipación. Los precios de vuelos de ida y vuelta desde Europa típicamente comienzan desde &#8364;800 por persona, con aerolíneas como Air Europa, Iberia y KLM ofreciendo las opciones más económicas. Estos vuelos generalmente tienen escalas en Madrid o Ámsterdam. Al reservar, sugerimos elegir escalas más cortas. Un viaje de 17 horas ya es largo y cansado, ¡así que no hay necesidad de extenderlo más!
     getting_to_ecuador_airport: >
-      Como la boda se realizará cerca de Quito (Guápulo y Puembo), recomendamos volar al Aeropuerto Internacional Mariscal Sucre, que está a unos 45 minutos de la ciudad.
+      Como la boda se realizará cerca de Quito (centro histórico y Puembo), recomendamos volar al Aeropuerto Internacional Mariscal Sucre, que está a unos 45 minutos de la ciudad.
     getting_to_ecuador_visa: >
       La mayoría de nacionalidades pueden visitar Ecuador sin visa por hasta 90 días en un período 
       de 12 meses, pero los <strong>pasaportes</strong> deben tener validez de al menos seis meses 
@@ -155,7 +161,7 @@ es:
       Ecuador es un país hermoso y acogedor, pero como con cualquier destino de viaje, es importante estar atento a tu entorno y usar el sentido común. Los avisos oficiales de viaje de países como Bélgica, Canadá, el Reino Unido y los Estados Unidos proporcionan información útil, pero ten en cuenta que tienden a sonar un poco dramáticos (existen advertencias similares para Bruselas). Con las precauciones adecuadas, podrás disfrutar plenamente de tu viaje y explorar con confianza. Aquí hay algunos consejos clave a tener en cuenta:
     safety_transport_title: 'Usa transporte seguro'
     safety_transport_body: >
-      Mantente con transportes arreglados por el hotel, Uber o taxis registrados.
+      Mantente con transportes arreglados por el hotel, o taxis registrados.
     safety_valuables_title: 'Mantén los objetos de valor seguros'
     safety_valuables_body: >
       Evita mostrar joyas, aparatos costosos o grandes cantidades de efectivo. Usa un bolso antirrobo en áreas concurridas.
@@ -199,41 +205,28 @@ es:
       Lo más importante, ¡usa algo que te encante, te haga sentir bien y con lo que puedas bailar toda la noche! &#10024;
     where_to_stay_title: 'Dónde Alojarse'
     where_to_stay_intro: >
-      Por conveniencia y seguridad, recomendamos alojarse en el área norte-central de Quito o en los valles cercanos de Tumbaco, Cumbayá o Puembo, ya que la boda se realizará en Guápulo y Puembo. ¡Estas áreas ofrecen una variedad de hoteles y Airbnbs, facilitando el regreso seguro después de celebrar con nosotros!
+      Por conveniencia y seguridad, recomendamos alojarse en el área norte-central de Quito o en los valles cercanos de Tumbaco, Cumbayá o Puembo, ya que la boda se realizará en el centro histórico y Puembo. ¡Estas áreas ofrecen una variedad de hoteles y Airbnbs, facilitando el regreso seguro después de celebrar con nosotros!
     where_to_stay_hotel_san_jose: >
       Hemos conseguido una tarifa especial en el hotel %{hotel_link}, una encantadora hacienda del siglo XVII cerca del lugar de la boda (15 minutos en auto). Este hermoso hotel cuenta con piscina, gimnasio, desayuno y traslados al aeropuerto para una estadía confortable. Nuestra tarifa con descuento es de &#36;85 por habitación doble. Puedes enviar un correo a %{email_link}, mencionando <em>boda Hoorens-León</em>, para reservar con esta tarifa.
     where_to_stay_hotel_go_quito: >
       También hemos conseguido una oferta especial con el <em>GO Quito Hotel</em>, un hotel moderno en
-      la ciudad, a solo 15 minutos en auto de la iglesia en Guápulo. La promoción incluye desayuno,
-      acceso al sauna, piscina y gimnasio. Puedes
+      la ciudad. La promoción incluye desayuno, acceso al sauna, piscina y gimnasio. Puedes
       <a href="https://booking.profitroom.com/es/goquitohotel/home?currency=USD&codes=bodaHoorensLeon&no-cache=1" target="_blank">reservar directamente a través de este enlace</a>
       o usar el código <strong style="font-weight: 700;">bodaHoorensLeon</strong> en su sitio web para
       obtener la tarifa especial.
     church_title: 'La Iglesia'
     church_intro: >
-      Nuestra ceremonia eclesiástica está planeada para realizarse en la <strong>Iglesia de Nuestra Señora de Guápulo</strong>, una de las iglesias más antiguas y hermosas de Quito. Este monumento barroco del siglo XVII se encuentra en una pequeña meseta entre Quito y el Valle de Tumbaco, a lo largo de la ruta histórica tomada por la expedición de Pizarro hacia la Amazonía.
-    church_confirmation: >
-      Si bien aún estamos esperando la confirmación final de nuestra reserva en el Santuario De Guápulo, este sigue siendo el lugar previsto. Te actualizaremos tan pronto como tengamos la confirmación oficial.
+      Nuestra ceremonia eclesiástica tendrá lugar en la <strong>Iglesia de Santo Domingo</strong>, una joya del siglo XVII ubicada en el centro histórico de Quito, declarado Patrimonio Mundial por la UNESCO. Fundada originalmente por la Orden de los Dominicos a finales del siglo XVI, la iglesia actual exhibe una mezcla de elementos arquitectónicos barrocos, góticos y moriscos. Su techo de madera de estilo mudéjar, inspirado en el arte islámico, es uno de sus detalles más admirados. La ceremonia se celebrará en la Capilla del Rosario, considerada una de las más bellas de América Latina.
     church_timing: >
-      Aunque los ecuatorianos son conocidos por su enfoque relajado con los horarios, las ceremonias religiosas comienzan puntualmente. Recomendamos <strong>llegar</strong> al menos 20 minutos antes (2:40pm) para asegurar un inicio sin contratiempos.
+      Aunque los ecuatorianos suelen tener una relación relajada con el tiempo, las ceremonias religiosas comienzan puntualmente. Recomendamos llegar al menos 20 minutos antes (a la 1:40pm) para asegurar un inicio fluido.
     church_transport: >
-      <strong>Recomendamos tomar un taxi o Uber</strong> para llegar a la iglesia. Asegúrate de usar un taxi registrado, con placa naranja, y verifica que el taxímetro funcione correctamente. Si es posible, reserva tu taxi a través de un hotel, restaurante o aplicación de confianza (recomendamos Uber). Pide al conductor que te deje en la entrada de la iglesia para evitar subir calles empinadas con ropa formal.
+      <strong>Recomendamos tomar un taxi</strong> para llegar a la iglesia. Asegúrate de usar un taxi registrado con placa naranja y de que el taxímetro esté funcionando correctamente. Si es posible, reserva tu taxi a través de un hotel o restaurante de confianza.
     church_parking: >
-      No recomendamos ir a la iglesia en auto, ya que puede ser complicado para extranjeros navegar las calles de Quito. El parqueadero de la iglesia es pequeño y el estacionamiento en la calle es escaso. Si aun así decides ir en auto, recomendamos estas rutas:
-    church_route_floresta_title: 'Desde La Floresta / González Suárez'
-    church_route_floresta_body: >
-      Toma el Camino de Orellana, una calle empinada y sinuosa (5-10 min).
-    church_route_carolina_title: 'Desde La Carolina / La Mariscal'
-    church_route_carolina_body: >
-      Toma la Av. 6 de Diciembre, luego González Suárez, luego Camino de Orellana (15-20 min).
-    church_route_center_title: 'Desde el centro de Quito'
-    church_route_center_body: >
-      Toma la Av. 12 de Octubre, luego González Suárez, luego Camino de Orellana (15-20 min).
-    church_route_cumbaya_title: 'Desde Cumbayá / Tumbaco'
-    church_route_cumbaya_body: >
-      Toma la Av. Simón Bolívar, luego la Interoceánica, luego sigue los letreros hacia Guápulo (25-30 min).
-    church_walking: >
-      Si te alojas cerca de González Suárez, podrías llegar a la iglesia caminando por el Camino de Orellana, pero ten en cuenta que es un descenso empinado que requiere zapatos apropiados.
+      Los invitados que lleguen en auto pueden estacionar dentro del parqueadero de la iglesia (hemos gestionado el acceso). Ten en cuenta que conducir y estacionar en el centro histórico de Quito puede ser complicado por las calles estrechas y el tráfico, así que sal con tiempo. La entrada al parqueadero está en la calle Juan José Flores, al costado izquierdo de la iglesia (ver imagen más abajo).
+    church_metro: >
+      También se puede llegar a la iglesia en metro. La estación más cercana, San Francisco, está a unos 5–10 minutos caminando (por la calle Simón Bolívar). El trayecto es ligeramente en bajada y puede ser incómodo con zapatos formales o tacones.
+    church_bus: >
+      Hay una parada del Trolebús justo frente a la Plaza Santo Domingo, lo que facilita el acceso en bus.
     venue_title: 'El Local'
     venue_intro: >
       La recepción con cena y bebidas se realizará en Quinta El Alcázar en Puembo.
@@ -483,7 +476,6 @@ es:
     rsvp_confirmation: 'Confirmación de Asistencia'
     your_rsvp: 'Tu Confirmación'
     guest_attending_look_forward: '¡Nos alegra mucho que puedas venir. Nos vemos el %{wedding_date}!'
-    guest_attending_church_time_not_confirmed: 'La ubicación y el horario de la ceremonia religiosa <strong>aún no están confirmados</strong>. Por favor, mantente atento a las actualizaciones en el sitio web de la boda o en tu correo.'
     guest_attending_rsvp_title: 'Tu Confirmación'
     guest_attending_rsvp_edit: 'Siempre puedes volver al sitio web y editar tu confirmación.'
     guest_attending_questions_title: 'Preguntas y respuestas'

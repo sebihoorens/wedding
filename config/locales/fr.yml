@@ -3,7 +3,7 @@ fr:
   navbar_home: Bienvenue
   wedding_name: 'Mariage de Jess & Sebi'
   wedding_date: 'Samedi 7 février 2026'
-  wedding_reception_time: '14h30 – 00h00'
+  wedding_reception_time: '13h30 – 00h30'
   wedding_country: Équateur
   problem: problème
   home:
@@ -15,16 +15,22 @@ fr:
       Pour les détails pratiques comme l'accès, l'hébergement et le code vestimentaire, consultez la
       section %{wedding_day_href} sur notre page %{travel_href}.
     plan_order_title: 'Déroulement de la Journée'
-    plan_order_arrive_time: 14h30
+    plan_order_arrive_time: 13h30
     plan_order_arrive_body: Arrivée des invités
-    plan_order_ceremony_time: 15h00
+    plan_order_ceremony_time: 14h00
     plan_order_ceremony_body: Cérémonie religieuse
+    plan_order_exit_time: 15h00
+    plan_order_exit_body: Fin de la cérémonie
     plan_order_cocktail_time: 16h30
-    plan_order_cocktail_body: Cocktail et amuse-bouches
-    plan_order_dinner_time: 18h00
-    plan_order_dinner_body: Dîner et boissons
-    plan_order_cake_time: 21h00
-    plan_order_cake_body: Gâteau, danse et festivités !
+    plan_order_cocktail_body: Cocktail de bienvenue (avec amuse-bouches)
+    plan_order_dinner_time: 17h30
+    plan_order_dinner_body: Toast et dîner
+    plan_order_bar_open_time: 19h00
+    plan_order_bar_open_body: Ouverture du bar
+    plan_order_cake_time: 20h00
+    plan_order_cake_body: Découpe du gâteau, danse et fête
+    plan_order_reanimador_time: 23h30
+    plan_order_reanimador_body: Petite faim de nuit (locro)
     plan_order_bar_close_time: 00h00
     plan_order_bar_close_body: Fermeture du bar
     plan_menu_title: Menu
@@ -170,7 +176,7 @@ fr:
       Amsterdam. Lors de la réservation, nous vous conseillons de choisir des escales plus courtes.
       Un voyage de 17 heures est déjà long et fatiguant, alors inutile de le prolonger davantage !
     getting_to_ecuador_airport: >
-      Comme le mariage aura lieu autour de Quito (Guápulo et Puembo), nous vous recommandons
+      Comme le mariage aura lieu autour de Quito (centre historique et Puembo), nous vous recommandons
       d'atterrir à l'aéroport international Mariscal Sucre, qui se trouve à environ 45 minutes de
       la ville.
     getting_to_ecuador_visa: >
@@ -224,7 +230,7 @@ fr:
       confiance. Voici quelques conseils essentiels à garder à l'esprit :
     safety_transport_title: 'Utilisez des transports sûrs'
     safety_transport_body: >
-      Tenez-vous-en aux trajets organisés par l'hôtel, Uber ou aux taxis enregistrés.
+      Tenez-vous-en aux trajets organisés par l'hôtel, ou aux taxis enregistrés.
     safety_valuables_title: 'Gardez vos objets de valeur en sécurité'
     safety_valuables_body: >
       Évitez d'exhiber des bijoux, des gadgets coûteux ou de grosses sommes d'argent. Utilisez un
@@ -291,8 +297,8 @@ fr:
     where_to_stay_title: 'Où Séjourner'
     where_to_stay_intro: >
       Pour plus de commodité et de sécurité, nous recommandons de séjourner dans le nord-centre de
-      Quito ou dans les vallées voisines de Tumbaco, Cumbayá ou Puembo, car le mariage aura lieu à
-      Guápulo et Puembo. Ces zones offrent une variété d'hôtels et d'Airbnb, ce qui facilitera
+      Quito ou dans les vallées voisines de Tumbaco, Cumbayá ou Puembo, car le mariage aura lieu au
+      centre historique et Puembo. Ces zones offrent une variété d'hôtels et d'Airbnb, ce qui facilitera
       votre retour en toute sécurité après avoir célébré avec nous !
     where_to_stay_hotel_san_jose: >
       Nous avons obtenu un tarif spécial à l'hôtel %{hotel_link}, une charmante hacienda du 17<sup>e</sup>
@@ -302,53 +308,23 @@ fr:
       à %{email_link}, en mentionnant <em>boda Hoorens-León</em>, pour réserver à ce tarif.
     where_to_stay_hotel_go_quito: >
       Nous avons également obtenu une offre spéciale avec <em>GO Quito Hotel</em>, un hôtel moderne
-      en ville, à seulement 15 minutes en voiture de l'église de Guápulo. La promotion comprend le
-      petit-déjeuner, l'accès au sauna, à la piscine et à la salle de sport. Vous pouvez
+      en ville. La promotion comprend le petit-déjeuner, l'accès au sauna, à la piscine et à la salle de sport. Vous pouvez
       <a href="https://booking.profitroom.com/en/goquitohotel/home?currency=USD&codes=bodaHoorensLeon&no-cache=1" target="_blank">réserver directement via ce lien</a>
       ou utiliser le code <strong style="font-weight: 700;">bodaHoorensLeon</strong> sur leur site
       web pour bénéficier du tarif spécial.
     church_title: "L'Église"
     church_intro: >
-      Notre cérémonie religieuse est prévue à <strong>La Iglesia de Nuestra Señora de Guápulo</strong>,
-      l'une des plus anciennes et plus belles églises de Quito. Ce monument baroque du 17<sup>e</sup>
-      siècle est situé sur un petit plateau entre Quito et la vallée de Tumbaco, le long de la route
-      historique empruntée par l'expédition de Pizarro vers l'Amazonie.
-    church_confirmation: >
-      Bien que nous attendions toujours la confirmation finale pour notre réservation au Santuario
-      De Guápulo, cela reste notre lieu prévu. Nous vous tiendrons informés dès que nous aurons
-      la confirmation officielle.
+      Notre cérémonie religieuse se déroulera dans <strong>l'église de Santo Domingo</strong>, datant du XVII<sup>e</sup> siècle, située dans le centre historique de Quito, classé au patrimoine mondial de l'UNESCO. Fondée à l'origine par l'ordre dominicain à la fin du XVI<sup>e</sup> siècle, l'église actuelle présente un mélange d'éléments architecturaux baroques, gothiques et mauresques. Son plafond en bois de style mudéjar, inspiré de l'art islamique, est l'un de ses éléments les plus admirés. La cérémonie se tiendra dans la Chapelle du Rosaire (Capilla del Rosario), considérée comme l'une des plus belles d'Amérique latine.
     church_timing: >
-      Bien que les Équatoriens soient connus pour leur approche décontractée du timing, les cérémonies
-      religieuses commencent à l'heure. Nous vous recommandons d'<strong>arriver</strong> au moins
-      20 minutes à l'avance (14h40) pour assurer un début en douceur.
+      Bien que les Équatoriens aient une relation détendue avec le temps, les cérémonies religieuses commencent à l'heure. Nous vous recommandons d'arriver au moins 20 minutes à l'avance (à 13h40) pour garantir un bon déroulement.
     church_transport: >
-      <strong>Nous recommandons de prendre un taxi ou un Uber</strong> pour vous rendre à l'église.
-      Assurez-vous d'utiliser un taxi enregistré, avec une plaque d'immatriculation orange, et
-      vérifiez que le compteur fonctionne correctement. Si possible, réservez votre taxi via un
-      hôtel, un restaurant ou une application de taxi de confiance (nous recommandons Uber).
-      Demandez à votre chauffeur de vous déposer à l'entrée de l'église pour éviter de monter
-      des rues escarpées en tenue de cérémonie.
+      <strong>Nous vous conseillons de prendre un taxi</strong> pour vous rendre à l'église. Assurez-vous d'utiliser un taxi officiel avec une plaque orange et vérifiez que le compteur fonctionne. Si possible, réservez via un hôtel ou restaurant de confiance.
     church_parking: >
-      Nous ne recommandons pas de se rendre à l'église en voiture, car il peut être difficile
-      pour les gringos de naviguer dans les rues de Quito. Le parking de l'église est petit et
-      le stationnement dans la rue est rare. Si vous décidez quand même d'y venir en voiture,
-      nous recommandons ces itinéraires :
-    church_route_floresta_title: 'Depuis La Floresta / González Suárez'
-    church_route_floresta_body: >
-      Prenez le Camino de Orellana, une route raide et sinueuse (5-10 min).
-    church_route_carolina_title: 'Depuis La Carolina / La Mariscal'
-    church_route_carolina_body: >
-      Prenez l'Av. 6 de Diciembre, puis González Suárez, puis Camino de Orellana (15-20 min).
-    church_route_center_title: 'Depuis le centre de Quito'
-    church_route_center_body: >
-      Prenez l'Av. 12 de Octubre, puis González Suárez, puis Camino de Orellana (15-20 min).
-    church_route_cumbaya_title: 'Depuis Cumbayá / Tumbaco'
-    church_route_cumbaya_body: >
-      Prenez l'Av. Simón Bolívar, puis Interoceánica, puis suivez les panneaux vers Guápulo (25-30 min).
-    church_walking: >
-      Si vous logez près de González Suárez, vous pourriez vous rendre à l'église en descendant
-      le Camino de Orellana, mais tenez compte du fait qu'il s'agit d'une descente raide qui
-      nécessite des chaussures appropriées.
+      Les invités arrivant en voiture peuvent se garer dans le parking de l'église (nous avons prévu l'accès). Notez toutefois que circuler et se garer dans le centre historique de Quito peut être difficile en raison des rues étroites et de la circulation dense. Prévoyez donc un peu de marge. L'entrée du parking se trouve rue Juan José Flores, sur le côté gauche de l'église (voir capture d'écran ci-dessous).
+    church_metro: >
+      L'église est également accessible par le métro de Quito. La station la plus proche, San Francisco, se trouve à environ 5 à 10 minutes à pied (en suivant la rue Simón Bolívar). Le trajet est légèrement en pente, ce qui peut être compliqué avec des chaussures habillées ou des talons.
+    church_bus: >
+      Un arrêt du Trolebús se trouve juste en face de la Plaza Santo Domingo, ce qui rend l'église facilement accessible en bus.
     venue_title: 'Le Lieu de Réception'
     venue_intro: >
       La réception avec dîner et boissons aura lieu à Quinta El Alcázar à Puembo.
@@ -691,9 +667,6 @@ fr:
     rsvp_confirmation: 'Confirmation RSVP'
     your_rsvp: 'Votre RSVP'
     guest_attending_look_forward: Nous sommes ravis que vous puissiez venir. Nous avons hâte de vous voir le %{wedding_date} !
-    guest_attending_church_time_not_confirmed: >
-      Le lieu et l'heure de la cérémonie religieuse <strong>ne sont pas encore confirmés</strong>.
-      Veuillez consulter régulièrement le site web du mariage ou votre boîte mail pour des mises à jour.
     guest_attending_rsvp_title: 'Votre RSVP'
     guest_attending_rsvp_edit: 'Vous pouvez toujours retourner sur le site web et modifier votre RSVP.'
     guest_attending_questions_title: 'Questions et réponses'
