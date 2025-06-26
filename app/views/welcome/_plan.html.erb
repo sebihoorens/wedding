@@ -59,6 +59,11 @@
           <p class="menu-section">• <%= t('home.plan_menu_dessert_title') %> •</p>
           <p><%= t('home.plan_menu_dessert_body').html_safe %></p>
 
+          <p class="menu-section">• <%= t('home.plan_menu_kids_title') %> •</p>
+          <p>
+            <%= t('home.plan_menu_kids_body').html_safe %>
+          </p>
+
           <p class="menu-note">
             <%= t('home.plan_menu_note', rsvp_link: link_to('RSVP', new_guest_path)).html_safe %>
           </p>

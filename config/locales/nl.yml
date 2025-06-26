@@ -45,6 +45,11 @@ nl:
       asperges en geglaceerde babywortelen
     plan_menu_dessert_title: Dessert
     plan_menu_dessert_body: Chocolademousse met passievruchtvulling
+    plan_menu_kids_title: Kindermenu
+    plan_menu_kids_body: >
+      Korte pasta met bolognaisesaus,<br>
+      lookbrood en groenten<br>
+      <em>Dessert (hetzelfde als bij de volwassenen)</em>
     plan_menu_note: >
       Heb je dieetwensen of allergieën?<br>
       Laat het ons weten bij je %{rsvp_link}.<br>
@@ -265,7 +270,7 @@ nl:
     venue_shuttle: >
       We zijn van plan een shuttle te regelen van de kerk naar Quinta El Alcázar.
     venue_parking: >
-      Voor de vlotste route met de auto raden we aan een navigatie-app zoals Waze te gebruiken.
+      Voor de eenvoudigste route met de wagen raden we aan een navigatie-app zoals Waze te gebruiken. De afslag naar Calle Sta. Rosa (de straat van El Alcázar) komt vlak na de rotonde als je van Ruta Viva komt, en is gemakkelijk te missen (zie afbeelding hieronder). Bij aankomst ga je langs de beveiliging, dus breng je identiteitskaart of paspoort mee. Enkel gasten op de lijst krijgen toegang.
   exploring:
     title: 'Ecuador Ontdekken'
     quito_title: 'Quito'

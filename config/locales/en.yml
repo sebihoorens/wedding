@@ -81,6 +81,12 @@ en:
       and glazed baby carrots
     plan_menu_dessert_title: Dessert
     plan_menu_dessert_body: Chocolate mousse with a passion fruit filling
+    plan_menu_kids_title: Kids' menu
+    plan_menu_kids_body: >
+      Short pasta with Bolognese sauce,<br>
+      garlic bread, and vegetables<br>
+      <em>Dessert (same as the adults)</em>
+
     plan_menu_note: >
       If you have any dietary restrictions or allergies,<br>  
       please let us know when you %{rsvp_link}. We will do our best<br>  
@@ -247,7 +253,7 @@ en:
     church_transport: >
       <strong>We recommend taking a taxi</strong> to reach the church. Make sure to use a registered taxi with an orange license plate, and confirm that the meter is running correctly. If possible, book your taxi through a trusted hotel or restaurant.
     church_parking: >
-      Guests arriving by car may park inside the church parking lot (we have arranged access for you). Please note that driving and parking in Quito’s historic center can be challenging due to narrow streets and traffic, so allow extra time. The entrance to the parking is located on Juan José Flores Street, on the left of the church (see screenshot below).
+      Guests arriving by car may park inside the church parking lot (we have arranged access for you). Please note that driving and parking in Quito’s historic center can be challenging due to narrow streets and traffic, so allow extra time. The entrance to the parking is located on Juan José Flores Street, on the left of the church (see image below).
     church_metro: >
       The church also accessible via Quito’s metro. The nearest station, San Francisco, is about a 5-10 minute walk away (follow Simón Bolívar street). The path is slightly downhill and may be tricky in formal shoes or high heels.
     church_bus: >
@@ -258,7 +264,7 @@ en:
     venue_shuttle: >
       We’re planning to provide a shuttle to get to Quinta El Alcázar from the church.
     venue_parking: >
-      For the easiest route by car, we recommend using a navigation app like Waze.
+        For the easiest route by car, we recommend using a navigation app like Waze. The turn onto Calle Sta. Rosa (El Alcázar’s street) comes shortly after the roundabout when arriving from Ruta Viva and can be easy to miss (see image below). Upon arrival, you’ll pass through security, so please bring your ID or passport. Only guests on the list will be admitted.
   exploring:
     title: 'Exploring Ecuador'
     quito_title: 'Quito'

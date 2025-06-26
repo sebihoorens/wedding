@@ -45,6 +45,11 @@ es:
       y zanahorias baby glaseadas
     plan_menu_dessert_title: Postre
     plan_menu_dessert_body: Cremoso de chocolate con relleno de maracuyá
+    plan_menu_kids_title: Menú de niños
+    plan_menu_kids_body: >
+      Pasta corta con salsa boloñesa,<br>
+      pan de ajo y vegetales<br>
+      <em>Postre (igual que el de los adultos)</em>
     plan_menu_note: >
       Si tienes alguna restricción alimentaria o alergia,<br>
       por favor indícalo cuando %{rsvp_link}. Haremos todo<br>
@@ -222,7 +227,7 @@ es:
     church_transport: >
       <strong>Recomendamos tomar un taxi</strong> para llegar a la iglesia. Asegúrate de usar un taxi registrado con placa naranja y de que el taxímetro esté funcionando correctamente. Si es posible, reserva tu taxi a través de un hotel o restaurante de confianza.
     church_parking: >
-      Los invitados que lleguen en auto pueden estacionar dentro del parqueadero de la iglesia (hemos gestionado el acceso). Ten en cuenta que conducir y estacionar en el centro histórico de Quito puede ser complicado por las calles estrechas y el tráfico, así que sal con tiempo. La entrada al parqueadero está en la calle Juan José Flores, al costado izquierdo de la iglesia (ver imagen más abajo).
+      Los invitados que lleguen en auto pueden estacionar dentro del parqueadero de la iglesia (hemos gestionado el acceso). Ten en cuenta que conducir y estacionar en el centro histórico de Quito puede ser complicado por las calles estrechas y el tráfico, así que sal con tiempo. La entrada al parqueadero está en la calle Juan José Flores, al costado izquierdo de la iglesia (ver imagen abajo).
     church_metro: >
       También se puede llegar a la iglesia en metro. La estación más cercana, San Francisco, está a unos 5–10 minutos caminando (por la calle Simón Bolívar). El trayecto es ligeramente en bajada y puede ser incómodo con zapatos formales o tacones.
     church_bus: >
@@ -233,7 +238,7 @@ es:
     venue_shuttle: >
       Estamos planeando proporcionar transporte para llegar a Quinta El Alcázar desde la iglesia.
     venue_parking: >
-      Para la ruta más sencilla en auto, te recomendamos usar una app de navegación como Waze.
+      Para llegar en auto de la forma más sencilla, te recomendamos usar una aplicación de navegación como Waze. La entrada a la Calle Sta. Rosa (la calle de El Alcázar) está justo después de la redondel al venir por la Ruta Viva y puede pasar desapercibida (ver imagen abajo). Al llegar, deberás pasar por seguridad, así que lleva tu cédula o pasaporte. Solo se permitirá el ingreso a los invitados en la lista.
   exploring:
     title: 'Explorando Ecuador'
     quito_title: 'Quito'

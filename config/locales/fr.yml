@@ -47,6 +47,11 @@ fr:
       d’asperges et de carottes glacées
     plan_menu_dessert_title: Dessert
     plan_menu_dessert_body: Mousse au chocolat avec un cœur de fruit de la passion
+    plan_menu_kids_title: Menu enfants
+    plan_menu_kids_body: >
+      Pâtes courtes à la sauce bolognaise,<br>
+      pain à l’ail et légumes<br>
+      <em>Dessert (identique à celui des adultes)</em>
     plan_menu_note: >
       Si vous avez des restrictions alimentaires ou des allergies,<br>
       merci de nous en informer lors de votre %{rsvp_link}.<br>
@@ -320,7 +325,7 @@ fr:
     church_transport: >
       <strong>Nous vous conseillons de prendre un taxi</strong> pour vous rendre à l'église. Assurez-vous d'utiliser un taxi officiel avec une plaque orange et vérifiez que le compteur fonctionne. Si possible, réservez via un hôtel ou restaurant de confiance.
     church_parking: >
-      Les invités arrivant en voiture peuvent se garer dans le parking de l'église (nous avons prévu l'accès). Notez toutefois que circuler et se garer dans le centre historique de Quito peut être difficile en raison des rues étroites et de la circulation dense. Prévoyez donc un peu de marge. L'entrée du parking se trouve rue Juan José Flores, sur le côté gauche de l'église (voir capture d'écran ci-dessous).
+      Les invités arrivant en voiture peuvent se garer dans le parking de l'église (nous avons prévu l'accès). Notez toutefois que circuler et se garer dans le centre historique de Quito peut être difficile en raison des rues étroites et de la circulation dense. Prévoyez donc un peu de marge. L'entrée du parking se trouve rue Juan José Flores, sur le côté gauche de l'église (voir l’image ci-dessous).
     church_metro: >
       L'église est également accessible par le métro de Quito. La station la plus proche, San Francisco, se trouve à environ 5 à 10 minutes à pied (en suivant la rue Simón Bolívar). Le trajet est légèrement en pente, ce qui peut être compliqué avec des chaussures habillées ou des talons.
     church_bus: >
@@ -331,7 +336,7 @@ fr:
     venue_shuttle: >
       Nous prévoyons de mettre en place une navette pour se rendre à Quinta El Alcázar depuis l'église.
     venue_parking: >
-      Pour l’itinéraire le plus simple en voiture, nous vous recommandons d’utiliser une application de navigation comme Waze.
+      Pour rejoindre El Alcázar en voiture, le plus simple est d’utiliser une application de navigation comme Waze. L’entrée dans la Calle Sta. Rosa (la rue d’El Alcázar) se trouve peu après le rond-point en venant de la Ruta Viva, et elle peut être facile à manquer (voir l’image ci-dessous). À l’arrivée, vous devrez passer par la sécurité, donc munissez-vous de votre carte d’identité ou passeport. Seuls les invités figurant sur la liste seront autorisés à entrer.
   rsvp:
     intro: >
       Nous avons hâte de célébrer avec vous ! Merci de confirmer votre présence dès que possible
