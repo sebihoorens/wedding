@@ -597,6 +597,9 @@ fr:
       aller avec un guide ou un tour organisé. La plupart des endroits ne sont accessibles qu'avec
       des guides autorisés, et ils vous aideront à tirer le meilleur parti de cette expérience
       unique.
+  photo:
+    title: 'Galerie Photo'
+    civil_title: 'Mariage Civil'
   faq:
     title: Questions Fréquentes
     no_invitation_title: "Je n'ai pas reçu d'invitation. M'avez-vous oublié ?"

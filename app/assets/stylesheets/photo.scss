@@ -1,3 +1,17 @@
+#photo-index-leader {
+  background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
+    url("https://res.cloudinary.com/dvvdwl8at/image/upload/v1760292454/a9a7a96a-c8b0-11ed-91d7-02b7b76bf47f_gwmkbw.jpg") center center no-repeat;
+  background-size: cover;
+
+  * {
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  h1 {
+    padding: 3 * $spacer 0;
+  }
+}
+
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
