@@ -7,9 +7,10 @@ Rails.application.routes.draw do
   scope '/:locale' do
     get 'welcome/index'
 
+    get 'our-story', to: 'story#index'
     get 'travel-and-stay', to: 'travel#index'
     get 'exploring-ecuador', to: 'exploring#index'
-    get 'our-story', to: 'story#index'
+    get 'photo-gallery', to: 'photo#index'
     get 'faq', to: 'faq#index'
 
     resources :guests do
