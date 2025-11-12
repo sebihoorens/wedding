@@ -647,7 +647,7 @@ fr:
     pictures_body_ceremony: >
       Nous aimerions que tout le monde soit pleinement présent et profite du moment, donc nous
       vous demandons de ne pas prendre de photos <em>pendant la cérémonie</em>. Nous avons engagé
-      un photographe professionnel, et nous partagerons les photos du mariage sur ce site web
+      un photographe professionnel, et nous partagerons les photos du mariage dans la %{photo_gallery_link}
       après notre lune de miel.
     pictures_body_reception: >
       Après la cérémonie, n’hésitez pas à prendre autant de photos que vous le souhaitez. Si

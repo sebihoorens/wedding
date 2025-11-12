@@ -420,7 +420,7 @@ en:
     pictures_body_ceremony: >
       We’d like everyone to be fully present and enjoy the moment, so we kindly ask that you refrain from taking
       pictures <em>during the ceremony</em>. We’ve hired a professional photographer, and we’ll share the wedding
-      photos on this website after our honeymoon.
+      photos in the %{photo_gallery_link} after our honeymoon.
     pictures_body_reception: >
       After the ceremony, feel free to take as many pictures as you like. If you want to share them with us,
       you can get in touch with us <a href="mailto:jessi-leon@hotmail.com">by email</a>.

@@ -439,7 +439,7 @@ nl:
     pictures_body_ceremony: >
       We willen graag dat iedereen volledig aanwezig is en van het moment geniet, dus vragen we vriendelijk 
       om geen foto’s te maken <em>tijdens de ceremonie</em>. We hebben een professionele fotograaf ingehuurd, 
-      en we zullen de trouwfoto’s na onze huwelijksreis op deze website delen.
+      en we zullen de trouwfoto’s na onze huwelijksreis delen in de %{photo_gallery_link}.
     pictures_body_reception: >
       Na de ceremonie kun je zoveel foto’s maken als je wilt. Als je ze met ons wilt delen, kun je contact 
       met ons opnemen <a href="mailto:jessi-leon@hotmail.com">via e-mail</a>.
