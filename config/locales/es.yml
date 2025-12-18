@@ -364,11 +364,11 @@ es:
     cant_make_it_body: >
       Lamentaremos mucho tu ausencia. Si no puedes asistir, por favor háznos saber a través de
       %{rsvp_link} seleccionando <strong>No</strong> para la pregunta <em>¿Asistirás?</em>.
-      Puedes cambiar de opinión antes del 1<sup>ro</sup> de septiembre, actualizando tu %{rsvp_link}
+      Puedes cambiar de opinión antes del 5 de enero, actualizando tu %{rsvp_link}
       (usando la misma dirección de correo electrónico).
     rsvp_time_title: "¿Qué pasa si no confirmo a tiempo?"
     rsvp_time_body: >
-      Si no %{rsvp_link} antes del 1<sup>ro</sup> de septiembre, asumiremos que <em>no asistirás</em>.
+      Si no %{rsvp_link} antes del 5 de enero, asumiremos que <em>no asistirás</em>.
       Lamentablemente, no podremos acomodar confirmaciones tardías después de esta fecha.
     personal_data_title: "¿Se compartirán mis datos personales con terceros?"
     personal_data_body: >
@@ -424,7 +424,7 @@ es:
     intro: >
       ¡Estamos ansiosos por celebrar contigo! Por favor confirma tu asistencia lo antes posible para poder reservar
       tu asiento y una porción de pastel. Si tus planes cambian y no puedes asistir, avísanos lo antes posible.
-      Por favor confirma antes del <strong>1<sup>ro</sup> de septiembre de 2025</strong>.
+      Por favor confirma antes del <strong>5 de enero de 2025</strong>.
     enter_email: Por favor ingresa tu dirección de correo electrónico para comenzar.
     continue: Continuar
     edit: Editar

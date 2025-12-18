@@ -342,7 +342,7 @@ fr:
       Nous avons hâte de célébrer avec vous ! Merci de confirmer votre présence dès que possible
       pour que nous puissions vous réserver une place et une part de gâteau. Si vos plans changent
       et que vous ne pouvez pas venir, merci de nous en informer au plus tôt. La date limite de
-      réponse est le <strong>1<sup>er</sup> septembre 2025</strong>.
+      réponse est le <strong>5<sup>e</sup> janvier 2025</strong>.
     enter_email: Entrez votre adresse e-mail pour commencer.
     continue: Continuer
     edit: Modifier
@@ -611,11 +611,11 @@ fr:
     cant_make_it_body: >
       Vous nous manquerez ! Si vous ne pouvez pas venir, merci de nous le faire savoir via
       %{rsvp_link} en sélectionnant <strong>Non</strong> à la question <em>Serez-vous des nôtres ?</em>.
-      Vous pouvez toujours changer d’avis avant le 1<sup>er</sup> septembre en mettant à jour votre
+      Vous pouvez toujours changer d’avis avant le 5<sup>e</sup> janvier en mettant à jour votre
       %{rsvp_link} (en utilisant la même adresse e-mail).
     rsvp_time_title: "Et si je ne réponds pas à temps ?"
     rsvp_time_body: >
-      Si vous ne %{rsvp_link} pas avant le 1<sup>er</sup> septembre, nous considérerons que vous
+      Si vous ne %{rsvp_link} pas avant le 5<sup>e</sup> janvier, nous considérerons que vous
       <em>ne venez pas</em>. Malheureusement, nous ne pourrons pas accepter de confirmations
       tardives après cette date.
     personal_data_title: "Mes données personnelles seront-elles partagées avec des tiers ?"

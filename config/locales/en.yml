@@ -388,11 +388,11 @@ en:
     cant_make_it_body: >
       Your presence will surely be missed. If you cannot attend, please let us know through
       %{rsvp_link} by selecting <strong>No</strong> for the question <em>Will you be joining us?</em>.
-      You can still change your mind before September 1<sup>st</sup>, by updating your %{rsvp_link}
+      You can still change your mind before January 5<sup>th</sup>, by updating your %{rsvp_link}
       (using the same email address).
     rsvp_time_title: "What if I don’t RSVP in time?"
     rsvp_time_body: >
-      If you don’t %{rsvp_link} by September 1<sup>st</sup>, we’ll assume you’re <em>not attending</em>.
+      If you don’t %{rsvp_link} by January 5<sup>th</sup>, we’ll assume you’re <em>not attending</em>.
       Unfortunately, we won’t be able to accommodate late confirmations after this date.
     personal_data_title: "Will my personal data be shared with third parties?"
     personal_data_body: >
@@ -441,7 +441,7 @@ en:
     intro: >
       We can’t wait to celebrate with you! Please RSVP as soon as possible so we can reserve your
       seat and a slice of cake. If plans change and you can’t make it, let us know at your earliest
-      convenience. Kindly RSVP by <strong>September 1<sup>st</sup>, 2025</strong>.
+      convenience. Kindly RSVP by <strong>January 5<sup>th</sup>, 2025</strong>.
     enter_email: Please enter your email address to begin.
     continue: Continue
     edit: Edit
