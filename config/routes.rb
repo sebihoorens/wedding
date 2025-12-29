@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
-  scope '/:locale' do
+  scope '/:locale', locale: /en|es|nl|fr/ do
     get 'welcome/index'
 
     get 'our-story', to: 'story#index'

@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class ApplicationController < ActionController::Base
+  SUPPORTED_LOCALES = %w[en es nl fr].freeze
+
   before_action :set_browser
   around_action :switch_locale
 
@@ -20,6 +22,7 @@ class ApplicationController < ActionController::Base
 
   def switch_locale(&action)
     locale = params[:locale] || browser_locale || I18n.default_locale
+    locale = 'en' if !SUPPORTED_LOCALES.include?(locale.to_s)
     I18n.with_locale(locale, &action)
   end
 
