@@ -75,6 +75,11 @@
 
 %>
 
+<% content_for :head do %>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<% end %>
+
 <section id="photo-index-leader" class="jumbotron text-center">
   <div class="container">
     <h1><%= t 'photo.civil_title' %></h1>
@@ -86,16 +91,22 @@
     <div class="gallery-item">
       <% case item[:type] %>
       <% when :image %>
-        <%= image_tag(cloudinary_image_url(item[:url]), width: '100%', loading: 'lazy', onload: "this.classList.add('loaded')") %>
+        <a href="<%= cloudinary_image_url(item[:url]) %>" class="glightbox" data-gallery="gallery">
+          <%= image_tag(cloudinary_image_url(item[:url]), width: '100%', loading: 'lazy', onload: "this.classList.add('loaded')") %>
+        </a>
       <% when :video %>
-        <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
-          <source src="<%= item[:url] %>" type="video/mp4">
-        </video>
-      <% when :speech %>
-        <div class="gallery-speech-wrapper">
+        <a href="<%= item[:url] %>" class="glightbox" data-gallery="gallery" data-type="video" data-mute="true">
           <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
             <source src="<%= item[:url] %>" type="video/mp4">
           </video>
+        </a>
+      <% when :speech %>
+        <div class="gallery-speech-wrapper">
+          <a href="<%= item[:url] %>" class="glightbox" data-gallery="gallery" data-type="video">
+            <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
+              <source src="<%= item[:url] %>" type="video/mp4">
+            </video>
+          </a>
           <button class="gallery-speech-badge"
                   data-label-muted="🔊 <%= t 'photo.has_audio' %>"
                   data-label-unmuted="🔇 <%= t 'photo.mute' %>"
@@ -112,6 +123,26 @@
   (function () {
     var row = document.getElementById('gallery-row');
     var items = Array.from(row.querySelectorAll('.gallery-item'));
+
+    var silentHrefs = new Set();
+    document.querySelectorAll('a.glightbox[data-mute="true"]').forEach(function (el) {
+      silentHrefs.add(el.getAttribute('href'));
+    });
+
+    function muteSilentVideo() {
+      setTimeout(function () {
+        var slide = document.querySelector('.gslide.current');
+        if (!slide) return;
+        var video = slide.querySelector('video');
+        if (!video) return;
+        var source = slide.querySelector('source');
+        if (source && silentHrefs.has(source.getAttribute('src'))) video.muted = true;
+      }, 200);
+    }
+
+    var lightbox = GLightbox({ selector: '.glightbox', touchNavigation: true, loop: false });
+    lightbox.on('open', muteSilentVideo);
+    lightbox.on('slide_changed', muteSilentVideo);
 
     function columnCount() {
       return window.innerWidth <= 600 ? 1 : window.innerWidth <= 800 ? 2 : 4;

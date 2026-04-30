@@ -41,6 +41,11 @@
   vertical-align: middle;
 }
 
+.gallery-item a {
+  display: block;
+  cursor: pointer;
+}
+
 .gallery-speech-wrapper {
   position: relative;
   margin-top: 8px;
