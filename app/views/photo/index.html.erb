@@ -86,7 +86,7 @@
     <div class="gallery-item">
       <% case item[:type] %>
       <% when :image %>
-        <%= image_tag(cloudinary_image_url(item[:url]), width: '100%') %>
+        <%= image_tag(cloudinary_image_url(item[:url]), width: '100%', loading: 'lazy') %>
       <% when :video %>
         <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
           <source src="<%= item[:url] %>" type="video/mp4">
