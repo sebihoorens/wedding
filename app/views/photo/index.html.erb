@@ -1,5 +1,4 @@
 <%
-  n_columns = 4
   media_items = [
     { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760378546/WhatsApp_Image_2025-10-13_at_16.58.24_erylq4.jpg", type: :image },
     { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760378599/WhatsApp_Image_2025-10-13_at_14.50.12_rh97kh.jpg", type: :image },
@@ -66,16 +65,14 @@
     { url: "https://res.cloudinary.com/dvvdwl8at/video/upload/v1760383742/WhatsApp_Video_2025-10-13_at_21.11.55_hhtf2z.mp4", type: :video },
     { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760302532/9a9562e6-486c-45e0-9dd6-2260221948e4_irxwn3.jpg", type: :image },
 
+    { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760302533/a6d8b218-15ab-4f49-bfbd-32bb94f55acc_vomjjn.jpg", type: :image },
     { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760381606/IMG_7224_j8txit.jpg", type: :image },
     { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760381504/IMG_7229_qu88er.jpg", type: :image },
     { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760302554/D0811438-1465-470A-AFB6-222733A55E0E_uxeozn.jpg", type: :image },
-    { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760302533/a6d8b218-15ab-4f49-bfbd-32bb94f55acc_vomjjn.jpg", type: :image },
 
     { url: "https://res.cloudinary.com/dvvdwl8at/image/upload/v1760381756/IMG_7235_qu62kw.jpg", type: :image },
   ]
 
-  columns = Array.new(n_columns) { [] }
-  media_items.each_with_index { |item, i| columns[i % n_columns] << item }
 %>
 
 <section id="photo-index-leader" class="jumbotron text-center">
@@ -84,31 +81,65 @@
   </div>
 </section>
 
-<div class="gallery-row">
-  <% columns.each do |column| %>
-    <div class="gallery-column">
-      <% column.each do |item| %>
-        <% case item[:type] %>
-        <% when :image %>
-          <%= image_tag(cloudinary_image_url(item[:url]), width: '100%') %>
-        <% when :video %>
+<div class="gallery-row" id="gallery-row">
+  <% media_items.each do |item| %>
+    <div class="gallery-item">
+      <% case item[:type] %>
+      <% when :image %>
+        <%= image_tag(cloudinary_image_url(item[:url]), width: '100%') %>
+      <% when :video %>
+        <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
+          <source src="<%= item[:url] %>" type="video/mp4">
+        </video>
+      <% when :speech %>
+        <div class="gallery-speech-wrapper">
           <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
             <source src="<%= item[:url] %>" type="video/mp4">
           </video>
-        <% when :speech %>
-          <div class="gallery-speech-wrapper">
-            <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
-              <source src="<%= item[:url] %>" type="video/mp4">
-            </video>
-            <button class="gallery-speech-badge"
-                    data-label-muted="🔊 <%= t 'photo.has_audio' %>"
-                    data-label-unmuted="🔇 <%= t 'photo.mute' %>"
-                    onclick="var v=this.closest('.gallery-speech-wrapper').querySelector('video');v.muted=!v.muted;this.textContent=v.muted?this.dataset.labelMuted:this.dataset.labelUnmuted;">
-              🔊 <%= t 'photo.has_audio' %>
-            </button>
-          </div>
-        <% end %>
+          <button class="gallery-speech-badge"
+                  data-label-muted="🔊 <%= t 'photo.has_audio' %>"
+                  data-label-unmuted="🔇 <%= t 'photo.mute' %>"
+                  onclick="var v=this.closest('.gallery-speech-wrapper').querySelector('video');v.muted=!v.muted;this.textContent=v.muted?this.dataset.labelMuted:this.dataset.labelUnmuted;">
+            🔊 <%= t 'photo.has_audio' %>
+          </button>
+        </div>
       <% end %>
     </div>
   <% end %>
 </div>
+
+<script>
+  (function () {
+    var row = document.getElementById('gallery-row');
+    var items = Array.from(row.querySelectorAll('.gallery-item'));
+
+    function columnCount() {
+      return window.innerWidth <= 600 ? 1 : window.innerWidth <= 800 ? 2 : 4;
+    }
+
+    function distribute() {
+      var n = columnCount();
+
+      row.innerHTML = '';
+
+      var cols = Array.from({ length: n }, function () {
+        var col = document.createElement('div');
+        col.className = 'gallery-column';
+        row.appendChild(col);
+        return col;
+      });
+
+      items.forEach(function (item, i) {
+        cols[i % n].appendChild(item);
+      });
+    }
+
+    distribute();
+
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(distribute, 100);
+    });
+  })();
+</script>
