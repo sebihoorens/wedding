@@ -92,15 +92,20 @@
         <% when :image %>
           <%= image_tag(cloudinary_image_url(item[:url]), width: '100%') %>
         <% when :video %>
-          <video width="100%" autoplay loop muted playsinline>
+          <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
             <source src="<%= item[:url] %>" type="video/mp4">
           </video>
         <% when :speech %>
           <div class="gallery-speech-wrapper">
-            <video width="100%" autoplay loop muted playsinline controls>
+            <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
               <source src="<%= item[:url] %>" type="video/mp4">
             </video>
-            <span class="gallery-speech-badge">🔊 <%= t 'photo.has_audio' %></span>
+            <button class="gallery-speech-badge"
+                    data-label-muted="🔊 <%= t 'photo.has_audio' %>"
+                    data-label-unmuted="🔇 <%= t 'photo.mute' %>"
+                    onclick="var v=this.closest('.gallery-speech-wrapper').querySelector('video');v.muted=!v.muted;this.textContent=v.muted?this.dataset.labelMuted:this.dataset.labelUnmuted;">
+              🔊 <%= t 'photo.has_audio' %>
+            </button>
           </div>
         <% end %>
       <% end %>

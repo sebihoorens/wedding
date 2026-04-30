@@ -55,7 +55,12 @@
   font-size: 0.75rem;
   padding: 3px 7px;
   border-radius: 4px;
-  pointer-events: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.75);
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

@@ -378,6 +378,7 @@ en:
     title: 'Photo Gallery'
     civil_title: 'Civil Wedding'
     has_audio: 'Has audio'
+    mute: 'Mute'
   faq:
     title: Frequently Asked Questions
     no_invitation_title: "I didn’t receive an invitation. Did you forget me?"
