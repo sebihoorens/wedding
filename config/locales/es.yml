@@ -353,6 +353,7 @@ es:
   photo:
     title: 'Galería de Fotos'
     civil_title: 'Matrimonio Civil'
+    has_audio: 'Con audio'
   faq:
     title: 'Preguntas Frecuentes'
     no_invitation_title: "No recibí una invitación. ¿Se olvidaron de mí?"

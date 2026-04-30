@@ -600,6 +600,7 @@ fr:
   photo:
     title: 'Galerie Photo'
     civil_title: 'Mariage Civil'
+    has_audio: 'Avec son'
   faq:
     title: Questions Fréquentes
     no_invitation_title: "Je n’ai pas reçu d’invitation. M’avez-vous oublié ?"

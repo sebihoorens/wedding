@@ -35,6 +35,28 @@
   vertical-align: middle;
 }
 
+.gallery-speech-wrapper {
+  position: relative;
+  margin-top: 8px;
+
+  video {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+.gallery-speech-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 3px 7px;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
   .gallery-column {

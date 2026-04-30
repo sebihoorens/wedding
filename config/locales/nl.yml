@@ -389,6 +389,7 @@ nl:
   photo:
     title: 'Fotogalerij'
     civil_title: 'Burgerlijk Huwelijk'
+    has_audio: 'Met geluid'
   faq:
     title: 'Veelgestelde Vragen'
     no_invitation_title: "Ik heb geen uitnodiging ontvangen. Zijn jullie mij vergeten?"
