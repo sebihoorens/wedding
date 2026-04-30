@@ -86,7 +86,7 @@
     <div class="gallery-item">
       <% case item[:type] %>
       <% when :image %>
-        <%= image_tag(cloudinary_image_url(item[:url]), width: '100%', loading: 'lazy') %>
+        <%= image_tag(cloudinary_image_url(item[:url]), width: '100%', loading: 'lazy', onload: "this.classList.add('loaded')") %>
       <% when :video %>
         <video width="100%" autoplay loop muted playsinline oncontextmenu="return false;">
           <source src="<%= item[:url] %>" type="video/mp4">
@@ -131,6 +131,10 @@
 
       items.forEach(function (item, i) {
         cols[i % n].appendChild(item);
+      });
+
+      row.querySelectorAll('img').forEach(function (img) {
+        if (img.complete) img.classList.add('loaded');
       });
     }
 
