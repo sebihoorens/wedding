@@ -90,7 +90,7 @@
       <% column.each do |item| %>
         <% case item[:type] %>
         <% when :image %>
-          <%= image_tag(item[:url], width: '100%') %>
+          <%= image_tag(cloudinary_image_url(item[:url]), width: '100%') %>
         <% when :video %>
           <video width="100%" autoplay loop muted playsinline>
             <source src="<%= item[:url] %>" type="video/mp4">

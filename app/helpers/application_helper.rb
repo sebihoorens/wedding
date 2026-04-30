@@ -33,6 +33,10 @@ module ApplicationHelper
     locale == I18n.locale ? 'active' : nil
   end
 
+  def cloudinary_image_url(url, transformations: "q_auto,f_auto,w_1200")
+    url.sub("/upload/", "/upload/#{transformations}/")
+  end
+
   def current_language
     case I18n.locale
     when :en
