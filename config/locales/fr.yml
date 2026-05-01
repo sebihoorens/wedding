@@ -599,8 +599,7 @@ fr:
       unique.
   photo:
     title: 'Galerie Photo'
-    civil_title: 'Mariage Civil'
-    ceremonial_title: 'Le Mariage en Équateur'
+    civil_title: 'Belgique'
     has_audio: 'Avec son'
     mute: 'Couper le son'
   faq:
