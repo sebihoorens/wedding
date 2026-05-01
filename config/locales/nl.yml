@@ -389,6 +389,7 @@ nl:
   photo:
     title: 'Fotogalerij'
     civil_title: 'Burgerlijk Huwelijk'
+    ceremonial_title: 'De Bruiloft in Ecuador'
     has_audio: 'Met geluid'
     mute: 'Dempen'
   faq:

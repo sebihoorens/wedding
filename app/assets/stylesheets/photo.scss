@@ -12,6 +12,20 @@
   }
 }
 
+#photo-ceremonial-leader {
+  background: linear-gradient(rgba(28, 13, 10, 0.4), rgba(28, 13, 10, 0.6)),
+    url("https://res.cloudinary.com/dvvdwl8at/image/upload/v1777589249/keqqtzpckdpq5gurstj4.jpg") center center no-repeat;
+  background-size: cover;
+
+  * {
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  h1 {
+    padding: 3 * $spacer 0;
+  }
+}
+
 .gallery-row {
   display: flex;
   flex-wrap: wrap;

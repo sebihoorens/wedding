@@ -600,6 +600,7 @@ fr:
   photo:
     title: 'Galerie Photo'
     civil_title: 'Mariage Civil'
+    ceremonial_title: 'Le Mariage en Équateur'
     has_audio: 'Avec son'
     mute: 'Couper le son'
   faq:
